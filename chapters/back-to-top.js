@@ -3,12 +3,14 @@
 
   var button = document.getElementById('back-to-top');
   var masthead = document.querySelector('.masthead');
+  var body = document.body;
   var isHeaderVisible = true;
 
-  if (!button || !masthead) return;
+  if (!button || !masthead || !body) return;
 
   function updateVisibility() {
-    var shouldShow = window.scrollY > 240 || !isHeaderVisible;
+    var isLexemePanelOpen = body.classList.contains('lex-panel-active');
+    var shouldShow = (window.scrollY > 240 || !isHeaderVisible) && !isLexemePanelOpen;
     button.classList.toggle('is-visible', shouldShow);
   }
 
@@ -32,5 +34,11 @@
 
   window.addEventListener('scroll', updateVisibility, { passive: true });
   window.addEventListener('resize', updateVisibility);
+
+  if ('MutationObserver' in window) {
+    var classObserver = new MutationObserver(updateVisibility);
+    classObserver.observe(body, { attributes: true, attributeFilter: ['class'] });
+  }
+
   updateVisibility();
 })();

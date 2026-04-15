@@ -187,9 +187,7 @@
       URL.revokeObjectURL(url);
 
       btn.disabled = false;
-      btn.innerHTML = '<svg viewBox="0 0 16 16" aria-hidden="true">' +
-        '<path d="M8 1v9.2l2.6-2.6.8.8L8 11.8 4.6 8.4l.8-.8L8 10.2V1zm-5 12v1h10v-1z"/>' +
-        '</svg> Download full grammar';
+      btn.innerHTML = '<i class="bi bi-download" aria-hidden="true"></i> Download full grammar';
     }).catch(function (err) {
       console.error('Download failed:', err);
       btn.disabled = false;

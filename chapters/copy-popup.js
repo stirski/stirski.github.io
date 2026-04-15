@@ -19,24 +19,17 @@
     el.className = 'copy-popup copy-popup-idle';
     el.innerHTML =
       '<button class="copy-popup-btn" data-mode="text" type="button" disabled>' +
-        '<svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">' +
-          '<rect x="5" y="5" width="9" height="9" rx="1.2"/>' +
-          '<path d="M11 5V3.2A1.2 1.2 0 0 0 9.8 2H3.2A1.2 1.2 0 0 0 2 3.2v6.6A1.2 1.2 0 0 0 3.2 11H5"/>' +
-        '</svg>' +
+        '<i class="bi bi-copy" aria-hidden="true"></i>' +
         '<span>Copy text</span>' +
       '</button>' +
       '<button class="copy-popup-btn" data-mode="translit" type="button" disabled>' +
-        '<svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">' +
-          '<rect x="5" y="5" width="9" height="9" rx="1.2"/>' +
-          '<path d="M11 5V3.2A1.2 1.2 0 0 0 9.8 2H3.2A1.2 1.2 0 0 0 2 3.2v6.6A1.2 1.2 0 0 0 3.2 11H5"/>' +
-        '</svg>' +
+        '<i class="bi bi-copy" aria-hidden="true"></i>' +
+        '<i class="bi bi-translate" aria-hidden="true"></i>' +
         '<span>Copy with transliteration</span>' +
       '</button>' +
       '<span class="copy-popup-hint">Select text to enable</span>' +
       '<span class="copy-popup-confirm" aria-live="polite">' +
-        '<svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">' +
-          '<polyline points="3.5 8.5 6.5 11.5 12.5 4.5"/>' +
-        '</svg>' +
+        '<i class="bi bi-check2" aria-hidden="true"></i>' +
         '<span>Copied</span>' +
       '</span>' +
       '<span class="copy-popup-error" aria-live="polite">' +

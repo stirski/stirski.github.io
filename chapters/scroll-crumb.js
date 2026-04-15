@@ -5,8 +5,10 @@
   var masthead = document.querySelector('.masthead');
   var currentLink = document.getElementById('scroll-crumb-current');
   var chapterKicker = document.getElementById('scroll-crumb-kicker');
-  var toggle = document.getElementById('scroll-crumb-toggle');
-  var menu = document.getElementById('scroll-crumb-menu');
+  var chapterToggle = document.getElementById('scroll-crumb-home-toggle');
+  var chapterMenu = document.getElementById('scroll-crumb-chapter-menu');
+  var sectionToggle = document.getElementById('scroll-crumb-toggle');
+  var sectionMenu = document.getElementById('scroll-crumb-menu');
   var chapterEyebrow = document.querySelector('.masthead .eyebrow');
   var menuLinks = Array.prototype.slice.call(
     document.querySelectorAll('#scroll-crumb-menu a[href^="#"]')
@@ -14,10 +16,23 @@
   var sections = Array.prototype.slice.call(
     document.querySelectorAll('.main section[id^="sec-"]')
   );
+  var hoverQuery = window.matchMedia
+    ? window.matchMedia('(hover: hover) and (pointer: fine)')
+    : null;
   var ticking = false;
-  var isExpanded = false;
+  var expandedPanel = null;
 
-  if (!crumb || !masthead || !currentLink || !chapterKicker || !toggle || !menu || !sections.length) {
+  if (
+    !crumb ||
+    !masthead ||
+    !currentLink ||
+    !chapterKicker ||
+    !chapterToggle ||
+    !chapterMenu ||
+    !sectionToggle ||
+    !sectionMenu ||
+    !sections.length
+  ) {
     return;
   }
 
@@ -42,7 +57,7 @@
 
     var number = node.getAttribute('data-number') || '';
     var title = node.getAttribute('data-title') || '';
-    var text = number ? number + ' ' + title : title;
+    var text = number ? '§ ' + number + ' ' + title : title;
 
     link.textContent = text.trim();
     link.setAttribute('title', text.trim());
@@ -82,12 +97,24 @@
     }
   }
 
-  function setExpanded(nextValue) {
-    isExpanded = !!nextValue;
-    crumb.classList.toggle('is-expanded', isExpanded);
-    toggle.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
-    toggle.setAttribute('aria-label', isExpanded ? 'Close page contents' : 'Open page contents');
-    menu.hidden = !isExpanded;
+  function setExpanded(panelName) {
+    expandedPanel = panelName || null;
+
+    crumb.classList.toggle('is-expanded', !!expandedPanel);
+    chapterMenu.hidden = expandedPanel !== 'chapters';
+    sectionMenu.hidden = expandedPanel !== 'sections';
+
+    chapterToggle.setAttribute('aria-expanded', expandedPanel === 'chapters' ? 'true' : 'false');
+    chapterToggle.setAttribute(
+      'aria-label',
+      expandedPanel === 'chapters' ? 'Close chapter list' : 'Browse chapters'
+    );
+
+    sectionToggle.setAttribute('aria-expanded', expandedPanel === 'sections' ? 'true' : 'false');
+    sectionToggle.setAttribute(
+      'aria-label',
+      expandedPanel === 'sections' ? 'Close page contents' : 'Open page contents'
+    );
   }
 
   function update() {
@@ -110,7 +137,7 @@
     }
 
     if (lexPanelActive) {
-      setExpanded(false);
+      setExpanded(null);
       crumb.classList.remove('is-visible');
       crumb.setAttribute('aria-hidden', 'true');
     } else {
@@ -120,7 +147,6 @@
 
     setTrail(currentLink, activeSub || activeSection);
     setChapterLabel();
-
     syncMenuState(activeSection, activeSub);
   }
 
@@ -130,29 +156,63 @@
     window.requestAnimationFrame(update);
   }
 
-  toggle.addEventListener('click', function (event) {
+  function supportsHoverOpen() {
+    return !!(hoverQuery && hoverQuery.matches);
+  }
+
+  chapterToggle.addEventListener('click', function (event) {
     event.preventDefault();
     event.stopPropagation();
-    setExpanded(!isExpanded);
+    setExpanded(expandedPanel === 'chapters' ? null : 'chapters');
   });
 
-  menu.addEventListener('click', function (event) {
+  chapterToggle.addEventListener('mouseenter', function () {
+    if (!supportsHoverOpen()) return;
+    setExpanded('chapters');
+  });
+
+  chapterMenu.addEventListener('mouseenter', function () {
+    if (!supportsHoverOpen()) return;
+    setExpanded('chapters');
+  });
+
+  sectionToggle.addEventListener('click', function (event) {
+    event.preventDefault();
+    event.stopPropagation();
+    setExpanded(expandedPanel === 'sections' ? null : 'sections');
+  });
+
+  chapterMenu.addEventListener('click', function (event) {
     var link = event.target.closest('a[href]');
     if (!link) return;
-    setExpanded(false);
+    setExpanded(null);
+  });
+
+  sectionMenu.addEventListener('click', function (event) {
+    var link = event.target.closest('a[href]');
+    if (!link) return;
+    setExpanded(null);
   });
 
   document.addEventListener('click', function (event) {
-    if (!isExpanded) return;
+    if (!expandedPanel) return;
     if (crumb.contains(event.target)) return;
-    setExpanded(false);
+    setExpanded(null);
+  });
+
+  crumb.addEventListener('mouseleave', function (event) {
+    if (!supportsHoverOpen()) return;
+    if (expandedPanel !== 'chapters') return;
+    if (event.relatedTarget && crumb.contains(event.relatedTarget)) return;
+    setExpanded(null);
   });
 
   document.addEventListener('keydown', function (event) {
-    if (event.key === 'Escape' && isExpanded) {
-      setExpanded(false);
-      toggle.focus();
-    }
+    if (event.key !== 'Escape' || !expandedPanel) return;
+
+    var focusTarget = expandedPanel === 'chapters' ? chapterToggle : sectionToggle;
+    setExpanded(null);
+    focusTarget.focus();
   });
 
   window.addEventListener('scroll', requestUpdate, { passive: true });
@@ -164,6 +224,6 @@
       attributeFilter: ['class']
     });
   }
-  setExpanded(false);
+  setExpanded(null);
   update();
 })();

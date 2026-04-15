@@ -13,22 +13,101 @@
     <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta name="color-scheme" content="light dark"/>
       <title><xsl:value-of select="$title"/></title>
+      <script><![CDATA[
+        (function () {
+          var storageKey = 'styrian-theme';
+          var root = document.documentElement;
+          var mode = 'auto';
+
+          try {
+            var stored = localStorage.getItem(storageKey);
+            if (stored === 'light' || stored === 'dark') {
+              mode = stored;
+            }
+          } catch (error) {
+            mode = 'auto';
+          }
+
+          var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          root.setAttribute('data-theme-mode', mode);
+          root.setAttribute('data-theme', mode === 'auto' ? (prefersDark ? 'dark' : 'light') : mode);
+        })();
+      ]]></script>
       <link rel="preconnect" href="https://fonts.googleapis.com"/>
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&amp;display=swap"/>
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"/>
       <style type="text/css"><![CDATA[
         :root {
+          color-scheme: light;
           --paper: #ffffff;
+          --paper-rgb: 255, 255, 255;
           --ink: #111111;
+          --ink-rgb: 17, 17, 17;
           --muted: #888888;
           --rule: #e8e8e8;
           --accent: #111111;
           --accent-soft: #f4f4f4;
+          --code-bg: #ece7db;
+          --code-border: rgba(17, 17, 17, 0.1);
+          --code-ink: #171717;
           --signal: #8f6f1f;
           --signal-rgb: 143, 111, 31;
           --mark-rgb: 235, 220, 148;
+          --page-grad-start: #ffffff;
+          --page-grad-mid: #fbfbfb;
+          --page-grad-end: #ffffff;
+          --surface-card: rgba(255, 255, 255, 0.86);
+          --surface-glass: rgba(255, 255, 255, 0.72);
+          --surface-menu: rgba(255, 255, 255, 0.74);
+          --surface-float: rgba(255, 255, 255, 0.78);
+          --surface-float-hover: rgba(255, 255, 255, 0.84);
+          --surface-overlay: rgba(255, 255, 255, 0.62);
+          --surface-overlay-strong: rgba(255, 255, 255, 0.72);
+          --surface-overlay-inverse: rgba(17, 17, 17, 0.66);
+          --surface-overlay-inverse-hover: rgba(17, 17, 17, 0.74);
+          --surface-tooltip: rgba(17, 17, 17, 0.9);
+          --tooltip-text: rgba(255, 255, 255, 0.92);
+          --tooltip-divider: rgba(255, 255, 255, 0.14);
+          --surface-popup: rgba(17, 17, 17, 0.78);
+          --popup-text: rgba(255, 255, 255, 0.92);
+          --popup-text-soft: rgba(255, 255, 255, 0.82);
+          --popup-text-muted: rgba(255, 255, 255, 0.66);
+          --popup-divider: rgba(255, 255, 255, 0.14);
+          --surface-border: rgba(17, 17, 17, 0.08);
+          --overlay-border: rgba(255, 255, 255, 0.24);
+          --overlay-highlight: rgba(255, 255, 255, 0.12);
+          --overlay-highlight-soft: rgba(255, 255, 255, 0.03);
+          --divider-soft: rgba(17, 17, 17, 0.1);
+          --icon-muted: rgba(17, 17, 17, 0.56);
+          --icon-soft: rgba(17, 17, 17, 0.54);
+          --icon-strong: rgba(17, 17, 17, 0.72);
+          --icon-stronger: rgba(17, 17, 17, 0.78);
+          --hover-faint: rgba(17, 17, 17, 0.04);
+          --hover-soft: rgba(17, 17, 17, 0.05);
+          --hover-medium: rgba(17, 17, 17, 0.06);
+          --hover-strong: rgba(17, 17, 17, 0.16);
+          --active-soft: rgba(17, 17, 17, 0.08);
+          --scrollbar-thumb: rgba(17, 17, 17, 0.16);
+          --scrollbar-thumb-strong: rgba(17, 17, 17, 0.18);
+          --shadow-card: 0 16px 40px rgba(17, 17, 17, 0.04);
+          --shadow-glass: 0 20px 44px rgba(17, 17, 17, 0.08);
+          --shadow-float: 0 4px 16px rgba(0, 0, 0, 0.06);
+          --shadow-float-hover: 0 6px 20px rgba(0, 0, 0, 0.08);
+          --shadow-side: -4px 0 24px rgba(0, 0, 0, 0.08);
+          --shadow-popup: 0 4px 16px rgba(0, 0, 0, 0.18), 0 1px 3px rgba(0, 0, 0, 0.1);
+          --overlay: rgba(242, 245, 248, 0.18);
+          --inverse-surface: #111111;
+          --inverse-surface-hover: #333333;
+          --inverse-text: rgba(255, 255, 255, 0.88);
+          --inverse-text-soft: rgba(255, 255, 255, 0.82);
+          --inverse-text-muted: rgba(255, 255, 255, 0.62);
+          --inverse-divider: rgba(255, 255, 255, 0.12);
+          --tooltip-muted: rgba(255, 255, 255, 0.68);
+          --danger-surface: #6f2418;
+          --danger-text: rgba(255, 234, 230, 0.95);
           --font-body: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
           --font-display: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
           --font-ui: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -36,9 +115,79 @@
           --page-max: 64rem;
           --crumb-max: 54rem;
           --content-max: calc(var(--crumb-max) * 0.95);
-          --measure: var(--content-max);
+          --measure: min(44rem, var(--content-max));
           --margin-col: 13.5rem;
           --layout-gap: 2rem;
+        }
+
+        html[data-theme='dark'] {
+          color-scheme: dark;
+          --paper: #111417;
+          --paper-rgb: 17, 20, 23;
+          --ink: #e7edf5;
+          --ink-rgb: 231, 237, 245;
+          --muted: #94a0b4;
+          --rule: #2b3442;
+          --accent: #f3f7fd;
+          --accent-soft: #1a2026;
+          --code-bg: #1f2934;
+          --code-border: rgba(122, 162, 255, 0.24);
+          --code-ink: #f3f7fd;
+          --signal: #7aa2ff;
+          --signal-rgb: 122, 162, 255;
+          --mark-rgb: 96, 140, 235;
+          --page-grad-start: #0d1014;
+          --page-grad-mid: #141920;
+          --page-grad-end: #0d1014;
+          --surface-card: rgba(20, 24, 29, 0.86);
+          --surface-glass: rgba(18, 22, 27, 0.78);
+          --surface-menu: rgba(18, 22, 27, 0.82);
+          --surface-float: rgba(24, 29, 35, 0.74);
+          --surface-float-hover: rgba(29, 35, 42, 0.8);
+          --surface-overlay: rgba(18, 22, 27, 0.72);
+          --surface-overlay-strong: rgba(18, 22, 27, 0.8);
+          --surface-overlay-inverse: rgba(237, 243, 251, 0.18);
+          --surface-overlay-inverse-hover: rgba(255, 255, 255, 0.24);
+          --surface-tooltip: rgba(15, 19, 24, 0.9);
+          --tooltip-text: rgba(246, 249, 253, 0.94);
+          --tooltip-divider: rgba(255, 255, 255, 0.16);
+          --surface-popup: rgba(15, 19, 24, 0.9);
+          --popup-text: rgba(246, 249, 253, 0.94);
+          --popup-text-soft: rgba(246, 249, 253, 0.84);
+          --popup-text-muted: rgba(246, 249, 253, 0.7);
+          --popup-divider: rgba(255, 255, 255, 0.16);
+          --surface-border: rgba(231, 237, 245, 0.08);
+          --overlay-border: rgba(255, 255, 255, 0.1);
+          --overlay-highlight: rgba(255, 255, 255, 0.06);
+          --overlay-highlight-soft: rgba(255, 255, 255, 0.015);
+          --divider-soft: rgba(231, 237, 245, 0.12);
+          --icon-muted: rgba(231, 237, 245, 0.64);
+          --icon-soft: rgba(231, 237, 245, 0.58);
+          --icon-strong: rgba(231, 237, 245, 0.78);
+          --icon-stronger: rgba(231, 237, 245, 0.88);
+          --hover-faint: rgba(140, 165, 205, 0.08);
+          --hover-soft: rgba(140, 165, 205, 0.1);
+          --hover-medium: rgba(140, 165, 205, 0.13);
+          --hover-strong: rgba(140, 165, 205, 0.22);
+          --active-soft: rgba(122, 162, 255, 0.16);
+          --scrollbar-thumb: rgba(140, 165, 205, 0.2);
+          --scrollbar-thumb-strong: rgba(140, 165, 205, 0.26);
+          --shadow-card: 0 18px 42px rgba(0, 0, 0, 0.32);
+          --shadow-glass: 0 22px 52px rgba(0, 0, 0, 0.36);
+          --shadow-float: 0 10px 24px rgba(0, 0, 0, 0.24);
+          --shadow-float-hover: 0 14px 30px rgba(0, 0, 0, 0.3);
+          --shadow-side: -8px 0 28px rgba(0, 0, 0, 0.34);
+          --shadow-popup: 0 10px 28px rgba(0, 0, 0, 0.36), 0 2px 8px rgba(0, 0, 0, 0.24);
+          --overlay: rgba(8, 10, 14, 0.46);
+          --inverse-surface: #edf3fb;
+          --inverse-surface-hover: #ffffff;
+          --inverse-text: rgba(17, 20, 25, 0.92);
+          --inverse-text-soft: rgba(17, 20, 25, 0.84);
+          --inverse-text-muted: rgba(17, 20, 25, 0.64);
+          --inverse-divider: rgba(17, 20, 25, 0.14);
+          --tooltip-muted: rgba(246, 249, 253, 0.72);
+          --danger-surface: #8e3525;
+          --danger-text: #fff1ed;
         }
 
 
@@ -50,7 +199,7 @@
         body {
           margin: 0;
           background:
-            linear-gradient(180deg, #ffffff 0%, #fbfbfb 22rem, #ffffff 100%);
+            linear-gradient(180deg, var(--page-grad-start) 0%, var(--page-grad-mid) 22rem, var(--page-grad-end) 100%);
           color: var(--ink);
           font-family: var(--font-body);
           font-optical-sizing: auto;
@@ -126,6 +275,7 @@
         .navline {
           display: flex;
           flex-wrap: wrap;
+          align-items: center;
           gap: 0.9rem 1.35rem;
           margin-top: 1rem;
           color: var(--muted);
@@ -237,8 +387,8 @@
           list-style: none;
           border: 1px solid var(--rule);
           border-radius: 0.9rem;
-          background: rgba(255, 255, 255, 0.86);
-          box-shadow: 0 16px 40px rgba(17, 17, 17, 0.04);
+          background: var(--surface-card);
+          box-shadow: var(--shadow-card);
           font-size: 0.92rem;
           line-height: 1.5;
           backdrop-filter: blur(10px);
@@ -280,6 +430,7 @@
           left: 50%;
           z-index: 170;
           width: min(calc(100vw - 1.5rem), var(--crumb-max));
+          isolation: isolate;
           opacity: 0;
           visibility: hidden;
           pointer-events: none;
@@ -305,18 +456,33 @@
         }
 
         .scroll-crumb-inner {
+          position: relative;
           display: flex;
           align-items: center;
           gap: 0.45rem;
           min-height: 3rem;
           padding: 0.45rem 1.05rem 0.45rem 1rem;
-          border: 1px solid rgba(17, 17, 17, 0.08);
           border-radius: 1.1rem;
-          background: rgba(255, 255, 255, 0.72);
-          box-shadow: 0 20px 44px rgba(17, 17, 17, 0.08);
-          backdrop-filter: blur(18px) saturate(150%);
-          -webkit-backdrop-filter: blur(18px) saturate(150%);
           overflow: hidden;
+        }
+
+        .scroll-crumb-inner::before {
+          content: "";
+          position: absolute;
+          inset: 0;
+          border: 1px solid var(--overlay-border);
+          border-radius: inherit;
+          background: var(--surface-overlay);
+          box-shadow: var(--shadow-glass), inset 0 1px 0 var(--overlay-highlight);
+          backdrop-filter: blur(22px) saturate(145%);
+          -webkit-backdrop-filter: blur(22px) saturate(145%);
+          pointer-events: none;
+          z-index: 0;
+        }
+
+        .scroll-crumb-inner > * {
+          position: relative;
+          z-index: 1;
         }
 
         .scroll-crumb-item {
@@ -338,14 +504,18 @@
           gap: 0.38rem;
           min-width: 0;
           padding: 0 0.1rem 0 0.18rem;
+          border: 0;
+          background: transparent;
           color: inherit;
+          font: inherit;
+          cursor: pointer;
         }
 
         .scroll-crumb-home .bi {
           font-size: 0.95rem;
           line-height: 1;
           padding-left: 0.14rem;
-          color: rgba(17, 17, 17, 0.56);
+          color: var(--icon-muted);
           transition: color 120ms ease;
         }
 
@@ -379,7 +549,7 @@
           width: 1px;
           height: 1rem;
           margin-left: 0.55rem;
-          background: rgba(17, 17, 17, 0.1);
+          background: var(--divider-soft);
         }
 
         .scroll-crumb-kicker {
@@ -388,7 +558,7 @@
           flex: 0 0 auto;
           min-width: 0;
           padding-left: 0.05rem;
-          color: rgba(17, 17, 17, 0.56);
+          color: var(--icon-muted);
           font-family: var(--font-ui);
           font-size: 0.72rem;
           font-weight: 600;
@@ -402,7 +572,7 @@
           width: 1px;
           height: 1rem;
           margin-left: 0.55rem;
-          background: rgba(17, 17, 17, 0.1);
+          background: var(--divider-soft);
         }
 
         .scroll-crumb-kicker[hidden] {
@@ -429,14 +599,14 @@
           height: 2rem;
           padding: 0;
           border-radius: 999px;
-          color: rgba(17, 17, 17, 0.54);
+          color: var(--icon-soft);
           transition: background 120ms ease, color 120ms ease;
         }
 
         .scroll-crumb-chapter-link:hover,
         .scroll-crumb-chapter-link:focus-visible {
-          background: rgba(17, 17, 17, 0.06);
-          color: rgba(17, 17, 17, 0.78);
+          background: var(--hover-medium);
+          color: var(--icon-stronger);
           outline: none;
         }
 
@@ -454,14 +624,14 @@
           padding: 0.2rem 0.5rem 0.2rem 0.3rem;
           border: 0;
           background: transparent;
-          color: rgba(17, 17, 17, 0.54);
+          color: var(--icon-soft);
           cursor: pointer;
           line-height: 1;
           transition: color 120ms ease;
         }
 
         .scroll-crumb-toggle:hover {
-          color: rgba(17, 17, 17, 0.72);
+          color: var(--icon-strong);
         }
 
         .scroll-crumb-toggle:focus-visible {
@@ -496,18 +666,18 @@
         .scroll-crumb-menu {
           margin-top: 0.55rem;
           padding: 0.8rem 0.85rem 0.9rem;
-          border: 1px solid rgba(17, 17, 17, 0.08);
+          border: 1px solid var(--overlay-border);
           border-radius: 1rem;
-          background: rgba(255, 255, 255, 0.74);
-          box-shadow: 0 20px 44px rgba(17, 17, 17, 0.08);
-          backdrop-filter: blur(18px) saturate(150%);
-          -webkit-backdrop-filter: blur(18px) saturate(150%);
+          background: var(--surface-overlay-strong);
+          box-shadow: var(--shadow-glass), inset 0 1px 0 var(--overlay-highlight);
+          backdrop-filter: blur(24px) saturate(145%);
+          -webkit-backdrop-filter: blur(24px) saturate(145%);
           max-height: min(68vh, calc(100vh - 5.5rem));
           overflow-y: auto;
           overscroll-behavior: contain;
           -webkit-overflow-scrolling: touch;
           scrollbar-width: thin;
-          scrollbar-color: rgba(17, 17, 17, 0.18) transparent;
+          scrollbar-color: var(--scrollbar-thumb-strong) transparent;
         }
 
         .scroll-crumb-menu[hidden] {
@@ -523,7 +693,7 @@
         }
 
         .scroll-crumb-menu::-webkit-scrollbar-thumb {
-          background: rgba(17, 17, 17, 0.16);
+          background: var(--scrollbar-thumb);
           border-radius: 999px;
         }
 
@@ -546,12 +716,12 @@
 
         .scroll-crumb-menu .contents a:hover,
         .scroll-crumb-menu .contents a:focus-visible {
-          background: rgba(17, 17, 17, 0.05);
+          background: var(--hover-soft);
           outline: none;
         }
 
         .scroll-crumb-menu .contents a.is-current {
-          background: rgba(17, 17, 17, 0.08);
+          background: var(--active-soft);
           color: var(--accent);
           font-weight: 600;
         }
@@ -561,8 +731,98 @@
         }
 
         .scroll-crumb-menu .contents a.is-current-parent {
-          background: rgba(17, 17, 17, 0.04);
+          background: var(--hover-faint);
           color: var(--ink);
+        }
+
+        .scroll-crumb-menu .contents .chapter-entry-link {
+          display: flex;
+          align-items: baseline;
+          gap: 0.85rem;
+        }
+
+        .scroll-crumb-menu .contents .chapter-entry-number {
+          flex: 0 0 auto;
+          min-width: 3.1rem;
+          color: var(--muted);
+          font-family: var(--font-display);
+          font-size: 0.72rem;
+          font-weight: 600;
+          letter-spacing: 0.06em;
+          text-transform: uppercase;
+        }
+
+        .scroll-crumb-menu .contents .chapter-entry-title {
+          flex: 1 1 auto;
+          min-width: 0;
+          color: inherit;
+          font-size: 0.92rem;
+          font-weight: 600;
+          letter-spacing: -0.01em;
+          line-height: 1.35;
+        }
+
+        .scroll-crumb-menu .contents .chapter-entry-link.is-current .chapter-entry-number,
+        .scroll-crumb-menu .contents .chapter-entry-link.is-current .chapter-entry-title {
+          color: var(--accent);
+        }
+
+        .theme-toggle {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          gap: 0.45rem;
+          padding: 0.42rem 0.72rem;
+          border: 1px solid var(--rule);
+          border-radius: 999px;
+          background: transparent;
+          color: var(--ink);
+          font-family: var(--font-ui);
+          font-size: 0.72rem;
+          font-weight: 600;
+          letter-spacing: 0.04em;
+          text-transform: uppercase;
+          cursor: pointer;
+          transition: border-color 120ms ease, background 120ms ease, color 120ms ease;
+        }
+
+        .theme-toggle:hover {
+          background: var(--accent-soft);
+          border-color: var(--icon-muted);
+        }
+
+        .theme-toggle:focus-visible {
+          outline: 2px solid rgba(var(--signal-rgb), 0.35);
+          outline-offset: 2px;
+        }
+
+        .theme-toggle .bi {
+          font-size: 0.92rem;
+          line-height: 1;
+        }
+
+        .navline-theme-toggle {
+          margin-left: auto;
+        }
+
+        .scroll-crumb-theme-toggle {
+          flex: 0 0 auto;
+          width: 2rem;
+          height: 2rem;
+          padding: 0;
+          border: 0;
+          background: transparent;
+          color: var(--icon-soft);
+        }
+
+        .scroll-crumb-theme-toggle:hover {
+          background: var(--hover-medium);
+          border-color: transparent;
+          color: var(--icon-stronger);
+        }
+
+        .scroll-crumb-theme-toggle .theme-toggle-label {
+          display: none;
         }
 
         .chapter-list {
@@ -645,7 +905,9 @@
         code {
           font-family: var(--font-mono);
           font-size: 0.84em;
-          background: var(--accent-soft);
+          color: var(--code-ink);
+          background: var(--code-bg);
+          border: 1px solid var(--code-border);
           border-radius: 0.3rem;
           padding: 0.08rem 0.28rem;
         }
@@ -676,17 +938,21 @@
           opacity: 0;
           pointer-events: none;
           z-index: 3;
-          background: var(--ink);
-          border-radius: 0.2rem;
-          padding: 0.18rem 0.42rem 0.16rem;
-          color: rgba(255, 255, 255, 0.88);
+          background: var(--surface-tooltip);
+          border: 1px solid var(--tooltip-divider);
+          border-radius: 0.3rem;
+          padding: 0.24rem 0.5rem 0.22rem;
+          box-shadow: 0 0.6rem 1.6rem rgba(0, 0, 0, 0.18);
+          color: var(--tooltip-text);
           font-family: var(--font-ui);
-          font-size: 0.68rem;
+          font-size: 0.7rem;
           font-style: normal;
-          font-weight: 500;
-          letter-spacing: 0.03em;
+          font-weight: 600;
+          letter-spacing: 0.015em;
           white-space: nowrap;
           transition: opacity 120ms ease;
+          backdrop-filter: blur(12px) saturate(120%);
+          -webkit-backdrop-filter: blur(12px) saturate(120%);
         }
 
         .styr:hover .styr-tr,
@@ -751,7 +1017,7 @@
           font-size: 0.58rem;
           letter-spacing: 0.08em;
           text-transform: uppercase;
-          color: rgba(255, 255, 255, 0.55);
+          color: var(--tooltip-muted);
         }
 
         .table-wrap .styr-infl-tag {
@@ -779,6 +1045,10 @@
 
           .navline {
             gap: 0.55rem 1rem;
+          }
+
+          .navline-theme-toggle {
+            margin-left: 0;
           }
 
           .scroll-crumb {
@@ -814,6 +1084,11 @@
           }
 
           .scroll-crumb-chapter-link {
+            width: 1.85rem;
+            height: 1.85rem;
+          }
+
+          .scroll-crumb-theme-toggle {
             width: 1.85rem;
             height: 1.85rem;
           }
@@ -857,10 +1132,9 @@
           cursor: not-allowed;
         }
 
-        .dl-btn svg {
-          width: 1em;
-          height: 1em;
-          fill: currentColor;
+        .dl-btn .bi {
+          font-size: 0.95rem;
+          line-height: 1;
         }
 
         .back-to-top {
@@ -872,10 +1146,10 @@
           align-items: center;
           gap: 0.5rem;
           padding: 0.65rem 0.9rem;
-          border: 1px solid var(--rule);
+          border: 1px solid var(--overlay-border);
           border-radius: 999px;
-          background: rgba(255, 255, 255, 0.9);
-          box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+          background: var(--surface-float);
+          box-shadow: var(--shadow-float), inset 0 1px 0 var(--overlay-highlight);
           color: var(--ink);
           font-family: var(--font-ui);
           font-size: 0.68rem;
@@ -894,8 +1168,8 @@
             background 120ms ease,
             box-shadow 120ms ease,
             border-color 120ms ease;
-          backdrop-filter: blur(12px);
-          -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(18px) saturate(140%);
+          -webkit-backdrop-filter: blur(18px) saturate(140%);
         }
 
         .back-to-top.is-visible {
@@ -905,10 +1179,17 @@
           transform: translateY(0);
         }
 
+        body.lex-panel-active .back-to-top {
+          opacity: 0;
+          visibility: hidden;
+          pointer-events: none;
+          transform: translateY(0.9rem);
+        }
+
         .back-to-top:hover {
-          background: rgba(255, 255, 255, 0.98);
-          border-color: rgba(17, 17, 17, 0.3);
-          box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+          background: var(--surface-float-hover);
+          border-color: var(--icon-soft);
+          box-shadow: var(--shadow-float-hover);
         }
 
         .back-to-top:focus-visible {
@@ -916,15 +1197,10 @@
           outline-offset: 3px;
         }
 
-        .back-to-top svg {
-          width: 0.95rem;
-          height: 0.95rem;
+        .back-to-top .bi {
+          font-size: 0.95rem;
           flex-shrink: 0;
-          fill: none;
-          stroke: currentColor;
-          stroke-width: 1.7;
-          stroke-linecap: round;
-          stroke-linejoin: round;
+          line-height: 1;
         }
 
         @media (max-width: 640px) {
@@ -943,12 +1219,12 @@
 
         .styr[data-ref] {
           cursor: pointer;
-          border-bottom: 1px dotted rgba(var(--signal-rgb), 0.28);
+          border-bottom: 1px dotted rgba(var(--signal-rgb), 0.4);
           transition: border-color 150ms ease;
         }
 
         .styr[data-ref]:hover {
-          border-bottom-color: rgba(var(--signal-rgb), 0.62);
+          border-bottom-color: rgba(var(--signal-rgb), 0.68);
         }
 
         /* ── Lexicon sidebar panel ─────────────────────────────── */
@@ -958,12 +1234,16 @@
           inset: 0;
           z-index: 90;
           background: rgba(0, 0, 0, 0);
+          backdrop-filter: blur(0px) saturate(100%);
+          -webkit-backdrop-filter: blur(0px) saturate(100%);
           pointer-events: none;
-          transition: background 200ms ease;
+          transition: background 200ms ease, backdrop-filter 200ms ease, -webkit-backdrop-filter 200ms ease;
         }
 
         .lex-overlay-visible {
-          background: rgba(0, 0, 0, 0.18);
+          background: var(--overlay);
+          backdrop-filter: blur(8px) saturate(110%);
+          -webkit-backdrop-filter: blur(8px) saturate(110%);
           pointer-events: auto;
         }
 
@@ -974,14 +1254,16 @@
           bottom: 0;
           z-index: 100;
           width: min(22rem, 88vw);
-          background: var(--paper);
-          border-left: 1px solid var(--rule);
-          box-shadow: -4px 0 24px rgba(0, 0, 0, 0.08);
+          background: var(--surface-overlay-strong);
+          border-left: 1px solid var(--overlay-border);
+          box-shadow: var(--shadow-side);
           transform: translateX(100%);
           transition: transform 220ms cubic-bezier(0.4, 0, 0.2, 1);
           overflow-y: auto;
           display: flex;
           flex-direction: column;
+          backdrop-filter: blur(24px) saturate(145%);
+          -webkit-backdrop-filter: blur(24px) saturate(145%);
         }
 
         .lex-panel-open {
@@ -995,15 +1277,22 @@
         }
 
         .lex-panel-close {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
           background: none;
           border: none;
           cursor: pointer;
-          font-size: 1.4rem;
           line-height: 1;
           color: var(--muted);
           padding: 0.2rem 0.4rem;
           border-radius: 0.25rem;
           transition: color 120ms ease;
+        }
+
+        .lex-panel-close .bi {
+          font-size: 1rem;
+          line-height: 1;
         }
 
         .lex-panel-close:hover {
@@ -1247,9 +1536,10 @@
           gap: 0.35rem;
           left: 50%;
           bottom: 1rem;
-          background: var(--ink);
+          background: var(--surface-popup);
+          border: 1px solid var(--popup-divider);
           border-radius: 0.35rem;
-          box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18), 0 1px 3px rgba(0, 0, 0, 0.1);
+          box-shadow: var(--shadow-popup);
           padding: 0.3rem;
           max-width: calc(100vw - 1rem);
           opacity: 0;
@@ -1258,6 +1548,8 @@
           visibility: hidden;
           transition: opacity 120ms ease, transform 120ms ease;
           overflow: hidden;
+          backdrop-filter: blur(20px) saturate(140%);
+          -webkit-backdrop-filter: blur(20px) saturate(140%);
         }
 
         .copy-popup-visible {
@@ -1280,7 +1572,7 @@
           align-items: center;
           gap: 0.35rem;
           padding: 0.38rem 0.65rem;
-          color: rgba(255, 255, 255, 0.88);
+          color: var(--popup-text);
           font-family: var(--font-ui);
           font-size: 0.68rem;
           font-weight: 600;
@@ -1292,14 +1584,15 @@
           display: flex;
         }
 
-        .copy-popup-confirm svg {
+        .copy-popup-confirm .bi {
           flex-shrink: 0;
+          line-height: 1;
         }
 
         .copy-popup-hint {
           display: none;
           padding: 0 0.45rem 0 0.2rem;
-          color: rgba(255, 255, 255, 0.62);
+          color: var(--popup-text-muted);
           font-family: var(--font-ui);
           font-size: 0.68rem;
           font-weight: 600;
@@ -1315,8 +1608,8 @@
           display: none;
           align-items: center;
           padding: 0.38rem 0.65rem;
-          color: rgba(255, 234, 230, 0.95);
-          background: #6f2418;
+          color: var(--danger-text);
+          background: var(--danger-surface);
           font-family: var(--font-ui);
           font-size: 0.68rem;
           font-weight: 600;
@@ -1335,15 +1628,16 @@
           gap: 0.35rem;
           padding: 0.38rem 0.65rem;
           border: none;
-          background: var(--ink);
-          color: rgba(255, 255, 255, 0.82);
+          background: transparent;
+          color: var(--popup-text-soft);
           font-family: var(--font-ui);
           font-size: 0.68rem;
           font-weight: 600;
           letter-spacing: 0.02em;
           white-space: nowrap;
           cursor: pointer;
-          transition: background 100ms ease, color 100ms ease;
+          opacity: 0.78;
+          transition: color 100ms ease, opacity 100ms ease;
         }
 
         .copy-popup-btn:disabled {
@@ -1352,21 +1646,25 @@
         }
 
         .copy-popup-btn:hover {
-          background: #333;
-          color: #fff;
+          background: transparent;
+          color: var(--popup-text);
+          opacity: 1;
         }
 
         .copy-popup-btn:disabled:hover {
-          background: var(--ink);
-          color: rgba(255, 255, 255, 0.82);
+          background: transparent;
+          color: var(--popup-text-soft);
+          opacity: 0.45;
         }
 
         .copy-popup-btn + .copy-popup-btn {
-          border-left: 1px solid rgba(255, 255, 255, 0.12);
+          border-left: 1px solid var(--popup-divider);
         }
 
-        .copy-popup-btn svg {
+        .copy-popup-btn .bi {
           flex-shrink: 0;
+          font-size: 0.85rem;
+          line-height: 1;
         }
 
         @media (max-width: 640px) {
@@ -1393,6 +1691,12 @@
           <header class="masthead">
             <p class="eyebrow"><xsl:value-of select="@language"/></p>
             <h1><xsl:value-of select="@t"/></h1>
+            <div class="navline">
+              <button class="theme-toggle navline-theme-toggle" type="button" data-theme-toggle="full" data-theme-label-prefix="Theme">
+                <i class="bi bi-circle-half" data-theme-icon="true" aria-hidden="true"></i>
+                <span class="theme-toggle-label" data-theme-label="true">Theme: Auto</span>
+              </button>
+            </div>
           </header>
 
           <main class="layout">
@@ -1401,19 +1705,17 @@
                 <xsl:apply-templates select="ch" mode="contents-card"/>
               </ol>
               <button class="dl-btn" id="dl-all" type="button">
-                &#x2B73; Download full grammar
+                <i class="bi bi-download" aria-hidden="true"></i> Download full grammar
               </button>
             </div>
           </main>
         </div>
         <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top">
-          <svg viewBox="0 0 16 16" aria-hidden="true">
-            <path d="M8 12.5V3.5"/>
-            <path d="M4.5 7 8 3.5 11.5 7"/>
-          </svg>
+          <i class="bi bi-arrow-bar-up" aria-hidden="true"></i>
           <span class="back-to-top-label">Back to top</span>
         </button>
         <script src="markup.js"></script>
+        <script src="theme-toggle.js"></script>
         <script src="transliteration.js"></script>
         <script src="back-to-top.js"></script>
         <script src="lexicon-panel.js"></script>
@@ -1447,6 +1749,10 @@
                 <xsl:if test="$next-entry">
                   <a href="{$next-entry/@file}">Next: <xsl:value-of select="$next-entry/@t"/></a>
                 </xsl:if>
+                <button class="theme-toggle navline-theme-toggle" type="button" data-theme-toggle="full" data-theme-label-prefix="Theme">
+                  <i class="bi bi-circle-half" data-theme-icon="true" aria-hidden="true"></i>
+                  <span class="theme-toggle-label" data-theme-label="true">Theme: Auto</span>
+                </button>
               </div>
             </div>
           </header>
@@ -1459,10 +1765,10 @@
         </div>
         <div class="scroll-crumb" id="scroll-crumb" aria-hidden="true">
           <nav class="scroll-crumb-inner" aria-label="Current section">
-            <a class="scroll-crumb-item scroll-crumb-home" href="index.xml" aria-label="Back to homepage">
+            <button class="scroll-crumb-item scroll-crumb-home" id="scroll-crumb-home-toggle" type="button" aria-expanded="false" aria-controls="scroll-crumb-chapter-menu" aria-label="Browse chapters">
               <i class="bi bi-book" aria-hidden="true"></i>
-              <span class="scroll-crumb-home-label">Return to Index</span>
-            </a>
+              <span class="scroll-crumb-home-label">Browse chapters</span>
+            </button>
             <span class="scroll-crumb-kicker" id="scroll-crumb-kicker" hidden="hidden"></span>
             <a class="scroll-crumb-item scroll-crumb-current" id="scroll-crumb-current" href="#top"></a>
             <xsl:if test="$previous-entry">
@@ -1475,6 +1781,10 @@
                 <i class="bi bi-chevron-right" aria-hidden="true"></i>
               </a>
             </xsl:if>
+            <button class="theme-toggle scroll-crumb-theme-toggle" type="button" data-theme-toggle="compact" data-theme-label-prefix="Theme">
+              <i class="bi bi-circle-half" data-theme-icon="true" aria-hidden="true"></i>
+              <span class="theme-toggle-label" data-theme-label="true">Theme: Auto</span>
+            </button>
             <button class="scroll-crumb-toggle" id="scroll-crumb-toggle" type="button" aria-expanded="false" aria-controls="scroll-crumb-menu" aria-label="Open page contents">
               <span class="scroll-crumb-toggle-icon icon-expand" aria-hidden="true">
                 <i class="bi bi-chevron-down"></i>
@@ -1484,6 +1794,19 @@
               </span>
             </button>
           </nav>
+          <div class="scroll-crumb-menu" id="scroll-crumb-chapter-menu" hidden="hidden">
+            <ol class="contents">
+              <li>
+                <a class="chapter-entry-link" href="index.xml">
+                  <span class="chapter-entry-number">Index</span>
+                  <span class="chapter-entry-title">Full Contents</span>
+                </a>
+              </li>
+              <xsl:apply-templates select="$contents/ch" mode="chapter-crumb-toc">
+                <xsl:with-param name="current-id" select="@id"/>
+              </xsl:apply-templates>
+            </ol>
+          </div>
           <div class="scroll-crumb-menu" id="scroll-crumb-menu" hidden="hidden">
             <ol class="contents">
               <xsl:apply-templates select="sec" mode="section-toc"/>
@@ -1491,12 +1814,10 @@
           </div>
         </div>
         <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top">
-          <svg viewBox="0 0 16 16" aria-hidden="true">
-            <path d="M8 12.5V3.5"/>
-            <path d="M4.5 7 8 3.5 11.5 7"/>
-          </svg>
+          <i class="bi bi-arrow-bar-up" aria-hidden="true"></i>
           <span class="back-to-top-label">Back to top</span>
         </button>
+        <script src="theme-toggle.js"></script>
         <script src="transliteration.js"></script>
         <script src="back-to-top.js"></script>
         <script src="scroll-crumb.js"></script>
@@ -1526,6 +1847,22 @@
           <xsl:apply-templates select="sub" mode="section-toc"/>
         </ol>
       </xsl:if>
+    </li>
+  </xsl:template>
+
+  <xsl:template match="ch" mode="chapter-crumb-toc">
+    <xsl:param name="current-id"/>
+    <li>
+      <a href="{@file}">
+        <xsl:attribute name="class">
+          <xsl:text>chapter-entry-link</xsl:text>
+          <xsl:if test="@id = $current-id">
+            <xsl:text> is-current</xsl:text>
+          </xsl:if>
+        </xsl:attribute>
+        <span class="chapter-entry-number">Ch. <xsl:value-of select="@id"/></span>
+        <span class="chapter-entry-title"><xsl:value-of select="@t"/></span>
+      </a>
     </li>
   </xsl:template>
 
