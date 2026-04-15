@@ -73,7 +73,7 @@
   </sec>
   <sec t="Present Participle and Progressive">
     <p>Styrian preserves a reduced present active participle used primarily as an adjectival verbal form. Unlike the l-participle, it remains largely invariant and does not participate in the restored masculine-feminine-neuter-plural agreement system.</p>
-    <p>It is formed from the non-past stem with -[st ачъ :t ačă] in a-class verbs and -[st ечъ :t ečă] in i-class verbs:</p>
+    <p>It is formed from the non-past stem with -[st ачӑ :t ačă] in a-class verbs and -[st ечӑ :t ečă] in i-class verbs:</p>
     <list>
       <item>[w pysat] &gt; [w pysat :i ppl] "writing"</item>
       <item>[w delat] &gt; [w delat :i ppl] "doing, working"</item>
@@ -120,7 +120,7 @@
       </tb>
       <p>These forms continue the old negative-copula type familiar elsewhere in Slovene and BCS, but are reshaped to the modern Styrian positive base [w byt :i 1sg] / [w byt :i 2sg] / [w byt :i 3sg] / [w byt :i 1pl] / [w byt :i 2pl] / [w byt :i 3pl]. They are used both as ordinary present copula and as the negative perfect auxiliary: <ex>[w az] [w byt.neg :i 1sg] [st студент :t student]</ex> "I am not a student", <ex>[w on] [w byt.neg :i 3sg] [w doit :i lptc.m]</ex> "he hasn't arrived".</p>
       <p>A critical syntactic property of these forms: they are <em>phonologically tonic</em> (they bear primary stress) and consequently do not participate in the clitic cluster. The positive auxiliary forms [w byt :i 1sg], [w byt :i 2sg], [w byt :i 3sg], [w byt :i 1pl], [w byt :i 2pl], [w byt :i 3pl] are clitics that occupy position 2 of the cluster; the fused negative counterparts are full words that stand outside the cluster. The surface consequence in a negative perfect clause is that object and reflexive pronoun clitics sit at second position before the tonic negative auxiliary, rather than after it. For the full account of clitic cluster behavior in negative compound tenses, including structural templates and the parallel with Slovenian and BCS, see §Negation and the Clitic Cluster (ch. 5).</p>
-      <p>L-participle: [st билъ :t bylă] / [st била :t byla] / [st било :t bylo] / [st билі :t byli] (used as copular past and as second auxiliary in the pluperfect).</p>
+      <p>L-participle: [st билӑ :t bylă] / [st била :t byla] / [st било :t bylo] / [st билі :t byli] (used as copular past and as second auxiliary in the pluperfect).</p>
       <p>In equational and adjectival present clauses the copula is overt in all persons, including the 3sg:</p>
       <list>
         <item><ex>[w on] [w byt :i 3sg] [w lekar]</ex> "he is a doctor"</item>
@@ -312,16 +312,16 @@
   <sec t="Past Formation">
     <p>The productive past is an analytic perfect built with present [w byt] + an l-participle that agrees in number and, in the singular, in grammatical gender. Modern Styrian distinguishes masculine, feminine, neuter, and plural.</p>
     <list>
-      <item>A-class: stem + -[st алъ :t ală] (masc. sg) / -[st ала :t ala] (fem. sg) / -[st ало :t alo] (neut. sg) / -[st алі :t ali] (pl.) → [w pysat :i lptc.m] / [w pysat :i lptc.f] / [w pysat :i lptc.n] / [w pysat :i lptc.pl], [w delat :i lptc.m] / [w delat :i lptc.f] / [w delat :i lptc.n] / [w delat :i lptc.pl]</item>
-      <item>I-class: stem + -[st ілъ :t ilă] (masc. sg) / -[st іла :t ila] (fem. sg) / -[st іло :t ilo] (neut. sg) / -[st ілі :t ili] (pl.) → [w nosit :i lptc.m] / [w nosit :i lptc.f] / [w nosit :i lptc.n] / [w nosit :i lptc.pl], [w vydit :i lptc.m] / [w vydit :i lptc.f] / [w vydit :i lptc.n] / [w vydit :i lptc.pl]</item>
+      <item>A-class: stem + -[st алӑ :t ală] (masc. sg) / -[st ала :t ala] (fem. sg) / -[st ало :t alo] (neut. sg) / -[st алі :t ali] (pl.) → [w pysat :i lptc.m] / [w pysat :i lptc.f] / [w pysat :i lptc.n] / [w pysat :i lptc.pl], [w delat :i lptc.m] / [w delat :i lptc.f] / [w delat :i lptc.n] / [w delat :i lptc.pl]</item>
+      <item>I-class: stem + -[st ілӑ :t ilă] (masc. sg) / -[st іла :t ila] (fem. sg) / -[st іло :t ilo] (neut. sg) / -[st ілі :t ili] (pl.) → [w nosit :i lptc.m] / [w nosit :i lptc.f] / [w nosit :i lptc.n] / [w nosit :i lptc.pl], [w vydit :i lptc.m] / [w vydit :i lptc.f] / [w vydit :i lptc.n] / [w vydit :i lptc.pl]</item>
     </list>
     <p>The neuter singular form is used when the grammatical subject is a neuter noun. Third-person singular subjects show the full masculine, feminine, and neuter contrast; plural uses one shared form for all genders. First- and second-person singular subjects normally take the masculine or feminine participle according to the speaker or addressee, while the neuter remains largely restricted to neuter third-person subjects.</p>
     <p>Some irregular l-participles:</p>
     <list>
       <item>[w ydat] &gt; [w ydat :i lptc.m] / [w ydat :i lptc.f] / [w ydat :i lptc.n] / [w ydat :i lptc.pl] (suppletive from <code>*š[st ь]l[st ъ]</code>)</item>
       <item>[w doit] &gt; [w doit :i lptc.m] / [w doit :i lptc.f] / [w doit :i lptc.n] / [w doit :i lptc.pl] (prefixed suppletive)</item>
-      <item>[w možit] &gt; [st моглъ :t mohlă] / [st могла :t mohla] / [st могло :t mohlo] / [st моглі :t mohli] (from <code>*mogl[st ъ]</code>)</item>
-      <item>[w byt] &gt; [st билъ :t bylă] / [st била :t byla] / [st било :t bylo] / [st билі :t byli]</item>
+      <item>[w možit] &gt; [st моглӑ :t mohlă] / [st могла :t mohla] / [st могло :t mohlo] / [st моглі :t mohli] (from <code>*mogl[st ъ]</code>)</item>
+      <item>[w byt] &gt; [st билӑ :t bylă] / [st била :t byla] / [st било :t bylo] / [st билі :t byli]</item>
       <item>[w dat] &gt; [w dat :i lptc.m] / [w dat :i lptc.f] / [w dat :i lptc.n] / [w dat :i lptc.pl]</item>
     </list>
     <p>Paradigm of [w pysat] in the past:</p>
@@ -338,7 +338,7 @@
       <r><c>2pl</c><c>[w vy] [w byt :i 2pl] [w pysat :i lptc.pl]</c></r>
       <r><c>3pl</c><c>[w ony] [w byt :i 3pl] [w pysat :i lptc.pl]</c></r>
     </tb>
-    <p>The l-participle agrees in number and in singular gender: masculine -[st лъ :t lă], feminine -[st ла :t la], neuter -[st ло :t lo], plural -[st лі :t li]. Third-person pronouns now also mark the contrast directly: [w on] / [w ona] / [w ono].</p>
+    <p>The l-participle agrees in number and in singular gender: masculine -[st лӑ :t lă], feminine -[st ла :t la], neuter -[st ло :t lo], plural -[st лі :t li]. Third-person pronouns now also mark the contrast directly: [w on] / [w ona] / [w ono].</p>
     <p><em>Aspect and the past.</em> The distinction between perfective and imperfective l-participles is crucial for interpreting past events:</p>
     <list>
       <item>[w az] [w byt :i 1sg] [w delat :i lptc.m] (impf.) = "I was doing / I used to do / I did (ongoing)"</item>
@@ -347,24 +347,24 @@
     <p>There is no separate imperfect or aorist form. The aspect of the l-participle carries all the relevant information.</p>
   </sec>
   <sec t="Copular Past">
-    <p>The l-participle of [w byt] distinguishes masculine singular [st билъ :t bylă], feminine singular [st била :t byla], neuter singular [st било :t bylo], and plural [st билі :t byli]. It serves as the past form of the copula, standing alone in the predicate position without the present auxiliary:</p>
+    <p>The l-participle of [w byt] distinguishes masculine singular [st билӑ :t bylă], feminine singular [st била :t byla], neuter singular [st било :t bylo], and plural [st билі :t byli]. It serves as the past form of the copula, standing alone in the predicate position without the present auxiliary:</p>
     <list>
-      <item>[w on] [st билъ :t bylă] [w lekar] "he was a doctor"</item>
+      <item>[w on] [st билӑ :t bylă] [w lekar] "he was a doctor"</item>
       <item>[w ona] [st била :t byla] [st лекарица :t lekarica] "she was a doctor"</item>
-      <item>[w ta] [w dom] [st билъ :t bylă] [w starə :i m.sg] "the house was old"</item>
+      <item>[w ta] [w dom] [st билӑ :t bylă] [w starə :i m.sg] "the house was old"</item>
       <item>[w to] [w selo] [st било :t bylo] [w malə :i n.sg] "the village was small" (neuter subject → neuter participle)</item>
       <item>[w my] [st билі :t byli] [w ve] [w hrad :i obl.sg] "we were in the town"</item>
     </list>
     <p>This is distinct from the <em>perfect of [w byt]</em>, which uses the auxiliary:</p>
     <list>
-      <item>[w on] [w byt :i 3sg] [st билъ :t bylă] [w lekar] "he has been a doctor (at some point relevant to now)"</item>
+      <item>[w on] [w byt :i 3sg] [st билӑ :t bylă] [w lekar] "he has been a doctor (at some point relevant to now)"</item>
     </list>
-    <p>The contextual difference is aspect-like: standalone [st билъ :t bylă] / [st била :t byla] / [st било :t bylo] / [st билі :t byli] expresses a past state or identity without present relevance, while auxiliary + participle implies ongoing relevance.</p>
+    <p>The contextual difference is aspect-like: standalone [st билӑ :t bylă] / [st била :t byla] / [st било :t bylo] / [st билі :t byli] expresses a past state or identity without present relevance, while auxiliary + participle implies ongoing relevance.</p>
   </sec>
   <sec t="Pluperfect">
     <p>A pluperfect meaning ("had written, had already done X before Y") is expressed by a double-auxiliary construction: present [w byt] + l-participle of [w byt] + l-participle of the main verb. Both participles follow the subject's gender and number:</p>
     <list>
-      <item><ex>[w az] [w byt :i 1sg] [st билъ :t bylă] [w pysat :i lptc.m] [w taf] [w knyha] [w koga] [w on] [w doit :i lptc.m]</ex> "I had (already) written the book when he arrived"</item>
+      <item><ex>[w az] [w byt :i 1sg] [st билӑ :t bylă] [w pysat :i lptc.m] [w taf] [w knyha] [w koga] [w on] [w doit :i lptc.m]</ex> "I had (already) written the book when he arrived"</item>
       <item><ex>[w ona] [w byt :i 3sg] [st била :t byla] [w pysat :i lptc.f] [w to] [w pismo] [w pred] [w nas]</ex> "she had written the letter before us"</item>
       <item><ex>[w ony] [w byt :i 3pl] [st билі :t byli] [w ydat :i lptc.pl] [st пре :t pre] [w my]</ex> "they had gone before us"</item>
     </list>
@@ -390,12 +390,12 @@
     <list>
       <item><em>Hypothetical / irrealis</em>: <ex>[w az] [st би :t by] [w ydat :i lptc.m], [st ано :t ano] [w byt :i 1sg] [st болан :t bolan]</ex> "I would go, but I am sick"</item>
       <item><em>Hypothetical / irrealis</em>: <ex>[w ona] [st би :t by] [w ydat :i lptc.f], [st ано :t ano] [w byt.neg :i 3sg] [st готова :t hotova]</ex> "she would go, but she is not ready"</item>
-      <item><em>Polite request</em>: <ex>[w ty] [st би :t by] [st моглъ :t mohlă] [w dat] [w my] [w voda]?</ex> "could you give me some water?"</item>
+      <item><em>Polite request</em>: <ex>[w ty] [st би :t by] [st моглӑ :t mohlă] [w dat] [w my] [w voda]?</ex> "could you give me some water?"</item>
       <item><em>Counterfactual conditional</em> (with [st ако :t ako]): see §Conditional Sentences</item>
     </list>
     <p>A past counterfactual ("would have done") can be expressed with [st би :t by] + l-participle of [w byt] + l-participle of the main verb; both participles follow the subject's gender and number:</p>
     <list>
-      <item><ex>[st ако :t ako] [w ty] [w byt :i 2sg] [w doit :i lptc.m], [w az] [st би :t by] [st билъ :t bylă] [w pysat :i lptc.m]</ex> "if you had come, I would have written"</item>
+      <item><ex>[st ако :t ako] [w ty] [w byt :i 2sg] [w doit :i lptc.m], [w az] [st би :t by] [st билӑ :t bylă] [w pysat :i lptc.m]</ex> "if you had come, I would have written"</item>
       <item><ex>[st ако :t ako] [w ona] [w byt :i 3sg] [w doit :i lptc.f], [w ona] [st би :t by] [st била :t byla] [w pysat :i lptc.f]</ex> "if she had come, she would have written"</item>
     </list>
     <p>In practice, plain [st би :t by] + l-participle often covers both present and past counterfactuals, with context supplying the temporal reading.</p>
@@ -479,7 +479,7 @@
     <p>Wh-words appear in clause-initial position without verb inversion; the syntax chapter gives a fuller account of their behavior:</p>
     <list>
       <item><ex>[st че :t če] [w ty] [w pysat :i 2sg]?</ex> "what are you writing?"</item>
-      <item><ex>[st къде :t kăde] [w ony] [w žyvat :i 3pl]?</ex> "where do they live?"</item>
+      <item><ex>[st кӑде :t kăde] [w ony] [w žyvat :i 3pl]?</ex> "where do they live?"</item>
       <item><ex>[st кой :t koj] [w byt :i 3sg] [st той :t toj]?</ex> "who is that?"</item>
       <item><ex>[w koga] [w ony] [w doit :i 3pl]?</ex> "when are they coming?"</item>
       <item><ex>[st заче :t zače] [w ty] [w byt.neg :i 2sg] [w ydat :i lptc.m]?</ex> "why didn't you go?"</item>

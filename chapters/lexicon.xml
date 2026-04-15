@@ -59,8 +59,8 @@
       <form f="3pl"     stem="pres" suffix="ут"/>
       <form f="imp.2sg" stem="pres" suffix="і"/>
       <form f="imp.2pl" stem="pres" suffix="іте"/>
-      <form f="ppl"     stem="main" suffix="ачъ"/>
-      <form f="lptc.m"  stem="main" suffix="алъ"/>
+      <form f="ppl"     stem="main" suffix="ачӑ"/>
+      <form f="lptc.m"  stem="main" suffix="алӑ"/>
       <form f="lptc.f"  stem="main" suffix="ала"/>
       <form f="lptc.n"  stem="main" suffix="ало"/>
       <form f="lptc.pl" stem="main" suffix="алі"/>
@@ -76,8 +76,8 @@
       <form f="3pl"     stem="pres" suffix="ут"/>
       <form f="imp.2sg" stem="pres" suffix="і"/>
       <form f="imp.2pl" stem="pres" suffix="іте"/>
-      <form f="ppl"     stem="pres" suffix="ечъ"/>
-      <form f="lptc.m"  stem="main" suffix="ілъ"/>
+      <form f="ppl"     stem="pres" suffix="ечӑ"/>
+      <form f="lptc.m"  stem="main" suffix="ілӑ"/>
       <form f="lptc.f"  stem="main" suffix="іла"/>
       <form f="lptc.n"  stem="main" suffix="іло"/>
       <form f="lptc.pl" stem="main" suffix="ілі"/>
@@ -86,13 +86,13 @@
     <!-- Noun declension templates: consonant-final, -а class, neuter -о, neuter -е -->
 
     <noun-template id="cons">
-      <form f="nom.sg" stem="main" suffix="ъ"/>
+      <form f="nom.sg" stem="main" suffix="ӑ"/>
       <form f="obl.sg" stem="main" suffix="у"/>
       <form f="pl"     stem="main" suffix="і"/>
     </noun-template>
 
     <noun-template id="cons-velar-front">
-      <form f="nom.sg" stem="main"  suffix="ъ"/>
+      <form f="nom.sg" stem="main"  suffix="ӑ"/>
       <form f="obl.sg" stem="main"  suffix="у"/>
       <form f="pl"     stem="front" suffix="і"/>
     </noun-template>
@@ -140,7 +140,7 @@
     </noun-template>
 
     <adjective-template id="adj-hard">
-      <form f="m.sg"     stem="main" suffix="ъ"/>
+      <form f="m.sg"     stem="main" suffix="ӑ"/>
       <form f="f.sg"     stem="main" suffix="а"/>
       <form f="n.sg"     stem="main" suffix="о"/>
       <form f="pl"       stem="main" suffix="и"/>
@@ -213,7 +213,7 @@
     <form f="1pl"     v="сме"/>
     <form f="2pl"     v="сте"/>
     <form f="3pl"     v="су"/>
-    <form f="lptc.m"  v="билъ"/>
+    <form f="lptc.m"  v="билӑ"/>
     <form f="lptc.f"  v="била"/>
     <form f="lptc.n"  v="било"/>
     <form f="lptc.pl" v="билі"/>
@@ -239,7 +239,7 @@
     <form f="1pl"     v="имаме"/>
     <form f="2pl"     v="имате"/>
     <form f="3pl"     v="имут"/>
-    <form f="lptc.m"  v="ималъ"/>
+    <form f="lptc.m"  v="ималӑ"/>
     <form f="lptc.f"  v="имала"/>
     <form f="lptc.n"  v="имало"/>
     <form f="lptc.pl" v="ималі"/>
@@ -254,7 +254,7 @@
     <form f="1pl"     v="идеме"/>
     <form f="2pl"     v="идете"/>
     <form f="3pl"     v="идут"/>
-    <form f="lptc.m"  v="шелъ"/>
+    <form f="lptc.m"  v="шелӑ"/>
     <form f="lptc.f"  v="шела"/>
     <form f="lptc.n"  v="шело"/>
     <form f="lptc.pl" v="шелі"/>
@@ -265,7 +265,7 @@
     <stem name="main" v="ход"/>
   </lex>
 
-  <!-- доіт — to arrive / come (pf, mixed i-class; l-ptc suppletive дошлъ) -->
+  <!-- доіт — to arrive / come (pf, mixed i-class; l-ptc suppletive дошлӑ) -->
   <lex id="doit" pos="v" asp="pf" vclass="irr" gloss="to arrive, come">
     <form f="inf"     v="доіт"/>
     <form f="1sg"     v="доем"/>
@@ -274,7 +274,7 @@
     <form f="1pl"     v="доеме"/>
     <form f="2pl"     v="доете"/>
     <form f="3pl"     v="доут"/>
-    <form f="lptc.m"  v="дошлъ"/>
+    <form f="lptc.m"  v="дошлӑ"/>
     <form f="lptc.f"  v="дошла"/>
     <form f="lptc.n"  v="дошло"/>
     <form f="lptc.pl" v="дошлі"/>
@@ -334,7 +334,7 @@
     <form f="1pl"     v="хочеме"/>
     <form f="2pl"     v="хочете"/>
     <form f="3pl"     v="хочут"/>
-    <form f="lptc.m"  v="хотілъ"/>
+    <form f="lptc.m"  v="хотілӑ"/>
     <form f="lptc.f"  v="хотіла"/>
     <form f="lptc.n"  v="хотіло"/>
     <form f="lptc.pl" v="хотілі"/>
@@ -349,7 +349,7 @@
     <form f="1pl"     v="даме"/>
     <form f="2pl"     v="дате"/>
     <form f="3pl"     v="дадут"/>
-    <form f="lptc.m"  v="далъ"/>
+    <form f="lptc.m"  v="далӑ"/>
     <form f="lptc.f"  v="дала"/>
     <form f="lptc.n"  v="дало"/>
     <form f="lptc.pl" v="далі"/>
@@ -367,7 +367,7 @@
 
 
   <!-- ═══════════════════════════════════════════════════════════
-       NOUNS — Masculine, consonant-final class (nom -ъ, obl -у, pl -і)
+       NOUNS — Masculine, consonant-final class (nom -ӑ, obl -у, pl -і)
        ═══════════════════════════════════════════════════════════ -->
 
   <lex id="dom" pos="n" gen="m" decl="cons" template="cons" gloss="house">
@@ -415,9 +415,9 @@
     <stem name="main" v="говор"/>
   </lex>
 
-  <!-- человекъ — irreg. plural лиуді (suppletive) -->
+  <!-- человекӑ — irreg. plural лиуді (suppletive) -->
   <lex id="čelovek" pos="n" gen="m" decl="irr" gloss="person">
-    <form f="nom.sg" v="человекъ"/>
+    <form f="nom.sg" v="человекӑ"/>
     <form f="obl.sg" v="человеку"/>
     <form f="pl"     v="лиуді"/>
   </lex>
@@ -649,7 +649,7 @@
        ═══════════════════════════════════════════════════════════ -->
 
   <lex id="ta"  pos="art" gloss="the (masculine sg)">
-    <form f="m.sg"     v="тъ"/>
+    <form f="m.sg"     v="тӑ"/>
     <form f="m.sg.obl" v="том"/>
   </lex>
   <lex id="taf" pos="art" gloss="the (feminine sg)">
@@ -693,11 +693,11 @@
   <lex id="če"  pos="part" gloss="that, which"><form f="base" v="че"/></lex>
   <lex id="ky"  pos="part" gloss="who, which"><form f="base" v="ки"/></lex>
   <lex id="koj" pos="part" gloss="who"><form f="base" v="кой"/></lex>
-  <lex id="kəde" pos="part" gloss="where"><form f="base" v="къде"/></lex>
+  <lex id="kəde" pos="part" gloss="where"><form f="base" v="кӑде"/></lex>
   <lex id="koga" pos="part" gloss="when"><form f="base" v="кога"/></lex>
   <lex id="kol" pos="part" gloss="how much, how many; how"><form f="base" v="кол"/></lex>
   <lex id="ako" pos="part" gloss="if"><form f="base" v="ако"/></lex>
-  <lex id="dak" pos="part" gloss="that"><form f="base" v="дакъ"/></lex>
+  <lex id="dak" pos="part" gloss="that"><form f="base" v="дакӑ"/></lex>
   <lex id="daly" pos="part" gloss="whether"><form f="base" v="дали"/></lex>
   <lex id="zače" pos="part" gloss="why, because"><form f="base" v="заче"/></lex>
   <lex id="by"  pos="part" gloss="conditional particle"><form f="base" v="би"/></lex>
@@ -810,7 +810,7 @@
     <form f="1sg"    v="вигоним"/>
     <form f="2sg"    v="вигониш"/>
     <form f="3sg"    v="вигони"/>
-    <form f="lptc.m" v="вигналъ"/>
+    <form f="lptc.m" v="вигналӑ"/>
     <form f="lptc.f" v="вигнала"/>
     <form f="lptc.n" v="вигнало"/>
     <form f="lptc.pl" v="вигналі"/>
@@ -822,7 +822,7 @@
 
   <lex id="stat" pos="v" asp="pf" vclass="irr" gloss="to become, stand">
     <form f="inf" v="стат"/>
-    <form f="lptc.m" v="сталъ"/>
+    <form f="lptc.m" v="сталӑ"/>
     <form f="lptc.f" v="стала"/>
     <form f="lptc.n" v="стало"/>
     <form f="lptc.pl" v="сталі"/>
@@ -940,7 +940,7 @@
   </lex>
 
   <lex id="krst" pos="n" gen="m" decl="cons" template="cons" gloss="cross">
-    <stem name="main" v="кръст"/>
+    <stem name="main" v="крӑст"/>
   </lex>
 
   <lex id="holhota" pos="n" gen="f" decl="a" template="a" gloss="Golgotha">
@@ -956,7 +956,7 @@
   </lex>
 
   <lex id="šev" pos="n" gen="m" decl="cons" gloss="seam">
-    <form f="nom.sg" v="шевъ"/>
+    <form f="nom.sg" v="шевӑ"/>
     <form f="obl.sg" v="шеве"/>
     <form f="pl"     v="шеві"/>
   </lex>
@@ -1023,7 +1023,7 @@
   </lex>
 
   <lex id="təkanə" pos="adj" template="adj-hard" gloss="woven">
-    <stem name="main" v="тъкан"/>
+    <stem name="main" v="тӑкан"/>
   </lex>
 
   <lex id="druga" pos="adj" template="adj-hard" gloss="other">
@@ -1194,7 +1194,7 @@
   </lex>
 
   <lex id="nadvorə" pos="part" gloss="outside">
-    <form f="base" v="надворъ"/>
+    <form f="base" v="надворӑ"/>
   </lex>
 
   <lex id="posredi" pos="part" gloss="in the middle">
@@ -1225,7 +1225,7 @@
     <form f="inf" v="взет"/>
     <form f="imp.2sg" v="вземі"/>
     <form f="imp.2pl" v="вземіте"/>
-    <form f="lptc.m" v="взелъ"/>
+    <form f="lptc.m" v="взелӑ"/>
     <form f="lptc.f" v="взела"/>
     <form f="lptc.n" v="взело"/>
     <form f="lptc.pl" v="взелі"/>
@@ -1258,7 +1258,7 @@
   </lex>
 
   <lex id="ukrstovat" pos="v" asp="pf" vclass="a" template="reg-a" gloss="to crucify">
-    <stem name="main" v="укръстов"/>
+    <stem name="main" v="укрӑстов"/>
   </lex>
 
   <lex id="odhovorit" pos="v" asp="pf" vclass="i" template="reg-i" gloss="to answer">
@@ -1283,7 +1283,7 @@
 
   <lex id="bojat" pos="v" asp="impf" vclass="irr" gloss="to fear">
     <form f="inf" v="боят"/>
-    <form f="lptc.m" v="боалъ"/>
+    <form f="lptc.m" v="боалӑ"/>
     <form f="lptc.f" v="боала"/>
     <form f="lptc.n" v="боало"/>
     <form f="lptc.pl" v="боалі"/>
@@ -1301,7 +1301,7 @@
 
   <lex id="vyžat" pos="v" asp="pf" vclass="irr" gloss="to come out">
     <form f="inf" v="вижат"/>
-    <form f="lptc.m" v="вижелъ"/>
+    <form f="lptc.m" v="вижелӑ"/>
     <form f="lptc.f" v="вижела"/>
     <form f="lptc.n" v="вижело"/>
     <form f="lptc.pl" v="вижелі"/>
@@ -1387,7 +1387,7 @@
   </lex>
 
   <lex id="vsjakə" pos="num" gloss="each">
-    <form f="base" v="всякъ"/>
+    <form f="base" v="всякӑ"/>
   </lex>
 
 </lexicon>

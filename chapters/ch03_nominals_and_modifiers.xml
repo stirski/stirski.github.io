@@ -58,15 +58,15 @@
         <item>[w so] [w čelovek :i obl.sg] "with the person" — [w čelovek :i obl.sg] governed by [w so]</item>
         <item>[w ve] [w ta :i m.sg.obl] [w hrad :i obl.sg] "in that particular town" — marked: oblique article retained for deixis or contrast</item>
       </list>
-      <p>The only residual frozen forms are a small number of adverbs descended from older case endings: [st дома :t doma] "at home" (old locative of [w dom]), [st ноште :t nošte] "at night" (old locative of [st ноштъ :t noštă] "night"), and similar.</p>
+      <p>The only residual frozen forms are a small number of adverbs descended from older case endings: [st дома :t doma] "at home" (old locative of [w dom]), [st ноште :t nošte] "at night" (old locative of [st ноштӑ :t noštă] "night"), and similar.</p>
     </sub>
 
     <sub t="Declension Classes">
       <p>Styrian nouns fall into three productive declension classes defined by the nominative singular ending, plus a small inherited set of velar-final stems with fossilized front-vowel mutation and two residual sets with genuinely irregular plurals. The oblique singular is formed by a suffix added to the stem after dropping any final schwa; the plural follows the patterns given in §Number.</p>
       <tb>
         <r><c>Class</c><c>Nominative sg</c><c>Oblique sg</c><c>Plural</c><c>Examples</c></r>
-        <r><c>Common consonant-final</c><c>stem + [st ъ :t ă]</c><c>stem + [st у :t u]</c><c>stem + [st і :t i]</c><c>[w dom] / [w dom :i obl.sg] / [w dom :i pl]</c></r>
-        <r><c>Inherited velar-mutation consonant-final</c><c>main stem + [st ъ :t ă]</c><c>main stem + [st у :t u]</c><c>front stem + [st і :t i]</c><c>[w druh] / [w druh :i obl.sg] / [w druh :i pl]</c></r>
+        <r><c>Common consonant-final</c><c>stem + [st ӑ :t ă]</c><c>stem + [st у :t u]</c><c>stem + [st і :t i]</c><c>[w dom] / [w dom :i obl.sg] / [w dom :i pl]</c></r>
+        <r><c>Inherited velar-mutation consonant-final</c><c>main stem + [st ӑ :t ă]</c><c>main stem + [st у :t u]</c><c>front stem + [st і :t i]</c><c>[w druh] / [w druh :i obl.sg] / [w druh :i pl]</c></r>
         <r><c>Common -[st а :t a]</c><c>stem + [st а :t a]</c><c>stem + [st е :t e]</c><c>stem + [st и :t y]</c><c>[w reka] / [w reka :i obl.sg] / [w reka :i pl]</c></r>
         <r><c>Inherited velar-mutation -[st а :t a]</c><c>main stem + [st а :t a]</c><c>front stem + [st е :t e]</c><c>front stem + [st и :t y]</c><c>[w ruka] / [w ruka :i obl.sg] / [w ruka :i pl]</c></r>
         <r><c>Neuter -[st о :t o]/-[st е :t e]</c><c>stem + [st о :t o] or [st е :t e]</c><c>stem + [st у :t u]</c><c>stem + [st а :t a]</c><c>[w selo] / [w selo :i obl.sg] / [w selo :i pl]</c></r>
@@ -90,67 +90,67 @@
   </sec>
 
   <sec t="Nominal Derivation">
-    <p>Although Styrian has lost much of the old inflectional machinery, it still preserves a productive derivational system for building nouns. The main nominalizing suffixes are agentive -[st аръ :t ară], individualizing -[st ецъ :t ecă], feminine -[st ица :t ica], abstract-collective -[st ъстуо :t ăstuo], quality-abstract -[st остъ :t ostă], associative -[st нікъ :t nikă], action -[st ба :t ba], deverbal agent -[st телъ :t telă], and active-doer -[st ачъ :t ačă]. Once formed, derived nouns behave like ordinary nouns and take the regular plural.</p>
+    <p>Although Styrian has lost much of the old inflectional machinery, it still preserves a productive derivational system for building nouns. The main nominalizing suffixes are agentive -[st арӑ :t ară], individualizing -[st ец :t ec], feminine -[st ица :t ica], abstract-collective -[st ӑстуо :t ăstuo], quality-abstract -[st остӑ :t ostă], associative -[st нікӑ :t nikă], action -[st ба :t ba], deverbal agent -[st телӑ :t telă], and active-doer -[st ач :t ač]. Once formed, derived nouns behave like ordinary nouns and take the regular plural.</p>
 
-    <p>The suffix -[st аръ :t ară] derives occupational, craft, and habitual-sphere nouns, naming a person by their recognized trade, skill, or characteristic domain. The base is frequently nominal — a concrete product, material, or sphere of activity — and even where the underlying base is verbal, the derived noun names a social or professional type rather than yielding a transparent compositional reading of 'one who performs this action.' The suffix does not directly nominalize a predicate; it assigns the person to a recognized category. In the prototypical case the base is purely nominal and no -[st телъ :t telă] form is possible alongside it: there is no Styrian *<em>вина-тел</em> for 'vintner' and no *<em>риба-тел</em> for 'fisherman,' because a nominal base cannot serve as a verb stem for the deverbal suffix. With verbal bases in -[st ат :t at] or -[st іт :t it], the infinitival ending is removed before the suffix is added.</p>
+    <p>The suffix -[st арӑ :t ară] derives occupational, craft, and habitual-sphere nouns, naming a person by their recognized trade, skill, or characteristic domain. The base is frequently nominal — a concrete product, material, or sphere of activity — and even where the underlying base is verbal, the derived noun names a social or professional type rather than yielding a transparent compositional reading of 'one who performs this action.' The suffix does not directly nominalize a predicate; it assigns the person to a recognized category. In the prototypical case the base is purely nominal and no -[st телӑ :t telă] form is possible alongside it: there is no Styrian *<em>вина-тел</em> for 'vintner' and no *<em>риба-тел</em> for 'fisherman,' because a nominal base cannot serve as a verb stem for the deverbal suffix. With verbal bases in -[st ат :t at] or -[st іт :t it], the infinitival ending is removed before the suffix is added.</p>
     <tb>
       <r><c>Base</c><c>Derived noun</c><c>Meaning</c></r>
-      <r><c>[w ryba]</c><c>[st рибаръ :t rybară]</c><c>fisherman</c></r>
-      <r><c>[w kram]</c><c>[st крамаръ :t kramară]</c><c>shopkeeper, trader</c></r>
-      <r><c>[w vyno]</c><c>[st винаръ :t vynară]</c><c>vintner, wine seller</c></r>
-      <r><c>[w les]</c><c>[st лесаръ :t lesară]</c><c>forester, woodcutter</c></r>
+      <r><c>[w ryba]</c><c>[st рибарӑ :t rybară]</c><c>fisherman</c></r>
+      <r><c>[w kram]</c><c>[st крамарӑ :t kramară]</c><c>shopkeeper, trader</c></r>
+      <r><c>[w vyno]</c><c>[st винарӑ :t vynară]</c><c>vintner, wine seller</c></r>
+      <r><c>[w les]</c><c>[st лесарӑ :t lesară]</c><c>forester, woodcutter</c></r>
     </tb>
-    <p>Older lexicalized words such as [w lekar] "doctor" belong to the same pattern. Synchronically, -[st аръ :t ară] is the productive suffix for new professional and occupational coinages; it names a person as a recognized social type defined by their sphere or craft, not merely as a momentary doer of an action.</p>
+    <p>Older lexicalized words such as [w lekar] "doctor" belong to the same pattern. Synchronically, -[st арӑ :t ară] is the productive suffix for new professional and occupational coinages; it names a person as a recognized social type defined by their sphere or craft, not merely as a momentary doer of an action.</p>
 
-    <p>The suffix -[st ецъ :t ecă] is the regular Styrian continuation of Proto-Slavic *-<em>ьць</em>, comparable to Russian -<em>ец</em> and Bulgarian -<em>ец</em>. The affricate of *-<em>ьць</em> is retained in Styrian as [st ц :t c], and the final weak jer yields the regular schwa, giving -[st ецъ :t ecă]. It derives count nouns referring to inhabitants, members, or a salient individual associated with a place or group.</p>
+    <p>The suffix -[st ец :t ec] is the regular Styrian continuation of Proto-Slavic *-<em>ьць</em>, comparable to Russian -<em>ец</em> and Bulgarian -<em>ец</em>. The affricate of *-<em>ьць</em> is retained in Styrian as [st ц :t c], and the final weak jer is lost in absolute final position, giving -[st ец :t ec]. It derives count nouns referring to inhabitants, members, or a salient individual associated with a place or group.</p>
     <tb>
       <r><c>Base</c><c>Derived noun</c><c>Meaning</c></r>
-      <r><c>[w hrad]</c><c>[st градецъ :t hradecă]</c><c>townsman, citizen</c></r>
-      <r><c>[w selo]</c><c>[st селецъ :t selecă]</c><c>villager</c></r>
-      <r><c>[w zema]</c><c>[st земецъ :t zemecă]</c><c>native, countryman</c></r>
-      <r><c>[st стир :t styr]</c><c>[st стирецъ :t styrecă]</c><c>Styrian person</c></r>
+      <r><c>[w hrad]</c><c>[st градец :t hradec]</c><c>townsman, citizen</c></r>
+      <r><c>[w selo]</c><c>[st селец :t selec]</c><c>villager</c></r>
+      <r><c>[w zema]</c><c>[st земец :t zemec]</c><c>native, countryman</c></r>
+      <r><c>[st стир :t styr]</c><c>[st стирец :t styrec]</c><c>Styrian person</c></r>
     </tb>
-    <p>Compared with -[st аръ :t ară], this suffix feels slightly narrower and more lexical. It is most natural in demonyms, inhabitant terms, and established member nouns.</p>
+    <p>Compared with -[st арӑ :t ară], this suffix feels slightly narrower and more lexical. It is most natural in demonyms, inhabitant terms, and established member nouns.</p>
 
     <p>Modern Styrian has a <em>three-way grammatical gender</em> distinction in the singular: <em>masculine</em>, <em>feminine</em>, and <em>neuter</em>. Masculine includes the inherited consonant-final classes ([w dom], [w most], [w hrad], [w čelovek]), feminine includes the inherited -<em>a</em> classes and other historically feminine nouns ([w knyha], [w zema], [w reka], [w voda]), and neuter continues the old neuters in -<em>o</em>/<em>e</em> ([w selo], [w slovo], [w more], [w pole], [w vyno]). Plural remains gender-neutral. Gender is reflected in articles, adjectives, adnominal possessives and demonstratives, and in the singular l-participle.</p>
     <p>The derivational suffix -[st ица :t ica] continues Proto-Slavic *-<em>ица</em> (compare Bulgarian -<em>ица</em>, Serbian -<em>ица</em>) directly, retaining the affricate [st ц :t c]. It provides <em>lexical</em> marking of natural female reference and regularly yields feminine nouns, which then take the ordinary feminine article and agreement pattern.</p>
     <tb>
       <r><c>Base</c><c>Derived noun</c><c>Meaning</c></r>
       <r><c>[w lekar]</c><c>[st лекарица :t lekarica]</c><c>female doctor</c></r>
-      <r><c>[st винаръ :t vynară]</c><c>[st винарица :t vynarica]</c><c>female vintner</c></r>
-      <r><c>[st градецъ :t hradecă]</c><c>[st градица :t hradica]</c><c>townswoman, female citizen</c></r>
-      <r><c>[st писаръ :t pysară]</c><c>[st писарица :t pysarica]</c><c>female scribe, woman writer</c></r>
+      <r><c>[st винарӑ :t vynară]</c><c>[st винарица :t vynarica]</c><c>female vintner</c></r>
+      <r><c>[st градец :t hradec]</c><c>[st градица :t hradica]</c><c>townswoman, female citizen</c></r>
+      <r><c>[st писарӑ :t pysară]</c><c>[st писарица :t pysarica]</c><c>female scribe, woman writer</c></r>
     </tb>
     <p>This pattern is no longer fully productive, but it remains available for lexical contrast when the sex of a referent matters. In ordinary usage the unmarked base noun stays lexically masculine unless a feminine counterpart is specifically chosen.</p>
 
-    <p>The suffix -[st ъстуо :t ăstuo] continues Proto-Slavic *-<em>ьство</em>, the abstract and collective formative that most Slavic languages preserve as -<em>ство</em> (Russian, Bulgarian, Serbian) or -<em>stwo</em> (Polish). In Styrian the initial front jer of the suffix stands in weak position and merges with the general weak-jer reflex [st ъ :t ă], yielding an initial schwa: *-<em>ьstvo</em> &gt; *-<em>ăstvo</em>. The inherited sequence <em>tvo</em> is then repaired by the regular vocalization of [st в :t v] before a following vowel, the same development seen in forms such as [st доуа :t doua] &lt; *<em>dva</em>. Thus *-<em>ăstvo</em> &gt; *-<em>ăstuo</em>, written -[st ъстуо :t ăstuo]. The suffix forms abstract nouns, collectives, and names for social bodies or institutional domains.</p>
+    <p>The suffix -[st ӑстуо :t ăstuo] continues Proto-Slavic *-<em>ьство</em>, the abstract and collective formative that most Slavic languages preserve as -<em>ство</em> (Russian, Bulgarian, Serbian) or -<em>stwo</em> (Polish). In Styrian the initial front jer of the suffix stands in weak position and merges with the general weak-jer reflex [st ӑ :t ă], yielding an initial schwa: *-<em>ьstvo</em> &gt; *-<em>ăstvo</em>. The inherited sequence <em>tvo</em> is then repaired by the regular vocalization of [st в :t v] before a following vowel, the same development seen in forms such as [st доуа :t doua] &lt; *<em>dva</em>. Thus *-<em>ăstvo</em> &gt; *-<em>ăstuo</em>, written -[st ӑстуо :t ăstuo]. The suffix forms abstract nouns, collectives, and names for social bodies or institutional domains.</p>
     <tb>
       <r><c>Base</c><c>Derived noun</c><c>Meaning</c></r>
-      <r><c>[st ритаръ :t rytară]</c><c>[st ритаръстуо :t rytarăstuo]</c><c>knighthood, chivalric order</c></r>
-      <r><c>[w lekar]</c><c>[st лекаръстуо :t lekarăstuo]</c><c>medical profession, body of doctors</c></r>
-      <r><c>[w kram]</c><c>[st крамъстуо :t kramăstuo]</c><c>trade, merchant estate</c></r>
-      <r><c>[w brat]</c><c>[st братъстуо :t bratăstuo]</c><c>brotherhood, fraternal order</c></r>
+      <r><c>[st ритарӑ :t rytară]</c><c>[st ритарӑстуо :t rytarăstuo]</c><c>knighthood, chivalric order</c></r>
+      <r><c>[w lekar]</c><c>[st лекарӑстуо :t lekarăstuo]</c><c>medical profession, body of doctors</c></r>
+      <r><c>[w kram]</c><c>[st крамӑстуо :t kramăstuo]</c><c>trade, merchant estate</c></r>
+      <r><c>[w brat]</c><c>[st братӑстуо :t bratăstuo]</c><c>brotherhood, fraternal order</c></r>
     </tb>
-    <p>With human-denoting bases, -[st ъстуо :t ăstuo] usually refers to a profession, body, order, or social estate rather than to an individual person. In more abstract usage it can also denote an institutional sphere or collective practice.</p>
+    <p>With human-denoting bases, -[st ӑстуо :t ăstuo] usually refers to a profession, body, order, or social estate rather than to an individual person. In more abstract usage it can also denote an institutional sphere or collective practice.</p>
 
-    <p>The suffix -[st остъ :t ostă] derives quality and state nouns from adjectival bases. It corresponds to -<em>ость</em> in Russian, -<em>ost</em> in Czech and Polish, and -<em>ост</em> in Bulgarian, and all continue Proto-Slavic *-<em>ostь</em>. In Styrian the final soft jer weakens to schwa in the regular fashion, giving -[st остъ :t ostă]. The suffix attaches to the adjective stem after removal of the final schwa: [w dobrə] → stem <em>dobr-</em> → [st добростъ :t dobrostă]. It is among the most productive derivational suffixes in the language; virtually any adjective stem can yield a quality noun with -[st остъ :t ostă].</p>
+    <p>The suffix -[st остӑ :t ostă] derives quality and state nouns from adjectival bases. It corresponds to -<em>ость</em> in Russian, -<em>ost</em> in Czech and Polish, and -<em>ост</em> in Bulgarian, and all continue Proto-Slavic *-<em>ostь</em>. In Styrian the final soft jer weakens to schwa in the regular fashion, giving -[st остӑ :t ostă]. The suffix attaches to the adjective stem after removal of the final schwa: [w dobrə] → stem <em>dobr-</em> → [st добростӑ :t dobrostă]. It is among the most productive derivational suffixes in the language; virtually any adjective stem can yield a quality noun with -[st остӑ :t ostă].</p>
     <tb>
       <r><c>Base</c><c>Derived noun</c><c>Meaning</c></r>
-      <r><c>[w dobrə]</c><c>[st добростъ :t dobrostă]</c><c>goodness, virtue</c></r>
-      <r><c>[w novə]</c><c>[st новостъ :t novostă]</c><c>novelty, news</c></r>
-      <r><c>[w starə]</c><c>[st старостъ :t starostă]</c><c>old age, seniority</c></r>
-      <r><c>[w bohatə]</c><c>[st богатостъ :t bohatostă]</c><c>wealth, prosperity</c></r>
+      <r><c>[w dobrə]</c><c>[st добростӑ :t dobrostă]</c><c>goodness, virtue</c></r>
+      <r><c>[w novə]</c><c>[st новостӑ :t novostă]</c><c>novelty, news</c></r>
+      <r><c>[w starə]</c><c>[st старостӑ :t starostă]</c><c>old age, seniority</c></r>
+      <r><c>[w bohatə]</c><c>[st богатостӑ :t bohatostă]</c><c>wealth, prosperity</c></r>
     </tb>
 
-    <p>The suffix -[st нікъ :t nikă] forms agent and associative nouns, typically from nominal or adjectival bases. It corresponds to -<em>ник</em> in Russian, Bulgarian, and Serbian. The Proto-Slavic form is *-<em>ьникъ</em>; the initial weak jer drops before the stressed syllable, and the suffix vowel, from original *<em>i</em>, is written [st і :t i] following Styrian's two-way high-vowel distinction. The suffix is productive for occupational roles, official positions, and persons defined by their association with a domain rather than by a specific action.</p>
+    <p>The suffix -[st нікӑ :t nikă] forms agent and associative nouns, typically from nominal or adjectival bases. It corresponds to -<em>ник</em> in Russian, Bulgarian, and Serbian. The Proto-Slavic form is *-<em>ьникӑ</em>; the initial weak jer drops before the stressed syllable, and the suffix vowel, from original *<em>i</em>, is written [st і :t i] following Styrian's two-way high-vowel distinction. The suffix is productive for occupational roles, official positions, and persons defined by their association with a domain rather than by a specific action.</p>
     <tb>
       <r><c>Base</c><c>Derived noun</c><c>Meaning</c></r>
-      <r><c>[w put]</c><c>[st путнікъ :t putnikă]</c><c>traveler, wayfarer</c></r>
-      <r><c>[w les]</c><c>[st леснікъ :t lesnikă]</c><c>forester, woodsman</c></r>
-      <r><c>[st служит :t služyt]</c><c>[st служнікъ :t služnikă]</c><c>servant, steward, official</c></r>
-      <r><c>[st дворъ :t dvoră]</c><c>[st дворнікъ :t dvornikă]</c><c>court official, steward</c></r>
+      <r><c>[w put]</c><c>[st путнікӑ :t putnikă]</c><c>traveler, wayfarer</c></r>
+      <r><c>[w les]</c><c>[st леснікӑ :t lesnikă]</c><c>forester, woodsman</c></r>
+      <r><c>[st служит :t služyt]</c><c>[st служнікӑ :t služnikă]</c><c>servant, steward, official</c></r>
+      <r><c>[st дворӑ :t dvoră]</c><c>[st дворнікӑ :t dvornikă]</c><c>court official, steward</c></r>
     </tb>
-    <p>Alongside -[st аръ :t ară], which is the unmarked occupational suffix, -[st нікъ :t nikă] tends to carry a connotation of institutional role or habitual association rather than mere trade practice.</p>
+    <p>Alongside -[st арӑ :t ară], which is the unmarked occupational suffix, -[st нікӑ :t nikă] tends to carry a connotation of institutional role or habitual association rather than mere trade practice.</p>
 
     <p>The suffix -[st ба :t ba] forms action nouns denoting an activity, process, or its result, often with a collective or institutional flavour, naming a practice rather than a single event. It continues Proto-Slavic *-<em>ьба</em>, with the front jer dropping in its characteristic weak position. However, -[st ба :t ba] is not productively attached to verb stems in modern Styrian. When the infinitival ending is removed and -[st ба :t ba] follows the bare stem directly, the resulting cluster depends entirely on the final consonant of the stem: cluster-final stems yield three-consonant medial sequences and obstruent-final stems produce illicit obstruent–obstruent combinations, both of which violate Styrian phonotactics (see §Phonotactics). Consequently the surviving -[st ба :t ba] nouns are inherited lexicalizations, the great majority having sonorant- or voiced-fricative-final stems where the junction cluster ([st рб :t rb], [st лб :t lb], [st жб :t žb]) is phonotactically tolerable.</p>
     <tb>
@@ -162,25 +162,25 @@
     </tb>
     <p>All attested -[st ба :t ba] nouns in Styrian are old lexicalizations. [st свадба :t svadba] "wedding" is the clearest case: the source verb is no longer in active use and the form is inherited wholesale. The [st дб :t db] cluster in [st судба :t sudba] represents a marginal tolerance for voiced-stop sequences in archaic vocabulary and is not extended to new coinages. For productive action-noun derivation Styrian relies on other nominalizing strategies.</p>
 
-    <p>The suffix -[st телъ :t telă] is the transparently deverbal agent suffix: it attaches to the infinitive stem and compositionally yields 'one who performs the action of the verb.' It continues Proto-Slavic *-<em>телъ</em> (compare Russian -<em>тель</em>, Bulgarian -<em>тел</em>, Czech -<em>tel</em>), with the final soft jer becoming schwa in the regular Styrian fashion. A linking vowel matching the conjugation class appears between stem and suffix. Unlike -[st аръ :t ară], which assigns the referent to a recognized trade or social sphere, -[st телъ :t telă] stays semantically close to the predicate and does not require the referent to hold any particular professional status: it simply names the doer of the verbal action in a direct and compositional way.</p>
+    <p>The suffix -[st телӑ :t telă] is the transparently deverbal agent suffix: it attaches to the infinitive stem and compositionally yields 'one who performs the action of the verb.' It continues Proto-Slavic *-<em>телӑ</em> (compare Russian -<em>тель</em>, Bulgarian -<em>тел</em>, Czech -<em>tel</em>), with the final soft jer becoming schwa in the regular Styrian fashion. A linking vowel matching the conjugation class appears between stem and suffix. Unlike -[st арӑ :t ară], which assigns the referent to a recognized trade or social sphere, -[st телӑ :t telă] stays semantically close to the predicate and does not require the referent to hold any particular professional status: it simply names the doer of the verbal action in a direct and compositional way.</p>
     <tb>
       <r><c>Base</c><c>Derived noun</c><c>Meaning</c></r>
-      <r><c>[st учит :t učyt]</c><c>[st учителъ :t učitelă]</c><c>teacher; one who teaches</c></r>
-      <r><c>[st носит :t nosyt]</c><c>[st носителъ :t nosytelă]</c><c>bearer, carrier; one who carries</c></r>
-      <r><c>[st правит :t pravyt]</c><c>[st правителъ :t pravitelă]</c><c>ruler, governor</c></r>
-      <r><c>[st хранит :t ħranyt]</c><c>[st хранителъ :t ħranytelă]</c><c>keeper, guardian, custodian</c></r>
+      <r><c>[st учит :t učyt]</c><c>[st учителӑ :t učitelă]</c><c>teacher; one who teaches</c></r>
+      <r><c>[st носит :t nosyt]</c><c>[st носителӑ :t nosytelă]</c><c>bearer, carrier; one who carries</c></r>
+      <r><c>[st правит :t pravyt]</c><c>[st правителӑ :t pravitelă]</c><c>ruler, governor</c></r>
+      <r><c>[st хранит :t ħranyt]</c><c>[st хранителӑ :t ħranytelă]</c><c>keeper, guardian, custodian</c></r>
     </tb>
-    <p>For the most part the two suffixes occupy non-overlapping lexical territory. Purely nominal bases take -[st аръ :t ară] only: [st рибаръ :t rybară], [st винаръ :t vynară], [st крамаръ :t kramară] have no -[st телъ :t telă] counterparts, because a nominal base cannot supply a verb stem. Conversely, verbs whose action has no established craft or trade domain take -[st телъ :t telă] only: [st носителъ :t nosytelă] "bearer," [st правителъ :t pravitelă] "ruler," [st хранителъ :t ħranytelă] "guardian" have no natural -[st аръ :t ară] equivalents, because bearing, ruling, and guarding are not recognized trades. The genuine overlap is narrow. [w pysat] "to write" is the clearest case: [st писаръ :t pysară] names writing as a profession or trade — scribe, clerk, one for whom writing is a livelihood — while [st писателъ :t pysatelă] names the agent of the action more broadly — any writer or author, regardless of whether writing is their occupation. Writing straddles both worlds (a historical trade and an action anyone performs), which is precisely why both forms exist and are distinguished. Note that [st учителъ :t učitelă] retains the inherited affricate [st ч :t č] of PS *<em>uč</em>- directly.</p>
+    <p>For the most part the two suffixes occupy non-overlapping lexical territory. Purely nominal bases take -[st арӑ :t ară] only: [st рибарӑ :t rybară], [st винарӑ :t vynară], [st крамарӑ :t kramară] have no -[st телӑ :t telă] counterparts, because a nominal base cannot supply a verb stem. Conversely, verbs whose action has no established craft or trade domain take -[st телӑ :t telă] only: [st носителӑ :t nosytelă] "bearer," [st правителӑ :t pravitelă] "ruler," [st хранителӑ :t ħranytelă] "guardian" have no natural -[st арӑ :t ară] equivalents, because bearing, ruling, and guarding are not recognized trades. The genuine overlap is narrow. [w pysat] "to write" is the clearest case: [st писарӑ :t pysară] names writing as a profession or trade — scribe, clerk, one for whom writing is a livelihood — while [st писателӑ :t pysatelă] names the agent of the action more broadly — any writer or author, regardless of whether writing is their occupation. Writing straddles both worlds (a historical trade and an action anyone performs), which is precisely why both forms exist and are distinguished. Note that [st учителӑ :t učitelă] retains the inherited affricate [st ч :t č] of PS *<em>uč</em>- directly.</p>
 
-    <p>The suffix -[st ачъ :t ačă] is the Styrian continuation of the widespread Slavic active-doer suffix, comparable to -<em>ач</em> in Russian and Bulgarian, -<em>acz</em> in Polish, and -<em>ač</em> in Czech and Serbian. The Proto-Slavic form *-<em>ачь</em> ends in the affricate /tʃ/ followed by a weak jer. The affricate is retained in Styrian as [st ч :t č], and the weak jer yields the regular schwa, giving -[st ачъ :t ačă]. The suffix attaches to verb stems and forms nouns denoting a habitual or characteristic doer, often with a more dynamic connotation than either -[st аръ :t ară] or -[st телъ :t telă].</p>
+    <p>The suffix -[st ач :t ač] is the Styrian continuation of the widespread Slavic active-doer suffix, comparable to -<em>ач</em> in Russian and Bulgarian, -<em>acz</em> in Polish, and -<em>ač</em> in Czech and Serbian. The Proto-Slavic form *-<em>ачь</em> ends in the affricate /tʃ/ followed by a weak jer. The affricate is retained in Styrian as [st ч :t č], and the final weak jer is lost in absolute final position, giving -[st ач :t ač]. The suffix attaches to verb stems and forms nouns denoting a habitual or characteristic doer, often with a more dynamic connotation than either -[st арӑ :t ară] or -[st телӑ :t telă].</p>
     <tb>
       <r><c>Base</c><c>Derived noun</c><c>Meaning</c></r>
-      <r><c>[st коват :t kovat]</c><c>[st ковачъ :t kovačă]</c><c>smith, metal-worker</c></r>
-      <r><c>[st ловит :t lovyt]</c><c>[st ловачъ :t lovačă]</c><c>hunter, trapper</c></r>
-      <r><c>[st плесат :t plesat]</c><c>[st плесачъ :t plesačă]</c><c>dancer</c></r>
-      <r><c>[st бегат :t begat]</c><c>[st бегачъ :t begačă]</c><c>runner, messenger</c></r>
+      <r><c>[st коват :t kovat]</c><c>[st ковач :t kovač]</c><c>smith, metal-worker</c></r>
+      <r><c>[st ловит :t lovyt]</c><c>[st ловач :t lovač]</c><c>hunter, trapper</c></r>
+      <r><c>[st плесат :t plesat]</c><c>[st плесач :t plesač]</c><c>dancer</c></r>
+      <r><c>[st бегат :t begat]</c><c>[st бегач :t begač]</c><c>runner, messenger</c></r>
     </tb>
-    <p>Many -[st ачъ :t ačă] nouns have a slightly more energetic or colloquial feel than their -[st аръ :t ară] equivalents and are particularly common in vernacular speech and folk vocabulary.</p>
+    <p>Many -[st ач :t ač] nouns have a slightly more energetic or colloquial feel than their -[st арӑ :t ară] equivalents and are particularly common in vernacular speech and folk vocabulary.</p>
   </sec>
 
   <sec t="Articles">
@@ -295,17 +295,17 @@
         <r><c>Domain</c><c>Interrogative</c><c>Indefinite</c><c>Negative</c><c>Universal</c></r>
         <r><c>person</c><c>[w koj]</c><c>[st некой :t nekoj]</c><c>[st никой :t nykoj]</c><c>[st всекой :t vsekoj]</c></r>
         <r><c>thing</c><c>[w če]</c><c>[st нече :t neče]</c><c>[w niče]</c><c>[st всече :t vseče]</c></r>
-        <r><c>place</c><c>[w kəde]</c><c>[st некъде :t nekăde]</c><c>[st никъде :t nykăde]</c><c>[st всекъде :t vsekăde]</c></r>
+        <r><c>place</c><c>[w kəde]</c><c>[st некӑде :t nekăde]</c><c>[st никӑде :t nykăde]</c><c>[st всекӑде :t vsekăde]</c></r>
         <r><c>time</c><c>[w koga]</c><c>[st некога :t nekoha]</c><c>[w nykoha]</c><c>[st всекога :t vsekoha]</c></r>
         <r><c>manner</c><c>[st како :t kako]</c><c>[st некако :t nekako]</c><c>[st никако :t nykako]</c><c>[st всекако :t vsekako]</c></r>
       </tb>
-      <p>The inherited form [st всякъ :t vsyakă] is retained chiefly as a prenominal determiner meaning "each, every," especially before singular count nouns: [st всякъ :t vsyakă] [st денъ :t denă] "every day", [st всякъ :t vsyakă] [w čelovek] "each person". For free-standing universal reference, however, the grammar recommends the transparent [st все :t vse]-series: [st всекой :t vsekoj] "everyone", [st всече :t vseče] "everything", [st всекъде :t vsekăde] "everywhere".</p>
-      <p>Reduced colloquial variants without initial [st в :t v] are also heard in speech, especially [st секога :t sekoha] beside [st всекога :t vsekoha]. The recommended written standard nevertheless keeps the transparent [st все :t vse]- forms, while reserving [st всякъ :t vsyakă] for its inherited determiner use.</p>
+      <p>The inherited form [st всякӑ :t vsyakă] is retained chiefly as a prenominal determiner meaning "each, every," especially before singular count nouns: [st всякӑ :t vsyakă] [st денӑ :t denă] "every day", [st всякӑ :t vsyakă] [w čelovek] "each person". For free-standing universal reference, however, the grammar recommends the transparent [st все :t vse]-series: [st всекой :t vsekoj] "everyone", [st всече :t vseče] "everything", [st всекӑде :t vsekăde] "everywhere".</p>
+      <p>Reduced colloquial variants without initial [st в :t v] are also heard in speech, especially [st секога :t sekoha] beside [st всекога :t vsekoha]. The recommended written standard nevertheless keeps the transparent [st все :t vse]- forms, while reserving [st всякӑ :t vsyakă] for its inherited determiner use.</p>
       <list>
-        <item>[st всякъ :t vsyakă] [st денъ :t denă] [w az] [w pysat :i 1sg] "I write every day"</item>
+        <item>[st всякӑ :t vsyakă] [st денӑ :t denă] [w az] [w pysat :i 1sg] "I write every day"</item>
         <item>[st всекой :t vsekoj] [w ymat :i 3sg] [st нече :t neče] "everyone has something"</item>
         <item>[st никой :t nykoj] [w ne] [w vydit :i 3sg] [w niče] "nobody saw anything"</item>
-        <item>[w ony] [w byt :i 3pl] [st билі :t byli] [st всекъде :t vsekăde] "they have been everywhere"</item>
+        <item>[w ony] [w byt :i 3pl] [st билі :t byli] [st всекӑде :t vsekăde] "they have been everywhere"</item>
         <item>[w on] [st одговара :t odhovara] [st некако :t nekako] "he answers somehow"</item>
       </list>
     </sub>
@@ -353,7 +353,7 @@
       <r><c>Nominative</c><c>[w starə :i m.sg]</c><c>[w starə :i f.sg]</c><c>[w starə :i n.sg]</c><c>[w starə :i pl]</c></r>
       <r><c>Oblique</c><c>[w starə :i m.sg.obl]</c><c>[w starə :i f.sg.obl]</c><c>[w starə :i n.sg.obl]</c><c>[w starə :i pl]</c></r>
     </tb>
-    <p>The hard-stem nominative endings are -[st ъ :t ă] (m.sg), -[st а :t a] (f.sg), -[st о :t o] (n.sg), -[st и :t i] (pl). The oblique endings are -[st ом :t om] (m.sg), -[st е :t e] (f.sg), -[st ом :t om] (n.sg); the plural form serves as both nominative and oblique. Because masculine and neuter share the same oblique ending -[st ом :t om], a post-nominal adjective modifying a neuter noun in oblique position looks identical to one modifying a masculine noun in the same position; gender is recoverable from the noun itself and from the article.</p>
+    <p>The hard-stem nominative endings are -[st ӑ :t ă] (m.sg), -[st а :t a] (f.sg), -[st о :t o] (n.sg), -[st и :t i] (pl). The oblique endings are -[st ом :t om] (m.sg), -[st е :t e] (f.sg), -[st ом :t om] (n.sg); the plural form serves as both nominative and oblique. Because masculine and neuter share the same oblique ending -[st ом :t om], a post-nominal adjective modifying a neuter noun in oblique position looks identical to one modifying a masculine noun in the same position; gender is recoverable from the noun itself and from the article.</p>
     <p>Examples — nominative (subject, predicate nominal):</p>
     <list>
       <item>[w ta] [w dom] [w dobrə :i m.sg] "the good house" (m.sg nom)</item>
@@ -412,7 +412,7 @@
         <item>[w ta] [w dom] [w byt :i 3sg] [st по :t po] [w holemə :i m.sg] [w od] [w hora :i obl.sg] "the house is bigger than the mountain" (contextually odd but grammatically well-formed)</item>
         <item>[w ona] [w byt :i 3sg] [st по :t po] [w starə :i f.sg] [w od] [w ty] "she is older than you"</item>
       </list>
-      <p>A very small number of high-frequency adjectives retain suppletive comparatives: [st малъ :t mală] "small" &gt; [st манш :t manš] "smaller" (from a German-influenced form), though the analytic [st по :t po] [w malə :i m.sg] is equally acceptable.</p>
+      <p>A very small number of high-frequency adjectives retain suppletive comparatives: [st малӑ :t mală] "small" &gt; [st манш :t manš] "smaller" (from a German-influenced form), though the analytic [st по :t po] [w malə :i m.sg] is equally acceptable.</p>
     </sub>
   </sec>
 
@@ -423,11 +423,11 @@
         <r><c>1</c><c>[w edyn]</c><c>declines for gender and case; also used as indefinite article</c></r>
         <r><c>2</c><c>[w doua]</c><c>declines for gender and case</c></r>
         <r><c>3</c><c>[st три :t try]</c><c></c></r>
-        <r><c>4</c><c>[st четиръ :t četyră]</c><c>from <code>*četyre</code>; initial [st ч :t č] retained; unstressed final -е drops, word-final ъ added</c></r>
+        <r><c>4</c><c>[st четирӑ :t četyră]</c><c>from <code>*četyre</code>; initial [st ч :t č] retained; unstressed final -е drops, word-final ӑ added</c></r>
         <r><c>5</c><c>[st пет :t pet]</c><c>from <code>*pęt[st ь]</code></c></r>
         <r><c>6</c><c>[st шест :t šest]</c><c></c></r>
-        <r><c>7</c><c>[st седмъ :t sedmă]</c><c>from <code>*sedm[st ь]</code> with epenthesis</c></r>
-        <r><c>8</c><c>[st осмъ :t osmă]</c><c>from <code>*osm[st ь]</code> with epenthesis</c></r>
+        <r><c>7</c><c>[st седмӑ :t sedmă]</c><c>from <code>*sedm[st ь]</code> with epenthesis</c></r>
+        <r><c>8</c><c>[st осмӑ :t osmă]</c><c>from <code>*osm[st ь]</code> with epenthesis</c></r>
         <r><c>9</c><c>[st девет :t devet]</c><c></c></r>
         <r><c>10</c><c>[st десет :t deset]</c><c></c></r>
         <r><c>11</c><c>[st единадес :t edynades]</c><c>"one-and-ten"</c></r>
@@ -452,11 +452,11 @@
       </tb>
       <p>For 11-19, the pattern is numeral + -[st адес :t ades] (reduced form of "and ten"):</p>
       <list>
-        <item>[st единадес :t edynades], [st доуадес :t douades], [st тридес :t trydes], [st четирадесъ :t četyradesă], [st петадес :t petades], [st шестадес :t šestades], [st седмадесъ :t sedmadesă], [st осмадесъ :t osmadesă], [st деветадес :t devetades]</item>
+        <item>[st единадес :t edynades], [st доуадес :t douades], [st тридес :t trydes], [st четирадесӑ :t četyradesă], [st петадес :t petades], [st шестадес :t šestades], [st седмадесӑ :t sedmadesă], [st осмадесӑ :t osmadesă], [st деветадес :t devetades]</item>
       </list>
       <p>For tens, the full form uses -[st десет :t deset]:</p>
       <list>
-        <item>[st доуадесет :t douadeset], [st тридесет :t trydeset], [st четиредесетъ :t četyredesetă], [st петдесет :t petdeset], [st шестдесет :t šestdeset], [st седмдесетъ :t sedmdesetă], [st осмдесетъ :t osmdesetă], [st деветдесет :t devetdeset]</item>
+        <item>[st доуадесет :t douadeset], [st тридесет :t trydeset], [st четиредесетӑ :t četyredesetă], [st петдесет :t petdeset], [st шестдесет :t šestdeset], [st седмдесетӑ :t sedmdesetă], [st осмдесетӑ :t osmdesetă], [st деветдесет :t devetdeset]</item>
       </list>
     </sub>
     <sub t="Numerals and Nouns">
@@ -481,7 +481,7 @@
         <item>[w samo] "only, alone"</item>
         <item>[st много :t mnoho] / [st моге :t mohe] "much, very, a lot"</item>
         <item>[st мало :t malo] "a little, not much"</item>
-        <item>[w prostə] "simply" (same form as adjective "простъ" "simple")</item>
+        <item>[w prostə] "simply" (same form as adjective "простӑ" "simple")</item>
       </list>
       <p>New manner adverbs can be derived with the suffix -[st о :t o] added to an adjective stem:</p>
       <list>
@@ -505,7 +505,7 @@
         <item>[w uše] "still, yet"</item>
         <item>[w nykoha] "never"</item>
         <item>[st всекога :t vsekoha] / [st секога :t sekoha] "always" (standard / colloquial reduced)</item>
-        <item>[st штестъ :t štestă] "often"</item>
+        <item>[st штестӑ :t štestă] "often"</item>
         <item>[st некога :t nekoha] "sometime; sometimes"</item>
       </list>
     </sub>
@@ -514,9 +514,9 @@
         <item>[st ту :t tu] "here"</item>
         <item>[st там :t tam] "there"</item>
         <item>[w kəde] "where" (interrogative / relative)</item>
-        <item>[st некъде :t nekăde] "somewhere"</item>
-        <item>[st никъде :t nykăde] "nowhere"</item>
-        <item>[st всекъде :t vsekăde] "everywhere"</item>
+        <item>[st некӑде :t nekăde] "somewhere"</item>
+        <item>[st никӑде :t nykăde] "nowhere"</item>
+        <item>[st всекӑде :t vsekăde] "everywhere"</item>
         <item>[w tuka] "right here" (emphatic)</item>
         <item>[st назад :t nazad] "back, backward"</item>
         <item>[st напред :t napred] "forward, ahead"</item>

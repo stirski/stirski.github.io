@@ -13,7 +13,7 @@ COMPACT NOTATION
   <w ref="ydat" cap="1"/>                →  [w ydat :c]
   <w ref="sej" infl="m.sg" cap="1"/>     →  [w sej :i m.sg :c]
 
-  <st v="ъ" tr=""/>                      →  [st ъ]
+  <st v="ӑ" tr=""/>                      →  [st ӑ]
   <st v="Страски" tr="Strasky"/>         →  [st Страски :t Strasky]
   <st v="не знам" tr="ne znam"/>         →  [st не знам :t ne znam]
 
@@ -202,10 +202,10 @@ if __name__ == '__main__':
         ('[w ydat :c]',                    '<w ref="ydat" cap="1"/>'),
         ('[w sej :i m.sg :c]',             '<w ref="sej" infl="m.sg" cap="1"/>'),
         ('[w byt.neg :i 3sg]',             '<w ref="byt.neg" infl="3sg"/>'),
-        ('[st ъ]',                         '<st v="ъ" tr=""/>'),
+        ('[st ӑ]',                         '<st v="ӑ" tr=""/>'),
         ('[st Страски :t Strasky]',         '<st v="Страски" tr="Strasky"/>'),
         ('[st не знам :t ne znam]',         '<st v="не знам" tr="ne znam"/>'),
-        ('[st ъ :t ]',                     '<st v="ъ" tr=""/>'),   # empty tr after :t
+        ('[st ӑ :t ]',                     '<st v="ӑ" tr=""/>'),   # empty tr after :t
     ]
 
     ok = failed = 0

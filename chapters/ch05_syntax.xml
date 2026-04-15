@@ -193,13 +193,13 @@
       <list>
         <item><ex>[w az] [w by] [w mu] [w dat :i lptc.m] [w taf] [w knyha].</ex> "I would give him the book" — cluster [[st би му :t by mu]]</item>
         <item><ex>[w on] [w by] [w mu] [w go] [w dat :i lptc.m].</ex> "he would give it to him" — cluster [[st би му го :t by mu ho]]: conditional, DAT, ACC</item>
-        <item><ex>[w ty] [w by] [w se] [st умілъ :t umilă].</ex> "you would wash yourself" — cluster [[st би се :t by se]]: conditional, reflexive ACC</item>
+        <item><ex>[w ty] [w by] [w se] [st умілӑ :t umilă].</ex> "you would wash yourself" — cluster [[st би се :t by se]]: conditional, reflexive ACC</item>
       </list>
       <p><em>Pluperfect and clitics.</em> The pluperfect uses a double-auxiliary construction (present AUX + l-participle of [w byt] + main l-participle; see §Pluperfect). The clitic AUX from position 2 heads the cluster in the usual way; both participles follow outside the cluster:</p>
       <list>
-        <item><ex>[w az] [w byt :i 1sg] [w mu] [st билъ :t bylă] [w dat :i lptc.m] [w taf] [w knyha].</ex> "I had given him the book" — cluster [[st сем му :t sem mu]]; then [st билъ :t bylă] and main participle [w dat :i lptc.m]</item>
+        <item><ex>[w az] [w byt :i 1sg] [w mu] [st билӑ :t bylă] [w dat :i lptc.m] [w taf] [w knyha].</ex> "I had given him the book" — cluster [[st сем му :t sem mu]]; then [st билӑ :t bylă] and main participle [w dat :i lptc.m]</item>
         <item><ex>[w ony] [w byt :i 3pl] [w ym] [st билі :t byli] [w prašat :i lptc.pl] [w to] [w slovo :i obl.sg].</ex> "they had sent them the message" — cluster [[st су им :t su ym]]</item>
-        <item><ex>[st Пре :t Pre] [w dat :i 3sg] [w doit :i 3sg] [w on], [w az] [w byt :i 1sg] [w mu] [w go] [st билъ :t bylă] [w dat :i lptc.m].</ex> "Before he arrived, I had given it to him" — cluster [[st сем му го :t sem mu ho]]</item>
+        <item><ex>[st Пре :t Pre] [w dat :i 3sg] [w doit :i 3sg] [w on], [w az] [w byt :i 1sg] [w mu] [w go] [st билӑ :t bylă] [w dat :i lptc.m].</ex> "Before he arrived, I had given it to him" — cluster [[st сем му го :t sem mu ho]]</item>
       </list>
     </sub>
     <sub t="Negation and the Clitic Cluster">
@@ -219,13 +219,13 @@
         <item><ex>[w az] [w byt.neg :i 1sg] [w mu] [w dat :i lptc.m] [w taf] [w knyha].</ex> "I didn't give him the book" — cluster [[st нісем му :t nisem mu]]: neg-AUX at position 2, DAT at position 4</item>
         <item><ex>[w on] [w byt.neg :i 3sg] [w ym] [w prašat :i lptc.m] [w to] [w slovo :i obl.sg].</ex> "he did not send them the message" — cluster [[st ні им :t ni ym]]: neg-AUX then DAT</item>
         <item><ex>[w az] [w byt.neg :i 1sg] [w mu] [w go] [w dat :i lptc.m].</ex> "I didn't give it to him" — cluster [[st нісем му го :t nisem mu ho]]: neg-AUX at position 2, DAT at position 4, ACC at position 5</item>
-        <item><ex>[w on] [w byt.neg :i 3sg] [w se] [st умілъ :t umilă].</ex> "he didn't wash himself" — cluster [[st ні се :t ni se]]: neg-AUX then reflexive</item>
+        <item><ex>[w on] [w byt.neg :i 3sg] [w se] [st умілӑ :t umilă].</ex> "he didn't wash himself" — cluster [[st ні се :t ni se]]: neg-AUX then reflexive</item>
         <item><ex>[w ty] [w byt.neg :i 2sg] [w ydat :i lptc.m] [w tuka].</ex> "you didn't come here" — no object or reflexive clitics; cluster [[w byt.neg :i 2sg]] only</item>
         <item><ex>[w my] [w byt.neg :i 1pl] [w ym] [w dat :i lptc.pl] [w vas].</ex> "we didn't give you (pl.) to them" — cluster [[st нісме им :t nisme ym]]; tonic [w vas] post-participial</item>
       </list>
       <p><em>Pluperfect, negated — neg-AUX heads cluster, both participles follow:</em></p>
       <list>
-        <item><ex>[w az] [w byt.neg :i 1sg] [w mu] [st билъ :t bylă] [w dat :i lptc.m] [w taf] [w knyha].</ex> "I hadn't given him the book" — cluster [[st нісем му :t nisem mu]]; [st билъ :t bylă] and main participle [w dat :i lptc.m] follow outside the cluster</item>
+        <item><ex>[w az] [w byt.neg :i 1sg] [w mu] [st билӑ :t bylă] [w dat :i lptc.m] [w taf] [w knyha].</ex> "I hadn't given him the book" — cluster [[st нісем му :t nisem mu]]; [st билӑ :t bylă] and main participle [w dat :i lptc.m] follow outside the cluster</item>
         <item><ex>[w ony] [w byt.neg :i 3pl] [w ym] [st билі :t byli] [w prašat :i lptc.pl] [w to] [w slovo :i obl.sg].</ex> "they hadn't sent them the message" — cluster [[st нісу им :t nisu ym]]</item>
       </list>
       <p><em>Conditional, negated — не би is a tonic unit; clitics remain at 2P before it:</em></p>
@@ -233,7 +233,7 @@
       <list>
         <item><ex>[w az] [w mu] [w ne] [w by] [w dat :i lptc.m] [w taf] [w knyha].</ex> "I wouldn't give him the book" — cluster [[st му :t mu]]; tonic [st не би :t ne by] follows</item>
         <item><ex>[w on] [w mu] [w go] [w ne] [w by] [w dat :i lptc.m].</ex> "he wouldn't give it to him" — cluster [[st му го :t mu ho]]; tonic [st не би :t ne by]</item>
-        <item><ex>[w ty] [w se] [w ne] [w by] [st умілъ :t umilă].</ex> "you wouldn't wash yourself" — cluster [[st се :t se]]; tonic [st не би :t ne by]</item>
+        <item><ex>[w ty] [w se] [w ne] [w by] [st умілӑ :t umilă].</ex> "you wouldn't wash yourself" — cluster [[st се :t se]]; tonic [st не би :t ne by]</item>
         <item><ex>[w on] [w ne] [w by] [w doit :i lptc.m] [w tuka].</ex> "he wouldn't come here" — no object clitics; cluster empty; [st не би :t ne by] immediately follows subject</item>
       </list>
       <p><em>Fronted non-subject, negated — neg-AUX heads cluster at 2P, then displaced overt subject:</em></p>
@@ -343,7 +343,7 @@
     </list>
     <p>Content questions do not use the polar particle [w li] (see §Polar Questions): the interrogative itself unambiguously marks the clause as a question, and the falling–rise intonation of the open slot signals which information is being sought.</p>
     <p>Several interrogative forms also serve elsewhere in the grammar: [w kəde] and [w koga] are also used as relative adverbs, while [w zače] can function as a causal conjunction "because". As in many analytic Balkan-style systems, the same surface forms connect direct questions, subordinate clauses, and relativization.</p>
-    <p>These same interrogative stems also underlie the productive indefinite, negative, and universal series described in §Pronouns: [st некой :t nekoj] / [st никой :t nykoj] / [st всекой :t vsekoj], [st некъде :t nekăde] / [st никъде :t nykăde] / [st всекъде :t vsekăde], [st некога :t nekoha] / [st никога :t nykoha] / [st всекога :t vsekoha]. The inherited [st всякъ :t vsyakă] remains a special determiner meaning "each, every" rather than the regular free-standing universal pronoun.</p>
+    <p>These same interrogative stems also underlie the productive indefinite, negative, and universal series described in §Pronouns: [st некой :t nekoj] / [st никой :t nykoj] / [st всекой :t vsekoj], [st некӑде :t nekăde] / [st никӑде :t nykăde] / [st всекӑде :t vsekăde], [st некога :t nekoha] / [st никога :t nykoha] / [st всекога :t vsekoha]. The inherited [st всякӑ :t vsyakă] remains a special determiner meaning "each, every" rather than the regular free-standing universal pronoun.</p>
   </sec>
   <sec t="Polar Questions">
     <p>Polar questions – those inviting a yes or no answer – are formed by adding the enclitic particle [w li] to the declarative clause. Word order otherwise remains identical to a statement; [w li] is the sole formal marker of interrogative polarity, reinforced by characteristically rising sentence intonation.</p>
@@ -352,7 +352,7 @@
       <item><ex>[w on] [w byt :i 3sg] [w li] [w tuka]?</ex> "Is he here?"</item>
       <item><ex>[w ty] [w ymat :i 2sg] [w li] [w voda]?</ex> "Do you have water?"</item>
       <item><ex>[w ony] [w doit :i 3pl] [w li] [w utre]?</ex> "Are they coming tomorrow?"</item>
-      <item><ex>[w on] [w byt :i 3sg] [st ли :t ly] [st виделъ :t vydelă] [w taf] [w knyha]?</ex> "Has he seen the book?"</item>
+      <item><ex>[w on] [w byt :i 3sg] [st ли :t ly] [st виделӑ :t vydelă] [w taf] [w knyha]?</ex> "Has he seen the book?"</item>
     </list>
     <p><em>Focus-fronting construction.</em> If a constituent is contrastively focused, it moves to clause-initial position and [w li] immediately follows that focused constituent rather than the verb. The rest of the clause keeps its ordinary sequence:</p>
     <list>
@@ -371,7 +371,7 @@
     <list>
       <item><ex>[w daly :c] [w on] [w byt :i 3sg] [w tuka]?</ex> "Is he here?"</item>
       <item><ex>[w daly :c] [w ony] [w doit :i 3pl] [w utre]?</ex> "Are they coming tomorrow?"</item>
-      <item><ex>[st Дали :t Daly] [w ty] [w ymat :i 2sg] [st повештъ :t povaštă] [w voda]?</ex> "Do you have more water?"</item>
+      <item><ex>[st Дали :t Daly] [w ty] [w ymat :i 2sg] [st повештӑ :t povaštă] [w voda]?</ex> "Do you have more water?"</item>
     </list>
     <p>The [w daly] variant is preferred in indirect yes/no questions embedded under verbs of asking and wondering (see §Subordinating Conjunctions for the corresponding declarative complement patterns): <ex>[w az] [w ne] [st знам :t znam] [w daly] [w ony] [w doit :i 3pl] [w utre].</ex> "I don't know whether they are coming tomorrow."</p>
     <p>Positive answers to polar questions are expressed with [w dat :i 3sg] "yes" and negative answers with [w ne] "no". Either can be reinforced by echoing the relevant verb form: [w dat :i 3sg], [w byt :i 3sg] "yes, (he is)" or [w ne], [w byt.neg :i 3sg] "no, (he isn't)".</p>
@@ -391,7 +391,7 @@
       <item><ex>[w ta] [w čelovek] [w ky] [w pysat :i 3sg] [w knyha]</ex> "the person who is writing a book"</item>
       <item><ex>[w ta] [w dom] [w če] [w my] [w byt :i 1pl] [w kupit :i lptc.pl]</ex> "the house that we bought" ([w dom] is the antecedent and subject of the matrix; it is the implicit object inside the relative — oblique in that function, but unmarked as the head noun)</item>
       <item><ex>[w ta] [w hrad] [w kəde] [w žyvat :i 3pl] [st страски :t strasky]</ex> "the town where the Straski live"</item>
-        <item><ex>[w ta] [st денъ :t denă] [w koga] [w on] [w byt :i 3sg] [w doit :i lptc.m]</ex> "the day when he came"</item>
+        <item><ex>[w ta] [st денӑ :t denă] [w koga] [w on] [w byt :i 3sg] [w doit :i lptc.m]</ex> "the day when he came"</item>
       <item><ex>[w ta] [w čelovek] [w od] [w ky] [st име :t yme] [w az] [w ne] [st знам :t znam]</ex> "the person whose name I do not know"</item>
     </list>
     <p>In word order, a relative clause follows its head noun directly. The relativizer occupies the left edge of the clause and counts as XP₁; any clitic cluster follows it in second position. If an overt embedded subject is present, it follows the cluster. Subject relatives therefore look like <em>[head noun] + [w ky] + (cluster) + V + ...</em>, while non-subject relatives look like <em>[head noun] + [w če] + (cluster) + S + V + ...</em> with the relativized element left as a gap inside the clause.</p>
@@ -428,7 +428,7 @@
       </list>
       <p>[w ta :c] [w če] and [w taf] [w če] introduce free relatives in which the missing element is a <em>non-subject</em> — typically a direct object or a prepositional complement. The required overt subject follows the clitic cluster in the standard displaced-subject position:</p>
       <list>
-        <item><ex>[w ta] [w če] [w az] [w xotit :i 1sg] [w byt :i 3sg] [st скапъ :t skapă]</ex> "the one that I want is expensive" (missing object inside relative)</item>
+        <item><ex>[w ta] [w če] [w az] [w xotit :i 1sg] [w byt :i 3sg] [st скапӑ :t skapă]</ex> "the one that I want is expensive" (missing object inside relative)</item>
         <item><ex>[w taf] [w če] [w az] [st шуком :t šukom] [w byt :i 3sg] [st умна :t umna]</ex> "the woman whom I am looking for is clever"</item>
         <item><ex>[w ta] [w če] [w ty] [w my] [st дадеш :t dadeš] [st ке :t ke] [w byt] [st добро :t dobro]</ex> "what(ever) you give me will be fine" (the free relative as subject of main clause)</item>
         <item><ex>[w on] [w byt :i 3sg] [w ta] [w če] [w az] [st шуком :t šukom]</ex> "he is the one I was looking for"</item>
@@ -447,14 +447,14 @@
       <p><em>As direct object of the main clause:</em></p>
       <list>
         <item><ex>[w az] [st знам :t znam] [w to] [w če] [w ty] [w xotit :i 2sg]</ex> "I know what you want"</item>
-        <item><ex>[w on] [w byt :i 3sg] [st рекалъ :t rekală] [w to] [w če] [w byt :i 3sg] [st мислілъ :t myslilă]</ex> "he said what he thought"</item>
+        <item><ex>[w on] [w byt :i 3sg] [st рекалӑ :t rekală] [w to] [w če] [w byt :i 3sg] [st мислілӑ :t myslilă]</ex> "he said what he thought"</item>
         <item><ex>[w az] [w ne] [st разумем :t razumem] [w to] [w če] [w ty] [w pysat :i 2sg]</ex> "I don't understand what you are writing"</item>
       </list>
       <p><em>As complement of a preposition:</em></p>
       <list>
-        <item><ex>[w az] [st мислем :t myslem] [w za] [w to] [w če] [w on] [w byt :i 3sg] [st рекалъ :t rekală]</ex> "I am thinking about what he said"</item>
+        <item><ex>[w az] [st мислем :t myslem] [w za] [w to] [w če] [w on] [w byt :i 3sg] [st рекалӑ :t rekală]</ex> "I am thinking about what he said"</item>
         <item><ex>[w my] [w byt :i 1pl] [st доволні :t dovolni] [w so] [w to] [w če] [w ymat :i 1pl]</ex> "we are content with what we have"</item>
-        <item><ex>[w on] [st плаже :t plaže] [w za] [w to] [w če] [w byt :i 3sg] [st изгубілъ :t yzhubilă]</ex> "he is paying for what he lost"</item>
+        <item><ex>[w on] [st плаже :t plaže] [w za] [w to] [w če] [w byt :i 3sg] [st изгубілӑ :t yzhubilă]</ex> "he is paying for what he lost"</item>
       </list>
       <p><em>In predicate-nominal (pseudo-cleft) constructions:</em></p>
       <list>
@@ -464,7 +464,7 @@
       <p>In all these uses the internal clause follows the 2P rule with [w to] [w če] as the frame, the relativizer [w če] counting as XP₁: any clitics follow [w če] in second position, and the overt subject of the embedded clause is displaced after the cluster in the usual fashion.</p>
       <p><em>Clitic order inside то че clauses (compound tense example):</em></p>
       <list>
-        <item><ex>[w to] [w če] [w byt :i 3sg] [w ty] [w on] [st рекалъ :t rekală]</ex> "what he said to you" — [w če] as XP₁; cluster [[st е ти :t e ty]]; displaced subject [w on]</item>
+        <item><ex>[w to] [w če] [w byt :i 3sg] [w ty] [w on] [st рекалӑ :t rekală]</ex> "what he said to you" — [w če] as XP₁; cluster [[st е ти :t e ty]]; displaced subject [w on]</item>
         <item><ex>[w to] [w če] [w mu] [w go] [w az] [w dat :i 1sg]</ex> "what I give him" — cluster [[st му го :t mu ho]]; displaced subject [w az]</item>
       </list>
       <p>[w to :c] [w če] is not available when the embedded clause identifies a specific person or concrete gendered referent: for those contexts the masculine and feminine forms [w ta] / [w taf] + [w ky] or [w če] are used instead. The neuter construction strictly signals propositional or abstract content.</p>
@@ -483,7 +483,7 @@
     <sub t="Free Relatives as Subjects, Objects, and Prepositional Complements">
       <p>In all its forms the article–relativizer construction occupies any nominal slot in the main clause. When it is the subject or predicate nominal the article takes its nominative form; when it is a direct object or prepositional complement the article takes its oblique form. A governing preposition simply precedes the whole unit and the relativizer's complement clause follows:</p>
       <list>
-        <item><em>Subject (nom):</em> <ex>[w ta] [w ky] [st рано :t rano] [w doit] [st ке :t ke] [st наіде :t naide] [w dom] [st отворенъ :t otvorenă]</ex> "the one who comes early will find the house open"</item>
+        <item><em>Subject (nom):</em> <ex>[w ta] [w ky] [st рано :t rano] [w doit] [st ке :t ke] [st наіде :t naide] [w dom] [st отворенӑ :t otvorenă]</ex> "the one who comes early will find the house open"</item>
         <item><em>Direct object (obl):</em> <ex>[w az] [w vydit :i 1sg] [w ta :i m.sg.obl] [w ky] [w byt :i 3sg] [w ydat :i lptc.m] [st напред :t napred]</ex> "I see the one who went ahead"</item>
         <item><em>Prepositional complement (obl):</em> <ex>[w az] [st говором :t hovorem] [w do] [w ta :i m.sg.obl] [w ky] [w byt :i 3sg] [w tuka]</ex> "I speak to the one who is here"</item>
         <item><em>Prepositional complement, neuter (obl):</em> <ex>[w az] [w byt :i 1sg] [st горд :t hord] [w od] [w to :i n.sg.obl] [w če] [w byt :i 1pl] [w napravit :i lptc.pl]</ex> "I am proud of what we have done"</item>
@@ -563,7 +563,7 @@
       <p>An alternative purpose strategy uses the preposition [w za] followed directly by the infinitive. This construction expresses goal or purpose with the same subject, and is areally motivated by contact with German <em>um zu</em> + infinitive. It competes freely with the [w dat :i 3sg] + present purpose clause, particularly in same-subject contexts:</p>
       <list>
         <item><ex>[w az] [w ydat :i 1sg] [w za] [w kupat] [st хлеба :t xleba]</ex> "I go to buy bread" (lit. "for-to-buy bread")</item>
-        <item><ex>[w on] [st вставалъ :t vstavală] [st рано :t rano] [w za] [w vydit] [w ta] [st сонце :t sonce]</ex> "he got up early in order to see the sun"</item>
+        <item><ex>[w on] [st вставалӑ :t vstavală] [st рано :t rano] [w za] [w vydit] [w ta] [st сонце :t sonce]</ex> "he got up early in order to see the sun"</item>
         <item><ex>[w my] [w byt :i 1pl] [w tuka] [w za] [w delat]</ex> "we are here to work"</item>
         <item><ex>[w az] [w ymat :i 1sg] [w uše] [st многом :t mnohom] [w za] [w rekat]</ex> "I still have many things to say"</item>
         <item><ex>[w ona] [w doit :i lptc.f] [w za] [w čitat] [w taf :i f.sg.obl] [w knyha :i obl.sg]</ex> "she came to read the book"</item>
@@ -574,9 +574,9 @@
     <p>Other examples of subordination:</p>
     <list>
       <item><ex>[w az] [st знам :t znam] [w dak] [w on] [w byt :i 3sg] [w tuka]</ex> "I know that he is here"</item>
-      <item><ex>[w ony] [w doit :i 3pl] [w koga] [w byt :i 3sg] [st готовъ :t hotovă]</ex> "they will come when it is ready"</item>
+      <item><ex>[w ony] [w doit :i 3pl] [w koga] [w byt :i 3sg] [st готовӑ :t hotovă]</ex> "they will come when it is ready"</item>
       <item><ex>[w my] [w ne] [w možit :i 1pl] [w doit] [w zače] [w nema] [w voda]</ex> "we can't come because there is no water"</item>
-      <item><ex><em>[w on] [st пише :t pyše] [st хот :t ħot] [w byt :i 3sg] [st боланъ :t bolană]</em></ex> "he writes although sick"</item>
+      <item><ex><em>[w on] [st пише :t pyše] [st хот :t ħot] [w byt :i 3sg] [st боланӑ :t bolană]</em></ex> "he writes although sick"</item>
     </list>
   </sec>
   <sec t="Conditional Sentences">
@@ -587,16 +587,16 @@
     </list>
     <p>Hypothetical or counterfactual conditionals use [w ako] + past tense in the condition clause and [w by] + the appropriate singular or plural l-participle in the consequence clause:</p>
     <list>
-      <item><ex>[w ako :c] [w ty] [w byt :i 2sg] [w doit :i lptc.m] [st пред :t pred], [w az] [w by] [st моглъ :t mohlă] [w dat] [w ty] [w taf] [w knyha].</ex> "If you had come earlier, I could have given you the book."</item>
-      <item><ex>[w ako :c] [w my] [w ymat :i lptc.pl] [st повештъ :t povaštă] [w voda], [w my] [w by] [st осталі :t ostali] [w ve] [w hora].</ex> "If we had more water, we would have stayed in the mountains."</item>
+      <item><ex>[w ako :c] [w ty] [w byt :i 2sg] [w doit :i lptc.m] [st пред :t pred], [w az] [w by] [st моглӑ :t mohlă] [w dat] [w ty] [w taf] [w knyha].</ex> "If you had come earlier, I could have given you the book."</item>
+      <item><ex>[w ako :c] [w my] [w ymat :i lptc.pl] [st повештӑ :t povaštă] [w voda], [w my] [w by] [st осталі :t ostali] [w ve] [w hora].</ex> "If we had more water, we would have stayed in the mountains."</item>
     </list>
   </sec>
   <sec t="Topic–Comment Structure">
     <p>With its uninflected adjective system, Styrian lends itself naturally to topic-comment structuring, but present-tense nominal and adjectival predicates still retain an overt copula:</p>
     <list>
-      <item><ex><em>[w ta :c] [st говоръ :t hovoră] [st стирски :t styrsky] [w byt :i 3sg] [st простъ :t prostă] [st по :t po] [st форма :t forma], [st богат :t bohat] [st по :t po] [w slovo].</em></ex> "Styrian speech is simple in form, rich in vocabulary." (topic-comment reading with overt copula)</item>
+      <item><ex><em>[w ta :c] [st говорӑ :t hovoră] [st стирски :t styrsky] [w byt :i 3sg] [st простӑ :t prostă] [st по :t po] [st форма :t forma], [st богат :t bohat] [st по :t po] [w slovo].</em></ex> "Styrian speech is simple in form, rich in vocabulary." (topic-comment reading with overt copula)</item>
       <item><ex><em>[st Сей :t Sej] [w čelovek] [w byt :i 3sg] [w lekar].</em></ex> "That person is a doctor." (identifying sentence with overt copula)</item>
-      <item><ex><em>[w hora :c] [w byt :i 3sg] [w holemə], [w reka] [w byt :i 3sg] [st простъ :t prostă].</em></ex> "The mountain is big, the river is plain." (parallel topic-comment with overt copula)</item>
+      <item><ex><em>[w hora :c] [w byt :i 3sg] [w holemə], [w reka] [w byt :i 3sg] [st простӑ :t prostă].</em></ex> "The mountain is big, the river is plain." (parallel topic-comment with overt copula)</item>
     </list>
   </sec>
   <sec t="Discourse Particles">

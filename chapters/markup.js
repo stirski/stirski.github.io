@@ -12,7 +12,7 @@
  *   [w ydat :c]             →  <w ref="ydat" cap="1"/>
  *   [w sej :i m.sg :c]      →  <w ref="sej" infl="m.sg" cap="1"/>
  *
- *   [st ъ]                  →  <st v="ъ" tr=""/>
+ *   [st ӑ]                  →  <st v="ӑ" tr=""/>
  *   [st Страски :t Strasky] →  <st v="Страски" tr="Strasky"/>
  *   [st не знам :t ne znam] →  <st v="не знам" tr="ne znam"/>
  */
@@ -64,7 +64,7 @@
       ['[w ydat :c]',               '<w ref="ydat" cap="1"/>'],
       ['[w sej :i m.sg :c]',        '<w ref="sej" infl="m.sg" cap="1"/>'],
       ['[w byt.neg :i 3sg]',        '<w ref="byt.neg" infl="3sg"/>'],
-      ['[st ъ]',                    '<st v="ъ" tr=""/>'],
+      ['[st ӑ]',                    '<st v="ӑ" tr=""/>'],
       ['[st Страски :t Strasky]',   '<st v="Страски" tr="Strasky"/>'],
       ['[st не знам :t ne znam]',   '<st v="не знам" tr="ne znam"/>'],
     ];

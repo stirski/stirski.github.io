@@ -45,20 +45,20 @@
     <r><c>[w ruka]</c><c>hand</c><c><code>*rǫka</code></c><c>noun; fossilized front-vowel velar mutation in oblique/plural forms</c></r>
     <r><c>[w les]</c><c>forest, wood</c><c><code>*lěsъ</code></c><c>noun</c></r>
     <r><c>[w sneh]</c><c>snow</c><c><code>*sněgъ</code></c><c>noun; fossilized front-vowel velar mutation in plural [w sneh :i pl]</c></r>
-    <r><c>[st снегъ :t snehă]</c><c>snow</c><c><code>*sněgъ</code></c><c>noun</c></r>
-    <r><c>[st денъ :t denă]</c><c>day</c><c>—</c><c>noun; irregular pl. [w den :i pl]</c></r>
-    <r><c>[st ноштъ :t noštă]</c><c>night</c><c>PSl <code>*noktь</code></c><c>noun; via <code>*noxtь</code> (independently of Bulgarian/OCS)</c></r>
+    <r><c>[st снегӑ :t snehă]</c><c>snow</c><c><code>*sněgъ</code></c><c>noun</c></r>
+    <r><c>[st денӑ :t denă]</c><c>day</c><c>—</c><c>noun; irregular pl. [w den :i pl]</c></r>
+    <r><c>[st ноштӑ :t noštă]</c><c>night</c><c>PSl <code>*noktь</code></c><c>noun; via <code>*noxtь</code> (independently of Bulgarian/OCS)</c></r>
     <r><c>[w grob]</c><c>tomb, grave</c><c>—</c><c>noun</c></r>
     <r><c>[w godina]</c><c>year</c><c>—</c><c>noun</c></r>
     <r><c>[w voda]</c><c>water</c><c>—</c><c>noun</c></r>
     <r><c>[w vyno]</c><c>wine</c><c>—</c><c>noun</c></r>
     <r><c>[st оуца :t ouca]</c><c>sheep</c><c><code>*ovьca</code></c><c>noun; affricate [st ц :t c] retained, preconsonantal [st в :t v] vocalizes to [st у :t u]</c></r>
-    <r><c>[st оусъ :t ousă]</c><c>oats</c><c><code>*ovьsъ</code></c><c>noun; vocalization of preconsonantal [st в :t v]</c></r>
+    <r><c>[st оусӑ :t ousă]</c><c>oats</c><c><code>*ovьsъ</code></c><c>noun; vocalization of preconsonantal [st в :t v]</c></r>
     <r><c>[w xleb]</c><c>bread</c><c>—</c><c>noun</c></r>
     <r><c>[w kram]</c><c>shop, market</c><c>loanword</c><c>noun</c></r>
     <r><c>[w rob]</c><c>garment, clothing</c><c>—</c><c>noun; often used in the plural for "clothes"</c></r>
     <r><c>[w žena]</c><c>woman, wife</c><c>—</c><c>noun</c></r>
-    <r><c>[st мужъ :t mužă]</c><c>man, husband</c><c>—</c><c>noun</c></r>
+    <r><c>[st мужӑ :t mužă]</c><c>man, husband</c><c>—</c><c>noun</c></r>
     <r><c>[w dete]</c><c>child</c><c>—</c><c>noun; irregular pl. [w dete :i pl]</c></r>
     <r><c>[w most]</c><c>bridge</c><c>—</c><c>noun</c></r>
     <r><c>[w pat]</c><c>road, path, time (occasion)</c><c>—</c><c>noun</c></r>
@@ -75,10 +75,10 @@
     <r><c>[w malə]</c><c>small</c><c>—</c><c>adjective</c></r>
     <r><c>[w berzə]</c><c>fast, quick</c><c>—</c><c>adjective; vowel retained before liquid to avoid syllabic [st р :t r]</c></r>
     <r><c>[w bohatə]</c><c>rich</c><c>—</c><c>adjective</c></r>
-    <r><c>[st боланъ :t bolană]</c><c>sick, ill</c><c>—</c><c>adjective</c></r>
+    <r><c>[st боланӑ :t bolană]</c><c>sick, ill</c><c>—</c><c>adjective</c></r>
     <r><c>[w belə]</c><c>white</c><c><code>*běly</code></c><c>adjective</c></r>
-    <r><c>[st чернъ :t černă]</c><c>black</c><c>PSl <code>*čьrnъ</code></c><c>adjective; strong ь → е; [st ч :t č] retained, [st е :t e] kept before liquid</c></r>
-    <r><c>[st студенъ :t studenă]</c><c>cold</c><c>—</c><c>adjective</c></r>
+    <r><c>[st чернӑ :t černă]</c><c>black</c><c>PSl <code>*čьrnъ</code></c><c>adjective; strong ь → е; [st ч :t č] retained, [st е :t e] kept before liquid</c></r>
+    <r><c>[st студенӑ :t studenă]</c><c>cold</c><c>—</c><c>adjective</c></r>
     <r><c>[w topalə]</c><c>warm</c><c>—</c><c>adjective</c></r>
     <r><c>[w styrsky]</c><c>Styrian</c><c>—</c><c>adjective / language name modifier</c></r>
     <r><c>[w pysat]</c><c>to write</c><c>—</c><c>a-class impf.</c></r>
@@ -117,8 +117,8 @@
     <r><c>[w vyhnat]</c><c>to drive out, expel, chase away</c><c><code>*vygъnati</code></c><c>pf.; ви- prefix; suppletive present from <code>*goniti</code>: [w vyhnat :i 1sg]/[w vyhnat :i 2sg]/[w vyhnat :i 3sg]; l-part. [w vyhnat :i lptc.m]; cf. Czech <em>vyhnat</em></c></r>
     <r><c>[w yzxodit]</c><c>to come out, emerge (from a space)</c><c>—</c><c>i-class impf.; из- prefix; directional (physical emergence); cf. [w vyxodit] which has broader figurative range</c></r>
     <r><c>[w lekar]</c><c>doctor</c><c>—</c><c>noun</c></r>
-    <r><c>[st ритаръ :t rytară]</c><c>knight, warrior</c><c>German</c><c>noun</c></r>
-    <r><c>[st шлосъ :t šlosă]</c><c>castle, palace</c><c>German</c><c>noun</c></r>
+    <r><c>[st ритарӑ :t rytară]</c><c>knight, warrior</c><c>German</c><c>noun</c></r>
+    <r><c>[st шлосӑ :t šlosă]</c><c>castle, palace</c><c>German</c><c>noun</c></r>
     <r><c>[st мези :t mezy]</c><c>between</c><c>—</c><c>preposition</c></r>
     <r><c>[w koga]</c><c>when</c><c>—</c><c>adverb / conjunction; temporal interrogative and relative</c></r>
     <r><c>[w tuka]</c><c>here</c><c>—</c><c>adverb</c></r>
