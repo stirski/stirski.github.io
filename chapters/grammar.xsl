@@ -37,7 +37,7 @@
       ]]></script>
       <link rel="preconnect" href="https://fonts.googleapis.com"/>
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&amp;display=swap"/>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;display=swap"/>
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"/>
       <style type="text/css"><![CDATA[
         :root {
@@ -108,9 +108,9 @@
           --tooltip-muted: rgba(255, 255, 255, 0.68);
           --danger-surface: #6f2418;
           --danger-text: rgba(255, 234, 230, 0.95);
-          --font-body: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-          --font-display: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-          --font-ui: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+          --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+          --font-display: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+          --font-ui: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
           --font-mono: "SFMono-Regular", "Cascadia Mono", Consolas, monospace;
           --page-max: 64rem;
           --crumb-max: 54rem;
@@ -118,6 +118,10 @@
           --measure: min(44rem, var(--content-max));
           --margin-col: 13.5rem;
           --layout-gap: 2rem;
+          --section-space: clamp(2.8rem, 5vw, 4rem);
+          --subsection-space: clamp(1.8rem, 3vw, 2.5rem);
+          --section-heading-gap: clamp(1.25rem, 2vw, 1.55rem);
+          --subsection-heading-gap: 0.9rem;
         }
 
         html[data-theme='dark'] {
@@ -192,7 +196,7 @@
 
 
         html {
-          font-size: 15px;
+          font-size: 14.5px;
           scroll-behavior: smooth;
         }
 
@@ -207,7 +211,7 @@
           -webkit-font-smoothing: antialiased;
           font-kerning: normal;
           font-variant-numeric: lining-nums proportional-nums;
-          letter-spacing: -0.01em;
+          letter-spacing: -0.012em;
         }
 
         a {
@@ -224,11 +228,12 @@
           width: min(calc(100vw - 2.5rem), var(--page-max));
           margin: 0 auto;
           padding: clamp(1.6rem, 4vw, 2.5rem) 0 4rem;
+          position: relative;
+          z-index: 1;
         }
 
         .masthead {
           padding: 0 0 1.15rem;
-          border-bottom: 1px solid var(--rule);
           margin-bottom: 1.75rem;
         }
 
@@ -253,23 +258,23 @@
           margin: 0;
           font-family: var(--font-display);
           font-weight: 600;
-          line-height: 1;
+          line-height: 0.98;
           color: var(--accent);
           text-wrap: balance;
         }
 
         h1 {
-          max-width: 12ch;
-          font-size: clamp(1.85rem, 3.2vw, 2.65rem);
-          letter-spacing: -0.025em;
+          margin-bottom: 2.25rem;
+          letter-spacing: -0.032em;
         }
 
         .deck {
           max-width: 30rem;
           margin: 0.85rem 0 0;
           color: var(--muted);
-          font-size: 1.08rem;
-          line-height: 1.55;
+          font-size: 1.02rem;
+          line-height: 1.58;
+          letter-spacing: -0.01em;
         }
 
         .navline {
@@ -285,6 +290,7 @@
           letter-spacing: 0.04em;
           text-transform: uppercase;
         }
+
 
         .layout {
           display: block;
@@ -306,8 +312,9 @@
         .prose {
           hanging-punctuation: first last;
           hyphens: auto;
-          font-size: 1.12rem;
-          line-height: 1.64;
+          font-size: clamp(1.01rem, 0.98rem + 0.16vw, 1.06rem);
+          line-height: 1.68;
+          letter-spacing: -0.011em;
         }
 
         .chapter-layout .prose {
@@ -340,12 +347,21 @@
           margin: 0.4rem 0;
         }
 
-        .prose section {
-          margin-top: 2.3rem;
+        .prose > section {
+          margin-top: var(--section-space);
         }
 
         .prose .subsection {
-          margin-top: 1.4rem;
+          margin-top: var(--subsection-space);
+        }
+
+        .prose > section:first-of-type {
+          margin-top: clamp(2.3rem, 4vw, 3.1rem);
+        }
+
+        .prose > section > :last-child,
+        .prose .subsection > :last-child {
+          margin-bottom: 0;
         }
 
         .prose section[id],
@@ -355,20 +371,20 @@
 
         .prose h2 {
           max-width: var(--measure);
-          margin: 0 0 1rem;
-          padding-top: 1.4rem;
+          margin: 0 0 1.15rem;
+          padding-top: var(--section-heading-gap);
           border-top: 1px solid var(--rule);
-          font-size: clamp(1.5rem, 2.5vw, 1.95rem);
           font-weight: 600;
-          letter-spacing: -0.03em;
+          letter-spacing: -0.028em;
         }
 
         .prose h3 {
           max-width: var(--measure);
-          margin: 0 0 0.72rem;
-          font-size: clamp(1.2rem, 2vw, 1.5rem);
+          margin: 0 0 var(--subsection-heading-gap);
           font-weight: 600;
-          letter-spacing: -0.025em;
+          font-size: clamp(1.18rem, 1.12rem + 0.14vw, 1.24rem);
+          letter-spacing: -0.02em;
+          color: var(--muted);
         }
 
         .section-number {
@@ -376,9 +392,12 @@
           margin-right: 0.55rem;
           color: var(--muted);
           font-family: var(--font-display);
-          font-size: 0.68em;
           font-weight: 500;
           letter-spacing: 0.06em;
+        }
+
+        h3 > .section-number {
+          color: var(--accent);
         }
 
         .contents {
@@ -825,43 +844,49 @@
           display: none;
         }
 
-        .chapter-list {
+        .chapter-index {
           margin: 0;
           padding: 0;
           list-style: none;
-          columns: 2 18rem;
-          column-gap: 2.5rem;
         }
 
-        .chapter-list li {
-          break-inside: avoid;
-          margin: 0 0 1rem;
-          padding: 0 0 1rem;
+        .chapter-index-link {
+          display: flex;
+          align-items: baseline;
+          gap: 1.25rem;
+          padding: 0.85rem 0;
           border-bottom: 1px solid var(--rule);
-        }
-
-        .chapter-list a {
           text-decoration: none;
+          color: inherit;
         }
 
-        .chapter-list .chapter-no {
-          display: block;
-          margin-bottom: 0.22rem;
+        .chapter-index-no {
+          flex: 0 0 4rem;
           color: var(--muted);
-          font-family: var(--font-display);
-          font-size: 0.68rem;
-          font-weight: 500;
+          font-size: 0.72rem;
+          font-weight: 600;
           letter-spacing: 0.08em;
           text-transform: uppercase;
         }
 
-        .chapter-list .chapter-title {
-          display: block;
-          font-family: var(--font-display);
-          font-size: 1.15rem;
-          font-weight: 600;
-          line-height: 1.18;
-          letter-spacing: -0.02em;
+        .chapter-index-title {
+          color: var(--accent);
+          font-size: 1rem;
+          font-weight: 500;
+          letter-spacing: -0.01em;
+          text-decoration: underline;
+          text-decoration-color: transparent;
+          text-underline-offset: 0.16em;
+          transition: text-decoration-color 120ms ease;
+        }
+
+        .chapter-index-link:hover .chapter-index-title,
+        .chapter-index-link:focus-visible .chapter-index-title {
+          text-decoration-color: rgba(var(--signal-rgb), 0.55);
+        }
+
+        .index-download {
+          border-bottom: 1px solid var(--rule);
         }
 
         .table-wrap {
@@ -1023,10 +1048,6 @@
             order: -1;
           }
 
-          .chapter-list {
-            columns: 1;
-          }
-
           .contents {
             padding: 1rem;
           }
@@ -1062,13 +1083,20 @@
           }
 
           .prose {
-            font-size: 1.04rem;
-            line-height: 1.62;
+            font-size: 0.99rem;
+            line-height: 1.66;
+          }
+
+          :root {
+            --section-space: 2.45rem;
+            --subsection-space: 1.75rem;
+            --section-heading-gap: 1.5rem;
           }
 
           .navline {
             gap: 0.55rem 1rem;
           }
+
 
           .navline-theme-toggle {
             margin-left: 0;
@@ -1127,27 +1155,43 @@
         }
 
         .dl-btn {
-          display: inline-flex;
-          align-items: center;
-          gap: 0.45rem;
-          margin-top: 1.4rem;
-          padding: 0.55rem 1.1rem;
-          background: transparent;
-          color: var(--ink);
-          border: 1px solid var(--rule);
-          border-radius: 0.3rem;
+          display: flex;
+          align-items: baseline;
+          gap: 1.25rem;
+          width: 100%;
+          padding: 0.85rem 0;
+          background: none;
+          border: none;
+          color: inherit;
           font-family: var(--font-ui);
-          font-size: 0.72rem;
-          font-weight: 500;
-          letter-spacing: 0.07em;
-          text-transform: uppercase;
           cursor: pointer;
-          transition: border-color 120ms ease, color 120ms ease;
+          text-align: left;
         }
 
-        .dl-btn:hover {
-          border-color: var(--ink);
-          color: var(--ink);
+        .dl-btn::before {
+          content: "↓";
+          flex: 0 0 4rem;
+          color: var(--muted);
+          font-size: 0.72rem;
+          font-weight: 600;
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
+        }
+
+        .dl-btn-label {
+          color: var(--accent);
+          font-size: 1rem;
+          font-weight: 500;
+          letter-spacing: -0.01em;
+          text-decoration: underline;
+          text-decoration-color: transparent;
+          text-underline-offset: 0.16em;
+          transition: text-decoration-color 120ms ease;
+        }
+
+        .dl-btn:hover .dl-btn-label,
+        .dl-btn:focus-visible .dl-btn-label {
+          text-decoration-color: rgba(var(--signal-rgb), 0.55);
         }
 
         .dl-btn:disabled {
@@ -1156,8 +1200,7 @@
         }
 
         .dl-btn .bi {
-          font-size: 0.95rem;
-          line-height: 1;
+          display: none;
         }
 
         .back-to-top {
@@ -1713,24 +1756,28 @@
       <body>
         <div class="page" id="top">
           <header class="masthead">
-            <p class="eyebrow"><xsl:value-of select="@language"/></p>
-            <h1><xsl:value-of select="@t"/></h1>
-            <div class="navline">
-              <button class="theme-toggle navline-theme-toggle" type="button" data-theme-toggle="full" data-theme-label-prefix="Theme">
-                <i class="bi bi-circle-half" data-theme-icon="true" aria-hidden="true"></i>
-                <span class="theme-toggle-label" data-theme-label="true">Theme: Auto</span>
-              </button>
+            <div class="chapter-masthead-body">
+              <p class="eyebrow"><xsl:value-of select="@language"/></p>
+              <h1><xsl:value-of select="@t"/></h1>
+              <div class="navline">
+                <button class="theme-toggle navline-theme-toggle" type="button" data-theme-toggle="full" data-theme-label-prefix="Theme">
+                  <i class="bi bi-circle-half" data-theme-icon="true" aria-hidden="true"></i>
+                  <span class="theme-toggle-label" data-theme-label="true">Theme: Auto</span>
+                </button>
+              </div>
             </div>
           </header>
 
-          <main class="layout">
-            <div class="main prose">
-              <ol class="chapter-list">
+          <main class="layout chapter-layout">
+            <div class="main">
+              <ol class="chapter-index">
                 <xsl:apply-templates select="ch" mode="contents-card"/>
               </ol>
-              <button class="dl-btn" id="dl-all" type="button">
-                <i class="bi bi-download" aria-hidden="true"></i> Download full grammar
-              </button>
+              <section class="index-download" aria-label="Download">
+                <button class="dl-btn" id="dl-all" type="button">
+                  <span class="dl-btn-label">Download full grammar</span>
+                </button>
+              </section>
             </div>
           </main>
         </div>
@@ -1853,9 +1900,9 @@
 
   <xsl:template match="ch" mode="contents-card">
     <li>
-      <a href="{@file}">
-        <span class="chapter-no">Chapter <xsl:value-of select="@id"/></span>
-        <span class="chapter-title"><xsl:value-of select="@t"/></span>
+      <a class="chapter-index-link" href="{@file}">
+        <span class="chapter-index-no">Ch. <xsl:value-of select="@id"/></span>
+        <span class="chapter-index-title"><xsl:value-of select="@t"/></span>
       </a>
     </li>
   </xsl:template>

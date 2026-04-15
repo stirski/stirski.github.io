@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="grammar.xsl"?>
-<grammar language="Styrian" t="Styrian: A Diachronic Grammar Sketch">
+<grammar t="A Grammar of Styrian">
   <ch id="01" t="Background and Historical Development" file="ch01_background_and_historical_development.xml"/>
   <ch id="02" t="Orthography and Sound System" file="ch02_orthography_and_sound_system.xml"/>
   <ch id="03" t="Nominals and Modifiers" file="ch03_nominals_and_modifiers.xml"/>
