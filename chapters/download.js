@@ -112,7 +112,7 @@
     var lexiconUrl = new URL('lexicon.xml', document.baseURI || window.location.href).href;
     var lexiconXmlP = fetch('lexicon.xml').then(function (r) { return r.text(); });
     var mappingP = transliteration
-      ? transliteration.loadMappings('../cyrillic_mapping.json')
+      ? transliteration.loadMappings('cyrillic_mapping.json')
       : Promise.resolve(null);
     var chPs = chapters.map(function (ch) {
       return fetch(ch.file).then(function (r) { return r.text(); });

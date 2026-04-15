@@ -1,5 +1,5 @@
 (function (global) {
-  var DEFAULT_MAPPING_PATH = '../cyrillic_mapping.json';
+  var DEFAULT_MAPPING_PATH = 'cyrillic_mapping.json';
   var cachedPath = null;
   var cachedPromise = null;
 
