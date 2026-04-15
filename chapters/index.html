@@ -292,23 +292,112 @@
       }
     }
 
-    // ── Chapter link interception ────────────────────────────────────────
-    // After XSLT renders the index, rewrite chapter hrefs to viewer routing
+    // ── Nav link rewriting ───────────────────────────────────────────────
+    // After XSLT renders any page, rewrite all XML hrefs to viewer routing
     // so the XSL never needs touching.
+    //   ch*.xml          → index.html?ch=ch*.xml
+    //   index.xml        → index.html
 
-    function rewriteChapterLinks(root) {
+    function rewriteNavLinks(root) {
       var links = root.querySelectorAll('a[href]');
       for (var i = 0; i < links.length; i++) {
         var href = links[i].getAttribute('href');
-        if (href && /^ch\d+.*\.xml$/.test(href)) {
+        if (!href) continue;
+        if (/^ch\d+.*\.xml$/.test(href)) {
           links[i].setAttribute('href', 'index.html?ch=' + href);
+        }
+      }
+    }
+
+    // ── Chapter nav injection ────────────────────────────────────────────
+    // XSLTProcessor blocks document() calls, so the XSL template for <ch>
+    // cannot resolve prev/next entries or the full chapter list from
+    // index.xml.  We fetch index.xml ourselves and inject all three pieces
+    // of missing navigation into the already-rendered HTML:
+    //   • navline prev / next links
+    //   • scroll-crumb prev / next arrow buttons
+    //   • scroll-crumb chapter-browser dropdown list
+
+    function injectChapterNav(content, indexDoc) {
+      var entries = Array.prototype.slice.call(
+        indexDoc.querySelectorAll('grammar > ch')
+      );
+      if (!entries.length) return;
+
+      // Find the current chapter's position in the list.
+      var idx = -1;
+      for (var i = 0; i < entries.length; i++) {
+        if (entries[i].getAttribute('file') === chFile) { idx = i; break; }
+      }
+      if (idx === -1) return;
+
+      var prevEntry = idx > 0 ? entries[idx - 1] : null;
+      var nextEntry = idx < entries.length - 1 ? entries[idx + 1] : null;
+
+      // ── 1. Navline prev / next links ───────────────────────────────────
+      var navline = content.querySelector('.navline');
+      if (navline) {
+        var themeBtn = navline.querySelector('.navline-theme-toggle');
+        function makeNavLink(entry, label) {
+          var a = document.createElement('a');
+          a.href = 'index.html?ch=' + entry.getAttribute('file');
+          a.textContent = label + ': ' + entry.getAttribute('t');
+          return a;
+        }
+        if (prevEntry) navline.insertBefore(makeNavLink(prevEntry, 'Previous'), themeBtn);
+        if (nextEntry) navline.insertBefore(makeNavLink(nextEntry, 'Next'), themeBtn);
+      }
+
+      // ── 2. Scroll-crumb prev / next arrow buttons ──────────────────────
+      var crumbInner = content.querySelector('.scroll-crumb-inner');
+      if (crumbInner) {
+        var crumbTheme = crumbInner.querySelector('.scroll-crumb-theme-toggle');
+        function makeCrumbArrow(entry, dir) {
+          var a = document.createElement('a');
+          a.className = 'scroll-crumb-item scroll-crumb-chapter-link';
+          a.href = 'index.html?ch=' + entry.getAttribute('file');
+          var label = (dir === 'prev' ? 'Previous' : 'Next') +
+                      ' chapter: ' + entry.getAttribute('t');
+          a.setAttribute('aria-label', label);
+          a.setAttribute('title', label);
+          var icon = document.createElement('i');
+          icon.className = 'bi bi-chevron-' + (dir === 'prev' ? 'left' : 'right');
+          icon.setAttribute('aria-hidden', 'true');
+          a.appendChild(icon);
+          return a;
+        }
+        if (prevEntry) crumbInner.insertBefore(makeCrumbArrow(prevEntry, 'prev'), crumbTheme);
+        if (nextEntry) crumbInner.insertBefore(makeCrumbArrow(nextEntry, 'next'), crumbTheme);
+      }
+
+      // ── 3. Chapter-browser dropdown (full chapter list) ────────────────
+      var chapterMenu = content.querySelector('#scroll-crumb-chapter-menu .contents');
+      if (chapterMenu) {
+        var currentId = entries[idx].getAttribute('id');
+        for (var j = 0; j < entries.length; j++) {
+          var e     = entries[j];
+          var li    = document.createElement('li');
+          var a     = document.createElement('a');
+          a.href    = 'index.html?ch=' + e.getAttribute('file');
+          a.className = 'chapter-entry-link' +
+                        (e.getAttribute('id') === currentId ? ' is-current' : '');
+          var numSpan   = document.createElement('span');
+          numSpan.className   = 'chapter-entry-number';
+          numSpan.textContent = 'Ch. ' + e.getAttribute('id');
+          var titleSpan   = document.createElement('span');
+          titleSpan.className   = 'chapter-entry-title';
+          titleSpan.textContent = e.getAttribute('t');
+          a.appendChild(numSpan);
+          a.appendChild(titleSpan);
+          li.appendChild(a);
+          chapterMenu.appendChild(li);
         }
       }
     }
 
     // ── Core render pipeline ─────────────────────────────────────────────
 
-    function render(xmlText, xslDoc, lexDoc, isIndex) {
+    function render(xmlText, xslDoc, lexDoc, isIndex, indexDoc) {
       // 1. Expand compact notation.
       var expanded = expand(xmlText);
 
@@ -351,8 +440,12 @@
         content.innerHTML = ser.serializeToString(result.documentElement);
       }
 
-      // 6. Rewrite chapter links on the index page.
-      if (isIndex) rewriteChapterLinks(content);
+      // 6. Rewrite navigation links for SPA routing (all pages).
+      rewriteNavLinks(content);
+
+      // 6b. Inject prev/next links and chapter list that the XSL couldn't
+      //     produce because XSLTProcessor blocks document() calls.
+      if (!isIndex && indexDoc) injectChapterNav(content, indexDoc);
 
       // 7. Show content, hide spinner.
       document.getElementById('loading').style.display = 'none';
@@ -384,14 +477,25 @@
     var params  = new URLSearchParams(window.location.search);
     var chFile  = params.get('ch');           // e.g. 'ch05_syntax.xml' or null
     var isIndex = !chFile;
-    var xmlFile = isIndex ? 'index.xml' : chFile;
+
+    // When accessed without a ?ch= param the native XML+XSL path is much
+    // faster, so just hand off to index.xml immediately.
+    if (isIndex) {
+      window.location.replace('index.xml');
+      return;
+    }
+
+    var xmlFile = chFile;
 
     Promise.all([
       fetchText(xmlFile),
       fetchText('grammar.xsl').then(parseXml),
       fetchText('lexicon.xml').then(parseXml),
+      // Always fetch index.xml for chapter pages so injectChapterNav() has
+      // the chapter list (document() is blocked inside XSLTProcessor).
+      isIndex ? Promise.resolve(null) : fetchText('index.xml').then(parseXml),
     ]).then(function (results) {
-      render(results[0], results[1], results[2], isIndex);
+      render(results[0], results[1], results[2], isIndex, results[3]);
     }).catch(function (err) {
       console.error(err);
       showError('Could not load ' + xmlFile, err.message);
