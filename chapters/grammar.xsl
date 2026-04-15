@@ -1449,6 +1449,45 @@
           letter-spacing: 0.02em;
         }
 
+        /* ── Collapsible forms section in panel ────────────────── */
+
+        .lex-forms-section {
+          margin-top: 1rem;
+          padding-top: 0.75rem;
+          border-top: 1px solid var(--rule);
+        }
+
+        .lex-forms-section summary {
+          display: flex;
+          align-items: center;
+          gap: 0.4rem;
+          cursor: pointer;
+          font-family: var(--font-ui);
+          font-size: 0.68rem;
+          font-weight: 500;
+          text-transform: uppercase;
+          letter-spacing: 0.06em;
+          color: var(--muted);
+          list-style: none;
+          user-select: none;
+          margin-bottom: 0.5rem;
+        }
+
+        .lex-forms-section summary::-webkit-details-marker {
+          display: none;
+        }
+
+        .lex-forms-section summary::before {
+          content: '\25b8';
+          display: inline-block;
+          font-size: 0.68rem;
+          transition: transform 150ms ease;
+        }
+
+        .lex-forms-section[open] summary::before {
+          transform: rotate(90deg);
+        }
+
         /* ── Loci list in panel ─────────────────────────────────── */
 
         .lex-loci-section {
@@ -2256,8 +2295,8 @@
             <xsl:when test="@cap = '1'">
               <xsl:value-of select="concat(
                 translate(substring($fv, 1, 1),
-                  'абвгдежзийіклмнопрстуфхцчшъюя',
-                  'АБВГДЕЖЗИЙІКЛМНОПРСТУФХЦЧШЪЮЯ'),
+                  'абвгдежзийіклмнопрстуфхцчшӑюя',
+                  'АБВГДЕЖЗИЙІКЛМНОПРСТУФХЦЧШӐЮЯ'),
                 substring($fv, 2))"/>
             </xsl:when>
             <xsl:otherwise><xsl:value-of select="$fv"/></xsl:otherwise>

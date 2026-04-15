@@ -5,17 +5,17 @@
   var expand = (window.StyrianMarkup || {}).expand || function (t) { return t; };
 
   /* Derive chapter list from the rendered chapter links in the DOM */
-  var links = document.querySelectorAll('.chapter-list a');
+  var links = document.querySelectorAll('.chapter-index a');
   var chapters = [];
   for (var i = 0; i < links.length; i++) {
-    var no = links[i].querySelector('.chapter-no');
-    var title = links[i].querySelector('.chapter-title');
-    var file = links[i].querySelector('.chapter-file');
-    if (!file) continue;
+    var no = links[i].querySelector('.chapter-index-no');
+    var title = links[i].querySelector('.chapter-index-title');
+    var href = links[i].getAttribute('href');
+    if (!href) continue;
     chapters.push({
       id: no ? no.textContent.replace(/[^0-9]/g, '') : String(i + 1),
       title: title ? title.textContent : '',
-      file: file.textContent.trim()
+      file: href
     });
   }
 
@@ -74,8 +74,8 @@
     return firstForm ? firstForm.getAttribute('v') : entry.getAttribute('id');
   }
 
-  var CYR_LOWER = 'абвгдежзийіклмнопрстуфхцчшъюя';
-  var CYR_UPPER = 'АБВГДЕЖЗИЙІКЛМНОПРСТУФХЦЧШЪЮЯ';
+  var CYR_LOWER = 'абвгдежзийіклмнопрстуфхцчшӑюя';
+  var CYR_UPPER = 'АБВГДЕЖЗИЙІКЛМНОПРСТУФХЦЧШӐЮЯ';
 
   function capFirst(str) {
     if (!str) return str;
@@ -107,6 +107,167 @@
     }
   }
 
+  /* ── HTML-to-Markdown converter ──────────────────────────────────
+     Walks the XSLT-rendered DOM and produces clean Markdown, stripping
+     tooltip popups (.styr-tr) and UI chrome while preserving the visible
+     Cyrillic forms, examples, tables, lists, and inline formatting.
+  ──────────────────────────────────────────────────────────────── */
+
+  function htmlToMd(root) {
+    /* Strip elements that should never appear in the output */
+    var dominated = root.querySelectorAll(
+      '.styr-tr, .meta, .contents, .navline, .scroll-crumb, ' +
+      '.back-to-top, .copy-popup, .lex-overlay, .theme-toggle'
+    );
+    for (var d = 0; d < dominated.length; d++) dominated[d].remove();
+
+    return convertChildren(root).replace(/\n{3,}/g, '\n\n').trim() + '\n';
+  }
+
+  function convertChildren(node) {
+    var out = '';
+    var kids = node.childNodes;
+    for (var i = 0; i < kids.length; i++) out += convertNode(kids[i]);
+    return out;
+  }
+
+  function convertNode(node) {
+    if (node.nodeType === 3) return node.textContent;
+    if (node.nodeType !== 1) return '';
+    var el = node;
+    var tag = el.tagName.toLowerCase();
+
+    /* Headings */
+    if (/^h[1-6]$/.test(tag)) {
+      var level = parseInt(tag.charAt(1), 10);
+      var prefix = '';
+      for (var h = 0; h < level; h++) prefix += '#';
+      return '\n\n' + prefix + ' ' + textOf(el) + '\n\n';
+    }
+
+    /* Paragraphs */
+    if (tag === 'p') return '\n\n' + convertChildren(el).trim() + '\n\n';
+
+    /* Section / subsection wrappers */
+    if (tag === 'section' || (tag === 'div' && el.classList.contains('subsection')))
+      return convertChildren(el);
+
+    /* Unordered lists */
+    if (tag === 'ul') return '\n\n' + convertListItems(el) + '\n';
+
+    /* List items */
+    if (tag === 'li') return '- ' + convertChildren(el).trim() + '\n';
+
+    /* Tables */
+    if (tag === 'table') return '\n\n' + convertTable(el) + '\n\n';
+    if (tag === 'div' && el.classList.contains('table-wrap')) return convertChildren(el);
+
+    /* Example sentences */
+    if (el.classList.contains('example')) {
+      var text = el.querySelector('.example-text');
+      var tr = el.querySelector('.example-tr');
+      var out = '\n\n> **' + textOf(text || el) + '**';
+      if (tr) out += '  \n> *' + textOf(tr) + '*';
+      return out + '\n\n';
+    }
+
+    /* Styrian tokens — keep only the visible form */
+    if (el.classList.contains('styr')) {
+      var form = el.querySelector('.styr-form');
+      return form ? '**' + form.textContent + '**' : el.textContent;
+    }
+
+    /* Inline emphasis */
+    if (tag === 'em' || tag === 'i') return '*' + convertChildren(el).trim() + '*';
+
+    /* Inline code */
+    if (tag === 'code') return '`' + el.textContent + '`';
+
+    /* Eyebrow labels (Chapter N) — render as a subtle line */
+    if (el.classList.contains('eyebrow'))
+      return '\n\n---\n\n*' + el.textContent.trim() + '*\n\n';
+
+    /* Masthead header wrapper */
+    if (tag === 'header' && el.classList.contains('masthead'))
+      return convertChildren(el);
+
+    /* Skip structural wrappers */
+    if (tag === 'div' || tag === 'article' || tag === 'main' || tag === 'span' || tag === 'body')
+      return convertChildren(el);
+
+    /* thead / tbody / tr — handled by convertTable */
+    if (tag === 'thead' || tag === 'tbody' || tag === 'tr' || tag === 'th' || tag === 'td')
+      return '';
+
+    /* Fallback: just recurse */
+    return convertChildren(el);
+  }
+
+  function textOf(el) {
+    if (!el) return '';
+    /* After .styr-tr removal, .styr-form just has plain text left */
+    return el.textContent.trim();
+  }
+
+  function convertListItems(ul) {
+    var items = ul.querySelectorAll(':scope > li');
+    var out = '';
+    for (var i = 0; i < items.length; i++)
+      out += '- ' + convertChildren(items[i]).trim() + '\n';
+    return out;
+  }
+
+  function convertTable(table) {
+    var rows = [];
+    var trs = table.querySelectorAll('tr');
+    for (var i = 0; i < trs.length; i++) {
+      var cells = trs[i].querySelectorAll('th, td');
+      var row = [];
+      for (var j = 0; j < cells.length; j++) row.push(textOf(cells[j]));
+      rows.push(row);
+    }
+    if (rows.length === 0) return '';
+
+    /* Normalise column count */
+    var cols = 0;
+    for (var r = 0; r < rows.length; r++)
+      if (rows[r].length > cols) cols = rows[r].length;
+    for (var r2 = 0; r2 < rows.length; r2++)
+      while (rows[r2].length < cols) rows[r2].push('');
+
+    /* Column widths */
+    var widths = [];
+    for (var c = 0; c < cols; c++) {
+      var w = 3;
+      for (var r3 = 0; r3 < rows.length; r3++)
+        if (rows[r3][c].length > w) w = rows[r3][c].length;
+      widths.push(w);
+    }
+
+    function fmtRow(row) {
+      var parts = [];
+      for (var c = 0; c < cols; c++) {
+        var s = row[c];
+        while (s.length < widths[c]) s += ' ';
+        parts.push(s);
+      }
+      return '| ' + parts.join(' | ') + ' |';
+    }
+
+    var md = fmtRow(rows[0]) + '\n';
+    var sep = [];
+    for (var c2 = 0; c2 < cols; c2++) {
+      var d = '';
+      for (var k = 0; k < widths[c2]; k++) d += '-';
+      sep.push(d);
+    }
+    md += '| ' + sep.join(' | ') + ' |\n';
+    for (var r4 = 1; r4 < rows.length; r4++) md += fmtRow(rows[r4]) + '\n';
+    return md;
+  }
+
+  /* ── Build & download ───────────────────────────────────────────── */
+
   btn.addEventListener('click', function () {
     btn.disabled = true;
     btn.textContent = 'Building\u2026';
@@ -132,20 +293,11 @@
       proc.importStylesheet(xslDoc);
       proc.setParameter(null, 'lexicon-uri', lexiconUrl);
 
-      /* Extract the CSS from a dummy transform */
-      var dummyXml = parser.parseFromString(
-        '<?xml version="1.0"?><ch id="00" title="dummy"></ch>',
-        'application/xml'
-      );
-      var dummyHtml = proc.transformToDocument(dummyXml);
-      var styleEl = dummyHtml.querySelector('style');
-      var cssText = styleEl ? styleEl.textContent : '';
+      var mdParts = [];
+      mdParts.push('# ' + grammarTitle + '\n');
 
-      var bodies = [];
       for (var i = 3; i < results.length; i++) {
         var chXml = parser.parseFromString(expand(results[i]), 'application/xml');
-        /* Pre-resolve <w> elements before XSLT (browsers block document() in
-           XSLTProcessor; the XSL @v short-circuit branch handles these). */
         preResolveWElements(chXml, lexiconXmlDoc);
         var chHtml = proc.transformToDocument(chXml);
         if (transliteration && mappings) {
@@ -155,42 +307,25 @@
         if (!article) article = chHtml.querySelector('.main');
         if (!article) continue;
 
-        /* Remove the .meta hint paragraph */
-        var meta = article.querySelector('.meta');
-        if (meta) meta.remove();
-
         var ch = chapters[i - 3];
-        var header = '<header class="masthead" style="margin-top:2.5rem">' +
-          '<p class="eyebrow">Chapter ' + ch.id + '</p>' +
-          '<h1>' + ch.title + '</h1></header>';
-
-        bodies.push(header + '<article class="main prose">' +
-          article.innerHTML + '</article>');
+        mdParts.push('\n---\n');
+        mdParts.push('## Chapter ' + ch.id + ': ' + ch.title + '\n');
+        mdParts.push(htmlToMd(article));
       }
 
-      var html = '<!DOCTYPE html>\n<html lang="en"><head>' +
-        '<meta charset="UTF-8"/>' +
-        '<meta name="viewport" content="width=device-width,initial-scale=1"/>' +
-        '<title>' + grammarTitle + '</title>' +
-        '<style>' + cssText + '</style>' +
-        '</head><body><div class="page">' +
-        '<header class="masthead"><p class="eyebrow">Full Grammar</p>' +
-        '<h1>' + grammarTitle + '</h1></header>' +
-        bodies.join('\n') +
-        '</div></body></html>';
-
-      var blob = new Blob([html], { type: 'text/html;charset=utf-8' });
+      var md = mdParts.join('\n').replace(/\n{3,}/g, '\n\n').trim() + '\n';
+      var blob = new Blob([md], { type: 'text/markdown;charset=utf-8' });
       var url = URL.createObjectURL(blob);
       var a = document.createElement('a');
       a.href = url;
-      a.download = 'styrian_grammar.html';
+      a.download = 'styrian_grammar.md';
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);
       URL.revokeObjectURL(url);
 
       btn.disabled = false;
-      btn.innerHTML = '<i class="bi bi-download" aria-hidden="true"></i> Download full grammar';
+      btn.innerHTML = '<span class="dl-btn-label">Download full grammar</span>';
     }).catch(function (err) {
       console.error('Download failed:', err);
       btn.disabled = false;

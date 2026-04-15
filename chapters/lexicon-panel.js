@@ -652,9 +652,16 @@
       '<div class="lex-tags">' + escHtml(tags.join(' \u00b7 ')) + '</div>' +
       '<div class="lex-gloss">' + escHtml(gloss) + '</div>' +
       (forms.length > 0 ?
-        '<table class="lex-forms">' +
-          '<tbody>' + formRowsHtml + '</tbody>' +
-        '</table>' : '') +
+        '<details class="lex-forms-section" open>' +
+          '<summary>' +
+            (pos === 'v' ? 'Conjugation' :
+             (pos === 'n' || pos === 'adj' || pos === 'pron' || pos === 'art' || pos === 'num') ? 'Declension' :
+             'Forms') +
+          '</summary>' +
+          '<table class="lex-forms">' +
+            '<tbody>' + formRowsHtml + '</tbody>' +
+          '</table>' +
+        '</details>' : '') +
       lociHtml +
       crossPlaceholder;
 
