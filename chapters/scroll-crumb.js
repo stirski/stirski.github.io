@@ -3,12 +3,11 @@
 
   var crumb = document.getElementById('scroll-crumb');
   var masthead = document.querySelector('.masthead');
-  var chapterLink = document.getElementById('scroll-crumb-chapter');
-  var sectionLink = document.getElementById('scroll-crumb-section');
-  var subWrap = document.getElementById('scroll-crumb-subwrap');
-  var subLink = document.getElementById('scroll-crumb-subsection');
+  var currentLink = document.getElementById('scroll-crumb-current');
+  var chapterKicker = document.getElementById('scroll-crumb-kicker');
   var toggle = document.getElementById('scroll-crumb-toggle');
   var menu = document.getElementById('scroll-crumb-menu');
+  var chapterEyebrow = document.querySelector('.masthead .eyebrow');
   var menuLinks = Array.prototype.slice.call(
     document.querySelectorAll('#scroll-crumb-menu a[href^="#"]')
   );
@@ -18,14 +17,9 @@
   var ticking = false;
   var isExpanded = false;
 
-  if (!crumb || !masthead || !chapterLink || !sectionLink || !subWrap || !subLink || !toggle || !menu || !sections.length) {
+  if (!crumb || !masthead || !currentLink || !chapterKicker || !toggle || !menu || !sections.length) {
     return;
   }
-
-  chapterLink.textContent = (
-    (document.querySelector('.masthead h1') || {}).textContent || 'Chapter'
-  ).trim();
-  chapterLink.setAttribute('href', '#top');
 
   function getAnchorTop(node) {
     return window.scrollY + node.getBoundingClientRect().top;
@@ -51,7 +45,30 @@
     var text = number ? number + ' ' + title : title;
 
     link.textContent = text.trim();
+    link.setAttribute('title', text.trim());
+    link.setAttribute('aria-label', text.trim());
     link.setAttribute('href', '#' + node.id);
+  }
+
+  function setChapterLabel() {
+    var chapterMatch = chapterEyebrow && chapterEyebrow.textContent
+      ? chapterEyebrow.textContent.match(/chapter\s+(.+)/i)
+      : null;
+    var chapterNumber = chapterMatch && chapterMatch[1] ? chapterMatch[1].trim() : '';
+    var isWide = window.matchMedia('(min-width: 720px)').matches;
+
+    if (!chapterNumber) {
+      chapterKicker.hidden = true;
+      chapterKicker.textContent = '';
+      chapterKicker.removeAttribute('aria-label');
+      chapterKicker.removeAttribute('title');
+      return;
+    }
+
+    chapterKicker.hidden = false;
+    chapterKicker.textContent = (isWide ? 'Chapter ' : 'Ch. ') + chapterNumber;
+    chapterKicker.setAttribute('aria-label', 'Chapter ' + chapterNumber);
+    chapterKicker.setAttribute('title', 'Chapter ' + chapterNumber);
   }
 
   function syncMenuState(activeSection, activeSub) {
@@ -87,7 +104,7 @@
       subs = Array.prototype.slice.call(
         activeSection.querySelectorAll('.subsection[id^="subsec-"]')
       );
-      if (subs.length) {
+      if (subs.length && getAnchorTop(subs[0]) <= threshold + 10) {
         activeSub = getCurrentItem(subs, threshold + 10);
       }
     }
@@ -101,16 +118,8 @@
       crumb.setAttribute('aria-hidden', window.scrollY > showAt ? 'false' : 'true');
     }
 
-    setTrail(sectionLink, activeSection);
-
-    if (activeSub) {
-      setTrail(subLink, activeSub);
-      subWrap.hidden = false;
-    } else {
-      subWrap.hidden = true;
-      subLink.textContent = '';
-      subLink.setAttribute('href', '#top');
-    }
+    setTrail(currentLink, activeSub || activeSection);
+    setChapterLabel();
 
     syncMenuState(activeSection, activeSub);
   }

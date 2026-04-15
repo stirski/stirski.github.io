@@ -16,7 +16,7 @@
       <title><xsl:value-of select="$title"/></title>
       <link rel="preconnect" href="https://fonts.googleapis.com"/>
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&amp;display=swap"/>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&amp;display=swap"/>
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"/>
       <style type="text/css"><![CDATA[
         :root {
@@ -26,19 +26,24 @@
           --rule: #e8e8e8;
           --accent: #111111;
           --accent-soft: #f4f4f4;
-          --signal: #c0392b;
-          --font-body: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-          --font-display: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-          --font-ui: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+          --signal: #8f6f1f;
+          --signal-rgb: 143, 111, 31;
+          --mark-rgb: 235, 220, 148;
+          --font-body: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+          --font-display: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+          --font-ui: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
           --font-mono: "SFMono-Regular", "Cascadia Mono", Consolas, monospace;
           --page-max: 64rem;
-          --measure: 42rem;
+          --crumb-max: 54rem;
+          --content-max: calc(var(--crumb-max) * 0.95);
+          --measure: var(--content-max);
           --margin-col: 13.5rem;
           --layout-gap: 2rem;
         }
 
 
         html {
+          font-size: 15px;
           scroll-behavior: smooth;
         }
 
@@ -58,12 +63,12 @@
 
         a {
           color: inherit;
-          text-decoration-color: rgba(192, 57, 43, 0.28);
+          text-decoration-color: rgba(var(--signal-rgb), 0.28);
           text-underline-offset: 0.16em;
         }
 
         a:hover {
-          text-decoration-color: rgba(192, 57, 43, 0.7);
+          text-decoration-color: rgba(var(--signal-rgb), 0.7);
         }
 
         .page {
@@ -76,6 +81,11 @@
           padding: 0 0 1.15rem;
           border-bottom: 1px solid var(--rule);
           margin-bottom: 1.75rem;
+        }
+
+        .chapter-masthead-body {
+          max-width: min(100%, var(--crumb-max));
+          margin: 0 auto;
         }
 
         .eyebrow {
@@ -93,16 +103,16 @@
         h3 {
           margin: 0;
           font-family: var(--font-display);
-          font-weight: 700;
+          font-weight: 600;
           line-height: 1;
           color: var(--accent);
           text-wrap: balance;
         }
 
         h1 {
-          max-width: 14ch;
-          font-size: clamp(2.1rem, 4vw, 3.25rem);
-          letter-spacing: -0.035em;
+          max-width: 12ch;
+          font-size: clamp(1.85rem, 3.2vw, 2.65rem);
+          letter-spacing: -0.025em;
         }
 
         .deck {
@@ -139,7 +149,8 @@
         }
 
         .chapter-layout .main {
-          max-width: min(100%, calc(var(--measure) + 2rem));
+          max-width: min(100%, var(--crumb-max));
+          margin: 0 auto;
         }
 
         .prose {
@@ -147,6 +158,10 @@
           hyphens: auto;
           font-size: 1.12rem;
           line-height: 1.64;
+        }
+
+        .chapter-layout .prose {
+          width: min(100%, var(--content-max));
         }
 
         .prose p,
@@ -194,7 +209,7 @@
           padding-top: 1.4rem;
           border-top: 1px solid var(--rule);
           font-size: clamp(1.5rem, 2.5vw, 1.95rem);
-          font-weight: 700;
+          font-weight: 600;
           letter-spacing: -0.03em;
         }
 
@@ -264,7 +279,7 @@
           top: 0.85rem;
           left: 50%;
           z-index: 170;
-          width: min(calc(100vw - 1.5rem), 56rem);
+          width: min(calc(100vw - 1.5rem), var(--crumb-max));
           opacity: 0;
           visibility: hidden;
           pointer-events: none;
@@ -294,19 +309,14 @@
           align-items: center;
           gap: 0.45rem;
           min-height: 3rem;
-          padding: 0.45rem 0.55rem;
+          padding: 0.45rem 1.05rem 0.45rem 1rem;
           border: 1px solid rgba(17, 17, 17, 0.08);
-          border-radius: 999px;
+          border-radius: 1.1rem;
           background: rgba(255, 255, 255, 0.72);
           box-shadow: 0 20px 44px rgba(17, 17, 17, 0.08);
           backdrop-filter: blur(18px) saturate(150%);
           -webkit-backdrop-filter: blur(18px) saturate(150%);
-          overflow-x: auto;
-          scrollbar-width: none;
-        }
-
-        .scroll-crumb-inner::-webkit-scrollbar {
-          display: none;
+          overflow: hidden;
         }
 
         .scroll-crumb-item {
@@ -314,60 +324,134 @@
           align-items: center;
           min-width: 0;
           padding: 0.35rem 0.7rem;
-          border-radius: 999px;
+          border-radius: 0.8rem;
           text-decoration: none;
           white-space: nowrap;
-          transition: background 120ms ease, color 120ms ease;
-        }
-
-        .scroll-crumb-item:hover {
-          background: rgba(17, 17, 17, 0.05);
+          transition: color 120ms ease;
         }
 
         .scroll-crumb-home {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          flex: 0 0 auto;
+          gap: 0.38rem;
+          min-width: 0;
+          padding: 0 0.1rem 0 0.18rem;
+          color: inherit;
+        }
+
+        .scroll-crumb-home .bi {
+          font-size: 0.95rem;
+          line-height: 1;
+          padding-left: 0.14rem;
+          color: rgba(17, 17, 17, 0.56);
+          transition: color 120ms ease;
+        }
+
+        .scroll-crumb-home:hover .bi {
+          color: rgba(var(--signal-rgb), 0.82);
+        }
+
+        .scroll-crumb-home-label {
           color: var(--muted);
           font-family: var(--font-ui);
-          font-size: 0.74rem;
+          font-size: 0.78rem;
           font-weight: 600;
-          letter-spacing: 0.04em;
+          letter-spacing: 0.03em;
+          line-height: 1.45;
+          white-space: nowrap;
+          opacity: 0;
+          max-width: 0;
+          overflow: hidden;
+          transition: opacity 120ms ease, max-width 120ms ease;
+        }
+
+        .scroll-crumb-home:hover .scroll-crumb-home-label,
+        .scroll-crumb-home:focus-visible .scroll-crumb-home-label {
+          color: rgba(var(--signal-rgb), 0.82);
+          opacity: 1;
+          max-width: 8rem;
+        }
+
+        .scroll-crumb-home::after {
+          content: "";
+          width: 1px;
+          height: 1rem;
+          margin-left: 0.55rem;
+          background: rgba(17, 17, 17, 0.1);
+        }
+
+        .scroll-crumb-kicker {
+          display: inline-flex;
+          align-items: center;
+          flex: 0 0 auto;
+          min-width: 0;
+          padding-left: 0.05rem;
+          color: rgba(17, 17, 17, 0.56);
+          font-family: var(--font-ui);
+          font-size: 0.72rem;
+          font-weight: 600;
+          letter-spacing: 0.08em;
           text-transform: uppercase;
+          white-space: nowrap;
         }
 
-        .scroll-crumb-chapter {
-          color: var(--muted);
-          font-size: 0.95rem;
+        .scroll-crumb-kicker::after {
+          content: "";
+          width: 1px;
+          height: 1rem;
+          margin-left: 0.55rem;
+          background: rgba(17, 17, 17, 0.1);
         }
 
-        .scroll-crumb-section,
-        .scroll-crumb-subsection {
-          max-width: 24rem;
+        .scroll-crumb-kicker[hidden] {
+          display: none;
+        }
+
+        .scroll-crumb-current {
+          flex: 1 1 auto;
+          min-width: 0;
+          color: var(--accent);
           font-size: 0.98rem;
           font-weight: 600;
           overflow: hidden;
           text-overflow: ellipsis;
+          padding-left: 0.05rem;
         }
 
-        .scroll-crumb-subsection {
-          color: var(--muted);
-          font-weight: 500;
+        .scroll-crumb-chapter-link {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          flex: 0 0 auto;
+          width: 2rem;
+          height: 2rem;
+          padding: 0;
+          border-radius: 999px;
+          color: rgba(17, 17, 17, 0.54);
+          transition: background 120ms ease, color 120ms ease;
         }
 
-        .scroll-crumb-sep {
-          color: rgba(17, 17, 17, 0.28);
-          font-size: 0.9rem;
-          user-select: none;
+        .scroll-crumb-chapter-link:hover,
+        .scroll-crumb-chapter-link:focus-visible {
+          background: rgba(17, 17, 17, 0.06);
+          color: rgba(17, 17, 17, 0.78);
+          outline: none;
         }
 
-        .scroll-crumb-subwrap[hidden] {
-          display: none;
+        .scroll-crumb-chapter-link .bi {
+          font-size: 0.95rem;
+          line-height: 1;
         }
 
         .scroll-crumb-toggle {
           display: inline-flex;
           align-items: center;
           justify-content: center;
-          margin-left: auto;
-          padding: 0.15rem 0.3rem 0.15rem 0.1rem;
+          margin-left: 0.4rem;
+          flex: 0 0 auto;
+          padding: 0.2rem 0.5rem 0.2rem 0.3rem;
           border: 0;
           background: transparent;
           color: rgba(17, 17, 17, 0.54);
@@ -381,7 +465,7 @@
         }
 
         .scroll-crumb-toggle:focus-visible {
-          outline: 2px solid rgba(192, 57, 43, 0.35);
+          outline: 2px solid rgba(var(--signal-rgb), 0.35);
           outline-offset: 2px;
         }
 
@@ -406,6 +490,7 @@
         .scroll-crumb-toggle .bi {
           font-size: 0.95rem;
           line-height: 1;
+          padding-right: 0.14rem;
         }
 
         .scroll-crumb-menu {
@@ -579,7 +664,7 @@
         }
 
         .styr-form {
-          font-weight: 650;
+          font-weight: 600;
           letter-spacing: 0.015em;
         }
 
@@ -629,7 +714,7 @@
 
         .example-text {
           display: block;
-          font-weight: 650;
+          font-weight: 600;
         }
 
         .example-tr {
@@ -698,20 +783,39 @@
 
           .scroll-crumb {
             top: 0.55rem;
-            width: min(calc(100vw - 0.8rem), 56rem);
+            width: min(calc(100vw - 0.8rem), var(--crumb-max));
           }
 
           .scroll-crumb-inner {
             min-height: 2.7rem;
-            padding: 0.35rem 0.4rem;
+            padding: 0.35rem 0.8rem 0.35rem 0.72rem;
           }
 
           .scroll-crumb-item {
             padding: 0.3rem 0.55rem;
           }
 
-          .scroll-crumb-chapter {
-            display: none;
+          .scroll-crumb-home {
+            gap: 0.3rem;
+            padding: 0 0.08rem 0 0.14rem;
+          }
+
+          .scroll-crumb-home-label {
+            font-size: 0.72rem;
+          }
+
+          .scroll-crumb-kicker {
+            font-size: 0.68rem;
+            letter-spacing: 0.07em;
+          }
+
+          .scroll-crumb-current {
+            font-size: 0.92rem;
+          }
+
+          .scroll-crumb-chapter-link {
+            width: 1.85rem;
+            height: 1.85rem;
           }
 
           .scroll-crumb-menu {
@@ -808,7 +912,7 @@
         }
 
         .back-to-top:focus-visible {
-          outline: 2px solid rgba(192, 57, 43, 0.4);
+          outline: 2px solid rgba(var(--signal-rgb), 0.4);
           outline-offset: 3px;
         }
 
@@ -839,12 +943,12 @@
 
         .styr[data-ref] {
           cursor: pointer;
-          border-bottom: 1px dotted rgba(192, 57, 43, 0.28);
+          border-bottom: 1px dotted rgba(var(--signal-rgb), 0.28);
           transition: border-color 150ms ease;
         }
 
         .styr[data-ref]:hover {
-          border-bottom-color: rgba(192, 57, 43, 0.7);
+          border-bottom-color: rgba(var(--signal-rgb), 0.62);
         }
 
         /* ── Lexicon sidebar panel ─────────────────────────────── */
@@ -918,7 +1022,7 @@
           display: block;
           font-family: var(--font-display);
           font-size: 1.5rem;
-          font-weight: 650;
+          font-weight: 600;
           letter-spacing: -0.03em;
           color: var(--accent);
         }
@@ -979,7 +1083,7 @@
         }
 
         .lex-form-cyr {
-          font-weight: 650;
+          font-weight: 600;
         }
 
         .lex-form-tr {
@@ -1090,7 +1194,7 @@
         .lex-locus-context .lex-locus-hit {
           color: inherit;
           font-weight: 600;
-          background: rgba(244, 223, 118, 0.45);
+          background: rgba(var(--mark-rgb), 0.55);
           border-radius: 0.18rem;
           box-decoration-break: clone;
           -webkit-box-decoration-break: clone;
@@ -1102,11 +1206,17 @@
         }
 
         .styr.lex-highlight {
-          background: rgba(192, 57, 43, 0.08);
+          background: rgba(var(--mark-rgb), 0.34);
           border-radius: 0.2rem;
-          outline: 1.5px solid rgba(192, 57, 43, 0.28);
+          outline: 1.5px solid rgba(var(--signal-rgb), 0.24);
           outline-offset: 1px;
           transition: outline-color 600ms ease, background 600ms ease;
+        }
+
+        @media (min-width: 1100px) {
+          :root {
+            --crumb-max: min(55vw, 54rem);
+          }
         }
 
         @media (max-width: 640px) {
@@ -1118,12 +1228,12 @@
         /* ── Selection highlight override ───────────────────────── */
 
         ::selection {
-          background: rgba(192, 57, 43, 0.1);
+          background: rgba(var(--mark-rgb), 0.5);
           color: inherit;
         }
 
         ::-moz-selection {
-          background: rgba(192, 57, 43, 0.1);
+          background: rgba(var(--mark-rgb), 0.5);
           color: inherit;
         }
 
@@ -1326,16 +1436,18 @@
       <body>
         <div class="page" id="top">
           <header class="masthead">
-            <p class="eyebrow">Chapter <xsl:value-of select="@id"/></p>
-            <h1><xsl:value-of select="@t"/></h1>
-            <div class="navline">
-              <a href="index.xml">Contents</a>
-              <xsl:if test="$previous-entry">
-                <a href="{$previous-entry/@file}">Previous: <xsl:value-of select="$previous-entry/@t"/></a>
-              </xsl:if>
-              <xsl:if test="$next-entry">
-                <a href="{$next-entry/@file}">Next: <xsl:value-of select="$next-entry/@t"/></a>
-              </xsl:if>
+            <div class="chapter-masthead-body">
+              <p class="eyebrow">Chapter <xsl:value-of select="@id"/></p>
+              <h1><xsl:value-of select="@t"/></h1>
+              <div class="navline">
+                <a href="index.xml">Contents</a>
+                <xsl:if test="$previous-entry">
+                  <a href="{$previous-entry/@file}">Previous: <xsl:value-of select="$previous-entry/@t"/></a>
+                </xsl:if>
+                <xsl:if test="$next-entry">
+                  <a href="{$next-entry/@file}">Next: <xsl:value-of select="$next-entry/@t"/></a>
+                </xsl:if>
+              </div>
             </div>
           </header>
 
@@ -1347,15 +1459,22 @@
         </div>
         <div class="scroll-crumb" id="scroll-crumb" aria-hidden="true">
           <nav class="scroll-crumb-inner" aria-label="Current section">
-            <a class="scroll-crumb-item scroll-crumb-home" href="index.xml">Contents</a>
-            <span class="scroll-crumb-sep" aria-hidden="true">/</span>
-            <a class="scroll-crumb-item scroll-crumb-chapter" id="scroll-crumb-chapter" href="#top"></a>
-            <span class="scroll-crumb-sep" aria-hidden="true">/</span>
-            <a class="scroll-crumb-item scroll-crumb-section" id="scroll-crumb-section" href="#top"></a>
-            <span class="scroll-crumb-subwrap" id="scroll-crumb-subwrap" hidden="hidden">
-              <span class="scroll-crumb-sep" aria-hidden="true">/</span>
-              <a class="scroll-crumb-item scroll-crumb-subsection" id="scroll-crumb-subsection" href="#top"></a>
-            </span>
+            <a class="scroll-crumb-item scroll-crumb-home" href="index.xml" aria-label="Back to homepage">
+              <i class="bi bi-book" aria-hidden="true"></i>
+              <span class="scroll-crumb-home-label">Return to Index</span>
+            </a>
+            <span class="scroll-crumb-kicker" id="scroll-crumb-kicker" hidden="hidden"></span>
+            <a class="scroll-crumb-item scroll-crumb-current" id="scroll-crumb-current" href="#top"></a>
+            <xsl:if test="$previous-entry">
+              <a class="scroll-crumb-item scroll-crumb-chapter-link" href="{$previous-entry/@file}" aria-label="Previous chapter: {$previous-entry/@t}" title="Previous chapter: {$previous-entry/@t}">
+                <i class="bi bi-chevron-left" aria-hidden="true"></i>
+              </a>
+            </xsl:if>
+            <xsl:if test="$next-entry">
+              <a class="scroll-crumb-item scroll-crumb-chapter-link" href="{$next-entry/@file}" aria-label="Next chapter: {$next-entry/@t}" title="Next chapter: {$next-entry/@t}">
+                <i class="bi bi-chevron-right" aria-hidden="true"></i>
+              </a>
+            </xsl:if>
             <button class="scroll-crumb-toggle" id="scroll-crumb-toggle" type="button" aria-expanded="false" aria-controls="scroll-crumb-menu" aria-label="Open page contents">
               <span class="scroll-crumb-toggle-icon icon-expand" aria-hidden="true">
                 <i class="bi bi-chevron-down"></i>
