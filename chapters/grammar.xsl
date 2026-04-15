@@ -935,6 +935,7 @@
           left: 50%;
           bottom: calc(100% + 0.3rem);
           transform: translateX(-50%);
+          width: max-content;
           opacity: 0;
           pointer-events: none;
           z-index: 3;
@@ -949,10 +950,32 @@
           font-style: normal;
           font-weight: 600;
           letter-spacing: 0.015em;
-          white-space: nowrap;
+          line-height: 1.3;
+          text-align: center;
+          white-space: normal;
+          max-width: min(14rem, calc(100vw - 2rem));
           transition: opacity 120ms ease;
           backdrop-filter: blur(12px) saturate(120%);
           -webkit-backdrop-filter: blur(12px) saturate(120%);
+        }
+
+        .styr-tr-text {
+          display: inline;
+        }
+
+        .styr-gloss {
+          display: inline;
+          color: var(--tooltip-muted);
+          font-size: 0.66rem;
+          font-style: italic;
+          font-weight: 500;
+          letter-spacing: 0.01em;
+          line-height: 1.4;
+        }
+
+        .styr-gloss::before {
+          content: " \00b7  ";
+          font-style: normal;
         }
 
         .styr:hover .styr-tr,
@@ -970,7 +993,7 @@
         }
 
         .table-wrap .styr-tr {
-          white-space: nowrap;
+          white-space: normal;
         }
 
         .example {
@@ -1288,10 +1311,11 @@
           padding: 0.2rem 0.4rem;
           border-radius: 0.25rem;
           transition: color 120ms ease;
+          font-size: 1rem;
         }
 
         .lex-panel-close .bi {
-          font-size: 1rem;
+          font-size: 1.35rem;
           line-height: 1;
         }
 
@@ -1966,19 +1990,6 @@
       <xsl:if test="@tr and string-length(@tr) &gt; 0">
         <xsl:attribute name="data-tr-explicit"><xsl:value-of select="@tr"/></xsl:attribute>
       </xsl:if>
-      <xsl:attribute name="title">
-        <xsl:choose>
-          <xsl:when test="$show-token-tr and @tr and string-length(@tr) &gt; 0">
-            <xsl:value-of select="@v"/>
-            <xsl:text> [</xsl:text>
-            <xsl:value-of select="@tr"/>
-            <xsl:text>]</xsl:text>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:value-of select="@v"/>
-          </xsl:otherwise>
-        </xsl:choose>
-      </xsl:attribute>
       <xsl:if test="$show-token-tr">
         <xsl:attribute name="data-tr"><xsl:value-of select="@tr"/></xsl:attribute>
       </xsl:if>
@@ -2059,12 +2070,12 @@
 
     <xsl:choose>
 
-      <!-- ── Pre-resolved by download.js (@v set in JS before transform) ──
+      <!-- ── Pre-resolved by download.js (@v/@lemma/@gloss set in JS before transform) ──
            Browsers block document() inside XSLTProcessor, so the download
-           button pre-resolves <w> elements by setting @v (display form) and
-           @lemma before calling transformToDocument().  This branch handles
-           those elements and produces identical output to the found-entry
-           branch without needing document().
+           button pre-resolves <w> elements by setting @v (display form),
+           @lemma, and @gloss before calling transformToDocument().  This
+           branch handles those elements and produces identical output to the
+           found-entry branch without needing document().
       ──────────────────────────────────────────────────────────────── -->
       <xsl:when test="string-length(@v) &gt; 0">
         <xsl:variable name="pre-fv" select="string(@v)"/>
@@ -2074,25 +2085,23 @@
             <xsl:otherwise><xsl:value-of select="@v"/></xsl:otherwise>
           </xsl:choose>
         </xsl:variable>
+        <xsl:variable name="pre-gloss" select="string(@gloss)"/>
         <span class="styr">
           <xsl:attribute name="data-cyr"><xsl:value-of select="$pre-fv"/></xsl:attribute>
           <xsl:attribute name="data-lemma"><xsl:value-of select="$pre-lemma"/></xsl:attribute>
+          <xsl:if test="string-length($pre-gloss) &gt; 0">
+            <xsl:attribute name="data-gloss"><xsl:value-of select="$pre-gloss"/></xsl:attribute>
+          </xsl:if>
           <xsl:if test="string-length($infl) &gt; 0">
             <xsl:attribute name="data-infl"><xsl:value-of select="$infl"/></xsl:attribute>
           </xsl:if>
-          <xsl:attribute name="title">
-            <xsl:value-of select="$pre-fv"/>
-            <xsl:if test="string-length($infl) &gt; 0">
-              <xsl:text> · </xsl:text>
-              <xsl:value-of select="$infl"/>
-              <xsl:text> of </xsl:text>
-              <xsl:value-of select="$pre-lemma"/>
-            </xsl:if>
-          </xsl:attribute>
           <xsl:attribute name="data-ref"><xsl:value-of select="$ref"/></xsl:attribute>
           <span class="styr-form"><xsl:value-of select="$pre-fv"/></span>
           <span class="styr-tr">
             <span class="styr-tr-text"/>
+            <xsl:if test="string-length($pre-gloss) &gt; 0">
+              <span class="styr-gloss"><xsl:value-of select="$pre-gloss"/></span>
+            </xsl:if>
             <xsl:if test="string-length($infl) &gt; 0">
               <span class="styr-infl-tag">
                 <xsl:value-of select="$infl"/>
@@ -2190,6 +2199,7 @@
 
         <!-- Lemma form (first form) for the infl-tag label -->
         <xsl:variable name="lemma-v" select="$default-v"/>
+        <xsl:variable name="gloss" select="string($entry/@gloss)"/>
         <xsl:variable name="show-token-tr" select="true()"/>
 
         <!-- @cap="1": capitalise the first letter of the rendered form
@@ -2210,19 +2220,12 @@
         <span class="styr">
           <xsl:attribute name="data-cyr"><xsl:value-of select="$display-v"/></xsl:attribute>
           <xsl:attribute name="data-lemma"><xsl:value-of select="$lemma-v"/></xsl:attribute>
+          <xsl:if test="string-length($gloss) &gt; 0">
+            <xsl:attribute name="data-gloss"><xsl:value-of select="$gloss"/></xsl:attribute>
+          </xsl:if>
           <xsl:if test="string-length($infl) &gt; 0">
             <xsl:attribute name="data-infl"><xsl:value-of select="$infl"/></xsl:attribute>
           </xsl:if>
-          <!-- title tooltip: "Писа [Pysa] · 3sg of писат" -->
-          <xsl:attribute name="title">
-            <xsl:value-of select="$display-v"/>
-            <xsl:if test="string-length($infl) &gt; 0">
-              <xsl:text> · </xsl:text>
-              <xsl:value-of select="$infl"/>
-              <xsl:text> of </xsl:text>
-              <xsl:value-of select="$lemma-v"/>
-            </xsl:if>
-          </xsl:attribute>
           <xsl:if test="$show-token-tr">
             <xsl:attribute name="data-ref"><xsl:value-of select="$ref"/></xsl:attribute>
           </xsl:if>
@@ -2233,6 +2236,11 @@
           <xsl:if test="$show-token-tr">
             <span class="styr-tr">
               <span class="styr-tr-text"/>
+              <xsl:if test="string-length($gloss) &gt; 0">
+                <span class="styr-gloss">
+                  <xsl:value-of select="$gloss"/>
+                </span>
+              </xsl:if>
               <!-- Infl badge: only when an explicit @infl was requested -->
               <xsl:if test="string-length($infl) &gt; 0">
                 <span class="styr-infl-tag">
@@ -2252,7 +2260,7 @@
       <!-- ── Entry not found: render a visible placeholder ───── -->
       <xsl:otherwise>
         <span class="styr styr-missing">
-          <xsl:attribute name="title">
+          <xsl:attribute name="aria-label">
             <xsl:text>lexicon entry not found: </xsl:text>
             <xsl:value-of select="$ref"/>
           </xsl:attribute>

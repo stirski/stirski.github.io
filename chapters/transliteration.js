@@ -70,22 +70,6 @@
     });
   }
 
-  function buildTitle(styr, tr) {
-    var formNode = styr.querySelector('.styr-form');
-    var display = styr.getAttribute('data-cyr') || (formNode ? formNode.textContent : '');
-    var infl = styr.getAttribute('data-infl');
-    var lemma = styr.getAttribute('data-lemma') || display;
-    var title = display;
-
-    if (tr) {
-      title += ' [' + tr + ']';
-    }
-    if (infl) {
-      title += ' · ' + infl + ' of ' + lemma;
-    }
-    return title;
-  }
-
   function updateToken(styr, mappings) {
     var explicit = styr.getAttribute('data-tr-explicit');
     var formNode = styr.querySelector('.styr-form');
@@ -98,8 +82,7 @@
     } else {
       styr.removeAttribute('data-tr');
     }
-
-    styr.setAttribute('title', buildTitle(styr, tr));
+    styr.removeAttribute('title');
 
     if (bubbleText) {
       bubbleText.textContent = tr || '';

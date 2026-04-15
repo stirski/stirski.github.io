@@ -27,8 +27,9 @@
      Browsers block document() calls inside XSLTProcessor, so <w ref>
      elements would all fall through to the [?ref] missing placeholder.
      We pre-resolve them in JS before handing the XML to XSLT by setting
-     @v (display form) and @lemma on each <w> element.  The XSL template
-     for <w> checks for @v first and skips the document() call entirely.
+     @v (display form), @lemma, and @gloss on each <w> element.  The XSL
+     template for <w> checks for @v first and skips the document() call
+     entirely.
   ──────────────────────────────────────────────────────────────── */
 
   function resolveFormJS(entry, formId, lexdoc) {
@@ -98,9 +99,11 @@
       if (!entry) continue;
       var lemma = getLemmaJS(entry, lexdoc) || ref;
       var fv = (infl && resolveFormJS(entry, infl, lexdoc)) || lemma;
+      var gloss = entry.getAttribute('gloss') || '';
       if (cap === '1') fv = capFirst(fv);
       w.setAttribute('v', fv);
       w.setAttribute('lemma', lemma);
+      if (gloss) w.setAttribute('gloss', gloss);
     }
   }
 

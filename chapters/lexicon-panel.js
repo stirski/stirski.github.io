@@ -196,7 +196,7 @@
     panel.className = 'lex-panel';
     panel.innerHTML =
       '<div class="lex-panel-header">' +
-        '<button class="lex-panel-close" aria-label="Close" type="button"><i class="bi bi-x-lg" aria-hidden="true"></i></button>' +
+        '<button class="lex-panel-close" aria-label="Close" type="button"><i class="bi bi-x-circle-fill" aria-hidden="true"></i></button>' +
       '</div>' +
       '<div class="lex-panel-body"></div>';
     document.body.appendChild(panel);
