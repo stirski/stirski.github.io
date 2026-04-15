@@ -56,7 +56,7 @@
     <h2>Failed to load</h2>
     <p id="error-msg"></p>
     <pre id="error-detail"></pre>
-    <p><a href="viewer.html">← Back to index</a></p>
+    <p><a href="index.html">← Back to index</a></p>
   </div>
 
   <div id="content"></div>
@@ -182,7 +182,7 @@
       for (var i = 0; i < links.length; i++) {
         var href = links[i].getAttribute('href');
         if (href && /^ch\d+.*\.xml$/.test(href)) {
-          links[i].setAttribute('href', 'viewer.html?ch=' + href);
+          links[i].setAttribute('href', 'index.html?ch=' + href);
         }
       }
     }
