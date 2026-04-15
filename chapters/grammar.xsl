@@ -290,16 +290,6 @@
           text-transform: uppercase;
         }
 
-        .chapter-list .chapter-file {
-          display: block;
-          margin-top: 0.22rem;
-          color: var(--muted);
-          font-family: var(--font-ui);
-          font-size: 0.74rem;
-          letter-spacing: 0.05em;
-          text-transform: uppercase;
-        }
-
         .table-wrap {
           max-width: calc(var(--measure) + 8rem);
           margin: 1.2rem 0 1.4rem;
@@ -1145,7 +1135,6 @@
       <a href="{@file}">
         <span class="chapter-no">Chapter <xsl:value-of select="@id"/></span>
         <span class="chapter-title"><xsl:value-of select="@t"/></span>
-        <span class="chapter-file"><xsl:value-of select="@file"/></span>
       </a>
     </li>
   </xsl:template>
