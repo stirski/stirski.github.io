@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="grammar.xsl"?>
+<ch id="06" t="Sample Lexicon">
+  <tb>
+    <r><c>Styrian</c><c>Meaning</c><c>Etymon / Source</c><c>Class / Notes</c></r>
+    <r><c>[w az]</c><c>I</c><c><code>*jaz[st ъ]</code></c><c>pronoun; initial /j/ lost (partial de-iotation)</c></r>
+    <r><c>[w ty]</c><c>you (sg.)</c><c>—</c><c>pronoun</c></r>
+    <r><c>[w on]</c><c>he</c><c>—</c><c>pronoun; 3sg masculine nominative</c></r>
+    <r><c>[w ona]</c><c>she</c><c>—</c><c>pronoun; 3sg feminine nominative</c></r>
+    <r><c>[w ono]</c><c>it</c><c>—</c><c>pronoun; 3sg neuter nominative</c></r>
+    <r><c>[w my]</c><c>we</c><c>—</c><c>pronoun</c></r>
+    <r><c>[w vy]</c><c>you (pl.)</c><c>—</c><c>pronoun</c></r>
+    <r><c>[w ony]</c><c>they</c><c>—</c><c>pronoun</c></r>
+    <r><c>[w mene]</c><c>me</c><c>—</c><c>oblique 1sg pronoun</c></r>
+    <r><c>[w tebe]</c><c>you</c><c>—</c><c>oblique 2sg pronoun</c></r>
+    <r><c>[w nas]</c><c>us</c><c>—</c><c>oblique 1pl pronoun; also tonic accusative</c></r>
+    <r><c>[w vas]</c><c>you (pl.)</c><c>—</c><c>oblique 2pl pronoun; also tonic accusative</c></r>
+    <r><c>[w mu]</c><c>to him/her/it</c><c>—</c><c>3sg dative clitic</c></r>
+    <r><c>[w nam]</c><c>to us</c><c>—</c><c>1pl dative clitic</c></r>
+    <r><c>[w vam]</c><c>to you (pl.)</c><c>—</c><c>2pl dative clitic</c></r>
+    <r><c>[w ym]</c><c>to them</c><c>—</c><c>3pl dative clitic</c></r>
+    <r><c>[w me]</c><c>me</c><c>—</c><c>1sg accusative clitic</c></r>
+    <r><c>[w te]</c><c>you</c><c>—</c><c>2sg accusative clitic</c></r>
+    <r><c>[w go]</c><c>him, it</c><c>—</c><c>3sg accusative clitic</c></r>
+    <r><c>[w ykh]</c><c>them</c><c>—</c><c>3pl accusative clitic</c></r>
+    <r><c>[w se]</c><c>self</c><c>—</c><c>reflexive accusative clitic</c></r>
+    <r><c>[w sy]</c><c>to oneself</c><c>—</c><c>reflexive dative clitic</c></r>
+    <r><c>[w ky]</c><c>who, which, that</c><c>—</c><c>relative pronoun; subject relative in the standard language</c></r>
+    <r><c>[w če]</c><c>that, which; what</c><c>—</c><c>non-subject relativizer and interrogative/relative particle</c></r>
+    <r><c>[w koj]</c><c>who</c><c>—</c><c>interrogative pronoun</c></r>
+    <r><c>[w kəde]</c><c>where</c><c>—</c><c>adverb; interrogative and relative</c></r>
+    <r><c>[w kol]</c><c>how much, how many; how</c><c>—</c><c>degree and measure interrogative</c></r>
+    <r><c>[w li]</c><c>whether; polar-question particle</c><c>—</c><c>post-verbal interrogative particle</c></r>
+    <r><c>[w by]</c><c>would</c><c>—</c><c>conditional particle</c></r>
+    <r><c>[w daly]</c><c>whether</c><c>—</c><c>formal clause-initial question particle</c></r>
+    <r><c>[w neka]</c><c>let, may</c><c>—</c><c>hortative / directive particle</c></r>
+    <r><c>[w zema]</c><c>land, earth</c><c><code>*zemlja</code></c><c>noun; cluster simplification</c></r>
+    <r><c>[w dom]</c><c>house, home</c><c>—</c><c>noun</c></r>
+    <r><c>[w čelovek]</c><c>person</c><c><code>*čьlovekъ</code></c><c>noun; irregular plural</c></r>
+    <r><c>[w hrad]</c><c>town, city</c><c>—</c><c>noun</c></r>
+    <r><c>[w hovor]</c><c>speech, way of speaking</c><c>—</c><c>noun</c></r>
+    <r><c>[w selo]</c><c>village</c><c>—</c><c>noun</c></r>
+    <r><c>[w hora]</c><c>mountain; forest</c><c>—</c><c>noun; [st г :t h] pronounced /ɦ/</c></r>
+    <r><c>[w reka]</c><c>river</c><c><code>*rěka</code></c><c>noun</c></r>
+    <r><c>[w ruka]</c><c>hand</c><c><code>*rǫka</code></c><c>noun; fossilized front-vowel velar mutation in oblique/plural forms</c></r>
+    <r><c>[w les]</c><c>forest, wood</c><c><code>*lěsъ</code></c><c>noun</c></r>
+    <r><c>[w sneh]</c><c>snow</c><c><code>*sněgъ</code></c><c>noun; fossilized front-vowel velar mutation in plural [w sneh :i pl]</c></r>
+    <r><c>[st снегъ :t snehă]</c><c>snow</c><c><code>*sněgъ</code></c><c>noun</c></r>
+    <r><c>[st денъ :t denă]</c><c>day</c><c>—</c><c>noun; irregular pl. [w den :i pl]</c></r>
+    <r><c>[st ноштъ :t noštă]</c><c>night</c><c>PSl <code>*noktь</code></c><c>noun; via <code>*noxtь</code> (independently of Bulgarian/OCS)</c></r>
+    <r><c>[w grob]</c><c>tomb, grave</c><c>—</c><c>noun</c></r>
+    <r><c>[w godina]</c><c>year</c><c>—</c><c>noun</c></r>
+    <r><c>[w voda]</c><c>water</c><c>—</c><c>noun</c></r>
+    <r><c>[w vyno]</c><c>wine</c><c>—</c><c>noun</c></r>
+    <r><c>[st оуца :t ouca]</c><c>sheep</c><c><code>*ovьca</code></c><c>noun; affricate [st ц :t c] retained, preconsonantal [st в :t v] vocalizes to [st у :t u]</c></r>
+    <r><c>[st оусъ :t ousă]</c><c>oats</c><c><code>*ovьsъ</code></c><c>noun; vocalization of preconsonantal [st в :t v]</c></r>
+    <r><c>[w xleb]</c><c>bread</c><c>—</c><c>noun</c></r>
+    <r><c>[w kram]</c><c>shop, market</c><c>loanword</c><c>noun</c></r>
+    <r><c>[w rob]</c><c>garment, clothing</c><c>—</c><c>noun; often used in the plural for "clothes"</c></r>
+    <r><c>[w žena]</c><c>woman, wife</c><c>—</c><c>noun</c></r>
+    <r><c>[st мужъ :t mužă]</c><c>man, husband</c><c>—</c><c>noun</c></r>
+    <r><c>[w dete]</c><c>child</c><c>—</c><c>noun; irregular pl. [w dete :i pl]</c></r>
+    <r><c>[w most]</c><c>bridge</c><c>—</c><c>noun</c></r>
+    <r><c>[w pat]</c><c>road, path, time (occasion)</c><c>—</c><c>noun</c></r>
+    <r><c>[w slovo]</c><c>word; message</c><c>—</c><c>noun</c></r>
+    <r><c>[w knyha]</c><c>book</c><c>—</c><c>noun; regular non-mutating feminine</c></r>
+    <r><c>[st име :t yme]</c><c>name</c><c>—</c><c>noun</c></r>
+    <r><c>[w dobrə]</c><c>good</c><c>—</c><c>adjective; agrees in m.sg/f.sg/n.sg/pl; prenominal also common</c></r>
+    <r><c>[w lošə]</c><c>bad, poor</c><c>—</c><c>adjective</c></r>
+    <r><c>[w starə]</c><c>old</c><c>—</c><c>adjective</c></r>
+    <r><c>[w novə]</c><c>new</c><c>—</c><c>adjective</c></r>
+    <r><c>[w mladə]</c><c>young</c><c>—</c><c>adjective</c></r>
+    <r><c>[w holemə]</c><c>big, large</c><c><code>*golemъ</code></c><c>adjective</c></r>
+    <r><c>[w prostə]</c><c>simple, plain</c><c>—</c><c>adjective</c></r>
+    <r><c>[w malə]</c><c>small</c><c>—</c><c>adjective</c></r>
+    <r><c>[w berzə]</c><c>fast, quick</c><c>—</c><c>adjective; vowel retained before liquid to avoid syllabic [st р :t r]</c></r>
+    <r><c>[w bohatə]</c><c>rich</c><c>—</c><c>adjective</c></r>
+    <r><c>[st боланъ :t bolană]</c><c>sick, ill</c><c>—</c><c>adjective</c></r>
+    <r><c>[w belə]</c><c>white</c><c><code>*běly</code></c><c>adjective</c></r>
+    <r><c>[st чернъ :t černă]</c><c>black</c><c>PSl <code>*čьrnъ</code></c><c>adjective; strong ь → е; [st ч :t č] retained, [st е :t e] kept before liquid</c></r>
+    <r><c>[st студенъ :t studenă]</c><c>cold</c><c>—</c><c>adjective</c></r>
+    <r><c>[w topalə]</c><c>warm</c><c>—</c><c>adjective</c></r>
+    <r><c>[w styrsky]</c><c>Styrian</c><c>—</c><c>adjective / language name modifier</c></r>
+    <r><c>[w pysat]</c><c>to write</c><c>—</c><c>a-class impf.</c></r>
+    <r><c>[w napysat]</c><c>to write, finish writing</c><c>—</c><c>a-class pf.</c></r>
+    <r><c>[w delat]</c><c>to do, make</c><c>—</c><c>a-class impf.</c></r>
+    <r><c>[w sdelat]</c><c>to do, complete</c><c>—</c><c>a-class pf.</c></r>
+    <r><c>[w žyvat]</c><c>to live</c><c>—</c><c>a-class impf.</c></r>
+    <r><c>[w prašat]</c><c>to send; to ask</c><c>—</c><c>a-class impf.</c></r>
+    <r><c>[w pokazat]</c><c>to show</c><c>—</c><c>a-class impf. (irregular stem: [st покаж :t pokaž]- before [st а :t a])</c></r>
+    <r><c>[w kupat]</c><c>to buy</c><c>—</c><c>a-class impf.</c></r>
+    <r><c>[w kupit]</c><c>to buy, complete purchase</c><c>—</c><c>i-class pf.</c></r>
+    <r><c>[w vydit]</c><c>to see</c><c>—</c><c>i-class impf.</c></r>
+    <r><c>[w nosit]</c><c>to carry (habitually), transport</c><c><code>*nositi</code></c><c>i-class impf.; <em>multidirectional</em>; habitual or repeated carrying; unidirectional counterpart is [w nesat]</c></r>
+    <r><c>[w nesat]</c><c>to carry (one trip, toward destination)</c><c><code>*nesti</code></c><c>a-class impf.; <em>unidirectional</em>; nasal-stem, regularized to a-class in Period III; multidirectional counterpart is [w nosit]; present: [w nesat :i 1sg]/[w nesat :i 2sg]/[w nesat :i 3sg]/[w nesat :i 1pl]/[w nesat :i 2pl]/[w nesat :i 3pl]; l-part. [w nesat :i lptc.m]</c></r>
+    <r><c>[w vlezit]</c><c>to enter</c><c>—</c><c>i-class pf.</c></r>
+    <r><c>[w myt]</c><c>to wash</c><c>—</c><c>i-class impf.</c></r>
+    <r><c>[st смет :t smet] [w se]</c><c>to laugh</c><c>—</c><c>reflexive-only impf.</c></r>
+    <r><c>[st боат :t boat] [w se]</c><c>to be afraid</c><c>—</c><c>reflexive-only impf.</c></r>
+    <r><c>[st штудіт :t študit] [w se]</c><c>to be amazed</c><c>—</c><c>reflexive-only impf.</c></r>
+    <r><c>[st надет :t nadet] [w se]</c><c>to hope</c><c>—</c><c>reflexive-only impf.</c></r>
+    <r><c>[w byt]</c><c>to be</c><c>—</c><c>irregular copula</c></r>
+    <r><c>[w ymat]</c><c>to have</c><c>—</c><c>a-class (mostly regular)</c></r>
+    <r><c>[w ydat]</c><c>to go (unidirectional)</c><c>—</c><c>irregular; <em>unidirectional</em>; single directed trip; l-part. [w ydat :i lptc.m]; multidirectional counterpart is [w xodit]</c></r>
+    <r><c>[w xodit]</c><c>to go (habitually), walk, frequent</c><c><code>*xoditi</code></c><c>i-class impf.; <em>multidirectional</em>; cf. Czech <em>chodit</em>, Sln. <em>hoditi</em>; present: [w xodit :i 1sg]/[w xodit :i 2sg]/[w xodit :i 3sg]/[w xodit :i 1pl]/[w xodit :i 2pl]/[w xodit :i 3pl]; l-part. [w xodit :i lptc.m]</c></r>
+    <r><c>[w doit]</c><c>to come, arrive</c><c>—</c><c>i-class pf.; l-part. [w doit :i lptc.m]</c></r>
+    <r><c>[w bežat]</c><c>to run (unidirectional)</c><c><code>*běžati</code></c><c>a-class impf.; <em>unidirectional</em>; single directed run; multidirectional counterpart is [w behat]; present: [w bežat :i 1sg]/[w bežat :i 2sg]/[w bežat :i 3sg]/[w bežat :i 1pl]/[w bežat :i 2pl]/[w bežat :i 3pl]</c></r>
+    <r><c>[w behat]</c><c>to run (habitually), be a runner</c><c><code>*běgati</code></c><c>a-class impf.; <em>multidirectional</em>; note г = /ɦ/ in romanization; present: [w behat :i 1sg]/[w behat :i 2sg]/[w behat :i 3sg]/[w behat :i 1pl]/[w behat :i 2pl]/[w behat :i 3pl]</c></r>
+    <r><c>[w dat]</c><c>to give</c><c>—</c><c>irregular</c></r>
+    <r><c>[w možit]</c><c>can, be able</c><c>—</c><c>i-class modal</c></r>
+    <r><c>[w xotit]</c><c>want; intend</c><c><code>*xъtěti</code></c><c>i-class; semi-auxiliary; present хочем/хочеш/хоче</c></r>
+    <r><c>[w stat]</c><c>to become, stand</c><c>—</c><c>a-class; often pf. in meaning</c></r>
+    <r><c>[w vyxodit]</c><c>to go out, exit; to come out (in print, of results)</c><c>—</c><c>i-class impf.; ви- prefix (West Slavic stratum); present: [w vyxodit :i 1sg]/[w vyxodit :i 2sg]/[w vyxodit :i 3sg]/[w vyxodit :i 1pl]/[w vyxodit :i 2pl]/[w vyxodit :i 3pl]; cf. Czech <em>vycházet</em>; broader figurative range than directional [w yzxodit]</c></r>
+    <r><c>[w vybrat]</c><c>to choose, pick out, select</c><c><code>*vybьrati</code></c><c>pf.; ви- prefix; present stem [st вибир- :t vybyr-]: [w vybrat :i 1sg]/[w vybrat :i 2sg]/[w vybrat :i 3sg]; l-part. [w vybrat :i lptc.m]; impf. [w vybyrat]; cf. Czech <em>vybrat</em></c></r>
+    <r><c>[w vypysat]</c><c>to write out, copy out; to fill out (a form)</c><c>—</c><c>pf. a-class; ви- prefix; present: [w vypysat :i 1sg]/[w vypysat :i 2sg]/[w vypysat :i 3sg]; l-part. [w vypysat :i lptc.m]; cf. Czech <em>vypsat</em></c></r>
+    <r><c>[w vyučit]</c><c>to teach (sb.) thoroughly, train, instruct to completion</c><c>—</c><c>pf. i-class; ви- prefix; present: [w vyučit :i 1sg]/[w vyučit :i 2sg]/[w vyučit :i 3sg]; l-part. [w vyučit :i lptc.m]; cf. Czech <em>vyučit</em>; emphasizes completeness of teaching</c></r>
+    <r><c>[w vyhnat]</c><c>to drive out, expel, chase away</c><c><code>*vygъnati</code></c><c>pf.; ви- prefix; suppletive present from <code>*goniti</code>: [w vyhnat :i 1sg]/[w vyhnat :i 2sg]/[w vyhnat :i 3sg]; l-part. [w vyhnat :i lptc.m]; cf. Czech <em>vyhnat</em></c></r>
+    <r><c>[w yzxodit]</c><c>to come out, emerge (from a space)</c><c>—</c><c>i-class impf.; из- prefix; directional (physical emergence); cf. [w vyxodit] which has broader figurative range</c></r>
+    <r><c>[w lekar]</c><c>doctor</c><c>—</c><c>noun</c></r>
+    <r><c>[st ритаръ :t rytară]</c><c>knight, warrior</c><c>German</c><c>noun</c></r>
+    <r><c>[st шлосъ :t šlosă]</c><c>castle, palace</c><c>German</c><c>noun</c></r>
+    <r><c>[st мези :t mezy]</c><c>between</c><c>—</c><c>preposition</c></r>
+    <r><c>[w koga]</c><c>when</c><c>—</c><c>adverb / conjunction; temporal interrogative and relative</c></r>
+    <r><c>[w tuka]</c><c>here</c><c>—</c><c>adverb</c></r>
+    <r><c>[w utre]</c><c>tomorrow</c><c>—</c><c>adverb</c></r>
+    <r><c>[w večer]</c><c>yesterday</c><c>—</c><c>adverb</c></r>
+    <r><c>[w dnes]</c><c>today</c><c>—</c><c>adverb</c></r>
+    <r><c>[w toha]</c><c>then, at that time</c><c>—</c><c>adverb; canonical temporal "then"</c></r>
+    <r><c>[w dak]</c><c>that</c><c>—</c><c>declarative complementizer</c></r>
+    <r><c>[w ako]</c><c>if</c><c>—</c><c>conditional conjunction</c></r>
+    <r><c>[w zače]</c><c>why; because</c><c>—</c><c>interrogative and causal conjunction</c></r>
+    <r><c>[w stoha]</c><c>thus, therefore</c><c><code>*sь + toga</code></c><c>adverb; clause-initial discourse connective</c></r>
+    <r><c>[w nema]</c><c>there is not; not have</c><c>—</c><c>negative existential / possessive form</c></r>
+    <r><c>[w niče]</c><c>nothing</c><c>—</c><c>negative pronoun</c></r>
+    <r><c>[w nykoha]</c><c>never</c><c>—</c><c>adverb</c></r>
+    <r><c>[w seha]</c><c>now</c><c>—</c><c>adverb</c></r>
+    <r><c>[w uže]</c><c>already</c><c>—</c><c>adverb</c></r>
+    <r><c>[w uše]</c><c>still, yet</c><c>—</c><c>adverb</c></r>
+  </tb>
+</ch>

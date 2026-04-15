@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="grammar.xsl"?>
+<ch id="03" t="Nominals and Modifiers">
+  <sec t="Nouns">
+    <sub t="Number">
+      <p>Styrian nouns have only two productive numbers, singular and plural. The singular is the bare stem. The plural follows two patterns:</p>
+      <list>
+        <item>Consonant-final stems take -[st і :t i]: [w dom] &gt; [w dom :i pl] "houses", [w most] &gt; [w most :i pl] "bridges", [w les] &gt; [w les :i pl] "forests"</item>
+        <item>Regular stems ending in -[st а :t a] form the oblique singular in -[st е :t e] and the plural in -[st и :t y]: [w zema] &gt; [w zema :i obl.sg] "land" (obl.), [w zema] &gt; [w zema :i pl] "lands", [w knyha] &gt; [w knyha :i pl] "books"</item>
+      </list>
+      <p>The consonant-final -[st і :t i] plural is the broad default, and the productive feminine -[st а :t a] class now uses plural -[st и :t y] while keeping oblique singular -[st е :t e]. A small inherited set of nouns additionally preserves fossilized velar mutation before front-vowel inflectional endings, but this is a lexically specified relic subclass rather than an automatic pattern for all velar-final stems; these nouns are treated in the next section.</p>
+    </sub>
+    <sub t="Fossilized Velar Mutation">
+      <p>A small inherited set of nouns preserves a fossilized morphophonological alternation before front-vowel inflection. In that closed subclass, stem-final velars mutate as <code>k &gt; c</code>, <code>x &gt; š</code>, and <code>g &gt; ž</code> before the inflectional exponents -[st е :t e] and -[st і :t i]. Synchronically this is no longer a productive sound change for new vocabulary, and speakers do not apply it automatically to every velar-final noun: compare mutating [w ruka] / [w ruka :i obl.sg] / [w ruka :i pl] with regular non-mutating [w knyha] / [w knyha :i obl.sg] / [w knyha :i pl]. The alternation therefore has to be specified lexically.</p>
+      <p>In consonant-final nouns the alternation normally appears only in the plural, because the oblique singular takes back-vowel -[st у :t u] and therefore does not trigger the mutation. In the feminine velar-mutation subclass, by contrast, the oblique singular has mutated -[st е :t e] and the plural has mutated -[st и :t y]; the stem mutation applies in both categories, but the suffixes now align with the wider feminine system.</p>
+      <tb>
+        <r><c>Class</c><c>Nominative sg</c><c>Oblique sg</c><c>Plural</c><c>Meaning</c></r>
+        <r><c>consonant-final</c><c>[w druh]</c><c>[w druh :i obl.sg]</c><c>[w druh :i pl]</c><c>other one</c></r>
+        <r><c>consonant-final</c><c>[w bog]</c><c>[w bog :i obl.sg]</c><c>[w bog :i pl]</c><c>God; god</c></r>
+        <r><c>consonant-final</c><c>[w sneh]</c><c>[w sneh :i obl.sg]</c><c>[w sneh :i pl]</c><c>snow</c></r>
+        <r><c>-[st а :t a] class</c><c>[w ruka]</c><c>[w ruka :i obl.sg]</c><c>[w ruka :i pl]</c><c>hand</c></r>
+        <r><c>-[st а :t a] class</c><c>[w noha]</c><c>[w noha :i obl.sg]</c><c>[w noha :i pl]</c><c>foot, leg</c></r>
+        <r><c>-[st а :t a] class</c><c>[w sluha]</c><c>[w sluha :i obl.sg]</c><c>[w sluha :i pl]</c><c>servant</c></r>
+        <r><c>-[st а :t a] class</c><c>[w muha]</c><c>[w muha :i obl.sg]</c><c>[w muha :i pl]</c><c>fly (insect)</c></r>
+        <r><c>-[st а :t a] class</c><c>[w doroha]</c><c>[w doroha :i obl.sg]</c><c>[w doroha :i pl]</c><c>road</c></r>
+      </tb>
+      <p>New loans and coinages normally take the ordinary productive inflection — plural -[st и :t y] in the regular feminine class, -[st і :t i] in consonant-final nouns — without velar mutation.</p>
+    </sub>
+    <sub t="Irregular Plurals">
+      <p>A separate small set of high-frequency nouns preserve inherited suppletive or genuinely irregular plurals. Their behavior is lexical rather than part of the fossilized velar-mutation pattern above; the oblique singular is formed regularly from the nominative stem unless otherwise noted.</p>
+      <tb>
+        <r><c>Nominative sg</c><c>Oblique sg</c><c>Plural</c><c>Meaning</c><c>Note</c></r>
+        <r><c>[w čelovek]</c><c>[w čelovek :i obl.sg]</c><c>[w čelovek :i pl]</c><c>person</c><c>suppletive plural from <code>*ljud[st ь]je</code></c></r>
+        <r><c>[w den]</c><c>[w den :i obl.sg]</c><c>[w den :i pl]</c><c>day</c><c>old consonant-stem reflex</c></r>
+        <r><c>[w oko]</c><c>[w oko :i obl.sg]</c><c>[w oko :i pl]</c><c>eye</c><c>old consonant-stem with inherited palatal plural</c></r>
+        <r><c>[w uho]</c><c>[w uho :i obl.sg]</c><c>[w uho :i pl]</c><c>ear</c><c>old consonant-stem with palatalization</c></r>
+        <r><c>[w dete]</c><c>[w dete :i obl.sg]</c><c>[w dete :i pl]</c><c>child, children</c><c>collective plural reanalyzed as pl.; old /ts/ &gt; [st ст :t st]</c></r>
+      </tb>
+    </sub>
+    <sub t="Case: Nominative and Oblique">
+      <p>Styrian singular nouns distinguish two cases: <em>nominative</em> and <em>oblique</em>. The nominative is the citation form and is used for subjects and predicate nominals. The oblique is the dependent form and is used for direct objects and as the complement of all prepositions. Plural nouns show complete case syncretism and have a single form regardless of syntactic function. Adjectives and other adnominals — including articles, demonstratives, and possessives — agree with the noun in gender, number, and case. In the plural the oblique form is identical to the nominative, so only the singular has a visible case distinction (see §Articles and §Adjectives). In ordinary prepositional phrases the article is usually omitted, but when retained it carries the oblique form.</p>
+      <p><em>Nominative — subject and predicate nominal:</em></p>
+      <list>
+        <item>[w ta] [w čelovek] [st вида :t vyda] [w ta :i m.sg.obl] [w dom :i obl.sg] — [w ta] [w čelovek] is subject (nominative)</item>
+        <item>[w ta] [w dom] [w byt :i 3sg] [w starə :i m.sg] — [w ta] [w dom] is subject (nominative)</item>
+        <item>[w on] [w byt :i 3sg] [w lekar] — [w lekar] is predicate nominal (nominative)</item>
+      </list>
+      <p><em>Oblique — direct object:</em></p>
+      <list>
+        <item>[w ta] [w čelovek] [st вида :t vyda] [w ta :i m.sg.obl] [w dom :i obl.sg] — [w ta :i m.sg.obl] [w dom :i obl.sg] is direct object (oblique article + oblique noun)</item>
+        <item>[w az] [w kupit :i lptc.m] [w knyha :i obl.sg] — [w knyha :i obl.sg] is direct object (bare oblique noun, no article)</item>
+      </list>
+      <p><em>Oblique — complement of preposition:</em></p>
+      <list>
+        <item>[w ve] [w dom :i obl.sg] "in the house" — neutral prepositional phrase; article omitted, bare oblique noun</item>
+        <item>[w na] [w reka :i obl.sg] "on the river" — [w reka :i obl.sg] governed by [w na]</item>
+        <item>[w knyha] [w od] [st Марие :t Marye] "Maria's book" — [st Марие :t Marye] governed by [w od]</item>
+        <item>[w so] [w čelovek :i obl.sg] "with the person" — [w čelovek :i obl.sg] governed by [w so]</item>
+        <item>[w ve] [w ta :i m.sg.obl] [w hrad :i obl.sg] "in that particular town" — marked: oblique article retained for deixis or contrast</item>
+      </list>
+      <p>The only residual frozen forms are a small number of adverbs descended from older case endings: [st дома :t doma] "at home" (old locative of [w dom]), [st ноште :t nošte] "at night" (old locative of [st ноштъ :t noštă] "night"), and similar.</p>
+    </sub>
+
+    <sub t="Declension Classes">
+      <p>Styrian nouns fall into three productive declension classes defined by the nominative singular ending, plus a small inherited set of velar-final stems with fossilized front-vowel mutation and two residual sets with genuinely irregular plurals. The oblique singular is formed by a suffix added to the stem after dropping any final schwa; the plural follows the patterns given in §Number.</p>
+      <tb>
+        <r><c>Class</c><c>Nominative sg</c><c>Oblique sg</c><c>Plural</c><c>Examples</c></r>
+        <r><c>Common consonant-final</c><c>stem + [st ъ :t ă]</c><c>stem + [st у :t u]</c><c>stem + [st і :t i]</c><c>[w dom] / [w dom :i obl.sg] / [w dom :i pl]</c></r>
+        <r><c>Inherited velar-mutation consonant-final</c><c>main stem + [st ъ :t ă]</c><c>main stem + [st у :t u]</c><c>front stem + [st і :t i]</c><c>[w druh] / [w druh :i obl.sg] / [w druh :i pl]</c></r>
+        <r><c>Common -[st а :t a]</c><c>stem + [st а :t a]</c><c>stem + [st е :t e]</c><c>stem + [st и :t y]</c><c>[w reka] / [w reka :i obl.sg] / [w reka :i pl]</c></r>
+        <r><c>Inherited velar-mutation -[st а :t a]</c><c>main stem + [st а :t a]</c><c>front stem + [st е :t e]</c><c>front stem + [st и :t y]</c><c>[w ruka] / [w ruka :i obl.sg] / [w ruka :i pl]</c></r>
+        <r><c>Neuter -[st о :t o]/-[st е :t e]</c><c>stem + [st о :t o] or [st е :t e]</c><c>stem + [st у :t u]</c><c>stem + [st а :t a]</c><c>[w selo] / [w selo :i obl.sg] / [w selo :i pl]</c></r>
+      </tb>
+      <p>Additional examples of each productive class:</p>
+      <tb>
+        <r><c>Nominative sg</c><c>Oblique sg</c><c>Plural</c><c>Meaning</c></r>
+        <r><c>[w most]</c><c>[w most :i obl.sg]</c><c>[w most :i pl]</c><c>bridge</c></r>
+        <r><c>[w hrad]</c><c>[w hrad :i obl.sg]</c><c>[w hrad :i pl]</c><c>town</c></r>
+        <r><c>[w čelovek]</c><c>[w čelovek :i obl.sg]</c><c>[w čelovek :i pl]</c><c>person (irregular pl.)</c></r>
+        <r><c>[w knyha]</c><c>[w knyha :i obl.sg]</c><c>[w knyha :i pl]</c><c>book</c></r>
+        <r><c>[w druh]</c><c>[w druh :i obl.sg]</c><c>[w druh :i pl]</c><c>other one (fossilized velar mutation)</c></r>
+        <r><c>[w ruka]</c><c>[w ruka :i obl.sg]</c><c>[w ruka :i pl]</c><c>hand (fossilized velar mutation)</c></r>
+        <r><c>[w žena]</c><c>[w žena :i obl.sg]</c><c>[w žena :i pl]</c><c>woman</c></r>
+        <r><c>[w slovo]</c><c>[w slovo :i obl.sg]</c><c>[w slovo :i pl]</c><c>word</c></r>
+        <r><c>[w more]</c><c>[w more :i obl.sg]</c><c>[w more :i pl]</c><c>sea</c></r>
+      </tb>
+      <p>In the productive feminine -[st а :t a] class, oblique singular and plural are now formally distinct ([w reka :i obl.sg] vs. [w reka :i pl], [w knyha :i obl.sg] vs. [w knyha :i pl]). The fossilized velar-mutation subclass is likewise distinct in suffix but still preserves the mutated stem in both categories ([w ruka :i obl.sg] vs. [w ruka :i pl]). Crucially, subclass membership is lexical: a velar-final noun such as [w knyha] remains regular unless it belongs to this inherited set. In consonant-final nouns, only the plural usually shows the mutation because the oblique singular ends in back-vowel -[st у :t u].</p>
+      <p>Recent loanwords and proper nouns that end in an unexpected consonant cluster or vowel may remain indeclinable in informal use, taking no oblique suffix. In the standard language, however, adaptable loans are assigned to the consonant-final class.</p>
+    </sub>
+  </sec>
+
+  <sec t="Nominal Derivation">
+    <p>Although Styrian has lost much of the old inflectional machinery, it still preserves a productive derivational system for building nouns. The main nominalizing suffixes are agentive -[st аръ :t ară], individualizing -[st ецъ :t ecă], feminine -[st ица :t ica], abstract-collective -[st ъстуо :t ăstuo], quality-abstract -[st остъ :t ostă], associative -[st нікъ :t nikă], action -[st ба :t ba], deverbal agent -[st телъ :t telă], and active-doer -[st ачъ :t ačă]. Once formed, derived nouns behave like ordinary nouns and take the regular plural.</p>
+
+    <p>The suffix -[st аръ :t ară] derives occupational, craft, and habitual-sphere nouns, naming a person by their recognized trade, skill, or characteristic domain. The base is frequently nominal — a concrete product, material, or sphere of activity — and even where the underlying base is verbal, the derived noun names a social or professional type rather than yielding a transparent compositional reading of 'one who performs this action.' The suffix does not directly nominalize a predicate; it assigns the person to a recognized category. In the prototypical case the base is purely nominal and no -[st телъ :t telă] form is possible alongside it: there is no Styrian *<em>вина-тел</em> for 'vintner' and no *<em>риба-тел</em> for 'fisherman,' because a nominal base cannot serve as a verb stem for the deverbal suffix. With verbal bases in -[st ат :t at] or -[st іт :t it], the infinitival ending is removed before the suffix is added.</p>
+    <tb>
+      <r><c>Base</c><c>Derived noun</c><c>Meaning</c></r>
+      <r><c>[w ryba]</c><c>[st рибаръ :t rybară]</c><c>fisherman</c></r>
+      <r><c>[w kram]</c><c>[st крамаръ :t kramară]</c><c>shopkeeper, trader</c></r>
+      <r><c>[w vyno]</c><c>[st винаръ :t vynară]</c><c>vintner, wine seller</c></r>
+      <r><c>[w les]</c><c>[st лесаръ :t lesară]</c><c>forester, woodcutter</c></r>
+    </tb>
+    <p>Older lexicalized words such as [w lekar] "doctor" belong to the same pattern. Synchronically, -[st аръ :t ară] is the productive suffix for new professional and occupational coinages; it names a person as a recognized social type defined by their sphere or craft, not merely as a momentary doer of an action.</p>
+
+    <p>The suffix -[st ецъ :t ecă] is the regular Styrian continuation of Proto-Slavic *-<em>ьць</em>, comparable to Russian -<em>ец</em> and Bulgarian -<em>ец</em>. The affricate of *-<em>ьць</em> is retained in Styrian as [st ц :t c], and the final weak jer yields the regular schwa, giving -[st ецъ :t ecă]. It derives count nouns referring to inhabitants, members, or a salient individual associated with a place or group.</p>
+    <tb>
+      <r><c>Base</c><c>Derived noun</c><c>Meaning</c></r>
+      <r><c>[w hrad]</c><c>[st градецъ :t hradecă]</c><c>townsman, citizen</c></r>
+      <r><c>[w selo]</c><c>[st селецъ :t selecă]</c><c>villager</c></r>
+      <r><c>[w zema]</c><c>[st земецъ :t zemecă]</c><c>native, countryman</c></r>
+      <r><c>[st стир :t styr]</c><c>[st стирецъ :t styrecă]</c><c>Styrian person</c></r>
+    </tb>
+    <p>Compared with -[st аръ :t ară], this suffix feels slightly narrower and more lexical. It is most natural in demonyms, inhabitant terms, and established member nouns.</p>
+
+    <p>Modern Styrian has a <em>three-way grammatical gender</em> distinction in the singular: <em>masculine</em>, <em>feminine</em>, and <em>neuter</em>. Masculine includes the inherited consonant-final classes ([w dom], [w most], [w hrad], [w čelovek]), feminine includes the inherited -<em>a</em> classes and other historically feminine nouns ([w knyha], [w zema], [w reka], [w voda]), and neuter continues the old neuters in -<em>o</em>/<em>e</em> ([w selo], [w slovo], [w more], [w pole], [w vyno]). Plural remains gender-neutral. Gender is reflected in articles, adjectives, adnominal possessives and demonstratives, and in the singular l-participle.</p>
+    <p>The derivational suffix -[st ица :t ica] continues Proto-Slavic *-<em>ица</em> (compare Bulgarian -<em>ица</em>, Serbian -<em>ица</em>) directly, retaining the affricate [st ц :t c]. It provides <em>lexical</em> marking of natural female reference and regularly yields feminine nouns, which then take the ordinary feminine article and agreement pattern.</p>
+    <tb>
+      <r><c>Base</c><c>Derived noun</c><c>Meaning</c></r>
+      <r><c>[w lekar]</c><c>[st лекарица :t lekarica]</c><c>female doctor</c></r>
+      <r><c>[st винаръ :t vynară]</c><c>[st винарица :t vynarica]</c><c>female vintner</c></r>
+      <r><c>[st градецъ :t hradecă]</c><c>[st градица :t hradica]</c><c>townswoman, female citizen</c></r>
+      <r><c>[st писаръ :t pysară]</c><c>[st писарица :t pysarica]</c><c>female scribe, woman writer</c></r>
+    </tb>
+    <p>This pattern is no longer fully productive, but it remains available for lexical contrast when the sex of a referent matters. In ordinary usage the unmarked base noun stays lexically masculine unless a feminine counterpart is specifically chosen.</p>
+
+    <p>The suffix -[st ъстуо :t ăstuo] continues Proto-Slavic *-<em>ьство</em>, the abstract and collective formative that most Slavic languages preserve as -<em>ство</em> (Russian, Bulgarian, Serbian) or -<em>stwo</em> (Polish). In Styrian the initial front jer of the suffix stands in weak position and merges with the general weak-jer reflex [st ъ :t ă], yielding an initial schwa: *-<em>ьstvo</em> &gt; *-<em>ăstvo</em>. The inherited sequence <em>tvo</em> is then repaired by the regular vocalization of [st в :t v] before a following vowel, the same development seen in forms such as [st доуа :t doua] &lt; *<em>dva</em>. Thus *-<em>ăstvo</em> &gt; *-<em>ăstuo</em>, written -[st ъстуо :t ăstuo]. The suffix forms abstract nouns, collectives, and names for social bodies or institutional domains.</p>
+    <tb>
+      <r><c>Base</c><c>Derived noun</c><c>Meaning</c></r>
+      <r><c>[st ритаръ :t rytară]</c><c>[st ритаръстуо :t rytarăstuo]</c><c>knighthood, chivalric order</c></r>
+      <r><c>[w lekar]</c><c>[st лекаръстуо :t lekarăstuo]</c><c>medical profession, body of doctors</c></r>
+      <r><c>[w kram]</c><c>[st крамъстуо :t kramăstuo]</c><c>trade, merchant estate</c></r>
+      <r><c>[w brat]</c><c>[st братъстуо :t bratăstuo]</c><c>brotherhood, fraternal order</c></r>
+    </tb>
+    <p>With human-denoting bases, -[st ъстуо :t ăstuo] usually refers to a profession, body, order, or social estate rather than to an individual person. In more abstract usage it can also denote an institutional sphere or collective practice.</p>
+
+    <p>The suffix -[st остъ :t ostă] derives quality and state nouns from adjectival bases. It corresponds to -<em>ость</em> in Russian, -<em>ost</em> in Czech and Polish, and -<em>ост</em> in Bulgarian, and all continue Proto-Slavic *-<em>ostь</em>. In Styrian the final soft jer weakens to schwa in the regular fashion, giving -[st остъ :t ostă]. The suffix attaches to the adjective stem after removal of the final schwa: [w dobrə] → stem <em>dobr-</em> → [st добростъ :t dobrostă]. It is among the most productive derivational suffixes in the language; virtually any adjective stem can yield a quality noun with -[st остъ :t ostă].</p>
+    <tb>
+      <r><c>Base</c><c>Derived noun</c><c>Meaning</c></r>
+      <r><c>[w dobrə]</c><c>[st добростъ :t dobrostă]</c><c>goodness, virtue</c></r>
+      <r><c>[w novə]</c><c>[st новостъ :t novostă]</c><c>novelty, news</c></r>
+      <r><c>[w starə]</c><c>[st старостъ :t starostă]</c><c>old age, seniority</c></r>
+      <r><c>[w bohatə]</c><c>[st богатостъ :t bohatostă]</c><c>wealth, prosperity</c></r>
+    </tb>
+
+    <p>The suffix -[st нікъ :t nikă] forms agent and associative nouns, typically from nominal or adjectival bases. It corresponds to -<em>ник</em> in Russian, Bulgarian, and Serbian. The Proto-Slavic form is *-<em>ьникъ</em>; the initial weak jer drops before the stressed syllable, and the suffix vowel, from original *<em>i</em>, is written [st і :t i] following Styrian's two-way high-vowel distinction. The suffix is productive for occupational roles, official positions, and persons defined by their association with a domain rather than by a specific action.</p>
+    <tb>
+      <r><c>Base</c><c>Derived noun</c><c>Meaning</c></r>
+      <r><c>[w put]</c><c>[st путнікъ :t putnikă]</c><c>traveler, wayfarer</c></r>
+      <r><c>[w les]</c><c>[st леснікъ :t lesnikă]</c><c>forester, woodsman</c></r>
+      <r><c>[st служит :t služyt]</c><c>[st служнікъ :t služnikă]</c><c>servant, steward, official</c></r>
+      <r><c>[st дворъ :t dvoră]</c><c>[st дворнікъ :t dvornikă]</c><c>court official, steward</c></r>
+    </tb>
+    <p>Alongside -[st аръ :t ară], which is the unmarked occupational suffix, -[st нікъ :t nikă] tends to carry a connotation of institutional role or habitual association rather than mere trade practice.</p>
+
+    <p>The suffix -[st ба :t ba] forms action nouns denoting an activity, process, or its result, often with a collective or institutional flavour, naming a practice rather than a single event. It continues Proto-Slavic *-<em>ьба</em>, with the front jer dropping in its characteristic weak position. However, -[st ба :t ba] is not productively attached to verb stems in modern Styrian. When the infinitival ending is removed and -[st ба :t ba] follows the bare stem directly, the resulting cluster depends entirely on the final consonant of the stem: cluster-final stems yield three-consonant medial sequences and obstruent-final stems produce illicit obstruent–obstruent combinations, both of which violate Styrian phonotactics (see §Phonotactics). Consequently the surviving -[st ба :t ba] nouns are inherited lexicalizations, the great majority having sonorant- or voiced-fricative-final stems where the junction cluster ([st рб :t rb], [st лб :t lb], [st жб :t žb]) is phonotactically tolerable.</p>
+    <tb>
+      <r><c>Base</c><c>Derived noun</c><c>Meaning</c></r>
+      <r><c>[st служит :t služyt]</c><c>[st служба :t služba]</c><c>service, duty</c></r>
+      <r><c>[st борит :t boryt]</c><c>[st борба :t borba]</c><c>struggle, fight</c></r>
+      <r><c>[st судит :t sudyt]</c><c>[st судба :t sudba]</c><c>fate, lot; judgment</c></r>
+      <r><c>[st молит :t molyt]</c><c>[st молба :t molba]</c><c>prayer, petition, plea</c></r>
+    </tb>
+    <p>All attested -[st ба :t ba] nouns in Styrian are old lexicalizations. [st свадба :t svadba] "wedding" is the clearest case: the source verb is no longer in active use and the form is inherited wholesale. The [st дб :t db] cluster in [st судба :t sudba] represents a marginal tolerance for voiced-stop sequences in archaic vocabulary and is not extended to new coinages. For productive action-noun derivation Styrian relies on other nominalizing strategies.</p>
+
+    <p>The suffix -[st телъ :t telă] is the transparently deverbal agent suffix: it attaches to the infinitive stem and compositionally yields 'one who performs the action of the verb.' It continues Proto-Slavic *-<em>телъ</em> (compare Russian -<em>тель</em>, Bulgarian -<em>тел</em>, Czech -<em>tel</em>), with the final soft jer becoming schwa in the regular Styrian fashion. A linking vowel matching the conjugation class appears between stem and suffix. Unlike -[st аръ :t ară], which assigns the referent to a recognized trade or social sphere, -[st телъ :t telă] stays semantically close to the predicate and does not require the referent to hold any particular professional status: it simply names the doer of the verbal action in a direct and compositional way.</p>
+    <tb>
+      <r><c>Base</c><c>Derived noun</c><c>Meaning</c></r>
+      <r><c>[st учит :t učyt]</c><c>[st учителъ :t učitelă]</c><c>teacher; one who teaches</c></r>
+      <r><c>[st носит :t nosyt]</c><c>[st носителъ :t nosytelă]</c><c>bearer, carrier; one who carries</c></r>
+      <r><c>[st правит :t pravyt]</c><c>[st правителъ :t pravitelă]</c><c>ruler, governor</c></r>
+      <r><c>[st хранит :t ħranyt]</c><c>[st хранителъ :t ħranytelă]</c><c>keeper, guardian, custodian</c></r>
+    </tb>
+    <p>For the most part the two suffixes occupy non-overlapping lexical territory. Purely nominal bases take -[st аръ :t ară] only: [st рибаръ :t rybară], [st винаръ :t vynară], [st крамаръ :t kramară] have no -[st телъ :t telă] counterparts, because a nominal base cannot supply a verb stem. Conversely, verbs whose action has no established craft or trade domain take -[st телъ :t telă] only: [st носителъ :t nosytelă] "bearer," [st правителъ :t pravitelă] "ruler," [st хранителъ :t ħranytelă] "guardian" have no natural -[st аръ :t ară] equivalents, because bearing, ruling, and guarding are not recognized trades. The genuine overlap is narrow. [w pysat] "to write" is the clearest case: [st писаръ :t pysară] names writing as a profession or trade — scribe, clerk, one for whom writing is a livelihood — while [st писателъ :t pysatelă] names the agent of the action more broadly — any writer or author, regardless of whether writing is their occupation. Writing straddles both worlds (a historical trade and an action anyone performs), which is precisely why both forms exist and are distinguished. Note that [st учителъ :t učitelă] retains the inherited affricate [st ч :t č] of PS *<em>uč</em>- directly.</p>
+
+    <p>The suffix -[st ачъ :t ačă] is the Styrian continuation of the widespread Slavic active-doer suffix, comparable to -<em>ач</em> in Russian and Bulgarian, -<em>acz</em> in Polish, and -<em>ač</em> in Czech and Serbian. The Proto-Slavic form *-<em>ачь</em> ends in the affricate /tʃ/ followed by a weak jer. The affricate is retained in Styrian as [st ч :t č], and the weak jer yields the regular schwa, giving -[st ачъ :t ačă]. The suffix attaches to verb stems and forms nouns denoting a habitual or characteristic doer, often with a more dynamic connotation than either -[st аръ :t ară] or -[st телъ :t telă].</p>
+    <tb>
+      <r><c>Base</c><c>Derived noun</c><c>Meaning</c></r>
+      <r><c>[st коват :t kovat]</c><c>[st ковачъ :t kovačă]</c><c>smith, metal-worker</c></r>
+      <r><c>[st ловит :t lovyt]</c><c>[st ловачъ :t lovačă]</c><c>hunter, trapper</c></r>
+      <r><c>[st плесат :t plesat]</c><c>[st плесачъ :t plesačă]</c><c>dancer</c></r>
+      <r><c>[st бегат :t begat]</c><c>[st бегачъ :t begačă]</c><c>runner, messenger</c></r>
+    </tb>
+    <p>Many -[st ачъ :t ačă] nouns have a slightly more energetic or colloquial feel than their -[st аръ :t ară] equivalents and are particularly common in vernacular speech and folk vocabulary.</p>
+  </sec>
+
+  <sec t="Articles">
+    <p>Styrian has a definite article system with four gender-number slots: masculine singular, feminine singular, neuter singular, and plural. Within each singular slot the article distinguishes nominative and oblique, giving six distinct forms overall. The plural has a single form for both cases.</p>
+    <tb>
+      <r><c></c><c>Masc. sg</c><c>Fem. sg</c><c>Neut. sg</c><c>Plural</c></r>
+      <r><c>Nominative</c><c>[w ta]</c><c>[w taf]</c><c>[w to]</c><c>[w ti]</c></r>
+      <r><c>Oblique</c><c>[w ta :i m.sg.obl]</c><c>[w taf :i f.sg.obl]</c><c>[w to :i n.sg.obl]</c><c>[w ti]</c></r>
+    </tb>
+    <p>These articles are the unstressed clitic reflexes of the old distal demonstrative paradigm <code>*t[st ъ] / *ta / *to / *ti</code> (see §Diachronic Development, Period III). They are proclitics and precede the noun phrase. The nominative forms are used when the noun phrase functions as subject or predicate nominal; the oblique forms are used when the noun phrase functions as direct object or as the complement of a preposition.</p>
+    <p>Examples — nominative (subject and predicate nominal):</p>
+    <list>
+      <item>[w ta] [w dom] [w byt :i 3sg] [w holemə :i m.sg] "the house is big" — masculine sg nom</item>
+      <item>[w taf] [w knyha] [w byt :i 3sg] [w novə :i f.sg] "the book is new" — feminine sg nom</item>
+      <item>[w to] [w slovo] [w byt :i 3sg] [w dobrə :i n.sg] "the word is good" — neuter sg nom</item>
+      <item>[w ti] [w dom :i pl] [w byt :i 3pl] [w starə :i pl] "the houses are old" — plural nom</item>
+    </list>
+    <p>Examples — oblique (direct object and complement of preposition):</p>
+    <list>
+      <item>[w az] [w vydit :i 1sg] [w ta :i m.sg.obl] [w dom :i obl.sg] "I see the house" — masculine sg obl</item>
+      <item>[w az] [w kupit :i lptc.m] [w taf :i f.sg.obl] [w knyha :i obl.sg] "I bought the book" — feminine sg obl</item>
+      <item>[w on] [w ymat :i 3sg] [w to :i n.sg.obl] [w slovo :i obl.sg] "he has the word" — neuter sg obl</item>
+      <item>[w az] [w vydit :i 1sg] [w ti] [w dom :i pl] "I see the houses" — plural (obl = nom)</item>
+    </list>
+    <p>Inside prepositional phrases, however, the article is normally <em>omitted</em>. A bare oblique or plural noun after the preposition is the neutral pattern even when the referent is definite or already identifiable from context:</p>
+    <list>
+      <item>[w ve] [w hrad :i obl.sg] "in town / in the town"</item>
+      <item>[w ve] [w dom :i obl.sg] "in the house"</item>
+      <item>[w so] [w čelovek :i obl.sg] "with the person"</item>
+    </list>
+    <p>Retaining the article after a preposition is therefore marked. When retained, the oblique article form is used: compare neutral [w ve] [w hrad :i obl.sg] with marked [w ve] [w ta :i m.sg.obl] [w hrad :i obl.sg] "in that particular town / in the town there". In strongly deictic contexts the full demonstratives [w sej :i m.sg] / [w toj :i m.sg] are often preferred, and these also take the oblique form when governed by a preposition.</p>
+    <p>There is no indefinite article. In subject and direct-object position, bare nouns are typically indefinite or generic; in prepositional phrases the same bare form is also the normal definite pattern:</p>
+    <list>
+      <item>[w dom] [w byt :i 3sg] [w holemə :i m.sg] "a house is large / houses are large" (generic)</item>
+      <item>[w on] [w kupit :i lptc.m] [w dom] "he bought a house" (bare noun, indefinite reading)</item>
+      <item>[w my] [st билі :t byli] [w ve] [w hrad :i obl.sg] "we were in the town / in town" (prepositional phrase, article omitted by default)</item>
+    </list>
+    <p>The numeral [w edyn] "one" can mark an explicitly indefinite singular, especially for specific referents:</p>
+    <list>
+      <item>[w edyn] [w čelovek] [st доіл :t doil] [w dnes] "a (certain) person arrived today"</item>
+    </list>
+    <p>With possessives, Styrian normally <em>keeps the article</em>, much as in Italian or Greek. The article agrees with the gender and case of the noun:</p>
+    <list>
+      <item>[w taf] [w moj :i f.sg] [w knyha] "my book" (nom)</item>
+      <item>[w ta] [w tuoj :i m.sg] [w dom] "your house" (nom)</item>
+      <item>[w to] [w moj :i n.sg] [w vyno] "my wine" (nom)</item>
+      <item>[w ti] [w naš :i pl] [w dom :i pl] "our houses" (nom/obl pl)</item>
+      <item>[w ta :i m.sg.obl] [w moj :i m.sg.obl] [w dom :i obl.sg] "my house" (obl, e.g. as direct object)</item>
+      <item>[w taf :i f.sg.obl] [w tuoj :i f.sg.obl] [w knyha :i obl.sg] "your book" (obl)</item>
+    </list>
+    <p>This article + possessive pattern is the normal definite possessive construction. Both the article and the possessive carry the case ending that matches the noun's syntactic function.</p>
+  </sec>
+
+  <sec t="Demonstratives">
+    <p>The demonstrative system is distinct from the article system, though historically related to it. Modern demonstratives are stressed and inflect for gender, number, and case, exactly paralleling the article paradigm.</p>
+    <tb>
+      <r><c></c><c></c><c>Proximal</c><c>Distal</c></r>
+      <r><c>Masculine sg</c><c>Nominative</c><c>[w sej :i m.sg]</c><c>[w toj :i m.sg]</c></r>
+      <r><c></c><c>Oblique</c><c>[w sej :i m.sg.obl]</c><c>[w toj :i m.sg.obl]</c></r>
+      <r><c>Feminine sg</c><c>Nominative</c><c>[w sej :i f.sg]</c><c>[w toj :i f.sg]</c></r>
+      <r><c></c><c>Oblique</c><c>[w sej :i f.sg.obl]</c><c>[w toj :i f.sg.obl]</c></r>
+      <r><c>Neuter sg</c><c>Nominative</c><c>[w sej :i n.sg]</c><c>[w toj :i n.sg]</c></r>
+      <r><c></c><c>Oblique</c><c>[w sej :i n.sg.obl]</c><c>[w toj :i n.sg.obl]</c></r>
+      <r><c>Plural</c><c>Nom/Obl</c><c>[w sej :i pl]</c><c>[w toj :i pl]</c></r>
+    </tb>
+    <p>[w sej :i m.sg :c] derives from the stressed form of the old proximal demonstrative, while [w toj :i m.sg :c] continues the old distal demonstrative with the reinforcing glide. The reduced articles descend from the same paradigm but now function as separate proclitics. Demonstratives take the oblique form whenever the noun phrase they head functions as a direct object or the complement of a preposition.</p>
+    <p>Demonstratives can function as:</p>
+    <list type="ordered">
+      <item><em>Determiners</em> (before a noun, in place of the article):</item>
+    </list>
+    <list>
+      <item>[w sej :i m.sg] [w dom] [w byt :i 3sg] [w starə :i m.sg] "this house is old" (nom)</item>
+      <item>[w toj :i pl] [w knyha :i pl] [w byt :i 3pl] [w dobrə :i pl] "those books are good" (pl nom)</item>
+      <item>[w az] [w vydit :i 1sg] [w sej :i m.sg.obl] [w dom :i obl.sg] "I see this house" (obl)</item>
+      <item>[w on] [w kupit :i lptc.m] [w toj :i f.sg.obl] [w knyha :i obl.sg] "he bought that book" (obl)</item>
+    </list>
+    <list type="ordered">
+      <item><em>Pronouns</em> (standing alone):</item>
+    </list>
+    <list>
+      <item>[w sej :i m.sg] [w byt :i 3sg] [w moj :i m.sg] "this (one) is mine"</item>
+      <item>[w toj :i n.sg] [w ne] [st знам :t znam] "that I do not know"</item>
+    </list>
+    <p>When used as a determiner, the demonstrative replaces the article. You do not say *[w ta] [w sej :i m.sg] [w dom]; you say simply [w sej :i m.sg] [w dom].</p>
+    <p>Demonstratives can be reinforced with the particle [st ту :t tu] "here" or [st там :t tam] "there":</p>
+    <list>
+      <item>[w sej :i m.sg] [st ту :t tu] "this one right here"</item>
+      <item>[w toj :i m.sg] [st там :t tam] "that one over there"</item>
+    </list>
+  </sec>
+
+  <sec t="Pronouns">
+    <p>Pronouns mirror the nominative–oblique distinction found in nouns, but with suppletive and irregular stems inherited from an earlier fuller paradigm. Full pronouns have two forms: a <em>nominative</em> used as subject, and an <em>oblique</em> used as direct object, as the complement of prepositions, and in other dependent positions. Alongside the full forms, a separate series of reduced <em>dative clitics</em> expresses indirect-object (recipient and beneficiary) meaning; these are the only surviving clitics from the older paradigm.</p>
+    <tb>
+      <r><c>Person</c><c>Nominative</c><c>Oblique</c><c>Dative Clitic</c><c>Possessive</c></r>
+      <r><c>1sg</c><c>[w az]</c><c>[st мене :t mene]</c><c>[w my]</c><c>[w moj :i m.sg]</c></r>
+      <r><c>2sg</c><c>[w ty]</c><c>[w tebe]</c><c>[w ty]</c><c>[w tuoj :i m.sg]</c></r>
+      <r><c>3sg masc.</c><c>[w on]</c><c>[st него :t neho]</c><c>[w mu]</c><c>[w nehov :i m.sg]</c></r>
+      <r><c>3sg fem.</c><c>[w ona]</c><c>[st него :t neho]</c><c>[w mu]</c><c>[w nehov :i f.sg]</c></r>
+      <r><c>3sg neut.</c><c>[w ono]</c><c>[st него :t neho]</c><c>[w mu]</c><c>[w nehov :i n.sg]</c></r>
+      <r><c>1pl</c><c>[w my]</c><c>[w nas]</c><c>[w nam]</c><c>[w naš :i pl]</c></r>
+      <r><c>2pl</c><c>[w vy]</c><c>[w vas]</c><c>[w vam]</c><c>[w vaš :i pl]</c></r>
+      <r><c>3pl</c><c>[w ony]</c><c>[st них :t nyħ]</c><c>[w ym]</c><c>[w nyhov :i pl]</c></r>
+    </tb>
+    <p>The oblique is used for direct objects ([w az] [w vydit :i 1sg] [st него :t neho] "I see him"), for prepositional complements ([w do] [st мене :t mene] "to me", [w so] [st нас :t nas] "with us"), and in [w od]-possession phrases ([w knyha] [w od] [st мене :t mene] "my book").</p>
+    <p>In addition to the full oblique forms, reduced short accusative clitics survive for direct-object pronoun use: [w me] (1sg), [w te] (2sg), [w go] (3sg), [w ykh] (3pl). These are enclitic and occupy the same post-verbal slot as the dative clitics. The full oblique forms are preferred after prepositions and in focused or contrastive contexts.</p>
+    <p>The modern standard restores a true three-way nominative contrast in the third singular: [w on] masculine, [w ona] feminine, and [w ono] neuter. Outside the nominative, the paradigm stays heavily leveled: the oblique and dative clitic remain shared across the three singular genders, while possessives carry the fuller agreement load inside the noun phrase.</p>
+    <p>Note that the 1pl nominative [w my] is homophonous with the 1sg dative clitic [w my]. In practice these are disambiguated by sentence position: the nominative pronoun appears before the finite verb, while the dative clitic follows the finite verb in simple tenses and follows the auxiliary in compound tenses (see §Object Pronoun Placement).</p>
+    <sub t="Interrogative and Derived Series">
+      <p>Alongside the personal pronouns, Styrian has a small set of interrogative stems that also serve as the base for indefinite, negative, and universal pro-forms. Synchronically the productive pattern is transparent: [w ne]- marks indefinites, [st ни :t ny]- marks negative forms, and [st все :t vse]- marks the recommended universal series. These forms remain invariant, like the interrogatives themselves; prepositions stay overt and are fronted with the form as required.</p>
+      <tb>
+        <r><c>Domain</c><c>Interrogative</c><c>Indefinite</c><c>Negative</c><c>Universal</c></r>
+        <r><c>person</c><c>[w koj]</c><c>[st некой :t nekoj]</c><c>[st никой :t nykoj]</c><c>[st всекой :t vsekoj]</c></r>
+        <r><c>thing</c><c>[w če]</c><c>[st нече :t neče]</c><c>[w niče]</c><c>[st всече :t vseče]</c></r>
+        <r><c>place</c><c>[w kəde]</c><c>[st некъде :t nekăde]</c><c>[st никъде :t nykăde]</c><c>[st всекъде :t vsekăde]</c></r>
+        <r><c>time</c><c>[w koga]</c><c>[st некога :t nekoha]</c><c>[w nykoha]</c><c>[st всекога :t vsekoha]</c></r>
+        <r><c>manner</c><c>[st како :t kako]</c><c>[st некако :t nekako]</c><c>[st никако :t nykako]</c><c>[st всекако :t vsekako]</c></r>
+      </tb>
+      <p>The inherited form [st всякъ :t vsyakă] is retained chiefly as a prenominal determiner meaning "each, every," especially before singular count nouns: [st всякъ :t vsyakă] [st денъ :t denă] "every day", [st всякъ :t vsyakă] [w čelovek] "each person". For free-standing universal reference, however, the grammar recommends the transparent [st все :t vse]-series: [st всекой :t vsekoj] "everyone", [st всече :t vseče] "everything", [st всекъде :t vsekăde] "everywhere".</p>
+      <p>Reduced colloquial variants without initial [st в :t v] are also heard in speech, especially [st секога :t sekoha] beside [st всекога :t vsekoha]. The recommended written standard nevertheless keeps the transparent [st все :t vse]- forms, while reserving [st всякъ :t vsyakă] for its inherited determiner use.</p>
+      <list>
+        <item>[st всякъ :t vsyakă] [st денъ :t denă] [w az] [w pysat :i 1sg] "I write every day"</item>
+        <item>[st всекой :t vsekoj] [w ymat :i 3sg] [st нече :t neče] "everyone has something"</item>
+        <item>[st никой :t nykoj] [w ne] [w vydit :i 3sg] [w niče] "nobody saw anything"</item>
+        <item>[w ony] [w byt :i 3pl] [st билі :t byli] [st всекъде :t vsekăde] "they have been everywhere"</item>
+        <item>[w on] [st одговара :t odhovara] [st некако :t nekako] "he answers somehow"</item>
+      </list>
+    </sub>
+    <sub t="Reflexive Forms">
+      <p>In addition to the personal pronoun series, Styrian has a small reflexive series used when the object corefers with the subject. As with the personal pronouns, the full reflexive oblique is used after prepositions and in focused or contrastive contexts, while reduced clitic forms are used in the ordinary post-verbal clitic slot.</p>
+      <tb>
+        <r><c>Form</c><c>Function</c></r>
+        <r><c>[w se]</c><c>reflexive direct object (invariant)</c></r>
+        <r><c>[st себе :t sebe]</c><c>full reflexive oblique (stressed)</c></r>
+        <r><c>[st си :t sy]</c><c>reflexive indirect object (dative clitic)</c></r>
+        <r><c>[w suoj :i m.sg] / [w suoj :i f.sg] / [w suoj :i n.sg] / [w suoj :i pl]</c><c>reflexive possessive (one's own), agreeing with the possessed noun</c></r>
+      </tb>
+      <p>Examples:</p>
+      <list>
+        <item>[w on] [st мие :t mye] [w se] "he washes himself"</item>
+        <item>[w az] [w kupit :i lptc.m] [st себе :t sebe] [w knyha] "I bought myself a book"</item>
+        <item>[w az] [w byt :i 1sg] [st си :t sy] [w kupit :i lptc.m] [w knyha] "I bought myself a book" (clitic after auxiliary)</item>
+        <item>[w ta] [w suoj :i m.sg] [w dom] "one's own house" (reflexive possessive)</item>
+      </list>
+      <p>Possessive forms function as agreeing determiners. They follow the same agreement pattern as adjectives — masculine singular, feminine singular, neuter singular, and plural, each with nominative and oblique in the singular — and the article likewise agrees in case. In ordinary definite noun phrases they normally appear with the article:</p>
+      <list>
+        <item>[w ta] [w moj :i m.sg] [w dom] "my house"</item>
+        <item>[w taf] [w tuoj :i f.sg] [w knyha] "your book"</item>
+        <item>[w to] [w nehov :i n.sg] [w slovo] "his word"</item>
+        <item>[w ti] [w nyhov :i pl] [w dom :i pl] "their houses"</item>
+      </list>
+      <p>An analytic possessive with [w od] is also available for emphasis, contrast, or use with fuller noun phrases. The pronoun following [w od] takes the oblique form:</p>
+      <list>
+        <item>[w dom] [w od] [st мене :t mene] "my house / the house that is mine"</item>
+        <item>[w taf] [w knyha] [w od] [w tebe] "your book (specifically)"</item>
+        <item>[w ta] [st син :t syn] [w od] [st них :t nyħ] "their child"</item>
+      </list>
+    </sub>
+  </sec>
+
+  <sec t="Adjectives">
+    <p>Modern Styrian adjectives agree with the noun in gender, number, and case. The paradigm has two rows — nominative and oblique — within each singular gender slot, while the plural has a single form for both cases. The productive hard-stem endings are shown below using [w dobrə :i m.sg] "good" and [w starə :i m.sg] "old" as models.</p>
+    <tb>
+      <r><c></c><c>Masc. sg</c><c>Fem. sg</c><c>Neut. sg</c><c>Plural</c></r>
+      <r><c>Nominative</c><c>[w dobrə :i m.sg]</c><c>[w dobrə :i f.sg]</c><c>[w dobrə :i n.sg]</c><c>[w dobrə :i pl]</c></r>
+      <r><c>Oblique</c><c>[w dobrə :i m.sg.obl]</c><c>[w dobrə :i f.sg.obl]</c><c>[w dobrə :i n.sg.obl]</c><c>[w dobrə :i pl]</c></r>
+    </tb>
+    <tb>
+      <r><c></c><c>Masc. sg</c><c>Fem. sg</c><c>Neut. sg</c><c>Plural</c></r>
+      <r><c>Nominative</c><c>[w starə :i m.sg]</c><c>[w starə :i f.sg]</c><c>[w starə :i n.sg]</c><c>[w starə :i pl]</c></r>
+      <r><c>Oblique</c><c>[w starə :i m.sg.obl]</c><c>[w starə :i f.sg.obl]</c><c>[w starə :i n.sg.obl]</c><c>[w starə :i pl]</c></r>
+    </tb>
+    <p>The hard-stem nominative endings are -[st ъ :t ă] (m.sg), -[st а :t a] (f.sg), -[st о :t o] (n.sg), -[st и :t i] (pl). The oblique endings are -[st ом :t om] (m.sg), -[st е :t e] (f.sg), -[st ом :t om] (n.sg); the plural form serves as both nominative and oblique. Because masculine and neuter share the same oblique ending -[st ом :t om], a post-nominal adjective modifying a neuter noun in oblique position looks identical to one modifying a masculine noun in the same position; gender is recoverable from the noun itself and from the article.</p>
+    <p>Examples — nominative (subject, predicate nominal):</p>
+    <list>
+      <item>[w ta] [w dom] [w dobrə :i m.sg] "the good house" (m.sg nom)</item>
+      <item>[w taf] [w reka] [w holemə :i f.sg] "the big river" (f.sg nom)</item>
+      <item>[w to] [w selo] [w malə :i n.sg] "the small village" (n.sg nom)</item>
+      <item>[w ti] [w dom :i pl] [w dobrə :i pl] "the good houses" (pl nom)</item>
+    </list>
+    <p>Examples — oblique (direct object, complement of preposition):</p>
+    <list>
+      <item>[w az] [w vydit :i 1sg] [w ta :i m.sg.obl] [w dom :i obl.sg] [w starə :i m.sg.obl] "I see the old house" (m.sg obl)</item>
+      <item>[w on] [w kupit :i lptc.m] [w taf :i f.sg.obl] [w knyha :i obl.sg] [w novə :i f.sg.obl] "he bought the new book" (f.sg obl)</item>
+      <item>[w az] [w vydit :i 1sg] [w to :i n.sg.obl] [w slovo :i obl.sg] [w dobrə :i n.sg.obl] "I see the good word" (n.sg obl)</item>
+      <item>[w az] [w vydit :i 1sg] [w ti] [w dom :i pl] [w starə :i pl] "I see the old houses" (pl, obl = nom)</item>
+    </list>
+    <p>The default position is <em>after the noun</em> for descriptive and classifying adjectives:</p>
+    <list>
+      <item>[w ta] [w hovor] [w styrsky :i m.sg] "the Styrian speech"</item>
+      <item>[w ta] [w most] [w starə :i m.sg] "the old bridge"</item>
+      <item>[w taf] [w knyha] [w novə :i f.sg] "the new book"</item>
+      <item>[w to] [w slovo] [w novə :i n.sg] "the new word"</item>
+      <item>[w ti] [w čelovek :i pl] [w bohatə :i pl] "the rich people"</item>
+    </list>
+    <p>A smaller set of common evaluative adjectives can also appear <em>before the noun</em>, with a more subjective or familiar reading, much as in Spanish prenominal placement. In prenominal position the adjective still agrees in case:</p>
+    <list>
+      <item>[w ta] [w dobrə :i m.sg] [w čelovek] "the good/kind person" (nom)</item>
+      <item>[w az] [w vydit :i 1sg] [w ta :i m.sg.obl] [w dobrə :i m.sg.obl] [w čelovek :i obl.sg] "I see the good/kind person" (obl)</item>
+      <item>[w ve] [w starə :i pl] [w hrad :i pl] "in the old towns" (pl oblique = nominative form)</item>
+      <item>[w ve] [w malə :i pl] [w selo :i pl] "in the small villages" (pl)</item>
+    </list>
+    <p>Prenominal position tends to feel more expressive or intimate; postnominal is the neutral default.</p>
+    <sub t="Substantive Use">
+      <p>As in the other Slavic languages, a Styrian adjective may be used <em>substantively</em>, that is, as the head of a noun phrase without an overt noun. This use is not a separate inflectional class and does not involve derivational nominalization. The adjective simply appears without the noun when the referent is recoverable from context or is understood as a familiar social, personal, or abstract type.</p>
+      <p>In substantive use, the adjective keeps the full agreement paradigm — masculine singular, feminine singular, neuter singular, and plural, each with nominative and oblique in the singular. These forms signal the gender, number, and case of the understood referent exactly as they do in ordinary attributive use. The article or demonstrative, when present, agrees in the same way:</p>
+      <list>
+        <item>[w ta] [w bohatə :i m.sg] "the rich man; the rich one" (nom)</item>
+        <item>[w taf] [w mladə :i f.sg] "the young woman; the young one" (nom)</item>
+        <item>[w to] [w malə :i n.sg] "the small one; the little thing" (nom)</item>
+        <item>[w ti] [w starə :i pl] "the old people; the elders" (nom/obl pl)</item>
+        <item>[w az] [w vydit :i 1sg] [w ta :i m.sg.obl] [w bohatə :i m.sg.obl] "I see the rich one" (m.sg obl)</item>
+        <item>[w az] [w vydit :i 1sg] [w taf :i f.sg.obl] [w mladə :i f.sg.obl] "I see the young one" (f.sg obl)</item>
+      </list>
+      <p>This construction is especially common with human reference, where the omitted noun is understood as something like [w čelovek], [w žena], or [w dete] according to context. In the plural it readily denotes whole classes of persons: [w ti] [w bohatə :i pl] "the rich", [w ti] [w mladə :i pl] "the young". The neuter singular is the most natural form for non-personal or abstract reference, yielding meanings such as "the good", "what is good", or "the small one".</p>
+      <p>Syntactically, a substantive adjective behaves like an ordinary noun phrase. It may stand as subject, object, or complement, may be introduced by the article or a demonstrative, and may occur after prepositions. Case morphology on the adjective signals the syntactic function of the phrase in exactly the same way as in ordinary attributive use.</p>
+      <p>Substantive use is most natural with common qualitative adjectives and in contexts where the omitted noun is easy to identify. It should therefore be understood as a productive syntactic pattern of noun ellipsis, not as a general replacement for ordinary nouns. Some frequently used substantive adjectives may, over time, become lexicalized and approach the status of independent nouns, but synchronically they remain adjectival in form.</p>
+    </sub>
+    <sub t="Comparison">
+      <p>Comparison is analytic:</p>
+      <list>
+        <item>[st по :t po] [w dobrə :i m.sg] "better, more good"</item>
+        <item>[st наи :t nai] [w dobrə :i m.sg] "best, the most good"</item>
+        <item>[st по :t po] [w holemə :i m.sg] "bigger"</item>
+        <item>[st наи :t nai] [w holemə :i m.sg] "biggest"</item>
+      </list>
+      <p>The particle [w od] introduces the second term of comparison:</p>
+      <list>
+        <item>[w ta] [w dom] [w byt :i 3sg] [st по :t po] [w holemə :i m.sg] [w od] [w hora :i obl.sg] "the house is bigger than the mountain" (contextually odd but grammatically well-formed)</item>
+        <item>[w ona] [w byt :i 3sg] [st по :t po] [w starə :i f.sg] [w od] [w ty] "she is older than you"</item>
+      </list>
+      <p>A very small number of high-frequency adjectives retain suppletive comparatives: [st малъ :t mală] "small" &gt; [st манш :t manš] "smaller" (from a German-influenced form), though the analytic [st по :t po] [w malə :i m.sg] is equally acceptable.</p>
+    </sub>
+  </sec>
+
+  <sec t="Numerals">
+    <sub t="Cardinal Numbers">
+      <tb>
+        <r><c>Numeral</c><c>Styrian</c><c>Notes</c></r>
+        <r><c>1</c><c>[w edyn]</c><c>declines for gender and case; also used as indefinite article</c></r>
+        <r><c>2</c><c>[w doua]</c><c>declines for gender and case</c></r>
+        <r><c>3</c><c>[st три :t try]</c><c></c></r>
+        <r><c>4</c><c>[st четиръ :t četyră]</c><c>from <code>*četyre</code>; initial [st ч :t č] retained; unstressed final -е drops, word-final ъ added</c></r>
+        <r><c>5</c><c>[st пет :t pet]</c><c>from <code>*pęt[st ь]</code></c></r>
+        <r><c>6</c><c>[st шест :t šest]</c><c></c></r>
+        <r><c>7</c><c>[st седмъ :t sedmă]</c><c>from <code>*sedm[st ь]</code> with epenthesis</c></r>
+        <r><c>8</c><c>[st осмъ :t osmă]</c><c>from <code>*osm[st ь]</code> with epenthesis</c></r>
+        <r><c>9</c><c>[st девет :t devet]</c><c></c></r>
+        <r><c>10</c><c>[st десет :t deset]</c><c></c></r>
+        <r><c>11</c><c>[st единадес :t edynades]</c><c>"one-and-ten"</c></r>
+        <r><c>12</c><c>[st доуадес :t douades]</c><c>"two-ten" (note: also used for 20; see below)</c></r>
+        <r><c>13</c><c>[st тридес :t trydes]</c><c>ambiguous with 30; distinguished by context / stress</c></r>
+        <r><c>20</c><c>[st доуадесет :t douadeset]</c><c>"two-ten-complete" (full form)</c></r>
+        <r><c>30</c><c>[st тридесет :t trydeset]</c><c></c></r>
+        <r><c>100</c><c>[st сто :t sto]</c><c></c></r>
+        <r><c>1000</c><c>[st тисуча :t tysuča]</c><c>from <code>*tysǫča</code> &gt; <code>*tysuča</code> by denasalization; the affricate [st ч :t č] is retained directly</c></r>
+      </tb>
+      <p>Unlike numerals 3 and above, which are invariant, [w edyn] and [w doua] inflect for gender and case. [w edyn :c] declines like a hard-stem adjective with the oblique stem [st едн- :t edn-]; the plural [w edyn :i pl] carries the meaning "some, a few" rather than a literal count of one.</p>
+      <tb>
+        <r><c></c><c>Masc. sg</c><c>Fem. sg</c><c>Neut. sg</c><c>Plural</c></r>
+        <r><c>Nominative</c><c>[w edyn :i m.sg]</c><c>[w edyn :i f.sg]</c><c>[w edyn :i n.sg]</c><c>[w edyn :i pl]</c></r>
+        <r><c>Oblique</c><c>[w edyn :i m.sg.obl]</c><c>[w edyn :i f.sg.obl]</c><c>[w edyn :i n.sg.obl]</c><c>[w edyn :i pl.obl]</c></r>
+      </tb>
+      <p>[w doua :c] agrees with the gender of the counted noun in the nominative; the oblique is the same for both genders.</p>
+      <tb>
+        <r><c></c><c>Masculine</c><c>Feminine</c></r>
+        <r><c>Nominative</c><c>[w doua :i m]</c><c>[w doua :i f]</c></r>
+        <r><c>Oblique</c><c>[w doua :i obl]</c><c>[w doua :i obl]</c></r>
+      </tb>
+      <p>For 11-19, the pattern is numeral + -[st адес :t ades] (reduced form of "and ten"):</p>
+      <list>
+        <item>[st единадес :t edynades], [st доуадес :t douades], [st тридес :t trydes], [st четирадесъ :t četyradesă], [st петадес :t petades], [st шестадес :t šestades], [st седмадесъ :t sedmadesă], [st осмадесъ :t osmadesă], [st деветадес :t devetades]</item>
+      </list>
+      <p>For tens, the full form uses -[st десет :t deset]:</p>
+      <list>
+        <item>[st доуадесет :t douadeset], [st тридесет :t trydeset], [st четиредесетъ :t četyredesetă], [st петдесет :t petdeset], [st шестдесет :t šestdeset], [st седмдесетъ :t sedmdesetă], [st осмдесетъ :t osmdesetă], [st деветдесет :t devetdeset]</item>
+      </list>
+    </sub>
+    <sub t="Numerals and Nouns">
+      <p>Numerals do not trigger case agreement beyond what the syntactic context already requires. A counted noun phrase in subject position takes the nominative; in object or prepositional position it takes the oblique. Within the noun phrase, the counted noun itself takes the nominative form when no additional case pressure applies:</p>
+      <list>
+        <item>[st три :t try] [w dom] "three houses"</item>
+        <item>[st пет :t pet] [w knyha] "five books"</item>
+        <item>[st десет :t deset] [w čelovek :i pl] "ten people"</item>
+      </list>
+      <p>For numerals 2-4, the noun may optionally remain singular by analogy with older usage, especially in fixed phrases: [w doua :i m] [w dom] "two houses" (vs. [w doua :i m] [w dom :i pl] with plural marking). Both are acceptable. The feminine form of [w doua] is used with feminine nouns: [w doua :i f] [w knyha] "two books".</p>
+    </sub>
+  </sec>
+
+  <sec t="Adverbs">
+    <sub t="Manner Adverbs">
+      <p>Many manner adverbs are historically frozen short-form adjectives or old instrumental/locative case forms:</p>
+      <list>
+        <item>[st добре :t dobre] "well" (from old short-form adjective)</item>
+        <item>[st лошо :t lošo] "badly, poorly"</item>
+        <item>[st берзо :t berzo] "quickly, fast"</item>
+        <item>[st тихо :t tyħo] "quietly, softly"</item>
+        <item>[w samo] "only, alone"</item>
+        <item>[st много :t mnoho] / [st моге :t mohe] "much, very, a lot"</item>
+        <item>[st мало :t malo] "a little, not much"</item>
+        <item>[w prostə] "simply" (same form as adjective "простъ" "simple")</item>
+      </list>
+      <p>New manner adverbs can be derived with the suffix -[st о :t o] added to an adjective stem:</p>
+      <list>
+        <item>[w dobrə] "good" &gt; [st добро :t dobro] "well"</item>
+        <item>[w berzə] "fast" &gt; [st берзо :t berzo] "quickly"</item>
+        <item>[st тих :t tyħ] "quiet" &gt; [st тихо :t tyħo] "quietly"</item>
+        <item>[w prostə] "simple" &gt; [st просто :t prosto] "simply"</item>
+      </list>
+    </sub>
+    <sub t="Time Adverbs">
+      <list>
+        <item>[w koga] "when" (interrogative / relative)</item>
+        <item>[w dnes] "today"</item>
+        <item>[w utre] "tomorrow"</item>
+        <item>[w večer] "yesterday"</item>
+        <item>[w seha] "now"</item>
+        <item>[w toha] "then, at that time" (canonical temporal adverb)</item>
+        <item>[st после :t posle] / [st потом :t potom] "afterward, then" (sequential)</item>
+        <item>[st пре :t pre] "before, previously"</item>
+        <item>[st уже :t uže] "already"</item>
+        <item>[w uše] "still, yet"</item>
+        <item>[w nykoha] "never"</item>
+        <item>[st всекога :t vsekoha] / [st секога :t sekoha] "always" (standard / colloquial reduced)</item>
+        <item>[st штестъ :t štestă] "often"</item>
+        <item>[st некога :t nekoha] "sometime; sometimes"</item>
+      </list>
+    </sub>
+    <sub t="Place Adverbs">
+      <list>
+        <item>[st ту :t tu] "here"</item>
+        <item>[st там :t tam] "there"</item>
+        <item>[w kəde] "where" (interrogative / relative)</item>
+        <item>[st некъде :t nekăde] "somewhere"</item>
+        <item>[st никъде :t nykăde] "nowhere"</item>
+        <item>[st всекъде :t vsekăde] "everywhere"</item>
+        <item>[w tuka] "right here" (emphatic)</item>
+        <item>[st назад :t nazad] "back, backward"</item>
+        <item>[st напред :t napred] "forward, ahead"</item>
+        <item>[w hora :i obl.sg] "up, above"</item>
+        <item>[st доле :t dole] "down, below"</item>
+      </list>
+    </sub>
+    <sub t="Degree Adverbs">
+      <list>
+        <item>[st много :t mnoho] / [st моге :t mohe] "very, much"</item>
+        <item>[st прелошо :t prelošo] "too bad, extremely bad" (intensified prefix [st пре :t pre]-)</item>
+        <item>[st по :t po] (comparative particle, see §Comparison)</item>
+        <item>[st наи :t nai] (superlative particle)</item>
+        <item>[w samo] "just, only"</item>
+        <item>[st вед :t ved] "barely, just"</item>
+        <item>[st дест :t dest] "quite, rather"</item>
+      </list>
+    </sub>
+  </sec>
+</ch>

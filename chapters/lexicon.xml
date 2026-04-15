@@ -1,0 +1,1393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  lexicon.xml — shared lexeme registry for the Styrian grammar
+  ============================================================
+  Each <lex> entry defines a lemma and its inflected forms.
+  Transliteration for <w ref="…"/> output is rendered from the shared
+  Cyrillic mapping file rather than stored per form in this registry.
+  Body XML uses <w ref="…"/> or <w ref="…" infl="…"/> instead of
+  repeating <st v="…" tr="…"/> for high-frequency forms.
+  The XSLT resolves the reference and renders an identical <span>.
+
+  Attributes on <lex>:
+    id      — ASCII lookup key used in @ref (e.g. "pysat", "dom")
+    pos     — part of speech: v | n | adj | pron | art | prep | part | num
+    asp     — (verbs) impf | pf | irr
+    vclass  — (verbs) a | i | irr
+    template — conjugation / declension template id
+    gen     — (nouns) m=masculine | f=feminine | n=neuter
+    decl    — (nouns) cons | a | neut | irr
+    gloss   — English gloss (informational, not rendered)
+
+  Verb templates:
+    Regular verbs can carry one or more <stem> values and point to a
+    shared <verb-template>. The default stem is "main"; "pres" can be
+    supplied when the present/future stem differs.
+
+  Noun templates:
+    Regular nouns should carry a <stem name="main"/> and point to a
+    shared <noun-template> (for example cons, a, neut-o, neut-e).
+    Explicit <form> elements are reserved for irregular nouns or
+    individual per-form overrides, and always take priority over
+    template-generated values.
+
+  Adjective templates:
+    Regular adjectives should carry a <stem name="main"/> and point to a
+    shared <adjective-template>. Explicit <form> elements are reserved
+    for irregular adjectives or individual per-form overrides, and
+    always take priority over template-generated values.
+
+  Form @f values:
+    Verbs:  inf  1sg  2sg  3sg  1pl  2pl  3pl  ppl  lptc.m  lptc.f  lptc.n  lptc.pl
+    Nouns:  nom.sg  obl.sg  pl
+    Others: m.sg  f.sg  n.sg  pl
+-->
+<lexicon>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       VERB TEMPLATES
+       ═══════════════════════════════════════════════════════════ -->
+
+  <templates>
+    <verb-template id="reg-a">
+      <form f="inf"     stem="main" suffix="ат"/>
+      <form f="1sg"     stem="pres" suffix="ам"/>
+      <form f="2sg"     stem="pres" suffix="аш"/>
+      <form f="3sg"     stem="pres" suffix="а"/>
+      <form f="1pl"     stem="pres" suffix="аме"/>
+      <form f="2pl"     stem="pres" suffix="ате"/>
+      <form f="3pl"     stem="pres" suffix="ут"/>
+      <form f="imp.2sg" stem="pres" suffix="і"/>
+      <form f="imp.2pl" stem="pres" suffix="іте"/>
+      <form f="ppl"     stem="main" suffix="ачъ"/>
+      <form f="lptc.m"  stem="main" suffix="алъ"/>
+      <form f="lptc.f"  stem="main" suffix="ала"/>
+      <form f="lptc.n"  stem="main" suffix="ало"/>
+      <form f="lptc.pl" stem="main" suffix="алі"/>
+    </verb-template>
+
+    <verb-template id="reg-i">
+      <form f="inf"     stem="main" suffix="іт"/>
+      <form f="1sg"     stem="pres" suffix="ем"/>
+      <form f="2sg"     stem="pres" suffix="еш"/>
+      <form f="3sg"     stem="pres" suffix="е"/>
+      <form f="1pl"     stem="pres" suffix="еме"/>
+      <form f="2pl"     stem="pres" suffix="ете"/>
+      <form f="3pl"     stem="pres" suffix="ут"/>
+      <form f="imp.2sg" stem="pres" suffix="і"/>
+      <form f="imp.2pl" stem="pres" suffix="іте"/>
+      <form f="ppl"     stem="pres" suffix="ечъ"/>
+      <form f="lptc.m"  stem="main" suffix="ілъ"/>
+      <form f="lptc.f"  stem="main" suffix="іла"/>
+      <form f="lptc.n"  stem="main" suffix="іло"/>
+      <form f="lptc.pl" stem="main" suffix="ілі"/>
+    </verb-template>
+
+    <!-- Noun declension templates: consonant-final, -а class, neuter -о, neuter -е -->
+
+    <noun-template id="cons">
+      <form f="nom.sg" stem="main" suffix="ъ"/>
+      <form f="obl.sg" stem="main" suffix="у"/>
+      <form f="pl"     stem="main" suffix="і"/>
+    </noun-template>
+
+    <noun-template id="cons-velar-front">
+      <form f="nom.sg" stem="main"  suffix="ъ"/>
+      <form f="obl.sg" stem="main"  suffix="у"/>
+      <form f="pl"     stem="front" suffix="і"/>
+    </noun-template>
+
+    <noun-template id="a">
+      <form f="nom.sg" stem="main" suffix="а"/>
+      <form f="obl.sg" stem="main" suffix="е"/>
+      <form f="pl"     stem="main" suffix="и"/>
+    </noun-template>
+
+    <noun-template id="a-velar-front">
+      <form f="nom.sg" stem="main"  suffix="а"/>
+      <form f="obl.sg" stem="front" suffix="е"/>
+      <form f="pl"     stem="front" suffix="и"/>
+    </noun-template>
+
+    <noun-template id="neut-o">
+      <form f="nom.sg" stem="main" suffix="о"/>
+      <form f="obl.sg" stem="main" suffix="у"/>
+      <form f="pl"     stem="main" suffix="а"/>
+    </noun-template>
+
+    <noun-template id="neut-e">
+      <form f="nom.sg" stem="main" suffix="е"/>
+      <form f="obl.sg" stem="main" suffix="у"/>
+      <form f="pl"     stem="main" suffix="а"/>
+    </noun-template>
+
+    <noun-template id="ja">
+      <form f="nom.sg" stem="main" suffix="я"/>
+      <form f="obl.sg" stem="main" suffix="е"/>
+      <form f="pl"     stem="main" suffix="е"/>
+    </noun-template>
+
+    <noun-template id="neut-ie">
+      <form f="nom.sg" stem="main" suffix="ие"/>
+      <form f="obl.sg" stem="main" suffix="ию"/>
+      <form f="pl"     stem="main" suffix="ия"/>
+    </noun-template>
+
+    <noun-template id="cons-in">
+      <form f="nom.sg" stem="main" suffix="ин"/>
+      <form f="obl.sg" stem="main" suffix="ину"/>
+      <form f="pl"     stem="main" suffix="і"/>
+    </noun-template>
+
+    <adjective-template id="adj-hard">
+      <form f="m.sg"     stem="main" suffix="ъ"/>
+      <form f="f.sg"     stem="main" suffix="а"/>
+      <form f="n.sg"     stem="main" suffix="о"/>
+      <form f="pl"       stem="main" suffix="и"/>
+      <form f="m.sg.obl" stem="main" suffix="ом"/>
+      <form f="f.sg.obl" stem="main" suffix="е"/>
+      <form f="n.sg.obl" stem="main" suffix="ом"/>
+      <form f="pl.obl"   stem="main" suffix="и"/>
+    </adjective-template>
+
+    <adjective-template id="adj-i">
+      <form f="m.sg"     stem="main" suffix="і"/>
+      <form f="f.sg"     stem="main" suffix="а"/>
+      <form f="n.sg"     stem="main" suffix="о"/>
+      <form f="pl"       stem="main" suffix="і"/>
+      <form f="m.sg.obl" stem="main" suffix="ом"/>
+      <form f="f.sg.obl" stem="main" suffix="е"/>
+      <form f="n.sg.obl" stem="main" suffix="ом"/>
+      <form f="pl.obl"   stem="main" suffix="і"/>
+    </adjective-template>
+  </templates>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       VERBS
+       ═══════════════════════════════════════════════════════════ -->
+
+  <!-- писат — to write (impf, a-class) -->
+  <lex id="pysat" pos="v" asp="impf" vclass="a" template="reg-a" gloss="to write">
+    <stem name="main" v="пис"/>
+    <form f="imp.2sg" v="піші"/>
+    <form f="imp.2pl" v="пішіте"/>
+  </lex>
+
+  <!-- написат — to write / finish writing (pf, a-class) -->
+  <lex id="napysat" pos="v" asp="pf" vclass="a" template="reg-a" gloss="to write (complete)">
+    <stem name="main" v="напис"/>
+    <stem name="pres" v="напиш"/>
+  </lex>
+
+  <!-- делат — to do, make (impf, a-class) -->
+  <lex id="delat" pos="v" asp="impf" vclass="a" template="reg-a" gloss="to do, make">
+    <stem name="main" v="дел"/>
+  </lex>
+
+  <!-- сделат — to do / complete (pf, a-class) -->
+  <lex id="sdelat" pos="v" asp="pf" vclass="a" template="reg-a" gloss="to do, complete">
+    <stem name="main" v="сдел"/>
+  </lex>
+
+  <!-- носіт — to carry (impf, i-class, multidirectional) -->
+  <lex id="nosit" pos="v" asp="impf" vclass="i" template="reg-i" gloss="to carry (habitual)">
+    <stem name="main" v="нос"/>
+  </lex>
+
+  <!-- видіт — to see (impf, i-class) -->
+  <lex id="vydit" pos="v" asp="impf" vclass="i" template="reg-i" gloss="to see">
+    <stem name="main" v="вид"/>
+  </lex>
+
+  <!-- увидіт — to catch sight of (pf, i-class) -->
+  <lex id="uvydit" pos="v" asp="pf" vclass="i" template="reg-i" gloss="to catch sight of">
+    <stem name="main" v="увид"/>
+  </lex>
+
+  <!-- бит — to be (irr, copula + perfect auxiliary) -->
+  <lex id="byt" pos="v" asp="irr" vclass="irr" gloss="to be">
+    <form f="inf"     v="бит"/>
+    <form f="1sg"     v="сем"/>
+    <form f="2sg"     v="си"/>
+    <form f="3sg"     v="е"/>
+    <form f="1pl"     v="сме"/>
+    <form f="2pl"     v="сте"/>
+    <form f="3pl"     v="су"/>
+    <form f="lptc.m"  v="билъ"/>
+    <form f="lptc.f"  v="била"/>
+    <form f="lptc.n"  v="било"/>
+    <form f="lptc.pl" v="билі"/>
+    <!-- neg. present: нісем/ніси/ні/нісме/ністе/нісу — see <lex id="byt.neg"> -->
+  </lex>
+
+  <!-- бит (negative present forms) -->
+  <lex id="byt.neg" pos="v" asp="irr" vclass="irr" gloss="not to be (fused neg.)">
+    <form f="1sg" v="нісем"/>
+    <form f="2sg" v="ніси"/>
+    <form f="3sg" v="ні"/>
+    <form f="1pl" v="нісме"/>
+    <form f="2pl" v="ністе"/>
+    <form f="3pl" v="нісу"/>
+  </lex>
+
+  <!-- имат — to have (semi-irr a-class) -->
+  <lex id="ymat" pos="v" asp="impf" vclass="a" gloss="to have">
+    <form f="inf"     v="имат"/>
+    <form f="1sg"     v="имам"/>
+    <form f="2sg"     v="имаш"/>
+    <form f="3sg"     v="има"/>
+    <form f="1pl"     v="имаме"/>
+    <form f="2pl"     v="имате"/>
+    <form f="3pl"     v="имут"/>
+    <form f="lptc.m"  v="ималъ"/>
+    <form f="lptc.f"  v="имала"/>
+    <form f="lptc.n"  v="имало"/>
+    <form f="lptc.pl" v="ималі"/>
+  </lex>
+
+  <!-- идат — to go / unidirectional (irr mixed class; l-ptc suppletive) -->
+  <lex id="ydat" pos="v" asp="impf" vclass="irr" gloss="to go (unidirectional)">
+    <form f="inf"     v="идат"/>
+    <form f="1sg"     v="идам"/>
+    <form f="2sg"     v="идаш"/>
+    <form f="3sg"     v="иде"/>
+    <form f="1pl"     v="идеме"/>
+    <form f="2pl"     v="идете"/>
+    <form f="3pl"     v="идут"/>
+    <form f="lptc.m"  v="шелъ"/>
+    <form f="lptc.f"  v="шела"/>
+    <form f="lptc.n"  v="шело"/>
+    <form f="lptc.pl" v="шелі"/>
+  </lex>
+
+  <!-- ходіт — to go / walk (regular i-class, multidirectional) -->
+  <lex id="xodit" pos="v" asp="impf" vclass="i" template="reg-i" gloss="to go (multidirectional)">
+    <stem name="main" v="ход"/>
+  </lex>
+
+  <!-- доіт — to arrive / come (pf, mixed i-class; l-ptc suppletive дошлъ) -->
+  <lex id="doit" pos="v" asp="pf" vclass="irr" gloss="to arrive, come">
+    <form f="inf"     v="доіт"/>
+    <form f="1sg"     v="доем"/>
+    <form f="2sg"     v="доеш"/>
+    <form f="3sg"     v="дое"/>
+    <form f="1pl"     v="доеме"/>
+    <form f="2pl"     v="доете"/>
+    <form f="3pl"     v="доут"/>
+    <form f="lptc.m"  v="дошлъ"/>
+    <form f="lptc.f"  v="дошла"/>
+    <form f="lptc.n"  v="дошло"/>
+    <form f="lptc.pl" v="дошлі"/>
+  </lex>
+
+  <!-- влезіт — to enter (pf, i-class) -->
+  <lex id="vlezit" pos="v" asp="pf" vclass="i" template="reg-i" gloss="to enter">
+    <stem name="main" v="влез"/>
+  </lex>
+
+  <!-- несат — to carry (unidirectional, a-class) -->
+  <lex id="nesat" pos="v" asp="impf" vclass="a" template="reg-a" gloss="to carry (unidirectional)">
+    <stem name="main" v="нес"/>
+  </lex>
+
+  <!-- купат — to buy (impf, a-class) -->
+  <lex id="kupat" pos="v" asp="impf" vclass="a" template="reg-a" gloss="to buy (impf)">
+    <stem name="main" v="куп"/>
+  </lex>
+
+  <!-- купіт — to buy / complete (pf, i-class) -->
+  <lex id="kupit" pos="v" asp="pf" vclass="i" template="reg-i" gloss="to buy (pf)">
+    <stem name="main" v="куп"/>
+  </lex>
+
+  <!-- живат — to live (impf, a-class) -->
+  <lex id="žyvat" pos="v" asp="impf" vclass="a" template="reg-a" gloss="to live">
+    <stem name="main" v="жив"/>
+  </lex>
+
+  <!-- прашат — to send / ask (impf, a-class) -->
+  <lex id="prašat" pos="v" asp="impf" vclass="a" template="reg-a" gloss="to send, ask">
+    <stem name="main" v="праш"/>
+  </lex>
+
+  <lex id="napravit" pos="v" asp="pf" vclass="i" template="reg-i" gloss="to do, make">
+    <stem name="main" v="направ"/>
+  </lex>
+
+  <!-- можіт — can, be able (semi-irr, i-class; 3pl могут) -->
+  <lex id="možit" pos="v" asp="impf" vclass="i" gloss="can, be able">
+    <form f="inf"     v="можіт"/>
+    <form f="1sg"     v="можем"/>
+    <form f="2sg"     v="можеш"/>
+    <form f="3sg"     v="може"/>
+    <form f="1pl"     v="можеме"/>
+    <form f="2pl"     v="можете"/>
+    <form f="3pl"     v="могут"/>
+  </lex>
+
+  <!-- хотіт — to want (irr i-class; present stem хоч-) -->
+  <lex id="xotit" pos="v" asp="impf" vclass="irr" gloss="to want, intend">
+    <form f="inf"     v="хотіт"/>
+    <form f="1sg"     v="хочем"/>
+    <form f="2sg"     v="хочеш"/>
+    <form f="3sg"     v="хоче"/>
+    <form f="1pl"     v="хочеме"/>
+    <form f="2pl"     v="хочете"/>
+    <form f="3pl"     v="хочут"/>
+    <form f="lptc.m"  v="хотілъ"/>
+    <form f="lptc.f"  v="хотіла"/>
+    <form f="lptc.n"  v="хотіло"/>
+    <form f="lptc.pl" v="хотілі"/>
+  </lex>
+
+  <!-- дат — to give (semi-irr a-class; 3pl дадут) -->
+  <lex id="dat" pos="v" asp="pf" vclass="irr" gloss="to give">
+    <form f="inf"     v="дат"/>
+    <form f="1sg"     v="дам"/>
+    <form f="2sg"     v="даш"/>
+    <form f="3sg"     v="да"/>
+    <form f="1pl"     v="даме"/>
+    <form f="2pl"     v="дате"/>
+    <form f="3pl"     v="дадут"/>
+    <form f="lptc.m"  v="далъ"/>
+    <form f="lptc.f"  v="дала"/>
+    <form f="lptc.n"  v="дало"/>
+    <form f="lptc.pl" v="далі"/>
+  </lex>
+
+  <!-- бежат — to run / unidirectional (a-class) -->
+  <lex id="bežat" pos="v" asp="impf" vclass="a" template="reg-a" gloss="to run (unidirectional)">
+    <stem name="main" v="беж"/>
+  </lex>
+
+  <!-- бегат — to run / multidirectional (a-class) -->
+  <lex id="behat" pos="v" asp="impf" vclass="a" template="reg-a" gloss="to run (multidirectional)">
+    <stem name="main" v="бег"/>
+  </lex>
+
+
+  <!-- ═══════════════════════════════════════════════════════════
+       NOUNS — Masculine, consonant-final class (nom -ъ, obl -у, pl -і)
+       ═══════════════════════════════════════════════════════════ -->
+
+  <lex id="dom" pos="n" gen="m" decl="cons" template="cons" gloss="house">
+    <stem name="main" v="дом"/>
+  </lex>
+
+  <lex id="most" pos="n" gen="m" decl="cons" template="cons" gloss="bridge">
+    <stem name="main" v="мост"/>
+  </lex>
+
+  <lex id="hrad" pos="n" gen="m" decl="cons" template="cons" gloss="town">
+    <stem name="main" v="град"/>
+  </lex>
+
+  <lex id="les" pos="n" gen="m" decl="cons" template="cons" gloss="forest">
+    <stem name="main" v="лес"/>
+  </lex>
+
+  <lex id="lekar" pos="n" gen="m" decl="cons" template="cons" gloss="doctor">
+    <stem name="main" v="лекар"/>
+  </lex>
+
+  <lex id="put" pos="n" gen="m" decl="cons" template="cons" gloss="path, way">
+    <stem name="main" v="пут"/>
+  </lex>
+
+  <lex id="brat" pos="n" gen="m" decl="cons" template="cons" gloss="brother">
+    <stem name="main" v="брат"/>
+  </lex>
+
+  <lex id="kram" pos="n" gen="m" decl="cons" template="cons" gloss="shop, goods">
+    <stem name="main" v="крам"/>
+  </lex>
+
+  <lex id="grob" pos="n" gen="m" decl="cons" template="cons" gloss="tomb">
+    <stem name="main" v="гроб"/>
+  </lex>
+
+  <lex id="rob" pos="n" gen="m" decl="cons" template="cons" gloss="garment, robe">
+    <stem name="main" v="роб"/>
+    <form f="pl" v="роби"/>
+  </lex>
+
+  <lex id="hovor" pos="n" gen="m" decl="cons" template="cons" gloss="speech">
+    <stem name="main" v="говор"/>
+  </lex>
+
+  <!-- человекъ — irreg. plural лиуді (suppletive) -->
+  <lex id="čelovek" pos="n" gen="m" decl="irr" gloss="person">
+    <form f="nom.sg" v="человекъ"/>
+    <form f="obl.sg" v="человеку"/>
+    <form f="pl"     v="лиуді"/>
+  </lex>
+
+  <!-- ден — irreg. cons-stem reflex -->
+  <lex id="den" pos="n" gen="m" decl="irr" gloss="day">
+    <form f="nom.sg" v="ден"/>
+    <form f="obl.sg" v="дену"/>
+    <form f="pl"     v="дні"/>
+  </lex>
+
+  <!-- дете — irreg. collective plural деста -->
+  <lex id="dete" pos="n" gen="n" decl="irr" gloss="child">
+    <form f="nom.sg" v="дете"/>
+    <form f="obl.sg" v="дету"/>
+    <form f="pl"     v="деста"/>
+  </lex>
+
+
+  <!-- ═══════════════════════════════════════════════════════════
+       NOUNS — Feminine, -а class (nom -а, obl -е, pl -и)
+       ═══════════════════════════════════════════════════════════ -->
+
+  <lex id="knyha" pos="n" gen="f" decl="a" template="a" gloss="book">
+    <stem name="main" v="книг"/>
+  </lex>
+
+  <lex id="žena" pos="n" gen="f" decl="a" template="a" gloss="woman">
+    <stem name="main" v="жен"/>
+  </lex>
+
+  <lex id="reka" pos="n" gen="f" decl="a" template="a" gloss="river">
+    <stem name="main" v="рек"/>
+  </lex>
+
+  <lex id="zema" pos="n" gen="f" decl="a" template="a" gloss="land, earth">
+    <stem name="main" v="зем"/>
+  </lex>
+
+  <lex id="ryba" pos="n" gen="f" decl="a" template="a" gloss="fish">
+    <stem name="main" v="риб"/>
+  </lex>
+
+  <lex id="voda" pos="n" gen="f" decl="a" template="a" gloss="water">
+    <stem name="main" v="вод"/>
+  </lex>
+
+  <lex id="hora" pos="n" gen="f" decl="a" template="a" gloss="mountain">
+    <stem name="main" v="гор"/>
+  </lex>
+
+  <!-- рука — fossilized front-vowel velar mutation in oblique/plural forms -->
+  <lex id="ruka" pos="n" gen="f" decl="a" template="a-velar-front" gloss="hand">
+    <stem name="main" v="рук"/>
+    <stem name="front" v="руц"/>
+  </lex>
+
+  <!-- нога — fossilized front-vowel velar mutation in oblique/plural forms -->
+  <lex id="noha" pos="n" gen="f" decl="a" template="a-velar-front" gloss="foot, leg">
+    <stem name="main" v="ног"/>
+    <stem name="front" v="нож"/>
+  </lex>
+
+  <!-- дорога — fossilized front-vowel velar mutation in oblique/plural forms -->
+  <lex id="doroha" pos="n" gen="f" decl="a" template="a-velar-front" gloss="road">
+    <stem name="main" v="дорог"/>
+    <stem name="front" v="дорож"/>
+  </lex>
+
+  <lex id="godina" pos="n" gen="f" decl="a" template="a" gloss="year">
+    <stem name="main" v="годин"/>
+  </lex>
+
+
+  <!-- ═══════════════════════════════════════════════════════════
+       NOUNS — Neuter class (nom -о/-е, obl -у, pl -а)
+       ═══════════════════════════════════════════════════════════ -->
+
+  <lex id="slovo" pos="n" gen="n" decl="neut" template="neut-o" gloss="word">
+    <stem name="main" v="слов"/>
+  </lex>
+
+  <lex id="more" pos="n" gen="n" decl="neut" template="neut-e" gloss="sea">
+    <stem name="main" v="мор"/>
+  </lex>
+
+  <lex id="selo" pos="n" gen="n" decl="neut" template="neut-o" gloss="village">
+    <stem name="main" v="сел"/>
+  </lex>
+
+  <lex id="sneh" pos="n" gen="m" decl="cons" template="cons-velar-front" gloss="snow">
+    <stem name="main" v="снег"/>
+    <stem name="front" v="снеж"/>
+  </lex>
+
+  <lex id="pole" pos="n" gen="n" decl="neut" template="neut-e" gloss="field">
+    <stem name="main" v="пол"/>
+  </lex>
+
+  <lex id="vyno" pos="n" gen="n" decl="neut" template="neut-o" gloss="wine">
+    <stem name="main" v="вин"/>
+  </lex>
+
+  <lex id="oko" pos="n" gen="n" decl="irr" gloss="eye (irr. pl. очі)">
+    <form f="nom.sg" v="око"/>
+    <form f="obl.sg" v="оку"/>
+    <form f="pl"     v="очі"/>
+  </lex>
+
+  <lex id="uho" pos="n" gen="n" decl="irr" gloss="ear">
+    <form f="nom.sg" v="ухо"/>
+    <form f="obl.sg" v="уху"/>
+    <form f="pl"     v="уші"/>
+  </lex>
+
+  <lex id="sluha" pos="n" gen="m" decl="a" template="a-velar-front" gloss="servant">
+    <stem name="main" v="слуг"/>
+    <stem name="front" v="служ"/>
+  </lex>
+
+  <lex id="muha" pos="n" gen="f" decl="a" template="a-velar-front" gloss="fly">
+    <stem name="main" v="мух"/>
+    <stem name="front" v="муш"/>
+  </lex>
+
+
+  <!-- ═══════════════════════════════════════════════════════════
+       ADJECTIVES
+       ═══════════════════════════════════════════════════════════ -->
+
+  <lex id="starə" pos="adj" template="adj-hard" gloss="old">
+    <stem name="main" v="стар"/>
+  </lex>
+
+  <lex id="dobrə" pos="adj" template="adj-hard" gloss="good">
+    <stem name="main" v="добр"/>
+  </lex>
+
+  <lex id="novə" pos="adj" template="adj-hard" gloss="new">
+    <stem name="main" v="нов"/>
+  </lex>
+
+  <lex id="prostə" pos="adj" template="adj-hard" gloss="simple, plain">
+    <stem name="main" v="прост"/>
+  </lex>
+
+  <lex id="holemə" pos="adj" template="adj-hard" gloss="big, large">
+    <stem name="main" v="голем"/>
+  </lex>
+
+  <lex id="bohatə" pos="adj" template="adj-hard" gloss="rich, wealthy">
+    <stem name="main" v="богат"/>
+  </lex>
+
+  <lex id="mladə" pos="adj" template="adj-hard" gloss="young">
+    <stem name="main" v="млад"/>
+  </lex>
+
+  <lex id="belə" pos="adj" template="adj-hard" gloss="white">
+    <stem name="main" v="бел"/>
+  </lex>
+
+  <lex id="studenə" pos="adj" template="adj-hard" gloss="cold">
+    <stem name="main" v="студен"/>
+  </lex>
+
+  <lex id="lošə" pos="adj" template="adj-hard" gloss="bad, poor">
+    <stem name="main" v="лош"/>
+  </lex>
+
+  <lex id="malə" pos="adj" template="adj-hard" gloss="small">
+    <stem name="main" v="мал"/>
+  </lex>
+
+  <lex id="berzə" pos="adj" template="adj-hard" gloss="fast, quick">
+    <stem name="main" v="берз"/>
+  </lex>
+
+  <lex id="bolanə" pos="adj" template="adj-hard" gloss="sick, ill">
+    <stem name="main" v="болан"/>
+  </lex>
+
+  <lex id="černə" pos="adj" template="adj-hard" gloss="black">
+    <stem name="main" v="черн"/>
+  </lex>
+
+  <lex id="topalə" pos="adj" template="adj-hard" gloss="warm">
+    <stem name="main" v="топал"/>
+  </lex>
+
+  <lex id="styrsky" pos="adj" template="adj-i" gloss="Styrian">
+    <stem name="main" v="стирск"/>
+  </lex>
+
+  <lex id="velik" pos="adj" template="adj-hard" gloss="great, big">
+    <stem name="main" v="велик"/>
+  </lex>
+
+
+  <!-- ═══════════════════════════════════════════════════════════
+       PERSONAL PRONOUNS
+       ═══════════════════════════════════════════════════════════ -->
+
+  <lex id="az"  pos="pron" gloss="I (1sg)">   <form f="base" v="аз"/></lex>
+  <lex id="ty"  pos="pron" gloss="you (2sg)"> <form f="base" v="ти"/></lex>
+  <lex id="on"  pos="pron" gloss="he (3sg)"><form f="base" v="он"/></lex>
+  <lex id="ono" pos="pron" gloss="it (3sg neuter)"><form f="base" v="оно"/></lex>
+  <lex id="my"  pos="pron" gloss="we (1pl)">  <form f="base" v="ми"/></lex>
+  <lex id="vy"  pos="pron" gloss="you (2pl)"> <form f="base" v="ви"/></lex>
+  <lex id="ony" pos="pron" gloss="they (3pl)"><form f="base" v="они"/></lex>
+  <lex id="mene" pos="pron" gloss="me (oblique)"><form f="base" v="мене"/></lex>
+  <lex id="tebe" pos="pron" gloss="you (oblique)"><form f="base" v="тебе"/></lex>
+  <lex id="nas"  pos="pron" gloss="us (oblique)"><form f="base" v="нас"/></lex>
+  <lex id="vas"  pos="pron" gloss="you (pl., oblique)"><form f="base" v="вас"/></lex>
+  <lex id="nam"  pos="pron" gloss="to us (dative clitic)"><form f="base" v="нам"/></lex>
+  <lex id="vam"  pos="pron" gloss="to you (pl., dative clitic)"><form f="base" v="вам"/></lex>
+  <lex id="mu"   pos="pron" gloss="to him/her/it (dative clitic)"><form f="base" v="му"/></lex>
+  <lex id="ym"   pos="pron" gloss="to them (dative clitic)"><form f="base" v="им"/></lex>
+  <lex id="me"   pos="pron" gloss="me (accusative clitic)"><form f="base" v="ме"/></lex>
+  <lex id="te"   pos="pron" gloss="you (accusative clitic)"><form f="base" v="те"/></lex>
+  <lex id="go"   pos="pron" gloss="him/it (acc. clitic)"><form f="base" v="го"/></lex>
+  <lex id="ykh"  pos="pron" gloss="them (accusative clitic)"><form f="base" v="их"/></lex>
+  <lex id="se"   pos="pron" gloss="self (reflexive accusative clitic)"><form f="base" v="се"/></lex>
+  <lex id="sy"   pos="pron" gloss="to oneself (reflexive dative clitic)"><form f="base" v="си"/></lex>
+
+
+  <!-- ═══════════════════════════════════════════════════════════
+       DEFINITE ARTICLES
+       ═══════════════════════════════════════════════════════════ -->
+
+  <lex id="ta"  pos="art" gloss="the (masculine sg)">
+    <form f="m.sg"     v="тъ"/>
+    <form f="m.sg.obl" v="том"/>
+  </lex>
+  <lex id="taf" pos="art" gloss="the (feminine sg)">
+    <form f="f.sg"     v="та"/>
+    <form f="f.sg.obl" v="те"/>
+  </lex>
+  <lex id="to"  pos="art" gloss="the (neuter sg)">
+    <form f="n.sg"     v="то"/>
+    <form f="n.sg.obl" v="том"/>
+  </lex>
+  <lex id="ti"  pos="art" gloss="the (plural)">
+    <form f="pl"     v="ти"/>
+    <form f="pl.obl" v="ти"/>
+  </lex>
+
+
+  <!-- ═══════════════════════════════════════════════════════════
+       PREPOSITIONS
+       ═══════════════════════════════════════════════════════════ -->
+
+  <lex id="ve"  pos="prep" gloss="in, at"><form f="base" v="ве"/></lex>
+  <lex id="na"  pos="prep" gloss="on, onto"><form f="base" v="на"/></lex>
+  <lex id="do"  pos="prep" gloss="to, up to"><form f="base" v="до"/></lex>
+  <lex id="od"  pos="prep" gloss="from, of (possessive)"><form f="base" v="од"/></lex>
+  <lex id="so"  pos="prep" gloss="with"><form f="base" v="со"/></lex>
+  <lex id="yz"  pos="prep" gloss="out of"><form f="base" v="из"/></lex>
+  <lex id="za"  pos="prep" gloss="for, behind"><form f="base" v="за"/></lex>
+  <lex id="pred" pos="prep" gloss="before"><form f="base" v="пред"/></lex>
+  <lex id="mezy" pos="prep" gloss="between"><form f="base" v="мези"/></lex>
+
+
+  <!-- ═══════════════════════════════════════════════════════════
+       PARTICLES AND CONJUNCTIONS
+       ═══════════════════════════════════════════════════════════ -->
+
+  <lex id="ne"  pos="part" gloss="negation particle"><form f="base" v="не"/></lex>
+  <lex id="i"   pos="part" gloss="and"><form f="base" v="и"/></lex>
+  <lex id="a"   pos="part" gloss="and, but"><form f="base" v="а"/></lex>
+  <lex id="ale" pos="part" gloss="but, however"><form f="base" v="але"/></lex>
+  <lex id="li"  pos="part" gloss="question particle"><form f="base" v="ли"/></lex>
+  <lex id="če"  pos="part" gloss="that, which"><form f="base" v="че"/></lex>
+  <lex id="ky"  pos="part" gloss="who, which"><form f="base" v="ки"/></lex>
+  <lex id="koj" pos="part" gloss="who"><form f="base" v="кой"/></lex>
+  <lex id="kəde" pos="part" gloss="where"><form f="base" v="къде"/></lex>
+  <lex id="koga" pos="part" gloss="when"><form f="base" v="кога"/></lex>
+  <lex id="kol" pos="part" gloss="how much, how many; how"><form f="base" v="кол"/></lex>
+  <lex id="ako" pos="part" gloss="if"><form f="base" v="ако"/></lex>
+  <lex id="dak" pos="part" gloss="that"><form f="base" v="дакъ"/></lex>
+  <lex id="daly" pos="part" gloss="whether"><form f="base" v="дали"/></lex>
+  <lex id="zače" pos="part" gloss="why, because"><form f="base" v="заче"/></lex>
+  <lex id="by"  pos="part" gloss="conditional particle"><form f="base" v="би"/></lex>
+  <lex id="neka" pos="part" gloss="let, may"><form f="base" v="нека"/></lex>
+  <lex id="nema" pos="part" gloss="there is not"><form f="base" v="Нема"/></lex>
+  <lex id="samo" pos="part" gloss="only"><form f="base" v="само"/></lex>
+  <lex id="toha" pos="part" gloss="then"><form f="base" v="тога"/></lex>
+  <lex id="stoha" pos="part" gloss="thus, therefore"><form f="base" v="стога"/></lex>
+  <lex id="utre" pos="part" gloss="tomorrow"><form f="base" v="утре"/></lex>
+  <lex id="večer" pos="part" gloss="yesterday"><form f="base" v="вечер"/></lex>
+  <lex id="dnes" pos="part" gloss="today"><form f="base" v="днес"/></lex>
+  <lex id="seha" pos="part" gloss="now"><form f="base" v="сега"/></lex>
+  <lex id="uže" pos="part" gloss="already"><form f="base" v="уже"/></lex>
+  <lex id="uše" pos="part" gloss="still, yet, more"><form f="base" v="уше"/></lex>
+  <lex id="niče" pos="part" gloss="nothing, anything"><form f="base" v="ниче"/></lex>
+  <lex id="nykoha" pos="part" gloss="never"><form f="base" v="никога"/></lex>
+  <lex id="tuka" pos="part" gloss="right here"><form f="base" v="тука"/></lex>
+  <lex id="pak" pos="part" gloss="again; also; on the other hand"><form f="base" v="пак"/></lex>
+  <lex id="že" pos="part" gloss="emphatic particle"><form f="base" v="же"/></lex>
+  <lex id="mo" pos="part" gloss="hearsay or inference particle"><form f="base" v="мо"/></lex>
+  <lex id="syhur" pos="part" gloss="certainly, surely"><form f="base" v="сигур"/></lex>
+  <lex id="yly" pos="part" gloss="or"><form f="base" v="или"/></lex>
+
+  <!-- supplemental lexemes used in migrated chapter references -->
+
+  <lex id="xleb" pos="n" gen="m" decl="cons" template="cons" gloss="bread">
+    <stem name="main" v="хлеб"/>
+  </lex>
+
+  <lex id="muž" pos="n" gen="m" decl="cons" template="cons" gloss="man, husband">
+    <stem name="main" v="муж"/>
+  </lex>
+
+  <lex id="pat" pos="n" gen="m" decl="cons" template="cons" gloss="road, path">
+    <stem name="main" v="пат"/>
+    <form f="nom.sg" v="пат"/>
+  </lex>
+
+  <lex id="yme" pos="n" gen="n" decl="irr" gloss="name">
+    <form f="nom.sg" v="име"/>
+    <form f="obl.sg" v="иму"/>
+    <form f="pl"     v="имена"/>
+  </lex>
+
+  <lex id="rytar" pos="n" gen="m" decl="cons" template="cons" gloss="knight, warrior">
+    <stem name="main" v="ритар"/>
+  </lex>
+
+  <lex id="šlos" pos="n" gen="m" decl="cons" template="cons" gloss="castle, palace">
+    <stem name="main" v="шлос"/>
+  </lex>
+
+  <lex id="dvor" pos="n" gen="m" decl="cons" template="cons" gloss="court, yard">
+    <stem name="main" v="двор"/>
+  </lex>
+
+  <lex id="odhovor" pos="n" gen="m" decl="cons" template="cons" gloss="reply, answer">
+    <stem name="main" v="одговор"/>
+  </lex>
+
+  <lex id="ezik" pos="n" gen="m" decl="cons" template="cons-velar-front" gloss="language">
+    <stem name="main" v="език"/>
+    <stem name="front" v="езиц"/>
+  </lex>
+
+  <lex id="strasky" pos="adj" template="adj-i" gloss="Straski">
+    <stem name="main" v="страск"/>
+  </lex>
+
+  <lex id="analytykə" pos="adj" template="adj-hard" gloss="analytic">
+    <stem name="main" v="аналитик"/>
+  </lex>
+
+  <lex id="slavsky" pos="adj" template="adj-i" gloss="Slavic">
+    <stem name="main" v="славск"/>
+  </lex>
+
+  <lex id="pokazat" pos="v" asp="impf" vclass="a" template="reg-a" gloss="to show">
+    <stem name="main" v="показ"/>
+    <stem name="pres" v="покаж"/>
+  </lex>
+
+  <lex id="vyxodit" pos="v" asp="impf" vclass="i" template="reg-i" gloss="to go out, exit">
+    <stem name="main" v="виход"/>
+  </lex>
+
+  <lex id="yzxodit" pos="v" asp="impf" vclass="i" template="reg-i" gloss="to emerge, come out">
+    <stem name="main" v="ізход"/>
+  </lex>
+
+  <lex id="vypysat" pos="v" asp="pf" vclass="a" template="reg-a" gloss="to write out, copy out">
+    <stem name="main" v="випис"/>
+  </lex>
+
+  <lex id="vybrat" pos="v" asp="pf" vclass="a" template="reg-a" gloss="to choose, pick out">
+    <stem name="main" v="вибр"/>
+    <stem name="pres" v="вибир"/>
+  </lex>
+
+  <lex id="vybyrat" pos="v" asp="impf" vclass="a" template="reg-a" gloss="to choose habitually">
+    <stem name="main" v="вибир"/>
+  </lex>
+
+  <lex id="vyučit" pos="v" asp="pf" vclass="i" template="reg-i" gloss="to teach thoroughly">
+    <stem name="main" v="виуч"/>
+  </lex>
+
+  <lex id="vyhnat" pos="v" asp="pf" vclass="irr" gloss="to drive out, expel">
+    <form f="inf"    v="вигнат"/>
+    <form f="1sg"    v="вигоним"/>
+    <form f="2sg"    v="вигониш"/>
+    <form f="3sg"    v="вигони"/>
+    <form f="lptc.m" v="вигналъ"/>
+    <form f="lptc.f" v="вигнала"/>
+    <form f="lptc.n" v="вигнало"/>
+    <form f="lptc.pl" v="вигналі"/>
+  </lex>
+
+  <lex id="myt" pos="v" asp="impf" vclass="irr" gloss="to wash">
+    <form f="inf" v="мит"/>
+  </lex>
+
+  <lex id="stat" pos="v" asp="pf" vclass="irr" gloss="to become, stand">
+    <form f="inf" v="стат"/>
+    <form f="lptc.m" v="сталъ"/>
+    <form f="lptc.f" v="стала"/>
+    <form f="lptc.n" v="стало"/>
+    <form f="lptc.pl" v="сталі"/>
+  </lex>
+
+  <!-- supplemental lexemes used in the Pilate / Golgotha text -->
+
+  <lex id="pylat" pos="n" gen="m" decl="cons" template="cons" gloss="Pilate">
+    <stem name="main" v="Пилат"/>
+  </lex>
+
+  <lex id="ysus" pos="n" gen="m" decl="cons" template="cons" gloss="Jesus">
+    <stem name="main" v="Исус"/>
+  </lex>
+
+  <lex id="venetsa" pos="n" gen="m" decl="cons" template="cons" gloss="crown, wreath">
+    <stem name="main" v="венец"/>
+  </lex>
+
+  <lex id="tern" pos="n" gen="m" decl="cons" template="cons" gloss="thorn">
+    <stem name="main" v="терн"/>
+  </lex>
+
+  <lex id="hlava" pos="n" gen="f" decl="a" template="a" gloss="head">
+    <stem name="main" v="глав"/>
+  </lex>
+
+  <lex id="riza" pos="n" gen="f" decl="a" template="a" gloss="robe, tunic">
+    <stem name="main" v="риз"/>
+  </lex>
+
+  <lex id="lanita" pos="n" gen="f" decl="a" template="a" gloss="cheek">
+    <stem name="main" v="ланит"/>
+  </lex>
+
+  <lex id="kral" pos="n" gen="m" decl="cons" template="cons" gloss="king">
+    <stem name="main" v="крал"/>
+  </lex>
+
+  <lex id="idov" pos="n" gen="m" decl="cons" template="cons" gloss="Jew">
+    <stem name="main" v="Ідов"/>
+  </lex>
+
+  <lex id="sveštenik" pos="n" gen="m" decl="cons" template="cons-velar-front" gloss="priest">
+    <stem name="main" v="свештеник"/>
+    <stem name="front" v="свештениц"/>
+  </lex>
+
+  <lex id="zakon" pos="n" gen="m" decl="cons" template="cons" gloss="law">
+    <stem name="main" v="закон"/>
+    <form f="pl" v="закони"/>
+  </lex>
+
+  <lex id="syn" pos="n" gen="m" decl="cons" template="cons" gloss="son">
+    <stem name="main" v="Син"/>
+  </lex>
+
+  <lex id="bog" pos="n" gen="m" decl="cons" template="cons-velar-front" gloss="God">
+    <stem name="main" v="Бог"/>
+    <stem name="front" v="Бож"/>
+  </lex>
+
+  <lex id="vlast" pos="n" gen="f" decl="cons" template="cons" gloss="authority">
+    <stem name="main" v="власт"/>
+  </lex>
+
+  <lex id="vina" pos="n" gen="f" decl="a" template="a" gloss="guilt">
+    <stem name="main" v="вин"/>
+  </lex>
+
+  <lex id="druh" pos="n" gen="m" decl="cons" template="cons-velar-front" gloss="other one">
+    <stem name="main" v="друг"/>
+    <stem name="front" v="друж"/>
+  </lex>
+
+  <lex id="pryyatel" pos="n" gen="m" decl="cons" template="cons" gloss="friend">
+    <stem name="main" v="приятел"/>
+  </lex>
+
+  <lex id="tsar" pos="n" gen="m" decl="cons" template="cons" gloss="Caesar, emperor">
+    <stem name="main" v="цар"/>
+  </lex>
+
+  <lex id="grex" pos="n" gen="m" decl="cons" template="cons-velar-front" gloss="sin">
+    <stem name="main" v="грех"/>
+    <stem name="front" v="греш"/>
+  </lex>
+
+  <lex id="sudište" pos="n" gen="n" decl="neut" template="neut-e" gloss="judgment seat">
+    <stem name="main" v="судишт"/>
+  </lex>
+
+  <lex id="mesto" pos="n" gen="n" decl="neut" template="neut-o" gloss="place">
+    <stem name="main" v="мест"/>
+  </lex>
+
+  <lex id="postlanie" pos="n" gen="n" decl="neut" template="neut-ie" gloss="pavement">
+    <stem name="main" v="Постлан"/>
+  </lex>
+
+  <lex id="gavvata" pos="n" gen="f" decl="a" template="a" gloss="Gabbatha">
+    <stem name="main" v="Гавват"/>
+  </lex>
+
+  <lex id="priprava" pos="n" gen="f" decl="a" template="a" gloss="preparation">
+    <stem name="main" v="приправ"/>
+  </lex>
+
+  <lex id="pasxa" pos="n" gen="f" decl="a" template="a" gloss="Passover">
+    <stem name="main" v="Пасх"/>
+  </lex>
+
+  <lex id="ura" pos="n" gen="f" decl="a" template="a" gloss="hour">
+    <stem name="main" v="ур"/>
+  </lex>
+
+  <lex id="krst" pos="n" gen="m" decl="cons" template="cons" gloss="cross">
+    <stem name="main" v="кръст"/>
+  </lex>
+
+  <lex id="holhota" pos="n" gen="f" decl="a" template="a" gloss="Golgotha">
+    <stem name="main" v="Голгот"/>
+  </lex>
+
+  <lex id="nazarjanin" pos="n" gen="m" decl="cons" template="cons-in" gloss="Nazarene">
+    <stem name="main" v="Назарян"/>
+  </lex>
+
+  <lex id="otvet" pos="n" gen="m" decl="cons" template="cons" gloss="answer">
+    <stem name="main" v="ответ"/>
+  </lex>
+
+  <lex id="šev" pos="n" gen="m" decl="cons" gloss="seam">
+    <form f="nom.sg" v="шевъ"/>
+    <form f="obl.sg" v="шеве"/>
+    <form f="pl"     v="шеві"/>
+  </lex>
+
+  <lex id="strana" pos="n" gen="f" decl="a" template="a" gloss="side">
+    <stem name="main" v="стран"/>
+  </lex>
+
+  <lex id="dol" pos="n" gen="m" decl="cons" template="cons" gloss="share, portion">
+    <stem name="main" v="дол"/>
+    <form f="pl" v="доли"/>
+  </lex>
+
+  <lex id="žreb" pos="n" gen="m" decl="cons" template="cons" gloss="lot">
+    <stem name="main" v="жреб"/>
+  </lex>
+
+  <lex id="pismo" pos="n" gen="n" decl="neut" template="neut-o" gloss="scripture, writing">
+    <stem name="main" v="писм"/>
+  </lex>
+
+  <lex id="majka" pos="n" gen="f" decl="a" template="a" gloss="mother">
+    <stem name="main" v="майк"/>
+  </lex>
+
+  <lex id="sestra" pos="n" gen="f" decl="a" template="a" gloss="sister">
+    <stem name="main" v="сестр"/>
+  </lex>
+
+  <lex id="marija" pos="n" gen="f" decl="a" template="ja" gloss="Mary">
+    <stem name="main" v="Мари"/>
+  </lex>
+
+  <lex id="klopas" pos="n" gen="m" decl="cons" template="cons" gloss="Clopas">
+    <stem name="main" v="Клопас"/>
+  </lex>
+
+  <lex id="mahdalena" pos="n" gen="f" decl="a" template="a" gloss="Magdalene">
+    <stem name="main" v="Магдален"/>
+  </lex>
+
+  <lex id="hlavni" pos="adj" template="adj-i" gloss="chief">
+    <stem name="main" v="главн"/>
+  </lex>
+
+  <lex id="purpurə" pos="adj" template="adj-hard" gloss="purple">
+    <stem name="main" v="пурпур"/>
+  </lex>
+
+  <lex id="idovsky" pos="adj" template="adj-i" gloss="Jewish">
+    <stem name="main" v="ідовск"/>
+  </lex>
+
+  <lex id="lobno" pos="adj" template="adj-hard" gloss="skull">
+    <stem name="main" v="лобен"/>
+  </lex>
+
+  <lex id="kameno" pos="adj" template="adj-hard" gloss="stone">
+    <stem name="main" v="камен"/>
+  </lex>
+
+  <lex id="raspenatə" pos="adj" template="adj-hard" gloss="crucified">
+    <stem name="main" v="распенат"/>
+  </lex>
+
+  <lex id="təkanə" pos="adj" template="adj-hard" gloss="woven">
+    <stem name="main" v="тъкан"/>
+  </lex>
+
+  <lex id="druga" pos="adj" template="adj-hard" gloss="other">
+    <stem name="main" v="друг"/>
+  </lex>
+
+  <lex id="latynsky" pos="adj" template="adj-i" gloss="Latin">
+    <stem name="main" v="латинск"/>
+  </lex>
+
+  <lex id="hrecky" pos="adj" template="adj-i" gloss="Greek">
+    <stem name="main" v="грецк"/>
+  </lex>
+
+  <lex id="sej" pos="pron" gloss="this">
+    <form f="m.sg"     v="сей"/>
+    <form f="f.sg"     v="сея"/>
+    <form f="n.sg"     v="сею"/>
+    <form f="pl"       v="сейи"/>
+    <form f="m.sg.obl" v="сею"/>
+    <form f="f.sg.obl" v="сее"/>
+    <form f="n.sg.obl" v="сею"/>
+    <form f="pl.obl"   v="сейи"/>
+  </lex>
+
+  <lex id="toj" pos="pron" gloss="that">
+    <form f="m.sg"     v="той"/>
+    <form f="f.sg"     v="тоя"/>
+    <form f="n.sg"     v="тою"/>
+    <form f="pl"       v="тойи"/>
+    <form f="m.sg.obl" v="тою"/>
+    <form f="f.sg.obl" v="тое"/>
+    <form f="n.sg.obl" v="тою"/>
+    <form f="pl.obl"   v="тойи"/>
+  </lex>
+
+  <lex id="vsekoj" pos="pron" gloss="everyone">
+    <form f="base" v="всекой"/>
+  </lex>
+
+  <lex id="koho" pos="pron" gloss="whom; whose">
+    <form f="base" v="кого"/>
+  </lex>
+
+  <lex id="neho" pos="pron" gloss="him; him/it (oblique)">
+    <form f="base" v="него"/>
+  </lex>
+
+  <lex id="nykh" pos="pron" gloss="them (oblique)">
+    <form f="base" v="них"/>
+  </lex>
+
+  <lex id="sebe" pos="pron" gloss="self (oblique)">
+    <form f="base" v="себе"/>
+  </lex>
+
+  <lex id="ona" pos="pron" gloss="she">
+    <form f="base" v="она"/>
+  </lex>
+
+  <lex id="vaš" pos="pron" gloss="your">
+    <form f="m.sg"     v="ваш"/>
+    <form f="f.sg"     v="ваша"/>
+    <form f="n.sg"     v="вашо"/>
+    <form f="pl"       v="ваши"/>
+    <form f="m.sg.obl" v="вашом"/>
+    <form f="f.sg.obl" v="ваше"/>
+    <form f="n.sg.obl" v="вашом"/>
+    <form f="pl.obl"   v="ваши"/>
+  </lex>
+
+  <lex id="naš" pos="pron" gloss="our">
+    <form f="m.sg"     v="наш"/>
+    <form f="f.sg"     v="наша"/>
+    <form f="n.sg"     v="нашо"/>
+    <form f="pl"       v="наши"/>
+    <form f="m.sg.obl" v="нашом"/>
+    <form f="f.sg.obl" v="наше"/>
+    <form f="n.sg.obl" v="нашом"/>
+    <form f="pl.obl"   v="наши"/>
+  </lex>
+
+  <lex id="nehov" pos="pron" gloss="his">
+    <form f="m.sg"     v="негов"/>
+    <form f="f.sg"     v="негова"/>
+    <form f="n.sg"     v="негово"/>
+    <form f="pl"       v="негови"/>
+    <form f="m.sg.obl" v="неговом"/>
+    <form f="f.sg.obl" v="негове"/>
+    <form f="n.sg.obl" v="неговом"/>
+    <form f="pl.obl"   v="негови"/>
+  </lex>
+
+  <lex id="nyhov" pos="pron" gloss="their">
+    <form f="m.sg"     v="нихов"/>
+    <form f="f.sg"     v="нихова"/>
+    <form f="n.sg"     v="нихово"/>
+    <form f="pl"       v="нихови"/>
+    <form f="m.sg.obl" v="ниховом"/>
+    <form f="f.sg.obl" v="нихове"/>
+    <form f="n.sg.obl" v="ниховом"/>
+    <form f="pl.obl"   v="нихови"/>
+  </lex>
+
+  <lex id="suoj" pos="pron" gloss="own">
+    <form f="m.sg"     v="суой"/>
+    <form f="f.sg"     v="суоя"/>
+    <form f="n.sg"     v="суою"/>
+    <form f="pl"       v="суойи"/>
+    <form f="m.sg.obl" v="суою"/>
+    <form f="f.sg.obl" v="суое"/>
+    <form f="n.sg.obl" v="суою"/>
+    <form f="pl.obl"   v="суойи"/>
+  </lex>
+
+  <lex id="moj" pos="pron" gloss="my">
+    <form f="m.sg"     v="мой"/>
+    <form f="f.sg"     v="моя"/>
+    <form f="n.sg"     v="мою"/>
+    <form f="pl"       v="мойи"/>
+    <form f="m.sg.obl" v="мою"/>
+    <form f="f.sg.obl" v="мое"/>
+    <form f="n.sg.obl" v="мою"/>
+    <form f="pl.obl"   v="мойи"/>
+  </lex>
+
+  <lex id="tuoj" pos="pron" gloss="your (sg.)">
+    <form f="m.sg"     v="туой"/>
+    <form f="f.sg"     v="туоя"/>
+    <form f="n.sg"     v="туою"/>
+    <form f="pl"       v="туойи"/>
+    <form f="m.sg.obl" v="туою"/>
+    <form f="f.sg.obl" v="туое"/>
+    <form f="n.sg.obl" v="туою"/>
+    <form f="pl.obl"   v="туойи"/>
+  </lex>
+
+  <lex id="ni" pos="part" gloss="not">
+    <form f="base" v="ні"/>
+  </lex>
+
+  <lex id="tam" pos="part" gloss="there">
+    <form f="base" v="там"/>
+  </lex>
+
+  <lex id="okolo" pos="part" gloss="about, around">
+    <form f="base" v="около"/>
+  </lex>
+
+  <lex id="hore" pos="part" gloss="above, upward">
+    <form f="base" v="горе"/>
+  </lex>
+
+  <lex id="dole" pos="part" gloss="below, downward">
+    <form f="base" v="доле"/>
+  </lex>
+
+  <lex id="bole" pos="part" gloss="more">
+    <form f="base" v="боле"/>
+  </lex>
+
+  <lex id="mnoho" pos="part" gloss="many; much">
+    <form f="base" v="много"/>
+  </lex>
+
+  <lex id="osem" pos="part" gloss="except">
+    <form f="base" v="осем"/>
+  </lex>
+
+  <lex id="nadvorə" pos="part" gloss="outside">
+    <form f="base" v="надворъ"/>
+  </lex>
+
+  <lex id="posredi" pos="part" gloss="in the middle">
+    <form f="base" v="посреди"/>
+  </lex>
+
+  <lex id="po" pos="prep" gloss="in; according to; along">
+    <form f="base" v="по"/>
+  </lex>
+
+  <lex id="nad" pos="prep" gloss="over">
+    <form f="base" v="над"/>
+  </lex>
+
+  <lex id="pri" pos="prep" gloss="by, near">
+    <form f="base" v="при"/>
+  </lex>
+
+  <lex id="bez" pos="prep" gloss="without">
+    <form f="base" v="без"/>
+  </lex>
+
+  <lex id="bičevat" pos="v" asp="impf" vclass="a" template="reg-a" gloss="to scourge">
+    <stem name="main" v="бичев"/>
+  </lex>
+
+  <lex id="vzeti" pos="v" asp="pf" vclass="irr" gloss="to take">
+    <form f="inf" v="взет"/>
+    <form f="imp.2sg" v="вземі"/>
+    <form f="imp.2pl" v="вземіте"/>
+    <form f="lptc.m" v="взелъ"/>
+    <form f="lptc.f" v="взела"/>
+    <form f="lptc.n" v="взело"/>
+    <form f="lptc.pl" v="взелі"/>
+  </lex>
+
+  <lex id="vozložit" pos="v" asp="pf" vclass="i" template="reg-i" gloss="to place upon">
+    <stem name="main" v="возлож"/>
+  </lex>
+
+  <lex id="oblekat" pos="v" asp="impf" vclass="a" template="reg-a" gloss="to clothe">
+    <stem name="main" v="облек"/>
+  </lex>
+
+  <lex id="hovorit" pos="v" asp="impf" vclass="i" template="reg-i" gloss="to speak, say">
+    <stem name="main" v="говор"/>
+  </lex>
+
+  <lex id="hledat" pos="v" asp="impf" vclass="irr" gloss="to look; behold">
+    <form f="inf" v="гледат"/>
+    <form f="imp.2sg" v="Гледай"/>
+    <form f="imp.2pl" v="Гледайте"/>
+  </lex>
+
+  <lex id="rekat" pos="v" asp="impf" vclass="a" template="reg-a" gloss="to say">
+    <stem name="main" v="рек"/>
+  </lex>
+
+  <lex id="vykat" pos="v" asp="impf" vclass="a" template="reg-a" gloss="to cry out">
+    <stem name="main" v="вик"/>
+  </lex>
+
+  <lex id="ukrstovat" pos="v" asp="pf" vclass="a" template="reg-a" gloss="to crucify">
+    <stem name="main" v="укръстов"/>
+  </lex>
+
+  <lex id="odhovorit" pos="v" asp="pf" vclass="i" template="reg-i" gloss="to answer">
+    <stem name="main" v="одговор"/>
+  </lex>
+
+  <lex id="morat" pos="v" asp="impf" vclass="a" template="reg-a" gloss="must">
+    <stem name="main" v="мор"/>
+  </lex>
+
+  <lex id="umret" pos="v" asp="pf" vclass="irr" gloss="to die">
+    <form f="inf" v="умрет"/>
+  </lex>
+
+  <lex id="slišat" pos="v" asp="impf" vclass="a" template="reg-a" gloss="to hear">
+    <stem name="main" v="слиш"/>
+  </lex>
+
+  <lex id="sedat" pos="v" asp="impf" vclass="a" template="reg-a" gloss="to sit">
+    <stem name="main" v="сед"/>
+  </lex>
+
+  <lex id="bojat" pos="v" asp="impf" vclass="irr" gloss="to fear">
+    <form f="inf" v="боят"/>
+    <form f="lptc.m" v="боалъ"/>
+    <form f="lptc.f" v="боала"/>
+    <form f="lptc.n" v="боало"/>
+    <form f="lptc.pl" v="боалі"/>
+  </lex>
+
+  <lex id="znat" pos="v" asp="impf" vclass="irr" gloss="to know">
+    <form f="inf" v="знат"/>
+    <form f="2sg" v="знаеш"/>
+    <form f="2pl" v="знате"/>
+  </lex>
+
+  <lex id="iskat" pos="v" asp="impf" vclass="a" template="reg-a" gloss="to seek, want">
+    <stem name="main" v="иск"/>
+  </lex>
+
+  <lex id="vyžat" pos="v" asp="pf" vclass="irr" gloss="to come out">
+    <form f="inf" v="вижат"/>
+    <form f="lptc.m" v="вижелъ"/>
+    <form f="lptc.f" v="вижела"/>
+    <form f="lptc.n" v="вижело"/>
+    <form f="lptc.pl" v="вижелі"/>
+  </lex>
+
+  <lex id="pustit" pos="v" asp="pf" vclass="i" template="reg-i" gloss="to release">
+    <stem name="main" v="пуст"/>
+  </lex>
+
+  <lex id="vopijat" pos="v" asp="impf" vclass="a" template="reg-a" gloss="to cry aloud">
+    <stem name="main" v="вопі"/>
+  </lex>
+
+  <lex id="glagolat" pos="v" asp="impf" vclass="a" template="reg-a" gloss="to say, declare">
+    <stem name="main" v="глагол"/>
+  </lex>
+
+  <lex id="predat" pos="v" asp="pf" vclass="a" template="reg-a" gloss="to hand over">
+    <stem name="main" v="пред"/>
+  </lex>
+
+  <lex id="odnest" pos="v" asp="pf" vclass="irr" gloss="to take away">
+    <form f="inf" v="однест"/>
+    <form f="imp.2sg" v="однесі"/>
+    <form f="imp.2pl" v="однесіте"/>
+  </lex>
+
+  <lex id="položit" pos="v" asp="pf" vclass="i" template="reg-i" gloss="to place">
+    <stem name="main" v="полож"/>
+  </lex>
+
+  <lex id="čitat" pos="v" asp="impf" vclass="a" template="reg-a" gloss="to read">
+    <stem name="main" v="чит"/>
+  </lex>
+
+  <lex id="radovat" pos="v" asp="impf" vclass="irr" gloss="to rejoice">
+    <form f="inf" v="радоват"/>
+    <form f="imp.2sg" v="Радуі"/>
+    <form f="imp.2pl" v="Радуіте"/>
+  </lex>
+
+  <lex id="derat" pos="v" asp="impf" vclass="irr" gloss="to tear">
+    <form f="inf" v="дерат"/>
+    <form f="1pl" v="дереме"/>
+  </lex>
+
+  <lex id="protivit" pos="v" asp="impf" vclass="i" template="reg-i" gloss="to oppose">
+    <stem name="main" v="против"/>
+  </lex>
+
+  <lex id="yspolnit" pos="v" asp="pf" vclass="i" template="reg-i" gloss="to fulfill">
+    <stem name="main" v="исполн"/>
+  </lex>
+
+  <lex id="razdelit" pos="v" asp="pf" vclass="i" template="reg-i" gloss="to divide">
+    <stem name="main" v="раздел"/>
+  </lex>
+
+  <!-- numerals -->
+  <lex id="edyn" pos="num" gloss="one">
+    <form f="m.sg"     v="един"/>
+    <form f="f.sg"     v="една"/>
+    <form f="n.sg"     v="едно"/>
+    <form f="pl"       v="едни"/>
+    <form f="m.sg.obl" v="едном"/>
+    <form f="f.sg.obl" v="едне"/>
+    <form f="n.sg.obl" v="едном"/>
+    <form f="pl.obl"   v="едни"/>
+  </lex>
+
+  <lex id="doua" pos="num" gloss="two">
+    <form f="m"   v="доуа"/>
+    <form f="f"   v="доуе"/>
+    <form f="obl" v="доуом"/>
+  </lex>
+
+  <lex id="četyri" pos="num" gloss="four">
+    <form f="base" v="четири"/>
+  </lex>
+
+  <lex id="šest" pos="num" gloss="six">
+    <form f="base" v="шест"/>
+  </lex>
+
+  <lex id="vsjakə" pos="num" gloss="each">
+    <form f="base" v="всякъ"/>
+  </lex>
+
+</lexicon>

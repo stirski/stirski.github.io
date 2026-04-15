@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="grammar.xsl"?>
+<ch id="04" t="Verbs">
+  <p>Styrian verbs remain recognizably Slavic in preserving <em>grammatical aspect</em>, but their inflection is radically reduced relative to other Slavic languages.</p>
+  <sec t="Aspect">
+    <p>Most verbs belong to imperfective/perfective pairs, often distinguished by prefixes:</p>
+    <list>
+      <item>[w pysat] "to write" (impf.) / [w napysat] "to write, complete writing" (pf.)</item>
+      <item>[w delat] "to do, make" (impf.) / [w sdelat] "to do, complete" (pf.)</item>
+      <item>[w vydit] "to see" (impf.) / [w uvydit] "to catch sight of" (pf.)</item>
+      <item>[w nosit] "to carry" (impf.) / [st принесат :t prynesat] "to bring" (pf.)</item>
+      <item>[w kupat] "to buy" (impf.) / [w kupit] "to buy (complete)" (pf.)</item>
+    </list>
+    <p>Aspect remains lexically encoded and functionally central:</p>
+    <list>
+      <item>Imperfective: ongoing, habitual, repeated events; states; processes</item>
+      <item>Perfective: bounded, completed, one-time events; results; change of state</item>
+    </list>
+    <p>The aspectual distinction interacts with tense, especially in the past (see §Past Formation).</p>
+  </sec>
+  <sec t="Infinitive">
+    <p>The citation form ends in -[st т :t t], the reduced outcome of old <code>-ti</code>:</p>
+    <list>
+      <item>[w pysat], [w delat], [w nosit], [w vydit], [w byt], [w ymat], [w ydat]</item>
+    </list>
+  </sec>
+  <sec t="Present / Non-Past Classes">
+    <p>There are two main productive classes. The modern standard distinguishes all six person-number combinations in the present/non-past, but it does so asymmetrically: the singular endings continue the reduced inherited pattern, the 1pl and 2pl have spread new endings in -[st ме :t me] and -[st те :t te], while the 3pl preserves the generalized ending -[st ут :t ut].</p>
+    <sub t="A-Class">
+      <p>Typical of verbs with infinitive -[st ат :t at]. Endings:</p>
+      <list>
+        <item>1sg -[st ам :t am]</item>
+        <item>2sg -[st аш :t aš]</item>
+        <item>3sg -[st а :t a]</item>
+        <item>1pl -[st аме :t ame]</item>
+        <item>2pl -[st ате :t ate]</item>
+        <item>3pl -[st ут :t ut]</item>
+      </list>
+      <p>Example: [w pysat] "to write"</p>
+      <tb>
+        <r><c>Person</c><c>Form</c></r>
+        <r><c>1sg</c><c>[w az] [w pysat :i 1sg]</c></r>
+        <r><c>2sg</c><c>[w ty] [w pysat :i 2sg]</c></r>
+        <r><c>3sg</c><c>[w on] [w pysat :i 3sg]</c></r>
+        <r><c>1pl</c><c>[w my] [w pysat :i 1pl]</c></r>
+        <r><c>2pl</c><c>[w vy] [w pysat :i 2pl]</c></r>
+        <r><c>3pl</c><c>[w ony] [w pysat :i 3pl]</c></r>
+      </tb>
+      <p>Further a-class examples: [w delat] ([w delat :i 1sg]/[w delat :i 2sg]/[w delat :i 3sg]/[w delat :i 1pl]/[w delat :i 2pl]/[w delat :i 3pl]), [w žyvat] "to live" ([w žyvat :i 1sg]/[w žyvat :i 2sg]/[w žyvat :i 3sg]/[w žyvat :i 1pl]/[w žyvat :i 2pl]/[w žyvat :i 3pl]), [w prašat] "to send, ask" ([w prašat :i 1sg]/[w prašat :i 2sg]/[w prašat :i 3sg]/[w prašat :i 1pl]/[w prašat :i 2pl]/[w prašat :i 3pl]), [w pokazat] "to show" ([w pokazat :i 1sg]/[w pokazat :i 2sg]/[w pokazat :i 3sg]/[w pokazat :i 1pl]/[w pokazat :i 2pl]/[w pokazat :i 3pl] — note the [st ж :t ž] before [st а :t a] reflects a palatal alternation in this stem).</p>
+    </sub>
+    <sub t="I-Class">
+      <p>Typical of verbs with infinitive -[st іт :t it]. The theme vowel [st і :t i] is visible in the infinitive; the present singular uses a fronted [st е :t e] before the personal endings. Endings:</p>
+      <list>
+        <item>1sg -[st ем :t em]</item>
+        <item>2sg -[st еш :t eš]</item>
+        <item>3sg -[st е :t e]</item>
+        <item>1pl -[st еме :t eme]</item>
+        <item>2pl -[st ете :t ete]</item>
+        <item>3pl -[st ут :t ut]</item>
+      </list>
+      <p>Example: [w nosit] "to carry"</p>
+      <tb>
+        <r><c>Person</c><c>Form</c></r>
+        <r><c>1sg</c><c>[w az] [w nosit :i 1sg]</c></r>
+        <r><c>2sg</c><c>[w ty] [w nosit :i 2sg]</c></r>
+        <r><c>3sg</c><c>[w on] [w nosit :i 3sg]</c></r>
+        <r><c>1pl</c><c>[w my] [w nosit :i 1pl]</c></r>
+        <r><c>2pl</c><c>[w vy] [w nosit :i 2pl]</c></r>
+        <r><c>3pl</c><c>[w ony] [w nosit :i 3pl]</c></r>
+      </tb>
+      <p>Further i-class examples: [w vydit] "to see" ([w vydit :i 1sg]/[w vydit :i 2sg]/[w vydit :i 3sg]/[w vydit :i 1pl]/[w vydit :i 2pl]/[w vydit :i 3pl]), [w nosit], [w kupit] "to buy" ([w kupit :i 1sg]/[w kupit :i 2sg]/[w kupit :i 3sg]/[w kupit :i 1pl]/[w kupit :i 2pl]/[w kupat :i 3pl]), [w doit] "to arrive, come" ([w doit :i 1sg]/[w doit :i 2sg]/[w doit :i 3sg]/[w doit :i 1pl]/[w doit :i 2pl]/[w doit :i 3pl]).</p>
+    </sub>
+  </sec>
+  <sec t="Present Participle and Progressive">
+    <p>Styrian preserves a reduced present active participle used primarily as an adjectival verbal form. Unlike the l-participle, it remains largely invariant and does not participate in the restored masculine-feminine-neuter-plural agreement system.</p>
+    <p>It is formed from the non-past stem with -[st ачъ :t ačă] in a-class verbs and -[st ечъ :t ečă] in i-class verbs:</p>
+    <list>
+      <item>[w pysat] &gt; [w pysat :i ppl] "writing"</item>
+      <item>[w delat] &gt; [w delat :i ppl] "doing, working"</item>
+      <item>[w nosit] &gt; [w nosit :i ppl] "carrying"</item>
+      <item>[w vydit] &gt; [w vydit :i ppl] "seeing"</item>
+    </list>
+    <p>The default use is adjectival, usually after the noun like other descriptive modifiers:</p>
+    <list>
+      <item><ex>[w ta] [w čelovek] [w pysat :i ppl]</ex> "the person writing"</item>
+      <item><ex>[w taf] [w žena] [w nosit :i ppl] [w voda]</ex> "the woman carrying water"</item>
+      <item><ex>[w ti] [w čelovek :i pl] [w delat :i ppl]</ex> "the people working"</item>
+    </list>
+    <p>It can also be used predicatively with [w byt] to form an optional periphrastic progressive. This construction is <em>marked</em> and emphasizes that an event is in progress at the reference time; the plain non-past still normally covers both habitual and ongoing meanings.</p>
+    <list>
+      <item><ex>[w az] [w byt :i 1sg] [w pysat :i ppl]</ex> "I am writing"</item>
+      <item><ex>[w ony] [w byt :i 3pl] [w delat :i ppl]</ex> "they are working"</item>
+      <item><ex>[w ty] [w byt :i 2sg] [w nosit :i ppl] [w taf] [w knyha]</ex> "you are carrying the book"</item>
+    </list>
+    <p>The progressive is most natural with imperfective verbs. With perfective verbs it is generally avoided or reinterpreted, since perfective events are not normally viewed internally as ongoing. The copula is retained in progressive clauses in all persons, including the 3sg, which keeps them distinct from a simple participial predicate.</p>
+  </sec>
+  <sec t="Common Irregular and High-Frequency Verbs">
+    <p>Some of the verbs below are fully irregular, while others are simply very frequent verbs whose paradigms preserve one or two lexical quirks despite the productive six-way present.</p>
+    <sub t="`бит` — &quot;to be&quot;">
+      <p>The copula is irregular and also supplies the perfect auxiliary.</p>
+      <tb>
+        <r><c>Person</c><c>Present</c></r>
+        <r><c>1sg</c><c>[w byt :i 1sg]</c></r>
+        <r><c>2sg</c><c>[w byt :i 2sg]</c></r>
+        <r><c>3sg</c><c>[w byt :i 3sg]</c></r>
+        <r><c>1pl</c><c>[w byt :i 1pl]</c></r>
+        <r><c>2pl</c><c>[w byt :i 2pl]</c></r>
+        <r><c>3pl</c><c>[w byt :i 3pl]</c></r>
+      </tb>
+      <p>The modern standard paradigm is [w byt :i 1sg] / [w byt :i 2sg] / [w byt :i 3sg] / [w byt :i 1pl] / [w byt :i 2pl] / [w byt :i 3pl], reflecting reduction of the old <code>*jes-</code> forms and regular denasalization in the plural.</p>
+      <p>The negative present is normally expressed by a fused high-frequency paradigm rather than analytic [w ne] + copula:</p>
+      <tb>
+        <r><c>Person</c><c>Negative Present</c></r>
+        <r><c>1sg</c><c>[w byt.neg :i 1sg]</c></r>
+        <r><c>2sg</c><c>[w byt.neg :i 2sg]</c></r>
+        <r><c>3sg</c><c>[w byt.neg :i 3sg]</c></r>
+        <r><c>1pl</c><c>[w byt.neg :i 1pl]</c></r>
+        <r><c>2pl</c><c>[w byt.neg :i 2pl]</c></r>
+        <r><c>3pl</c><c>[w byt.neg :i 3pl]</c></r>
+      </tb>
+      <p>These forms continue the old negative-copula type familiar elsewhere in Slovene and BCS, but are reshaped to the modern Styrian positive base [w byt :i 1sg] / [w byt :i 2sg] / [w byt :i 3sg] / [w byt :i 1pl] / [w byt :i 2pl] / [w byt :i 3pl]. They are used both as ordinary present copula and as the negative perfect auxiliary: <ex>[w az] [w byt.neg :i 1sg] [st студент :t student]</ex> "I am not a student", <ex>[w on] [w byt.neg :i 3sg] [w doit :i lptc.m]</ex> "he hasn't arrived".</p>
+      <p>A critical syntactic property of these forms: they are <em>phonologically tonic</em> (they bear primary stress) and consequently do not participate in the clitic cluster. The positive auxiliary forms [w byt :i 1sg], [w byt :i 2sg], [w byt :i 3sg], [w byt :i 1pl], [w byt :i 2pl], [w byt :i 3pl] are clitics that occupy position 2 of the cluster; the fused negative counterparts are full words that stand outside the cluster. The surface consequence in a negative perfect clause is that object and reflexive pronoun clitics sit at second position before the tonic negative auxiliary, rather than after it. For the full account of clitic cluster behavior in negative compound tenses, including structural templates and the parallel with Slovenian and BCS, see §Negation and the Clitic Cluster (ch. 5).</p>
+      <p>L-participle: [st билъ :t bylă] / [st била :t byla] / [st било :t bylo] / [st билі :t byli] (used as copular past and as second auxiliary in the pluperfect).</p>
+      <p>In equational and adjectival present clauses the copula is overt in all persons, including the 3sg:</p>
+      <list>
+        <item><ex>[w on] [w byt :i 3sg] [w lekar]</ex> "he is a doctor"</item>
+        <item><ex>[w ta] [st град :t hrad] [w byt :i 3sg] [w starə :i m.sg]</ex> "the town is old"</item>
+        <item><ex>[w az] [w byt :i 1sg] [w strasky]</ex> "I am a Straski"</item>
+      </list>
+      <p>This holds equally for identificational, descriptive, and class-membership predicates: <ex>[w az] [w byt :i 1sg] [st студент :t student]</ex> "I am a student."</p>
+    </sub>
+    <sub t="`имат` — &quot;to have&quot;">
+      <tb>
+        <r><c>Person</c><c>Form</c></r>
+        <r><c>1sg</c><c>[w ymat :i 1sg]</c></r>
+        <r><c>2sg</c><c>[w ymat :i 2sg]</c></r>
+        <r><c>3sg</c><c>[w ymat :i 3sg]</c></r>
+        <r><c>1pl</c><c>[w ymat :i 1pl]</c></r>
+        <r><c>2pl</c><c>[w ymat :i 2pl]</c></r>
+        <r><c>3pl</c><c>[w ymat :i 3pl]</c></r>
+      </tb>
+      <p>The 1pl and 2pl follow the productive a-class pattern, but the 3pl retains the shortened high-frequency form [w ymat :i 3pl] rather than expected *[st имают :t ymayut]. [w nema :c] (negated existential form of [w ymat :i 3sg]) is discussed under §Existential Constructions.</p>
+    </sub>
+    <sub t="`можіт` — &quot;can, be able&quot;">
+      <tb>
+        <r><c>Person</c><c>Form</c></r>
+        <r><c>1sg</c><c>[w možit :i 1sg]</c></r>
+        <r><c>2sg</c><c>[w možit :i 2sg]</c></r>
+        <r><c>3sg</c><c>[w možit :i 3sg]</c></r>
+        <r><c>1pl</c><c>[w možit :i 1pl]</c></r>
+        <r><c>2pl</c><c>[w možit :i 2pl]</c></r>
+        <r><c>3pl</c><c>[w možit :i 3pl]</c></r>
+      </tb>
+      <p>The 3pl [w možit :i 3pl] preserves the older hard-stem alternant beside the leveled singular and non-third-plural forms. Normally takes an infinitive. In time-anchored contexts it drifts toward a predictive future reading (see §Future Reference).</p>
+    </sub>
+    <sub t="`хотіт` — &quot;want; intend (semi-auxiliary)&quot;">
+      <p>A reflex of Proto-Slavic <code>*xъtěti</code> "to want, desire" (cognate with Czech <em>chtít</em>, Slovenian <em>hoteti</em>, Polish <em>chcieć</em>). The Carinthian areal context makes this the expected form: the semantically shifted <em>*jьskati</em> root that yielded Macedonian <em>сака</em> is a specifically Balkan innovation that does not reach Northwest Slavic territory. The infinitive is i-class [w xotit]. The present tense shows a regular stem alternation [st хот :t xot]- / [st хоч :t xoč]- (inherited from PS <code>*xoč-</code> in the present), parallel to the [st мог :t moh]-/[st мож :t moš]- alternation in [w možit]. Important as a semi-auxiliary of volition and prospective future:</p>
+      <tb>
+        <r><c>Person</c><c>Form</c></r>
+        <r><c>1sg</c><c>[w xotit :i 1sg]</c></r>
+        <r><c>2sg</c><c>[w xotit :i 2sg]</c></r>
+        <r><c>3sg</c><c>[w xotit :i 3sg]</c></r>
+        <r><c>1pl</c><c>[w xotit :i 1pl]</c></r>
+        <r><c>2pl</c><c>[w xotit :i 2pl]</c></r>
+        <r><c>3pl</c><c>[w xotit :i 3pl]</c></r>
+      </tb>
+      <p>L-participle: [w xotit :i lptc.m] (masculine sg), [w xotit :i lptc.n] (neuter sg), [w xotit :i lptc.pl] pl.</p>
+    </sub>
+    <sub t="`идат` — &quot;to go (unidirectional)&quot;">
+      <p>[w ydat :c] is the <em>unidirectional</em> motion verb for going: it denotes a single, directed trip toward a goal, motion actually in progress at a specific moment, or a one-way trajectory. For habitual, repeated, or non-directed movement, the multidirectional [w xodit] is used instead (see §Motion Verbs and the Unidirectional–Multidirectional Distinction). Mixed-class leveling, with irregular 3sg and plural stem:</p>
+      <tb>
+        <r><c>Person</c><c>Form</c></r>
+        <r><c>1sg</c><c>[w ydat :i 1sg]</c></r>
+        <r><c>2sg</c><c>[w ydat :i 2sg]</c></r>
+        <r><c>3sg</c><c>[w ydat :i 3sg]</c></r>
+        <r><c>1pl</c><c>[w ydat :i 1pl]</c></r>
+        <r><c>2pl</c><c>[w ydat :i 2pl]</c></r>
+        <r><c>3pl</c><c>[w ydat :i 3pl]</c></r>
+      </tb>
+      <p>L-participle: fully suppletive [w ydat :i lptc.m] / [w ydat :i lptc.f] / [w ydat :i lptc.n] / [w ydat :i lptc.pl] (from <code>*š[st ь]l[st ъ]</code>, with vowel restoration throughout the paradigm). Thus the past of [w ydat] is: [w az] [w byt :i 1sg] [w ydat :i lptc.m], [w ona] [w byt :i 3sg] [w ydat :i lptc.f], [w ono] [w byt :i 3sg] [w ydat :i lptc.n], [w my] [w byt :i 1pl] [w ydat :i lptc.pl], etc.</p>
+      <p>The prefixed and perfective form [w doit] "to arrive, come" follows i-class in most of the present ([w az] [w doit :i 1sg], [w ty] [w doit :i 2sg], [w on] [w doit :i 3sg], [w my] [w doit :i 1pl], [w vy] [w doit :i 2pl]) but retains the old short 3pl [w doit :i 3pl]. It also uses the suppletive l-participle: [w doit :i lptc.m] / [w doit :i lptc.f] / [w doit :i lptc.n] / [w doit :i lptc.pl]. Synchronically this is easily reanalyzed as stem [st дош- :t doš-] + participial suffix, so the cluster is less marked than in bare [w ydat :i lptc.m]. Thus [w on] [w byt :i 3sg] [w doit :i lptc.m] "he arrived," [w ona] [w byt :i 3sg] [w doit :i lptc.f] "she arrived," and [w ony] [w byt :i 3pl] [w doit :i lptc.pl] "they arrived."</p>
+    </sub>
+    <sub t="`ходіт` — &quot;to go (multidirectional); walk, frequent&quot;">
+      <p>The <em>multidirectional</em> counterpart of [w ydat]. [w xodit :c] expresses habitual or repeated motion, back-and-forth movement, aimless or undirected going, and regular attendance at a place. It is the direct reflex of Proto-Slavic <code>*xoditi</code>, the same root that underlies Czech <em>chodit</em> and Slovenian <em>hoditi</em>. Regular i-class throughout:</p>
+      <tb>
+        <r><c>Person</c><c>Form</c></r>
+        <r><c>1sg</c><c>[w az] [w xodit :i 1sg]</c></r>
+        <r><c>2sg</c><c>[w ty] [w xodit :i 2sg]</c></r>
+        <r><c>3sg</c><c>[w on] [w xodit :i 3sg]</c></r>
+        <r><c>1pl</c><c>[w my] [w xodit :i 1pl]</c></r>
+        <r><c>2pl</c><c>[w vy] [w xodit :i 2pl]</c></r>
+        <r><c>3pl</c><c>[w ony] [w xodit :i 3pl]</c></r>
+      </tb>
+      <p>L-participle: [w xodit :i lptc.m] (masculine sg.), [w xodit :i lptc.n] (neuter sg.), [w xodit :i lptc.pl] pl.</p>
+      <p>Prefixed derivatives follow the i-class pattern: [st приходіт :t pryxodit] "to come, arrive (habitually)" (impf., multidirectional), [st одходіт :t odxodit] "to go away, depart (hab.)" (impf.), [w vyxodit] "to go out, exit; appear" (impf.) — the last showing the ви- prefix discussed in §Verbal Prefixes: из- and ви-.</p>
+    </sub>
+    <sub t="`дат` — &quot;to give&quot;">
+      <tb>
+        <r><c>Person</c><c>Form</c></r>
+        <r><c>1sg</c><c>[w dat :i 1sg]</c></r>
+        <r><c>2sg</c><c>[w dat :i 2sg]</c></r>
+        <r><c>3sg</c><c>[w dat :i 3sg]</c></r>
+        <r><c>1pl</c><c>[w dat :i 1pl]</c></r>
+        <r><c>2pl</c><c>[w dat :i 2pl]</c></r>
+        <r><c>3pl</c><c>[w dat :i 3pl]</c></r>
+      </tb>
+      <p>L-participle: [w dat :i lptc.m] sg., [w dat :i lptc.pl] pl.</p>
+    </sub>
+  </sec>
+  <sec t="Motion Verbs: Unidirectional and Multidirectional Distinction">
+    <p>Styrian preserves the inherited Proto-Slavic distinction between <em>unidirectional</em> and <em>multidirectional</em> motion verbs. This distinction — fully maintained in Czech, Slovak, and Slovenian, partially retained in BCS, and lost in Bulgarian and Macedonian — aligns Styrian with its northern and northwestern Slavic neighbors rather than with the Balkan South Slavic area. A unidirectional verb denotes motion in a single direction at a specific moment, typically toward a named or implied goal. A multidirectional verb denotes habitual motion, repeated trips, non-directional movement, or general propensity. The three productive pairs of the modern standard are:</p>
+    <tb>
+      <r><c>Unidirectional</c><c>Meaning</c><c>Multidirectional</c><c>Meaning</c></r>
+      <r><c>[w ydat]</c><c>go (single trip, toward goal)</c><c>[w xodit]</c><c>go, walk (habitually; repeated)</c></r>
+      <r><c>[w nesat]</c><c>carry (single trip, to destination)</c><c>[w nosit]</c><c>carry, transport (habitually)</c></r>
+      <r><c>[w bežat]</c><c>run (in one direction)</c><c>[w behat]</c><c>run (habitually); be a runner</c></r>
+    </tb>
+    <p>All six are imperfective. Perfectivization proceeds independently via prefixes: [w doit] "arrive" is the perfective of directed motion from [w ydat]; [st принесат :t prynesat] "bring (to)" is a common perfective of carrying. The multidirectional verbs form their own prefixed perfectives with more iterative or completive readings: [st приходіт :t pryxodit] (impf.) "to come and go, frequent."</p>
+    <sub t="The Unidirectional/Multidirectional Contrast in Use">
+      <p>The contrast is clearest with a specific spatial goal versus a habitual frame:</p>
+      <list>
+        <item><ex>[w on] [w ydat :i 3sg] [w ve] [w hrad :i obl.sg]</ex> "he is going to town (now, one trip)" — unidirectional, single event in progress</item>
+        <item><ex>[w on] [w xodit :i 3sg] [w ve] [w hrad :i obl.sg]</ex> "he goes to town (regularly)" — multidirectional, habitual pattern</item>
+        <item><ex>[w az] [w nesat :i 1sg] [w ta] [st воду :t vodu] [w do] [w dom]</ex> "I am carrying the water to the house (this trip)" — unidirectional, ongoing single event</item>
+        <item><ex>[w az] [w nosit :i 1sg] [w voda] [w so] [w reka :i obl.sg]</ex> "I carry water from the river (all the time)" — multidirectional, habitual</item>
+        <item><ex>[w on] [w bežat :i 3sg] [w na] [w most :i obl.sg]</ex> "he is running toward the bridge" — unidirectional, directed</item>
+        <item><ex>[w on] [w behat :i 3sg] [w ve] [w hora :i obl.sg]</ex> "he runs in the mountains (regularly, for sport)" — multidirectional</item>
+      </list>
+      <p>In past contexts the contrast between a one-time trip and a habitual pattern is equally clear:</p>
+      <list>
+        <item><ex>[w ony] [w byt :i 3pl] [w ydat :i lptc.pl] [w do] [w šlos :i obl.sg]</ex> "they went to the castle (on that occasion)"</item>
+        <item><ex>[w ony] [w byt :i 3pl] [w xodit :i lptc.pl] [w do] [w šlos :i obl.sg]</ex> "they used to go / they would go to the castle"</item>
+      </list>
+    </sub>
+    <sub t="`несат` and `бежат` Paradigms">
+      <p>[w nesat :c] "to carry (unidirectional)" is a-class, with fully regular inflection. It represents the regularized outcome of Proto-Slavic <code>*nesti</code>, an old consonant-stem verb whose original nasal-stem inflection was leveled to the productive a-class during Period III — the same wave of leveling that affected other consonant-stem and nasal-stem verbs. The multidirectional partner [w nosit] (i-class, from <code>*nositi</code>) was unaffected since it had always been a thematic -<em>iti</em> verb.</p>
+      <list>
+        <item>[w nesat]: [w nesat :i 1sg] / [w nesat :i 2sg] / [w nesat :i 3sg] / [w nesat :i 1pl] / [w nesat :i 2pl] / [w nesat :i 3pl]; l-part. [w nesat :i lptc.m] / [w nesat :i lptc.n] / [w nesat :i lptc.pl]</item>
+      </list>
+      <p>[w bežat :c] "to run (unidirectional)" and [w behat] "to run (multidirectional)" are both a-class, from Proto-Slavic <code>*běžati</code> and <code>*běgati</code> respectively, with regular yat-merger (<code>*ě &gt; е</code>):</p>
+      <list>
+        <item>[w bežat]: [w bežat :i 1sg] / [w bežat :i 2sg] / [w bežat :i 3sg] / [w bežat :i 1pl] / [w bežat :i 2pl] / [w bežat :i 3pl]; l-part. [w bežat :i lptc.m]</item>
+        <item>[w behat]: [w behat :i 1sg] / [w behat :i 2sg] / [w behat :i 3sg] / [w behat :i 1pl] / [w behat :i 2pl] / [w behat :i 3pl]; l-part. [w behat :i lptc.m]</item>
+      </list>
+    </sub>
+    <sub t="Diachronic Background">
+      <p>The unidirectional/multidirectional opposition descends intact from Proto-Slavic, which had distinct lexical roots for each type: <code>*idti</code> (unidirectional "go") alongside <code>*xoditi</code> (multidirectional), <code>*nesti</code> alongside <code>*nositi</code>, <code>*běžati</code> alongside <code>*běgati</code>. Styrian retained the opposition reinforced by contact on two flanks: Czech and Slovak to the north maintained the same pairings; Slovenian to the south did likewise. German contact, which would in principle create pressure toward merger (German makes no grammatical distinction of this type), was insufficient to displace a feature that both major Slavic neighbors on either side preserved. The literary standard shows no variation on this point across registers, and dialect data do not suggest incipient collapse even in the lowland eastern dialect with its higher density of German loanwords.</p>
+    </sub>
+  </sec>
+  <sec t="Verbal Prefixes: из- and ви-">
+    <p>Styrian, like all Slavic languages, forms perfective verbs primarily through verbal prefixes. The most productive prefixes include [st на- :t na-] (onto; completion: [w napysat] "to write, finish"), [st с- :t s-] (down; with: [w sdelat] "to do, complete"), [st до- :t do-] (up to; arrival: [w doit] "to arrive"), [st при- :t pry-] (near; bringing: [st принесат :t prynesat] "to bring"), and [st у- :t u-] (into; perfective marker: [w uvydit] "to catch sight of"). Two prefixes with overlapping directional semantics merit particular discussion: [st из- :t yz-] and [st ви- :t vy-].</p>
+    <sub t="из- (from within, out of)">
+      <p>[st Из- :t Yz-] is the general directional prefix meaning "out of, from within." It corresponds to South Slavic <em>iz-</em> and is also the free preposition [w yz] "out of" (see §Prepositions). Examples:</p>
+      <list>
+        <item>[w yzxodit] "to come out, emerge" (impf.) — from [st из- :t yz-] + [w xodit]</item>
+        <item>[st ізнесат :t yznesat] "to carry out, bring out" (impf.) — directional opposite of bringing in</item>
+        <item>[st ізгнат :t yzhnat] "to drive out, expel" (pf.) — with suppletive-stem [st гн- :t hn-] from <code>*gъnati</code></item>
+      </list>
+    </sub>
+    <sub t="ви- (completive; West Slavic stratum)">
+      <p>A second "out-from" prefix, [st ви- :t vy-], is a West Slavic feature preserved in Styrian that is absent or marginal in South Slavic. It descends from Proto-Slavic <code>*vy-</code> (*/vɨ-/), which survives productively in Czech and Slovak (<em>vy-</em>: <em>vyjít, vybrat, vyučit, vypsát</em>) but was largely displaced by <em>iz-</em> in South Slavic. Because Styrian speakers were in sustained contact with Czech- and Slovak-speaking communities to the north, the ви- prefix entered the Styrian lexicon as a productive stratum alongside из-.</p>
+      <p>The phonological identity is exact: Styrian [st ви- :t vy-] /vɨ-/ corresponds to Czech/Slovak <em>vy-</em> /vɪ-/ with predictable vowel correspondences, and bears the regular fixed initial stress: [w vybrat] /ˈvɨbrat/, [w vypysat] /ˈvɨpɨsat/.</p>
+      <p>Semantically, [st ви- :t vy-] tends toward <em>completive and selective</em> meanings — "pick out, thoroughly teach, write out in full" — rather than the purely directional "come out of" sense of [st из- :t yz-]. Doublets exist but with nuance:</p>
+      <list>
+        <item>[w yzxodit] "to emerge (from a space)" vs. [w vyxodit] "to go out (completely), exit; to come out (in print, result)" — the ви- form has the broader figurative range</item>
+        <item>[st ізнесат :t yznesat] "to carry out (a physical object)" vs. [st винесат :t vynesat] "to carry out, produce, yield" — again, ви- extends to figurative uses</item>
+      </list>
+      <p>Core ви- vocabulary in the modern standard:</p>
+      <list>
+        <item>[w vyxodit] "to go out, exit; to come out (of a publication, of a situation)" (impf. i-class): [w vyxodit :i 1sg] / [w vyxodit :i 2sg] / [w vyxodit :i 3sg] / [w vyxodit :i 1pl] / [w vyxodit :i 2pl] / [w vyxodit :i 3pl]; l-part. [w vyxodit :i lptc.m]</item>
+        <item>[w vypysat] "to write out, copy out; to fill out (a form)" (pf. a-class): [w vypysat :i 1sg] / [w vypysat :i 2sg] / [w vypysat :i 3sg]; l-part. [w vypysat :i lptc.m]. Imperfective partner: [st виписуат :t vypysouat] (rare; usually the impf. sense is covered by simple [w pysat])</item>
+        <item>[w vybrat] "to choose, pick out, select" (pf.): present stem [st вибир- :t vybyr-]: [w vybrat :i 1sg] / [w vybrat :i 2sg] / [w vybrat :i 3sg]; l-part. [w vybrat :i lptc.m]. Imperfective: [w vybyrat] "to choose (habitually), select (process)"</item>
+        <item>[w vyučit] "to teach (sb.) thoroughly, train, instruct" (pf. i-class): [w vyučit :i 1sg] / [w vyučit :i 2sg] / [w vyučit :i 3sg]; l-part. [w vyučit :i lptc.m]. Imperfective: [st виучуат :t vyučouat] or more commonly the plain impf. [st учіт :t učit] "to teach"</item>
+        <item>[w vyhnat] "to drive out, expel, chase away" (pf.): present [w vyhnat :i 1sg]... — suppletive present from <code>*goniti</code>-stem: [w vyhnat :i 1sg] / [w vyhnat :i 2sg] / [w vyhnat :i 3sg]; l-part. [w vyhnat :i lptc.m]. Cf. Czech <em>vyhnat</em>.</item>
+      </list>
+      <p>The ви- stratum is well established in the western highland dialect, which has the most intensive northern contact, and is fully recognized in the literary standard. It is not a loan per se but a direct phonological inheritance carried forward through contact-reinforced retention rather than borrowing.</p>
+    </sub>
+  </sec>
+  <sec t="Imperative Mood">
+    <p>The Styrian imperative derives from the inherited Slavic imperative endings, reduced by the general phonological processes of Period II–III.</p>
+    <p>For the <em>2nd singular</em>, the ending is -[st і :t i] for both classes (from old *-i type):</p>
+    <list>
+      <item>[st піші :t piši] "write!"</item>
+      <item>[st носі :t nosi] "carry!"</item>
+      <item>[st делаи :t delay] "do, make!" (a-class; stems ending in а attach the glide -[st и :t j] directly, yielding -аи)</item>
+      <item>[st иді :t ydi] "go!"</item>
+      <item>[st даі :t dai] "give!" (from irregular [w dat]; stem-final а + glide -и)</item>
+    </list>
+    <p>For the <em>2nd plural</em>, the ending is -[st іте :t ite]:</p>
+    <list>
+      <item>[st пішіте :t pišite] "write! (pl.)"</item>
+      <item>[st носіте :t nosite] "carry! (pl.)"</item>
+      <item>[st делаите :t delayte] "do! (pl.)"</item>
+      <item>[st идіте :t ydite] "go! (pl.)"</item>
+    </list>
+    <p>For <em>1st plural cohortative</em> ("let's..."), the particle [w dat :i 3sg] is used with the 1pl present:</p>
+    <list>
+      <item>[w dat :i 3sg] [w pysat :i 1pl]! "let's write!"</item>
+      <item>[w dat :i 3sg] [w ydat :i 1pl]! "let's go!"</item>
+    </list>
+    <p>For <em>3rd person</em> ("let him/her/them..."), the particle [w neka] is used:</p>
+    <list>
+      <item>[w neka] [w on] [st пише :t pyše] "let him/her write"</item>
+      <item>[w neka] [w ony] [w doit :i 3pl] "let them come"</item>
+    </list>
+    <p>The <em>negative imperative</em> uses [w ne] before the imperative form:</p>
+    <list>
+      <item>[w ne] [st піші :t piši]! "don't write!" (or: [w ne] [st носі :t nosi]! "don't carry!")</item>
+      <item>[w ne] [st идіте :t ydite] [st там :t tam]! "don't go there! (pl.)"</item>
+    </list>
+  </sec>
+  <sec t="Past Formation">
+    <p>The productive past is an analytic perfect built with present [w byt] + an l-participle that agrees in number and, in the singular, in grammatical gender. Modern Styrian distinguishes masculine, feminine, neuter, and plural.</p>
+    <list>
+      <item>A-class: stem + -[st алъ :t ală] (masc. sg) / -[st ала :t ala] (fem. sg) / -[st ало :t alo] (neut. sg) / -[st алі :t ali] (pl.) → [w pysat :i lptc.m] / [w pysat :i lptc.f] / [w pysat :i lptc.n] / [w pysat :i lptc.pl], [w delat :i lptc.m] / [w delat :i lptc.f] / [w delat :i lptc.n] / [w delat :i lptc.pl]</item>
+      <item>I-class: stem + -[st ілъ :t ilă] (masc. sg) / -[st іла :t ila] (fem. sg) / -[st іло :t ilo] (neut. sg) / -[st ілі :t ili] (pl.) → [w nosit :i lptc.m] / [w nosit :i lptc.f] / [w nosit :i lptc.n] / [w nosit :i lptc.pl], [w vydit :i lptc.m] / [w vydit :i lptc.f] / [w vydit :i lptc.n] / [w vydit :i lptc.pl]</item>
+    </list>
+    <p>The neuter singular form is used when the grammatical subject is a neuter noun. Third-person singular subjects show the full masculine, feminine, and neuter contrast; plural uses one shared form for all genders. First- and second-person singular subjects normally take the masculine or feminine participle according to the speaker or addressee, while the neuter remains largely restricted to neuter third-person subjects.</p>
+    <p>Some irregular l-participles:</p>
+    <list>
+      <item>[w ydat] &gt; [w ydat :i lptc.m] / [w ydat :i lptc.f] / [w ydat :i lptc.n] / [w ydat :i lptc.pl] (suppletive from <code>*š[st ь]l[st ъ]</code>)</item>
+      <item>[w doit] &gt; [w doit :i lptc.m] / [w doit :i lptc.f] / [w doit :i lptc.n] / [w doit :i lptc.pl] (prefixed suppletive)</item>
+      <item>[w možit] &gt; [st моглъ :t mohlă] / [st могла :t mohla] / [st могло :t mohlo] / [st моглі :t mohli] (from <code>*mogl[st ъ]</code>)</item>
+      <item>[w byt] &gt; [st билъ :t bylă] / [st била :t byla] / [st било :t bylo] / [st билі :t byli]</item>
+      <item>[w dat] &gt; [w dat :i lptc.m] / [w dat :i lptc.f] / [w dat :i lptc.n] / [w dat :i lptc.pl]</item>
+    </list>
+    <p>Paradigm of [w pysat] in the past:</p>
+    <tb>
+      <r><c>Person/Gender</c><c>Form</c></r>
+      <r><c>1sg masc.</c><c>[w az] [w byt :i 1sg] [w pysat :i lptc.m]</c></r>
+      <r><c>1sg fem.</c><c>[w az] [w byt :i 1sg] [w pysat :i lptc.f]</c></r>
+      <r><c>2sg masc.</c><c>[w ty] [w byt :i 2sg] [w pysat :i lptc.m]</c></r>
+      <r><c>2sg fem.</c><c>[w ty] [w byt :i 2sg] [w pysat :i lptc.f]</c></r>
+      <r><c>3sg masc.</c><c>[w on] [w byt :i 3sg] [w pysat :i lptc.m]</c></r>
+      <r><c>3sg fem.</c><c>[w ona] [w byt :i 3sg] [w pysat :i lptc.f]</c></r>
+      <r><c>3sg neut.</c><c>[w ono] [w byt :i 3sg] [w pysat :i lptc.n] (e.g. [w to] [w slovo] [w byt :i 3sg] [w pysat :i lptc.n] "the word was written")</c></r>
+      <r><c>1pl</c><c>[w my] [w byt :i 1pl] [w pysat :i lptc.pl]</c></r>
+      <r><c>2pl</c><c>[w vy] [w byt :i 2pl] [w pysat :i lptc.pl]</c></r>
+      <r><c>3pl</c><c>[w ony] [w byt :i 3pl] [w pysat :i lptc.pl]</c></r>
+    </tb>
+    <p>The l-participle agrees in number and in singular gender: masculine -[st лъ :t lă], feminine -[st ла :t la], neuter -[st ло :t lo], plural -[st лі :t li]. Third-person pronouns now also mark the contrast directly: [w on] / [w ona] / [w ono].</p>
+    <p><em>Aspect and the past.</em> The distinction between perfective and imperfective l-participles is crucial for interpreting past events:</p>
+    <list>
+      <item>[w az] [w byt :i 1sg] [w delat :i lptc.m] (impf.) = "I was doing / I used to do / I did (ongoing)"</item>
+      <item>[w az] [w byt :i 1sg] [w sdelat :i lptc.m] (pf.) = "I did (completed) / I have done"</item>
+    </list>
+    <p>There is no separate imperfect or aorist form. The aspect of the l-participle carries all the relevant information.</p>
+  </sec>
+  <sec t="Copular Past">
+    <p>The l-participle of [w byt] distinguishes masculine singular [st билъ :t bylă], feminine singular [st била :t byla], neuter singular [st било :t bylo], and plural [st билі :t byli]. It serves as the past form of the copula, standing alone in the predicate position without the present auxiliary:</p>
+    <list>
+      <item>[w on] [st билъ :t bylă] [w lekar] "he was a doctor"</item>
+      <item>[w ona] [st била :t byla] [st лекарица :t lekarica] "she was a doctor"</item>
+      <item>[w ta] [w dom] [st билъ :t bylă] [w starə :i m.sg] "the house was old"</item>
+      <item>[w to] [w selo] [st било :t bylo] [w malə :i n.sg] "the village was small" (neuter subject → neuter participle)</item>
+      <item>[w my] [st билі :t byli] [w ve] [w hrad :i obl.sg] "we were in the town"</item>
+    </list>
+    <p>This is distinct from the <em>perfect of [w byt]</em>, which uses the auxiliary:</p>
+    <list>
+      <item>[w on] [w byt :i 3sg] [st билъ :t bylă] [w lekar] "he has been a doctor (at some point relevant to now)"</item>
+    </list>
+    <p>The contextual difference is aspect-like: standalone [st билъ :t bylă] / [st била :t byla] / [st било :t bylo] / [st билі :t byli] expresses a past state or identity without present relevance, while auxiliary + participle implies ongoing relevance.</p>
+  </sec>
+  <sec t="Pluperfect">
+    <p>A pluperfect meaning ("had written, had already done X before Y") is expressed by a double-auxiliary construction: present [w byt] + l-participle of [w byt] + l-participle of the main verb. Both participles follow the subject's gender and number:</p>
+    <list>
+      <item><ex>[w az] [w byt :i 1sg] [st билъ :t bylă] [w pysat :i lptc.m] [w taf] [w knyha] [w koga] [w on] [w doit :i lptc.m]</ex> "I had (already) written the book when he arrived"</item>
+      <item><ex>[w ona] [w byt :i 3sg] [st била :t byla] [w pysat :i lptc.f] [w to] [w pismo] [w pred] [w nas]</ex> "she had written the letter before us"</item>
+      <item><ex>[w ony] [w byt :i 3pl] [st билі :t byli] [w ydat :i lptc.pl] [st пре :t pre] [w my]</ex> "they had gone before us"</item>
+    </list>
+    <p>This construction is more common in written register and narrative; in everyday speech, context and adverbs like [st уже :t uže] "already" often do the work instead.</p>
+  </sec>
+  <sec t="Conditional Mood">
+    <p>The conditional is formed with the invariant auxiliary [st би :t by] + the l-participle. [st Би :t By] derives from the inherited Slavic conditional particle <code>*by</code> (cognate with South Slavic [st би :t by], Polish <em>by</em>, etc.). The auxiliary is invariant, but the l-participle still distinguishes masculine, feminine, neuter, and plural.</p>
+    <p>[st Би :t By] is invariant: it does not change for person or number.</p>
+    <tb>
+      <r><c>Person</c><c>Form</c></r>
+      <r><c>1sg masc.</c><c>[w az] [st би :t by] [w pysat :i lptc.m]</c></r>
+      <r><c>1sg fem.</c><c>[w az] [st би :t by] [w pysat :i lptc.f]</c></r>
+      <r><c>2sg masc.</c><c>[w ty] [st би :t by] [w pysat :i lptc.m]</c></r>
+      <r><c>2sg fem.</c><c>[w ty] [st би :t by] [w pysat :i lptc.f]</c></r>
+      <r><c>3sg masc.</c><c>[w on] [st би :t by] [w pysat :i lptc.m]</c></r>
+      <r><c>3sg fem.</c><c>[w ona] [st би :t by] [w pysat :i lptc.f]</c></r>
+      <r><c>3sg neut.</c><c>[w ono] [st би :t by] [w pysat :i lptc.n]</c></r>
+      <r><c>1pl</c><c>[w my] [st би :t by] [w pysat :i lptc.pl]</c></r>
+      <r><c>2pl</c><c>[w vy] [st би :t by] [w pysat :i lptc.pl]</c></r>
+      <r><c>3pl</c><c>[w ony] [st би :t by] [w pysat :i lptc.pl]</c></r>
+    </tb>
+    <p>The conditional expresses:</p>
+    <list>
+      <item><em>Hypothetical / irrealis</em>: <ex>[w az] [st би :t by] [w ydat :i lptc.m], [st ано :t ano] [w byt :i 1sg] [st болан :t bolan]</ex> "I would go, but I am sick"</item>
+      <item><em>Hypothetical / irrealis</em>: <ex>[w ona] [st би :t by] [w ydat :i lptc.f], [st ано :t ano] [w byt.neg :i 3sg] [st готова :t hotova]</ex> "she would go, but she is not ready"</item>
+      <item><em>Polite request</em>: <ex>[w ty] [st би :t by] [st моглъ :t mohlă] [w dat] [w my] [w voda]?</ex> "could you give me some water?"</item>
+      <item><em>Counterfactual conditional</em> (with [st ако :t ako]): see §Conditional Sentences</item>
+    </list>
+    <p>A past counterfactual ("would have done") can be expressed with [st би :t by] + l-participle of [w byt] + l-participle of the main verb; both participles follow the subject's gender and number:</p>
+    <list>
+      <item><ex>[st ако :t ako] [w ty] [w byt :i 2sg] [w doit :i lptc.m], [w az] [st би :t by] [st билъ :t bylă] [w pysat :i lptc.m]</ex> "if you had come, I would have written"</item>
+      <item><ex>[st ако :t ako] [w ona] [w byt :i 3sg] [w doit :i lptc.f], [w ona] [st би :t by] [st била :t byla] [w pysat :i lptc.f]</ex> "if she had come, she would have written"</item>
+    </list>
+    <p>In practice, plain [st би :t by] + l-participle often covers both present and past counterfactuals, with context supplying the temporal reading.</p>
+  </sec>
+  <sec t="Reflexive Verbs">
+    <p>The reflexive clitic [st се :t se] attaches loosely to the predicate but is <em>postverbal</em> in the standard language: it follows the finite verb in simple tenses and follows the auxiliary in compound tenses.</p>
+    <list>
+      <item><ex>[w az] [st мием :t myem] [st се :t se]</ex> "I wash myself"</item>
+      <item><ex>[w on] [w byt :i 3sg] [st се :t se] [st смел :t smel]</ex> "he laughed" (lit. "laughed himself" — [st смет :t smet] [st се :t se] is reflexive-only)</item>
+      <item><ex>[w my] [w byt :i 1pl] [st се :t se] [st наделі :t nadeli]</ex> "we hoped" ([st надет :t nadet] [st се :t se] "to hope")</item>
+    </list>
+    <p>This postverbal placement also applies when [st се :t se] forms a passive or middle-like construction. In compound tenses [st се :t se] follows the auxiliary, just as other object clitics do (see §Object Pronoun Placement).</p>
+    <p>Some verbs are inherently reflexive (reflexive-only) and take [st се :t se] as an obligatory lexical element:</p>
+    <list>
+      <item>[st смет :t smet] [st се :t se] "to laugh"</item>
+      <item>[st боат :t boat] [st се :t se] "to be afraid"</item>
+      <item>[st надет :t nadet] [st се :t se] "to hope"</item>
+      <item>[st штудіт :t študit] [st се :t se] "to be amazed, wonder"</item>
+      <item>[st сеат :t seat] [st се :t se] "to sit down" (perfective)</item>
+    </list>
+    <p>The reflexive construction also forms impersonal passives:</p>
+    <list>
+      <item><ex>[st стирски :t styrsky] [st говоре :t hovore] [st се :t se] [w ve] [st та :t ta] [w zema :i obl.sg]</ex> "Styrian is spoken in this land"</item>
+      <item><ex>[w knyha :i obl.sg] [st продайут :t prodajut] [st се :t se] [w ve] [w kram :i obl.sg]</ex> "books are sold in the shop"</item>
+    </list>
+  </sec>
+  <sec t="Existential Constructions">
+    <p>[w ymat :i 3sg :c] (3sg of [w ymat]) functions as an existential "there is/are" when used without a subject argument:</p>
+    <list>
+      <item><ex>[w ymat :i 3sg :c] [w voda] [w ve] [w dom :i obl.sg]</ex> "There is water in the house"</item>
+      <item><ex>[w ymat :i 3sg :c] [w edyn] [w čelovek] [w ve] [w doroha :i obl.sg]</ex> "There is a person on the road"</item>
+      <item><ex>[w ymat :i 3sg :c] [st три :t try] [w knyha :i obl.sg] [w na] [w most :i obl.sg]</ex> "There are three books on the bridge"</item>
+    </list>
+    <p>The negated form [st нема :t nema] (&lt; [w ne] + [w ymat :i 3sg], contracted) expresses "there is no":</p>
+    <list>
+      <item><ex>[w nema :c] [w voda] [w ve] [w dom :i obl.sg]</ex> "There is no water in the house"</item>
+      <item><ex>[st Нема :t Nema] [st лиуді :t liudi] [st ту :t tu]</ex> "There are no people here"</item>
+    </list>
+    <p>[w nema :c] is invariant and does not require an auxiliary. It is one of the most frequent negative words in the language.</p>
+  </sec>
+  <sec t="Future Reference">
+    <p>Styrian does not use a single dedicated future particle. Future time is expressed through three overlapping strategies:</p>
+    <p><em>Predictive/expected future</em>: finite [w možit] + infinitive. In this use [w možit] is lighter than ordinary ability and approaches "will, should":</p>
+    <list>
+      <item><ex>[w az] [w možit :i 1sg] [w doit] [st утре :t utre]</ex> "I will probably come tomorrow"</item>
+      <item><ex>[w on] [w možit :i 3sg] [st пристіт :t prystit] [st рано :t rano]</ex> "he is likely to arrive early"</item>
+    </list>
+    <p><em>Intentional/prospective future</em>: [w xotit] + infinitive. Closer to "be going to, intend to":</p>
+    <list>
+      <item><ex>[w az] [w xotit :i 1sg] [w ydat] [w ve] [w hrad :i obl.sg]</ex> "I'm going to go to town"</item>
+      <item><ex>[w my] [w xotit :i 1pl] [w delat] [st утре :t utre]</ex> "we are going to work tomorrow"</item>
+    </list>
+    <p><em>Perfective non-past with future reading</em>: a perfective verb in the present/non-past tense form naturally refers to future completion, since a perfective event cannot be ongoing:</p>
+    <list>
+      <item><ex>[w az] [st написам :t napysam] [w taf] [w knyha] [st утре :t utre]</ex> "I will write (finish writing) the book tomorrow"</item>
+      <item><ex>[w on] [w doit :i 3sg] [w koga] [w byt :i 3sg] [st готов :t hotov]</ex> "he will come when ready"</item>
+    </list>
+  </sec>
+  <sec t="Negation">
+    <p>Negation normally uses [w ne] immediately before the finite verb or auxiliary. The main exception is [w byt], whose present and auxiliary forms have a fused negative paradigm ([w byt.neg :i 1sg], [w byt.neg :i 2sg], [w byt.neg :i 3sg], [w byt.neg :i 1pl], [w byt.neg :i 2pl], [w byt.neg :i 3pl]):</p>
+    <list>
+      <item><ex>[w az] [w ne] [w pysat :i 1sg]</ex> "I don't write / I'm not writing"</item>
+      <item><ex>[w az] [w byt.neg :i 1sg] [w pysat :i ppl]</ex> "I am not writing (right now)"</item>
+      <item><ex>[w on] [w byt.neg :i 3sg] [w doit :i lptc.m]</ex> "he hasn't arrived"</item>
+      <item><ex>[w ony] [w ne] [w možit :i 3pl] [w vydit]</ex> "they can't see"</item>
+      <item><ex>[w ty] [w ne] [st би :t by] [w ydat :i lptc.m] [st там :t tam]</ex> "you wouldn't go there"</item>
+    </list>
+    <p>Negative concord with the negative pronouns is normal:</p>
+    <list>
+      <item><ex>[st никой :t nykoj] [w ne] [w vydit :i 3sg] [st ниче :t niče]</ex> "nobody saw anything" (lit. "nobody not-saw nothing")</item>
+      <item><ex>[w az] [st никога :t nykoha] [w ne] [w ydat :i 1sg] [st там :t tam]</ex> "I never go there"</item>
+    </list>
+  </sec>
+  <sec t="Questions">
+    <p>Yes/no questions are formed by intonation alone or with the particle [st ли :t ly] placed after the finite verb or the phrase being questioned:</p>
+    <list>
+      <item><ex>[w ty :c] [w pysat :i 2sg] [st ли :t ly]?</ex> "Are you writing?"</item>
+      <item><ex>[w on :c] [w byt :i 3sg] [w doit :i lptc.m] [st ли :t ly]?</ex> "Has he arrived?"</item>
+      <item><ex>[w ymat :i 3sg :c] [w voda] [st ли :t ly]?</ex> "Is there any water?"</item>
+    </list>
+    <p>Wh-words appear in clause-initial position without verb inversion; the syntax chapter gives a fuller account of their behavior:</p>
+    <list>
+      <item><ex>[st че :t če] [w ty] [w pysat :i 2sg]?</ex> "what are you writing?"</item>
+      <item><ex>[st къде :t kăde] [w ony] [w žyvat :i 3pl]?</ex> "where do they live?"</item>
+      <item><ex>[st кой :t koj] [w byt :i 3sg] [st той :t toj]?</ex> "who is that?"</item>
+      <item><ex>[w koga] [w ony] [w doit :i 3pl]?</ex> "when are they coming?"</item>
+      <item><ex>[st заче :t zače] [w ty] [w byt.neg :i 2sg] [w ydat :i lptc.m]?</ex> "why didn't you go?"</item>
+      <item><ex>[st кол :t kol] [st долго :t dolho]?</ex> "how long?"</item>
+    </list>
+  </sec>
+</ch>
