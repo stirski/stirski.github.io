@@ -417,18 +417,18 @@
     <p>Colloquial speech may further generalize [w če] at the expense of other strategies, especially after inanimate antecedents, but the contrastive series above is the recommended standard and is the form used in this grammar.</p>
   </sec>
   <sec t="Free Relatives: The Article–Relativizer Construction">
-    <p>Styrian has a productive construction in which a definite article stands without an overt head noun and is followed directly by a relative clause. The result is a <em>free relative</em> — a nominal phrase meaning "the one who…", "those who…", "that which…", or simply "what…". The construction draws on the full article system ([w ta] masculine sg, [w taf] feminine sg, [w to] neuter sg, [w ti] plural) and the established relativizer contrast ([w ky] subject, [w če] non-subject). It is the direct counterpart of Spanish <i>el que</i>, <i>la que</i>, <i>los que</i>, and, crucially, neuter <i>lo que</i>.</p>
+    <p>Styrian has a productive construction in which a definite article stands without an overt head noun and is followed directly by a relative clause. The result is a <em>free relative</em> — a nominal phrase meaning "the one who…", "those who…", "that which…", or simply "what…". The construction draws on the full article system ([w ta] masculine sg, [w taf] feminine sg, [w to] neuter sg, [w ti] plural) and the established relativizer contrast ([w ky] subject, [w če] non-subject).</p>
     <tb>
-      <r><c>Form</c><c>Relativizer</c><c>Meaning</c><c>Approximate equivalent</c></r>
-      <r><c>[w ta] [w ky]</c><c>[w ky]</c><c>"the one who…" (subject gap, masculine)</c><c>Sp. <i>el que</i> (as subject)</c></r>
-      <r><c>[w ta] [w če]</c><c>[w če]</c><c>"the one that/whom…" (non-subject gap, masculine)</c><c>Sp. <i>el que</i> (as object/oblique)</c></r>
-      <r><c>[w taf] [w ky]</c><c>[w ky]</c><c>"the one who…" (subject gap, feminine)</c><c>Sp. <i>la que</i> (as subject)</c></r>
-      <r><c>[w taf] [w če]</c><c>[w če]</c><c>"the one that/whom…" (non-subject gap, feminine)</c><c>Sp. <i>la que</i> (as object/oblique)</c></r>
-      <r><c>[w to] [w če]</c><c>[w če]</c><c>"that which / what…" (neuter, propositional)</c><c>Sp. <i>lo que</i></c></r>
-      <r><c>[w ti] [w ky]</c><c>[w ky]</c><c>"those who…" (subject gap, plural)</c><c>Sp. <i>los que</i> / <i>las que</i> (as subject)</c></r>
-      <r><c>[w ti] [w če]</c><c>[w če]</c><c>"those that/whom…" (non-subject gap, plural)</c><c>Sp. <i>los que</i> / <i>las que</i> (as object/oblique)</c></r>
+      <r><c>Form</c><c>Relativizer</c><c>Meaning</c><c>Typical reading</c></r>
+      <r><c>[w ta] [w ky]</c><c>[w ky]</c><c>"the one who…" (subject gap, masculine)</c><c>masculine singular referent as embedded subject</c></r>
+      <r><c>[w ta] [w če]</c><c>[w če]</c><c>"the one that/whom…" (non-subject gap, masculine)</c><c>masculine singular referent as embedded object or complement</c></r>
+      <r><c>[w taf] [w ky]</c><c>[w ky]</c><c>"the one who…" (subject gap, feminine)</c><c>feminine singular referent as embedded subject</c></r>
+      <r><c>[w taf] [w če]</c><c>[w če]</c><c>"the one that/whom…" (non-subject gap, feminine)</c><c>feminine singular referent as embedded object or complement</c></r>
+      <r><c>[w to] [w če]</c><c>[w če]</c><c>"that which / what…" (neuter, propositional)</c><c>propositional or abstract content in nominative position</c></r>
+      <r><c>[w ti] [w ky]</c><c>[w ky]</c><c>"those who…" (subject gap, plural)</c><c>plural referent as embedded subject</c></r>
+      <r><c>[w ti] [w če]</c><c>[w če]</c><c>"those that/whom…" (non-subject gap, plural)</c><c>plural referent as embedded object or complement</c></r>
     </tb>
-    <p>The article inflects for case in the ordinary way: when the free-relative phrase occupies an oblique slot (direct object or prepositional complement), the article takes its oblique form ([w ta :i mo] [w ky] "the one whom…", [w taf :i fo] [w ky] "the woman whom…"); when it occupies a nominative slot, the nominative form is used. A governing preposition simply precedes the article-relativizer unit without contracting with it. The internal clause follows the ordinary 2P rule: the relativizer counts as XP₁ and any clitic cluster follows immediately, displacing the overt subject as usual.</p>
+    <p>The article inflects for case in the ordinary way: when the free-relative phrase occupies an oblique slot (direct object or prepositional complement), the article takes its oblique form ([w ta :i mo] [w ky] "the one whom…", [w taf :i fo] [w ky] "the woman whom…", [w to :i no] [w če] "what…"); when it occupies a nominative slot, the nominative form is used ([w to] [w če] as subject or predicate nominal). A governing preposition simply precedes the article-relativizer unit without contracting with it. The internal clause follows the ordinary 2P rule: the relativizer counts as XP₁ and any clitic cluster follows immediately, displacing the overt subject as usual.</p>
 
     <sub t="Singular Personal Free Relatives">
       <p>[w ta :c] [w ky] and [w taf] [w ky] introduce free relatives in which the missing element is the <em>subject</em> of the embedded clause. The masculine and feminine articles now make the referent's grammatical gender overt. Because [w ky] is itself the subject gap, no second subject appears inside the relative clause:</p>
@@ -448,38 +448,41 @@
       <p>The contrast between [w ta] / [w taf] + [w ky] and [w ta] / [w taf] + [w če] tracks the same subject/non-subject distinction that governs headed relative clauses. The article contributes gender and number; the relativizer contributes the syntactic role.</p>
     </sub>
 
-    <sub t="Neuter Singular: то че (the lo que equivalent)">
-      <p>The neuter free relative [w to] [w če] is the most distinctive member of the series. Rather than referring to a specific countable entity, it nominalizes an entire propositional content — an action, a state of affairs, or an abstract concept. Its meaning corresponds closely to English "what" in clauses like "what you said" or "what happened", and to Spanish neuter <i>lo que</i>. The choice of neuter article [w to] marks the absence of a concrete, gender-bearing antecedent: the construction presents the content of the clause as an undifferentiated proposition.</p>
+    <sub t="Neuter Singular: то че and том че">
+      <p>The neuter free relative [w to] [w če] / [w to :i no] [w če] is the most distinctive member of the series. Rather than referring to a specific countable entity, it nominalizes an entire propositional content — an action, a state of affairs, or an abstract concept. Its meaning corresponds closely to English "what" in clauses like "what you said" or "what happened". The choice of neuter article marks the absence of a concrete, gender-bearing antecedent: the construction presents the content of the clause as an undifferentiated proposition. As elsewhere in the article system, nominative [w to] appears when the whole free relative is subject or predicate nominal, while oblique [w to :i no] appears when it is a direct object or the complement of a preposition.</p>
       <p><em>As subject of the main clause:</em></p>
       <list>
         <item><ex>[w to] [w če] [w on] [st каже :t kaže] [w byt :i 3s] [st вистина :t vystyna]</ex> "what he says is true"</item>
         <item><ex>[w to] [w če] [w byt :i 1p] [w napravit :i lp] [w byt :i 3s] [st доволно :t dovolno]</ex> "what we did is enough"</item>
         <item><ex>[w to] [w če] [w me] [st мучи :t muči] [w byt :i 3s] [w ta] [st тишина :t tyšyna]</ex> "what troubles me is the silence"</item>
+        <item><ex>[w to] [w če] [w on] [st рекалӑ :t rekală] [w byt :i 3s] [w dak] [w on] [w ne] [w doit :i 3s]</ex> "what he said is that he will not come"</item>
       </list>
       <p><em>As direct object of the main clause:</em></p>
       <list>
-        <item><ex>[w az] [st знам :t znam] [w to] [w če] [w ty] [w xotit :i 2s]</ex> "I know what you want"</item>
-        <item><ex>[w on] [w byt :i 3s] [st рекалӑ :t rekală] [w to] [w če] [w byt :i 3s] [st мислілӑ :t myslilă]</ex> "he said what he thought"</item>
-        <item><ex>[w az] [w ne] [st разумем :t razumem] [w to] [w če] [w ty] [w pysat :i 2s]</ex> "I don't understand what you are writing"</item>
+        <item><ex>[w az] [st знам :t znam] [w to :i no] [w če] [w ty] [w xotit :i 2s]</ex> "I know what you want"</item>
+        <item><ex>[w on] [w byt :i 3s] [st рекалӑ :t rekală] [w to :i no] [w če] [w byt :i 3s] [st мислілӑ :t myslilă]</ex> "he said what he thought"</item>
+        <item><ex>[w az] [w ne] [st разумем :t razumem] [w to :i no] [w če] [w ty] [w pysat :i 2s]</ex> "I don't understand what you are writing"</item>
+        <item><ex>[w az] [st знам :t znam] [w to :i no] [w če] [w ta] [w zakon] [w rekat :i 3s]</ex> "I know what the law says"</item>
       </list>
       <p><em>As complement of a preposition:</em></p>
       <list>
-        <item><ex>[w az] [st мислем :t myslem] [w za] [w to] [w če] [w on] [w byt :i 3s] [st рекалӑ :t rekală]</ex> "I am thinking about what he said"</item>
-        <item><ex>[w my] [w byt :i 1p] [st доволні :t dovolni] [w so] [w to] [w če] [w ymat :i 1p]</ex> "we are content with what we have"</item>
-        <item><ex>[w on] [st плаже :t plaže] [w za] [w to] [w če] [w byt :i 3s] [st изгубілӑ :t yzhubilă]</ex> "he is paying for what he lost"</item>
+        <item><ex>[w az] [st мислем :t myslem] [w za] [w to :i no] [w če] [w on] [w byt :i 3s] [st рекалӑ :t rekală]</ex> "I am thinking about what he said"</item>
+        <item><ex>[w my] [w byt :i 1p] [st доволні :t dovolni] [w so] [w to :i no] [w če] [w ymat :i 1p]</ex> "we are content with what we have"</item>
+        <item><ex>[w on] [st плаже :t plaže] [w za] [w to :i no] [w če] [w byt :i 3s] [st изгубілӑ :t yzhubilă]</ex> "he is paying for what he lost"</item>
+        <item><ex>[w ony] [w byt :i 3p] [st доволні :t dovolni] [w so] [w to :i no] [w če] [w ta] [w zakon] [w rekat :i 3s]</ex> "they are satisfied with what the law says"</item>
       </list>
       <p><em>In predicate-nominal (pseudo-cleft) constructions:</em></p>
       <list>
         <item><ex>[w to] [w če] [w az] [w xotit :i 1s] [w byt :i 3s] [st мир :t myr]</ex> "what I want is peace"</item>
         <item><ex>[w to] [w če] [st она :t ona] [w ne] [st разуме :t razume] [w byt :i 3s] [w zače] [w az] [st молчем :t molčem]</ex> "what she does not understand is why I am silent"</item>
       </list>
-      <p>In all these uses the internal clause follows the 2P rule with [w to] [w če] as the frame, the relativizer [w če] counting as XP₁: any clitics follow [w če] in second position, and the overt subject of the embedded clause is displaced after the cluster in the usual fashion.</p>
-      <p><em>Clitic order inside то че clauses (compound tense example):</em></p>
+      <p>In all these uses the internal clause follows the 2P rule with [w to] / [w to :i no] + [w če] as the frame, the relativizer [w če] counting as XP₁: any clitics follow [w če] in second position, and the overt subject of the embedded clause is displaced after the cluster in the usual fashion.</p>
+      <p><em>Clitic order inside то че / том че clauses (compound tense example):</em></p>
       <list>
         <item><ex>[w to] [w če] [w byt :i 3s] [w ty] [w on] [st рекалӑ :t rekală]</ex> "what he said to you" — [w če] as XP₁; cluster [[st е ти :t e ty]]; displaced subject [w on]</item>
-        <item><ex>[w to] [w če] [w mu] [w go] [w az] [w dat :i 1s]</ex> "what I give him" — cluster [[st му го :t mu ho]]; displaced subject [w az]</item>
+        <item><ex>[w to :i no] [w če] [w mu] [w go] [w az] [w dat :i 1s]</ex> "what I give him" — cluster [[st му го :t mu ho]]; displaced subject [w az]</item>
       </list>
-      <p>[w to :c] [w če] is not available when the embedded clause identifies a specific person or concrete gendered referent: for those contexts the masculine and feminine forms [w ta] / [w taf] + [w ky] or [w če] are used instead. The neuter construction strictly signals propositional or abstract content.</p>
+      <p>[w to] [w če] / [w to :i no] [w če] is not available when the embedded clause identifies a specific person or concrete gendered referent: for those contexts the masculine and feminine forms [w ta] / [w taf] + [w ky] or [w če] are used instead. The neuter construction strictly signals propositional or abstract content.</p>
     </sub>
 
     <sub t="Plural: ти ки and ти че">
@@ -493,7 +496,7 @@
     </sub>
 
     <sub t="Free Relatives as Subjects, Objects, and Prepositional Complements">
-      <p>In all its forms the article–relativizer construction occupies any nominal slot in the main clause. When it is the subject or predicate nominal the article takes its nominative form; when it is a direct object or prepositional complement the article takes its oblique form. A governing preposition simply precedes the whole unit and the relativizer's complement clause follows:</p>
+      <p>In all its forms the article–relativizer construction occupies any nominal slot in the main clause. When it is the subject or predicate nominal the article takes its nominative form; when it is a direct object or prepositional complement the article takes its oblique form. In the neuter propositional construction this yields [w to] [w če] in nominative use but [w to :i no] [w če] in oblique use. A governing preposition simply precedes the whole unit and the relativizer's complement clause follows:</p>
       <list>
         <item><em>Subject (nom):</em> <ex>[w ta] [w ky] [st рано :t rano] [w doit] [st ке :t ke] [st наіде :t naide] [w dom] [st отворенӑ :t otvorenă]</ex> "the one who comes early will find the house open"</item>
         <item><em>Direct object (obl):</em> <ex>[w az] [w vydit :i 1s] [w ta :i mo] [w ky] [w byt :i 3s] [w ydat :i lm] [st напред :t napred]</ex> "I see the one who went ahead"</item>
@@ -513,7 +516,7 @@
     </sub>
 
     <sub t="Diachronic Note">
-      <p>The construction is the natural outcome of Styrian's loss of relative pronoun declension. Older Slavic relative-clause systems built a full paradigm of case-marked relatives from the pronominal stem <i>*jь-, ja-, je-</i>; Styrian levelled this paradigm to the two invariant forms [w ky] and [w če] (see §Relative Clauses). The non-subject form reflects later reduction in a very high-frequency grammatical item, yielding the short modern standard [w če]. Once the relative pronoun lost case inflection, the determiner force had to be carried by the article. The article–relativizer unit that results is thus a grammaticalized reflex of the older <i>[demonstrative + relative pronoun]</i> sequence, now reanalysed as a unified nominal head. The neuter [w to] [w če] is particularly revealing: it preserves the old neuter pronominal form <i>*to</i> not as a head noun but as a grammatical marker of propositional content, filling the same semantic role as Spanish <i>lo</i> or French <i>ce que</i>.</p>
+      <p>The construction is the natural outcome of Styrian's loss of relative pronoun declension. Older Slavic relative-clause systems built a full paradigm of case-marked relatives from the pronominal stem <i>*jь-, ja-, je-</i>; Styrian levelled this paradigm to the two invariant forms [w ky] and [w če] (see §Relative Clauses). The non-subject form reflects later reduction in a very high-frequency grammatical item, yielding the short modern standard [w če]. Once the relative pronoun lost case inflection, the determiner force had to be carried by the article. The article–relativizer unit that results is thus a grammaticalized reflex of the older <i>[demonstrative + relative pronoun]</i> sequence, now reanalysed as a unified nominal head. The neuter [w to] [w če] is particularly revealing: it preserves the old neuter pronominal form <i>*to</i> not as a head noun but as a grammatical marker of propositional content.</p>
     </sub>
   </sec>
 
