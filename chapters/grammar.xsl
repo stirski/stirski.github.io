@@ -2179,14 +2179,28 @@
       <xsl:when test="$infl = '2p'">2pl</xsl:when>
       <xsl:when test="$infl = '3p'">3pl</xsl:when>
       <xsl:when test="$infl = 'pp'">ppl</xsl:when>
+      <xsl:when test="$infl = 'lm'">lptc.m</xsl:when>
+      <xsl:when test="$infl = 'lf'">lptc.f</xsl:when>
+      <xsl:when test="$infl = 'ln'">lptc.n</xsl:when>
+      <xsl:when test="$infl = 'lp'">lptc.pl</xsl:when>
       <xsl:when test="$infl = 'l.m'">lptc.m</xsl:when>
       <xsl:when test="$infl = 'l.f'">lptc.f</xsl:when>
       <xsl:when test="$infl = 'l.n'">lptc.n</xsl:when>
       <xsl:when test="$infl = 'l.p'">lptc.pl</xsl:when>
+      <xsl:when test="$infl = 'i2s'">imp.2sg</xsl:when>
+      <xsl:when test="$infl = 'i2p'">imp.2pl</xsl:when>
       <xsl:when test="$infl = 'imp.2s'">imp.2sg</xsl:when>
       <xsl:when test="$infl = 'imp.2p'">imp.2pl</xsl:when>
+      <xsl:when test="$infl = 'nm'">nom.sg</xsl:when>
       <xsl:when test="$infl = 'nom.s'">nom.sg</xsl:when>
       <xsl:when test="$infl = 'o.s'">obl.sg</xsl:when>
+      <xsl:when test="$infl = 'p'">pl</xsl:when>
+      <xsl:when test="$infl = 'ms'">m.sg</xsl:when>
+      <xsl:when test="$infl = 'fs'">f.sg</xsl:when>
+      <xsl:when test="$infl = 'ns'">n.sg</xsl:when>
+      <xsl:when test="$infl = 'mo'">m.sg.obl</xsl:when>
+      <xsl:when test="$infl = 'fo'">f.sg.obl</xsl:when>
+      <xsl:when test="$infl = 'no'">n.sg.obl</xsl:when>
       <xsl:when test="$infl = 'm.s'">m.sg</xsl:when>
       <xsl:when test="$infl = 'f.s'">f.sg</xsl:when>
       <xsl:when test="$infl = 'n.s'">n.sg</xsl:when>
@@ -2194,6 +2208,7 @@
       <xsl:when test="$infl = 'f.o.s'">f.sg.obl</xsl:when>
       <xsl:when test="$infl = 'o.f.s' or $infl = 'obl.f.sg'">f.sg.obl</xsl:when>
       <xsl:when test="$infl = 'n.o.s'">n.sg.obl</xsl:when>
+      <xsl:when test="$infl = 'po'">pl.obl</xsl:when>
       <xsl:when test="$infl = 'o.p' or $infl = 'o.pl'">pl.obl</xsl:when>
       <xsl:when test="$infl = 'o'">obl</xsl:when>
       <xsl:when test="$infl = 'b'">base</xsl:when>

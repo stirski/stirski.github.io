@@ -13,22 +13,93 @@
   };
 
   var FORM_ALIASES = {
-    '1s': '1sg', '2s': '2sg', '3s': '3sg',
-    '1p': '1pl', '2p': '2pl', '3p': '3pl',
-    'pp': 'ppl',
-    'l.m': 'lptc.m', 'l.f': 'lptc.f', 'l.n': 'lptc.n', 'l.p': 'lptc.pl',
-    'imp.2s': 'imp.2sg', 'imp.2p': 'imp.2pl',
-    'nom.s': 'nom.sg', 'o.s': 'obl.sg',
-    'm.s': 'm.sg', 'f.s': 'f.sg', 'n.s': 'n.sg',
-    'm.o.s': 'm.sg.obl', 'f.o.s': 'f.sg.obl', 'n.o.s': 'n.sg.obl',
-    'o.f.s': 'f.sg.obl', 'obl.f.sg': 'f.sg.obl',
-    'o.p': 'pl.obl', 'o.pl': 'pl.obl',
-    'o': 'obl',
-    'b': 'base'
+    '1s': ['1sg'], '2s': ['2sg'], '3s': ['3sg'],
+    '1p': ['1pl'], '2p': ['2pl'], '3p': ['3pl'],
+    'pp': ['ppl'],
+    'lm': ['lptc.m'], 'lf': ['lptc.f'], 'ln': ['lptc.n'], 'lp': ['lptc.pl'],
+    'l.m': ['lptc.m'], 'l.f': ['lptc.f'], 'l.n': ['lptc.n'], 'l.p': ['lptc.pl'],
+    'i2s': ['imp.2sg'], 'i2p': ['imp.2pl'],
+    'imp.2s': ['imp.2sg'], 'imp.2p': ['imp.2pl'],
+    'nm': ['nom.sg'], 'nom.s': ['nom.sg'],
+    'o': ['obl', 'obl.sg'], 'o.s': ['obl.sg'],
+    'p': ['pl'],
+    'ms': ['m.sg'], 'fs': ['f.sg'], 'ns': ['n.sg'],
+    'mo': ['m.sg.obl'], 'fo': ['f.sg.obl'], 'no': ['n.sg.obl'],
+    'm.s': ['m.sg'], 'f.s': ['f.sg'], 'n.s': ['n.sg'],
+    'm.o.s': ['m.sg.obl'], 'f.o.s': ['f.sg.obl'], 'n.o.s': ['n.sg.obl'],
+    'o.f.s': ['f.sg.obl'], 'obl.f.sg': ['f.sg.obl'],
+    'po': ['pl.obl'], 'o.p': ['pl.obl'], 'o.pl': ['pl.obl'],
+    'b': ['base']
   };
 
+  function candidateFormIds(formId) {
+    return FORM_ALIASES[formId] || [formId];
+  }
+
   function canonicalFormId(formId) {
-    return FORM_ALIASES[formId] || formId;
+    var candidates = candidateFormIds(formId);
+    return candidates.length ? candidates[0] : formId;
+  }
+
+  function resolveSingleForm(entry, formId, doc) {
+    var forms = entry.querySelectorAll('form');
+    var i;
+    var tpl;
+    var tplForms;
+    var pattern = null;
+    var p;
+    var stemName;
+    var stems;
+    var stemValue = null;
+    var mainStem = null;
+    var s;
+
+    for (i = 0; i < forms.length; i++) {
+      if (forms[i].getAttribute('f') === formId) {
+        return forms[i].getAttribute('v');
+      }
+    }
+
+    tpl = getTemplate(entry, doc);
+    if (!tpl) return null;
+
+    tplForms = tpl.querySelectorAll('form');
+    for (p = 0; p < tplForms.length; p++) {
+      if (tplForms[p].getAttribute('f') === formId) {
+        pattern = tplForms[p];
+        break;
+      }
+    }
+    if (!pattern) return null;
+
+    stemName = pattern.getAttribute('stem') || 'main';
+    stems = entry.querySelectorAll('stem');
+
+    for (s = 0; s < stems.length; s++) {
+      var sn = stems[s].getAttribute('name');
+      if (sn === stemName) { stemValue = stems[s].getAttribute('v'); break; }
+      if (sn === 'main') mainStem = stems[s].getAttribute('v');
+    }
+    if (!stemValue) stemValue = mainStem;
+    if (!stemValue && stems.length > 0) stemValue = stems[0].getAttribute('v');
+    if (!stemValue) return null;
+
+    return (pattern.getAttribute('prefix') || '') +
+      stemValue +
+      (pattern.getAttribute('suffix') || '');
+  }
+
+  function resolveFormId(entry, formId, doc) {
+    var candidates = candidateFormIds(formId);
+    var i;
+
+    for (i = 0; i < candidates.length; i++) {
+      if (resolveSingleForm(entry, candidates[i], doc)) {
+        return candidates[i];
+      }
+    }
+
+    return candidates.length === 1 ? candidates[0] : null;
   }
 
   /* ── Fetch and parse lexicon.xml ────────────────────────────── */
@@ -73,47 +144,15 @@
   /* ── Resolve a form value from a lex entry ──────────────────── */
 
   function resolveForm(entry, formId, doc) {
-    formId = canonicalFormId(formId);
+    var candidates = candidateFormIds(formId);
+    var i;
 
-    // Check explicit <form>
-    var forms = entry.querySelectorAll('form');
-    for (var i = 0; i < forms.length; i++) {
-      if (forms[i].getAttribute('f') === formId) {
-        return forms[i].getAttribute('v');
-      }
+    for (i = 0; i < candidates.length; i++) {
+      var resolved = resolveSingleForm(entry, candidates[i], doc);
+      if (resolved) return resolved;
     }
 
-    // Fallback to template
-    var tpl = getTemplate(entry, doc);
-    if (!tpl) return null;
-
-    var tplForms = tpl.querySelectorAll('form');
-    var pattern = null;
-    for (var p = 0; p < tplForms.length; p++) {
-      if (tplForms[p].getAttribute('f') === formId) {
-        pattern = tplForms[p];
-        break;
-      }
-    }
-    if (!pattern) return null;
-
-    var stemName = pattern.getAttribute('stem') || 'main';
-    var stems = entry.querySelectorAll('stem');
-    var stemValue = null;
-    var mainStem = null;
-
-    for (var s = 0; s < stems.length; s++) {
-      var sn = stems[s].getAttribute('name');
-      if (sn === stemName) { stemValue = stems[s].getAttribute('v'); break; }
-      if (sn === 'main') mainStem = stems[s].getAttribute('v');
-    }
-    if (!stemValue) stemValue = mainStem;
-    if (!stemValue && stems.length > 0) stemValue = stems[0].getAttribute('v');
-    if (!stemValue) return null;
-
-    var prefix = pattern.getAttribute('prefix') || '';
-    var suffix = pattern.getAttribute('suffix') || '';
-    return prefix + stemValue + suffix;
+    return null;
   }
 
   /* ── Get lemma (citation form) for an entry ─────────────────── */

@@ -32,48 +32,67 @@
      entirely.
   ──────────────────────────────────────────────────────────────── */
 
-  function canonicalFormId(formId) {
+  function candidateFormIds(formId) {
     return ({
-      '1s': '1sg', '2s': '2sg', '3s': '3sg',
-      '1p': '1pl', '2p': '2pl', '3p': '3pl',
-      'pp': 'ppl',
-      'l.m': 'lptc.m', 'l.f': 'lptc.f', 'l.n': 'lptc.n', 'l.p': 'lptc.pl',
-      'imp.2s': 'imp.2sg', 'imp.2p': 'imp.2pl',
-      'nom.s': 'nom.sg', 'o.s': 'obl.sg',
-      'm.s': 'm.sg', 'f.s': 'f.sg', 'n.s': 'n.sg',
-      'm.o.s': 'm.sg.obl', 'f.o.s': 'f.sg.obl', 'n.o.s': 'n.sg.obl',
-      'o.f.s': 'f.sg.obl', 'obl.f.sg': 'f.sg.obl',
-      'o.p': 'pl.obl', 'o.pl': 'pl.obl',
-      'o': 'obl',
-      'b': 'base'
-    })[formId] || formId;
+      '1s': ['1sg'], '2s': ['2sg'], '3s': ['3sg'],
+      '1p': ['1pl'], '2p': ['2pl'], '3p': ['3pl'],
+      'pp': ['ppl'],
+      'lm': ['lptc.m'], 'lf': ['lptc.f'], 'ln': ['lptc.n'], 'lp': ['lptc.pl'],
+      'l.m': ['lptc.m'], 'l.f': ['lptc.f'], 'l.n': ['lptc.n'], 'l.p': ['lptc.pl'],
+      'i2s': ['imp.2sg'], 'i2p': ['imp.2pl'],
+      'imp.2s': ['imp.2sg'], 'imp.2p': ['imp.2pl'],
+      'nm': ['nom.sg'], 'nom.s': ['nom.sg'],
+      'o': ['obl', 'obl.sg'], 'o.s': ['obl.sg'],
+      'p': ['pl'],
+      'ms': ['m.sg'], 'fs': ['f.sg'], 'ns': ['n.sg'],
+      'mo': ['m.sg.obl'], 'fo': ['f.sg.obl'], 'no': ['n.sg.obl'],
+      'm.s': ['m.sg'], 'f.s': ['f.sg'], 'n.s': ['n.sg'],
+      'm.o.s': ['m.sg.obl'], 'f.o.s': ['f.sg.obl'], 'n.o.s': ['n.sg.obl'],
+      'o.f.s': ['f.sg.obl'], 'obl.f.sg': ['f.sg.obl'],
+      'po': ['pl.obl'], 'o.p': ['pl.obl'], 'o.pl': ['pl.obl'],
+      'b': ['base']
+    })[formId] || [formId];
   }
 
-  function resolveFormJS(entry, formId, lexdoc) {
-    formId = canonicalFormId(formId);
+  function canonicalFormId(formId) {
+    var candidates = candidateFormIds(formId);
+    return candidates.length ? candidates[0] : formId;
+  }
 
+  function resolveSingleFormJS(entry, formId, lexdoc) {
     var formEls = entry.querySelectorAll('form');
-    for (var i = 0; i < formEls.length; i++) {
+    var i;
+    var templateId;
+    var tplEls;
+    var tpl = null;
+    var t;
+    var tplForms;
+    var pattern = null;
+    var p;
+    var stemName;
+    var stemEls;
+    var stemValue = null;
+    var mainStem = null;
+    var s;
+
+    for (i = 0; i < formEls.length; i++) {
       if (formEls[i].getAttribute('f') === formId) return formEls[i].getAttribute('v');
     }
-    var templateId = entry.getAttribute('template');
+    templateId = entry.getAttribute('template');
     if (!templateId) return null;
-    var tplEls = lexdoc.querySelectorAll('templates > *');
-    var tpl = null;
-    for (var t = 0; t < tplEls.length; t++) {
+    tplEls = lexdoc.querySelectorAll('templates > *');
+    for (t = 0; t < tplEls.length; t++) {
       if (tplEls[t].getAttribute('id') === templateId) { tpl = tplEls[t]; break; }
     }
     if (!tpl) return null;
-    var tplForms = tpl.querySelectorAll('form');
-    var pattern = null;
-    for (var p = 0; p < tplForms.length; p++) {
+    tplForms = tpl.querySelectorAll('form');
+    for (p = 0; p < tplForms.length; p++) {
       if (tplForms[p].getAttribute('f') === formId) { pattern = tplForms[p]; break; }
     }
     if (!pattern) return null;
-    var stemName = pattern.getAttribute('stem') || 'main';
-    var stemEls = entry.querySelectorAll('stem');
-    var stemValue = null, mainStem = null;
-    for (var s = 0; s < stemEls.length; s++) {
+    stemName = pattern.getAttribute('stem') || 'main';
+    stemEls = entry.querySelectorAll('stem');
+    for (s = 0; s < stemEls.length; s++) {
       var sn = stemEls[s].getAttribute('name');
       if (sn === stemName) { stemValue = stemEls[s].getAttribute('v'); break; }
       if (sn === 'main' && !mainStem) mainStem = stemEls[s].getAttribute('v');
@@ -82,6 +101,31 @@
     if (!stemValue && stemEls.length > 0) stemValue = stemEls[0].getAttribute('v');
     if (!stemValue) return null;
     return (pattern.getAttribute('prefix') || '') + stemValue + (pattern.getAttribute('suffix') || '');
+  }
+
+  function resolveFormIdJS(entry, formId, lexdoc) {
+    var candidates = candidateFormIds(formId);
+    var i;
+
+    for (i = 0; i < candidates.length; i++) {
+      if (resolveSingleFormJS(entry, candidates[i], lexdoc)) {
+        return candidates[i];
+      }
+    }
+
+    return candidates.length === 1 ? candidates[0] : null;
+  }
+
+  function resolveFormJS(entry, formId, lexdoc) {
+    var candidates = candidateFormIds(formId);
+    var i;
+
+    for (i = 0; i < candidates.length; i++) {
+      var resolved = resolveSingleFormJS(entry, candidates[i], lexdoc);
+      if (resolved) return resolved;
+    }
+
+    return null;
   }
 
   function getLemmaJS(entry, lexdoc) {
@@ -118,10 +162,12 @@
       if (!entry) continue;
       var lemma = getLemmaJS(entry, lexdoc) || ref;
       var fv = (infl && resolveFormJS(entry, infl, lexdoc)) || lemma;
+      var inflResolved = infl ? resolveFormIdJS(entry, infl, lexdoc) : '';
       var gloss = entry.getAttribute('gloss') || '';
       if (cap === '1') fv = capFirst(fv);
       w.setAttribute('v', fv);
       w.setAttribute('lemma', lemma);
+      if (inflResolved) w.setAttribute('infl', inflResolved);
       if (gloss) w.setAttribute('gloss', gloss);
     }
   }
