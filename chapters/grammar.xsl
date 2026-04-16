@@ -1035,6 +1035,19 @@
           white-space: normal;
         }
 
+        .table-wrap td:first-child .styr-tr,
+        .table-wrap th:first-child .styr-tr {
+          left: 0;
+          transform: none;
+        }
+
+        .table-wrap td:last-child .styr-tr,
+        .table-wrap th:last-child .styr-tr {
+          left: auto;
+          right: 0;
+          transform: none;
+        }
+
         .example {
           display: block;
           margin: 0.1rem 0 0.28rem;

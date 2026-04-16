@@ -293,20 +293,30 @@
       <item>[st делаите :t delayte] "do! (pl.)"</item>
       <item>[st идіте :t ydite] "go! (pl.)"</item>
     </list>
-    <p>For <em>1st plural cohortative</em> ("let's..."), the particle [w dat :i 3s] is used with the 1pl present:</p>
+    <p>For <em>1st plural cohortative</em> ("let's..."), Styrian uses a synthetic imperative in -[st мо :t mo], built on the imperative stem:</p>
     <list>
-      <item>[w dat :i 3s] [w pysat :i 1p]! "let's write!"</item>
-      <item>[w dat :i 3s] [w ydat :i 1p]! "let's go!"</item>
+      <item>[st пішімо :t pišimo] "let's write!"</item>
+      <item>[st носімо :t nosimo] "let's carry!"</item>
+      <item>[st делаимо :t delaymo] "let's do!"</item>
+      <item>[st идімо :t ydimo] "let's go!"</item>
+      <item>[st даімо :t daimo] "let's give!"</item>
     </list>
-    <p>For <em>3rd person</em> ("let him/her/them..."), the particle [w neka] is used:</p>
+    <p>For <em>3rd person</em> ("let him/her/them..."), the particle [w naj] is used with the present:</p>
     <list>
-      <item>[w neka] [w on] [st пише :t pyše] "let him/her write"</item>
-      <item>[w neka] [w ony] [w doit :i 3p] "let them come"</item>
+      <item>[w naj] [w on] [st пише :t pyše] "let him/her write"</item>
+      <item>[w naj] [w ony] [w doit :i 3p] "let them come"</item>
     </list>
-    <p>The <em>negative imperative</em> uses [w ne] before the imperative form:</p>
+    <p>The <em>negative imperative</em> uses [w ne] before the imperative form. This includes the 1pl imperative:</p>
     <list>
       <item>[w ne] [st піші :t piši]! "don't write!" (or: [w ne] [st носі :t nosi]! "don't carry!")</item>
       <item>[w ne] [st идіте :t ydite] [st там :t tam]! "don't go there! (pl.)"</item>
+      <item>[w ne] [st пішімо :t pišimo]! "let's not write!"</item>
+      <item>[w ne] [st даімо :t daimo] [w taf :i f.sg.obl] [w knyha :i obl.sg]! "let's not give the book!"</item>
+    </list>
+    <p>The <em>negative 3rd-person directive</em> uses [w naj] [w ne] + present:</p>
+    <list>
+      <item>[w naj] [w on] [w ne] [st пише :t pyše] "let him/her not write"</item>
+      <item>[w naj] [w ony] [w ne] [w doit :i 3p] "let them not come"</item>
     </list>
   </sec>
   <sec t="Past Formation">

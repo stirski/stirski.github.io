@@ -49,8 +49,8 @@
       <r><c>[w pred]</c><c>before, in front of</c><c>spatial and temporal</c></r>
       <r><c>[st пос :t pos]</c><c>after, behind</c><c>temporal and spatial (cf. [st после :t posle] adverb)</c></r>
       <r><c>[st при :t pry]</c><c>near, at, by</c><c>proximity</c></r>
-      <r><c>[st без :t bez]</c><c>without</c><c></c></r>
-      <r><c>[st мези :t mezy]</c><c>between</c><c></c></r>
+      <r><c>[w bez]</c><c>without</c><c></c></r>
+      <r><c>[w mezy]</c><c>between</c><c></c></r>
       <r><c>[w so]</c><c>with</c><c></c></r>
       <r><c>[st преко :t preko]</c><c>across, over; through</c><c></c></r>
     </tb>
@@ -259,7 +259,7 @@
       </list>
       <p><em>Different-subject [w dat :i 3s]-complements:</em></p>
       <list>
-        <item><ex>[w az :c] [w xotit :i 1s] [w dat :i 3s] [w byt :i 3s] [w ty] [w on] [w dat :i lm] [w taf :i fo] [w knyha :i o].</ex> "I want him to give you the book" — embedded XP₁ = [w dat :i 3s]; cluster [[st е ти :t e ty]]; subject [w on] follows</item>
+        <item><ex>[w az :c] [w xotit :i 1s] [w dat :i 3s] [w ty] [w on] [w dat :i 3s] [w taf :i fo] [w knyha :i o].</ex> "I want him to give you the book" — embedded XP₁ = [w dat :i 3s]; cluster [[st ти :t ty]]; subject [w on] follows</item>
       </list>
       <p><em>Relative clauses:</em> The subject relativizer [w ky] and the non-subject relativizer [w če] are each XP₁ of their clause. With [w ky] the relativized element is the subject gap, so no second overt subject is displaced. With [w če] the embedded subject is required and follows the cluster — a minimal pair that is diagnostically clear in Styrian precisely because the subject cannot be dropped:</p>
       <list>
@@ -301,11 +301,13 @@
         <item><ex>[w ne :c] [st умі :t umi] [w se]!</ex> "Don't wash yourself!" — [st не умі :t ne umi] tonic; [w se] follows</item>
         <item><ex>[w ne :c] [st пішіте :t pišite] [w my] [w to :i no]!</ex> "Don't write that to me!" — cluster [[w my]] after [st не пішіте :t ne pišite]</item>
       </list>
-      <p><em>1pl cohortative and 3rd-person нека constructions.</em> The 1pl cohortative ([w dat :i 3s] + 1pl present) and the 3rd-person directive ([w neka] + 3sg/3pl present) are full finite clauses. The particle ([w dat :i 3s] or [w neka]) counts as XP₁; the clitic cluster follows it at 2P; the required overt subject follows the cluster in the normal displaced-subject position:</p>
+      <p><em>1pl imperative and 3rd-person directive constructions.</em> The 1pl cohortative is a true imperative form. Like the 2sg and 2pl imperative, it occupies clause-initial XP₁ itself, and clitics follow it post-verbally. Its negated form uses [w ne] + the 1pl imperative, and this tonic unit likewise counts as XP₁. The 3rd-person directive uses [w naj] + 3sg/3pl present. Here [w naj] counts as XP₁; the clitic cluster follows it at 2P; the required overt subject follows the cluster in the normal displaced-subject position. In the negated 3rd-person directive, [w ne] remains a proclitic to the finite verb and therefore follows the displaced subject: [w naj] + cluster + subject + [w ne] + present.</p>
       <list>
-        <item><ex>[w dat :i 3s :c] [w byt :i 3s] [w mu] [w on] [w dat :i lm] [w taf :i fo] [w knyha :i o]!</ex> "Let him give him the book!" — [w dat :i 3s] as XP₁; cluster [[st е му :t e mu]] at 2P; subject [w on] displaced</item>
-        <item><ex>[w neka :c] [w byt :i 3s] [w ym] [w on] [w prašat :i lm] [w to :i no] [w slovo :i o].</ex> "Let him send them the message." — [w neka] as XP₁; cluster [[st е им :t e ym]]; subject [w on] displaced</item>
-        <item><ex>[w dat :i 3s :c] [w mu] [w my] [st дамe :t dame] [w taf :i fo] [w knyha :i o]!</ex> "Let's give him the book!" — [w dat :i 3s] as XP₁; cluster [[st му :t mu]] at 2P; subject [w my] displaced after cluster</item>
+        <item><ex>[w naj :c] [w mu] [w on] [w dat :i 3s] [w taf :i fo] [w knyha :i o]!</ex> "Let him give him the book!" — [w naj] as XP₁; cluster [[st му :t mu]] at 2P; subject [w on] displaced</item>
+        <item><ex>[w naj :c] [w ym] [w on] [w prašat :i 3s] [w to :i no] [w slovo :i o].</ex> "Let him send them the message." — [w naj] as XP₁; cluster [[st им :t ym]]; subject [w on] displaced</item>
+        <item><ex>[st Даімо :t daimo] [w mu] [w taf :i fo] [w knyha :i o]!</ex> "Let's give him the book!" — imperative [st даімо :t daimo] as XP₁; cluster [[st му :t mu]] follows post-verbally</item>
+        <item><ex>[w ne :c] [st даімо :t daimo] [w mu] [w taf :i fo] [w knyha :i o]!</ex> "Let's not give him the book!" — [st не даімо :t ne daimo] tonic XP₁; cluster [[st му :t mu]] follows post-verbally</item>
+        <item><ex>[w naj :c] [w mu] [w on] [w ne] [w dat :i 3s] [w taf :i fo] [w knyha :i o]!</ex> "Let him not give him the book!" — [w naj] as XP₁; cluster [[st му :t mu]] at 2P; subject [w on] displaced; [w ne] proclitic to the finite verb</item>
       </list>
     </sub>
   </sec>
@@ -474,7 +476,7 @@
       <p>The plural free relative uses [w ti] — the same invariant plural article used for definite noun phrases — and applies to groups of persons or things. The subject/non-subject contrast is preserved in the relativizer choice:</p>
       <list>
         <item><ex>[w ti] [w ky] [w byt :i 3p] [w doit :i lp] [w byt :i 3s] [st добродошлі :t dobrodošli]</ex> "those who came are welcome" (subject gap)</item>
-        <item><ex>[w ti] [w ky] [st хочет :t xočet] [w dat :i 3s] [st помагут :t pomagut], [w neka] [w byt :i 3p] [st слободні :t slobodni]</ex> "those who wish to help, let them be free to do so"</item>
+        <item><ex>[w ti] [w ky] [st хочет :t xočet] [w dat :i 3s] [st помагут :t pomagut], [w naj] [w ony] [w byt :i 3p] [st слободні :t slobodni]</ex> "those who wish to help, let them be free to do so"</item>
         <item><ex>[w ti] [w če] [w az] [st шуком :t šukom] [w byt.neg :i 3p] [w tuka]</ex> "those that I was looking for are not here" (non-subject gap)</item>
         <item><ex>[w on] [w byt :i 3s] [w dat :i lm] [w do] [w ti] [w ky] [w ymat] [st нужда :t nužda]</ex> "he gave (it) to those who are in need"</item>
       </list>
@@ -553,11 +555,10 @@
       </list>
       <p><em>Embedded subject and the clitic cluster.</em> In a [w dat :i 3s]-clause, [w dat :i 3s] counts as XP₁ of the embedded clause. The clitic cluster follows it at 2P; the required overt subject of the embedded clause follows the cluster in the standard displaced-subject position. This is the pattern already illustrated under §Embedded Clauses:</p>
       <list>
-        <item><ex>[w az] [w xotit :i 1s] [w dat :i 3s] [w byt :i 3s] [w ty] [w on] [w dat :i lm] [w taf :i fo] [w knyha :i o]</ex> "I want him to give you the book" — [w dat :i 3s] as XP₁; cluster [[st е ти :t e ty]]; required subject [w on] displaced after cluster</item>
+        <item><ex>[w az] [w xotit :i 1s] [w dat :i 3s] [w ty] [w on] [w dat :i 3s] [w taf :i fo] [w knyha :i o]</ex> "I want him to give you the book" — [w dat :i 3s] as XP₁; cluster [[st ти :t ty]]; required subject [w on] displaced after cluster</item>
         <item><ex>[w ony] [w doit :i 3p] [w dat :i 3s] [w mu] [w on] [w pokazat :i 3s] [w ta :i mo] [w hrad :i o]</ex> "they are coming so that he can show them the town" — purpose; cluster [[st му :t mu]]; subject [w on] displaced</item>
       </list>
-      <p><em>Historical note.</em> The restriction of [w dat :i 3s] to purpose and different-subject complements reflects a diachronic narrowing. In earlier Styrian, contact with German — which has no <em>da</em>-construction at all — did not directly reshape the distribution of [w dat :i 3s], but may have reinforced the infinitive in same-subject contexts by providing a structural model (German <em>um zu</em> + infinitive, see §За + Infinitive: Purpose Construction). More decisively, sustained literary and prestige contact with Czech, which uses <em>aby</em> specifically for purpose and different-subject complements, stabilized the same functional distribution in Styrian. The modern pattern therefore represents a convergence point between Czech/Slovenian functional grammar and indigenous Styrian development. The cohortative idiom [w dat :i 3s] + 1pl present ([w dat :i 3s] [w pysat :i 1p]! "let's write!") is a lexicalized relic of an earlier, slightly broader [w dat :i 3s] and should be treated as fixed rather than as evidence for productive extension of [w dat :i 3s] into same-subject territory.</p>
-      <p>The 1pl cohortative retains [w dat :i 3s] + 1pl present as a fixed idiom: <ex>[w dat :i 3s] [w pysat :i 1p]!</ex> "let's write!" This is lexicalized and does not constitute a productive use of [w dat :i 3s] with a same-subject complement.</p>
+      <p><em>Restriction of [w dat :i 3s].</em> The conjunction [w dat :i 3s] is restricted to purpose clauses and different-subject complements. It does not form directives. The 1pl directive uses the synthetic imperative (<ex>[st пішімо :t pišimo]!</ex> "let's write!", <ex>[w ne] [st пішімо :t pišimo]!</ex> "let's not write!"), while the 3rd-person directive uses [w naj] + present (<ex>[w naj] [w on] [st пише :t pyše]</ex> "let him write", <ex>[w naj] [w on] [w ne] [st пише :t pyše]</ex> "let him not write").</p>
     </sub>
     <sub t="За + Infinitive: Purpose Construction">
       <p>An alternative purpose strategy uses the preposition [w za] followed directly by the infinitive. This construction expresses goal or purpose with the same subject, and is areally motivated by contact with German <em>um zu</em> + infinitive. It competes freely with the [w dat :i 3s] + present purpose clause, particularly in same-subject contexts:</p>
