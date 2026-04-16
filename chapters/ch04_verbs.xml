@@ -343,7 +343,7 @@
       <r><c>2sg fem.</c><c>[w ty] [w byt :i 2s] [w pysat :i lf]</c></r>
       <r><c>3sg masc.</c><c>[w on] [w byt :i 3s] [w pysat :i lm]</c></r>
       <r><c>3sg fem.</c><c>[w ona] [w byt :i 3s] [w pysat :i lf]</c></r>
-      <r><c>3sg neut.</c><c>[w ono] [w byt :i 3s] [w pysat :i ln] (e.g. [w to] [w slovo] [w byt :i 3s] [w pysat :i ln] "the word was written")</c></r>
+      <r><c>3sg neut.</c><c>[w ono] [w byt :i 3s] [w pysat :i ln] (e.g. [w to] [w dete] [w byt :i 3s] [w pysat :i ln] "the child wrote")</c></r>
       <r><c>1pl</c><c>[w my] [w byt :i 1p] [w pysat :i lp]</c></r>
       <r><c>2pl</c><c>[w vy] [w byt :i 2p] [w pysat :i lp]</c></r>
       <r><c>3pl</c><c>[w ony] [w byt :i 3p] [w pysat :i lp]</c></r>
@@ -426,11 +426,76 @@
       <item>[st штудіт :t študit] [w se] "to be amazed, wonder"</item>
       <item>[st сеат :t seat] [w se] "to sit down" (perfective)</item>
     </list>
-    <p>The reflexive construction also forms impersonal passives:</p>
+    <p>The reflexive construction also forms <em>impersonal passives</em>, used for generic, agentless, or ongoing-process meanings. The agent is absent or entirely irrelevant; the event is presented as something that simply happens or habitually occurs. This type pairs naturally with imperfective verbs and is more colloquial in register:</p>
     <list>
-      <item><ex>[st стирски :t styrsky] [w se] [st говоре :t hovore] [w ve] [st ta :t ta] [w zema :i o]</ex> "Styrian is spoken in this land"</item>
-      <item><ex>[w knyha :i o] [w se] [st продайут :t prodajut] [w ve] [w kram :i o]</ex> "books are sold in the shop"</item>
+      <item><ex>[st стирски :t styrsky] [w se] [st говоре :t hovore] [w ve] [st ta :t ta] [w zema :i o]</ex> "Styrian is spoken in this land" (generic, ongoing; no agent in view)</item>
+      <item><ex>[w knyha :i o] [w se] [st продайут :t prodajut] [w ve] [w kram :i o]</ex> "books are sold in the shop" (habitual, impersonal)</item>
     </list>
+    <p>For personal passives and resultative states — where a specific event occurred, a resultant state holds, or an agent may be named — Styrian uses the <em>n-participle construction</em> described in the following section. The two passive types are not interchangeable: the se-passive expresses ongoing or generic processes; the n-participle passive expresses completed events and resultant states. See §N-Participle (Passive Participle).</p>
+  </sec>
+  <sec t="N-Participle (Passive Participle)">
+    <p>Styrian has a dedicated <em>n-participle</em> (passive participle), morphologically distinct from the l-participle, used to build personal passives and resultative predications. Like the l-participle, it agrees with the grammatical subject in gender (m./f./n.) and number; unlike the l-participle, it derives from the object argument of a transitive verb rather than from its subject. The four agreement slots are tagged <code>:i nm</code> (masculine sg.), <code>:i nf</code> (feminine sg.), <code>:i nn</code> (neuter sg.), <code>:i np</code> (plural), paralleling <code>:i lm/lf/ln/lp</code> for the l-participle.</p>
+    <sub t="Formation">
+      <p><em>A-class</em> (infinitive -[st ат :t at]): the infinitive stem takes the suffix -[st анӑ :t ană] (m.sg.), -[st ана :t ana] (f.sg.), -[st ано :t ano] (n.sg.), -[stані :t ani] (pl.). The infinitive stem is used unchanged in most cases:</p>
+      <tb>
+        <r><c>Infinitive</c><c>Meaning</c><c>m.sg</c><c>f.sg</c><c>n.sg</c><c>pl</c></r>
+        <r><c>[w pysat]</c><c>to write</c><c>[st писанӑ :t pysană]</c><c>[st писана :t pysana]</c><c>[st писано :t pysano]</c><c>[st писані :t pysani]</c></r>
+        <r><c>[w delat]</c><c>to do, make</c><c>[st деланӑ :t delană]</c><c>[st делана :t delana]</c><c>[st делано :t delano]</c><c>[st делані :t delani]</c></r>
+        <r><c>[w ukrstovat]</c><c>to crucify</c><c>[st укрстованӑ :t ukrstovană]</c><c>[st укрстована :t ukrstovana]</c><c>[st укрстовано :t ukrstovano]</c><c>[st укрстовані :t ukrstovani]</c></r>
+      </tb>
+      <p>A small set of a-class verbs with a short root (where the infinitive is stem + -[st ат :t at] with minimal syllabic expansion) add the suffix directly to the bare root: [w tkat] "to weave" → [st тканӑ :t tkană] / [st ткана :t tkana] / [st ткано :t tkano] / [st ткані :t tkani]. The root form [w dat] "to give" similarly uses the short stem: [st данӑ :t dană] / [st дана :t dana] / [st дано :t dano] / [st дані :t dani] (from Proto-Slavic <code>*danъ</code>).</p>
+      <p><em>I-class</em> (infinitive -[st іт :t it]): the infinitive stem takes -[st енӑ :t ená] (m.sg.), -[st ена :t ena] (f.sg.), -[st ено :t eno] (n.sg.), -[stені :t eni] (pl.). Sibilant-final stems show regular iotation before the suffix (s → š, z → ž); other consonants are unchanged:</p>
+      <tb>
+        <r><c>Infinitive</c><c>Meaning</c><c>m.sg</c><c>f.sg</c><c>n.sg</c><c>pl</c></r>
+        <r><c>[w nosit]</c><c>to carry</c><c>[st ношенӑ :t nošenă]</c><c>[st ношена :t nošena]</c><c>[st ношено :t nošeno]</c><c>[st ношені :t nošeni]</c></r>
+        <r><c>[w vydit]</c><c>to see</c><c>[st виденӑ :t vydenă]</c><c>[st видена :t vydena]</c><c>[st видено :t vydeno]</c><c>[st видені :t vydeni]</c></r>
+      </tb>
+      <p><em>T-class</em> (a small set of monosyllabic and root-aorist verbs): the suffix is -[st тӑ :t tă] (m.sg.), -[st та :t ta] (f.sg.), -[st то :t to] (n.sg.), -[st ті :t ti] (pl.), continuing Proto-Slavic <code>*-tъ</code>:</p>
+      <tb>
+        <r><c>Infinitive</c><c>Meaning</c><c>m.sg</c><c>f.sg</c><c>n.sg</c><c>pl</c></r>
+        <r><c>[w vzeti]</c><c>to take</c><c>[st взетӑ :t vzetă]</c><c>[st взета :t vzeta]</c><c>[st взето :t vzeto]</c><c>[st взеті :t vzeti]</c></r>
+      </tb>
+    </sub>
+    <sub t="Passive and Resultative Use">
+      <p>The n-participle forms a passive predication with [w byt] as auxiliary. In the <em>present passive</em> (or resultant state), the present auxiliary [w byt :i 3s] combines with the n-participle agreeing with the subject; this construction expresses a state that currently holds as a result of a completed event:</p>
+      <list>
+        <item><ex>[w to] [w pismo] [w byt :i 3s] [w pysat :i nn]</ex> "the letter is written" (resultant state now holding)</item>
+        <item><ex>[w ta] [w dom] [w byt :i 3s] [w sdelat :i nm]</ex> "the house is built"</item>
+        <item><ex>[w taf] [w riza] [w byt :i 3s] [w tkat :i nf]</ex> "the robe is woven"</item>
+      </list>
+      <p>In the <em>past passive</em>, the structure is [w byt :i 3s] + l-participle of [w byt] + n-participle (parallel to the Slovenian pattern <em>je bila zgrajena</em>). Both participles agree with the subject in gender and number:</p>
+      <list>
+        <item><ex>[w to] [w pismo] [w byt :i 3s] [w byt :i ln] [w pysat :i nn] [w od] [w pylat :i o]</ex> "the letter was written by Pilate"</item>
+        <item><ex>[w ta] [w dom] [w byt :i 3s] [w byt :i lm] [w sdelat :i nm]</ex> "the house was built"</item>
+        <item><ex>[w taf] [w riza] [w byt :i 3s] [w byt :i lf] [w tkat :i nf] [w od] [w hore] [w do] [w dole]</ex> "the robe had been woven from top to bottom"</item>
+      </list>
+      <p>The agent, when expressed, is introduced by [w od] + oblique, parallel to Slovenian <em>od</em> + genitive and BCS <em>od strane</em>:</p>
+      <list>
+        <item><ex>[w to] [w slovo] [w byt :i 3s] [w pysat :i nn] [w od] [w pylat :i o]</ex> "the inscription was written by Pilate"</item>
+        <item><ex>[w ysus] [w byt :i 3s] [w byt :i lm] [w ukrstovat :i nm] [w od] [w rytar :i p]</ex> "Jesus was crucified by the soldiers"</item>
+      </list>
+    </sub>
+    <sub t="Distribution: N-Participle versus Se-Passive">
+      <p>The two passive constructions are not interchangeable. The se-passive (§Reflexive Verbs) expresses ongoing, generic, or habitual events with no agent in view; the n-participle construction expresses specific completed events or resultant states, and allows an explicit agent. The Slovenian parallel is exact:</p>
+      <tb>
+        <r><c>Construction</c><c>Type</c><c>Example</c><c>Gloss</c></r>
+        <r><c>[w se] + finite verb</c><c>impersonal, agentless, ongoing/generic</c><c><ex>[w knyha :i o] [w se] [st продайут :t prodajut] [w ve] [w kram :i o]</ex></c><c>"books are sold in the shop" (that's what happens there)</c></r>
+        <r><c>[w byt] + n-participle</c><c>personal, resultative; agent nameable</c><c><ex>[w ta] [w knyha] [w byt :i 3s] [w byt :i lf] [w prodajat :i nf] [w od] [w neho]</ex></c><c>"the book was sold by him" (specific event, identified agent)</c></r>
+      </tb>
+      <p>In cases of ambiguity, aspect provides additional differentiation: the se-passive pairs naturally with <em>imperfectives</em> (the process is ongoing or habitual), while the n-participle passive pairs most naturally with <em>perfectives</em> (the event is completed, the result holds). Imperfective n-participles are grammatical but imply an ongoing or repeated state rather than a single completed event:</p>
+      <list>
+        <item><ex>[w knyha :i o] [w se] [w pysat :i 3s]</ex> "the book is being written" (impf. se-passive: process in progress)</item>
+        <item><ex>[w knyha] [w byt :i 3s] [w napysat :i nf]</ex> "the book has been written / is written" (pf. n-participle: completed result)</item>
+      </list>
+    </sub>
+    <sub t="Aspect and the Passive">
+      <p>Because aspect and the passive interact closely, the choice between perfective and imperfective n-participle changes the meaning of the passive predication:</p>
+      <list>
+        <item><ex>[w ta] [w dom] [w byt :i 3s] [w byt :i lm] [w sdelat :i nm]</ex> (pf. [w sdelat]) — "the house was built" (single completed event; building is finished)</item>
+        <item><ex>[w ta] [w dom] [w byt :i 3s] [w byt :i lm] [w delat :i nm]</ex> (impf. [w delat]) — "the house was being built / was under construction" (ongoing process in the past)</item>
+      </list>
+      <p>This mirrors the interaction of aspect with the l-participle in active clauses, and parallels the same distinction in Slovenian and Czech.</p>
+    </sub>
   </sec>
   <sec t="Existential Constructions">
     <p>[w ymat :i 3s :c] (3sg of [w ymat]) functions as an existential "there is/are" when used without a subject argument:</p>

@@ -81,17 +81,17 @@
     <r><c>[st студенӑ :t studenă]</c><c>cold</c><c>—</c><c>adjective</c></r>
     <r><c>[w topalə]</c><c>warm</c><c>—</c><c>adjective</c></r>
     <r><c>[w styrsky]</c><c>Styrian</c><c>—</c><c>adjective / language name modifier</c></r>
-    <r><c>[w pysat]</c><c>to write</c><c>—</c><c>a-class impf.</c></r>
-    <r><c>[w napysat]</c><c>to write, finish writing</c><c>—</c><c>a-class pf.</c></r>
-    <r><c>[w delat]</c><c>to do, make</c><c>—</c><c>a-class impf.</c></r>
-    <r><c>[w sdelat]</c><c>to do, complete</c><c>—</c><c>a-class pf.</c></r>
+    <r><c>[w pysat]</c><c>to write</c><c>—</c><c>a-class impf.; n-part. [w pysat :i nm]/[w pysat :i nf]/[w pysat :i nn]/[w pysat :i np] ([st писанӑ :t pysană]/[st писана :t pysana]/[st писано :t pysano]/[st писані :t pysani])</c></r>
+    <r><c>[w napysat]</c><c>to write, finish writing</c><c>—</c><c>a-class pf.; n-part. [w napysat :i nm]/[w napysat :i nf]/[w napysat :i nn]/[w napysat :i np] ([st написанӑ :t napysană]/[st написана :t napysana]/[st написано :t napysano]/[st написані :t napysani])</c></r>
+    <r><c>[w delat]</c><c>to do, make</c><c>—</c><c>a-class impf.; n-part. [w delat :i nm]/[w delat :i nf]/[w delat :i nn]/[w delat :i np] ([st деланӑ :t delană]/[st делана :t delana]/[st делано :t delano]/[st делані :t delani])</c></r>
+    <r><c>[w sdelat]</c><c>to do, complete</c><c>—</c><c>a-class pf.; n-part. [w sdelat :i nm]/[w sdelat :i nf]/[w sdelat :i nn]/[w sdelat :i np] ([st сделанӑ :t sdelană]/[st сделана :t sdelana]/[st сделано :t sdelano]/[st сделані :t sdelani])</c></r>
     <r><c>[w žyvat]</c><c>to live</c><c>—</c><c>a-class impf.</c></r>
     <r><c>[w prašat]</c><c>to send; to ask</c><c>—</c><c>a-class impf.</c></r>
     <r><c>[w pokazat]</c><c>to show</c><c>—</c><c>a-class impf. (irregular stem: [st покаж :t pokaž]- before [st а :t a])</c></r>
     <r><c>[w kupat]</c><c>to buy</c><c>—</c><c>a-class impf.</c></r>
     <r><c>[w kupit]</c><c>to buy, complete purchase</c><c>—</c><c>i-class pf.</c></r>
-    <r><c>[w vydit]</c><c>to see</c><c>—</c><c>i-class impf.</c></r>
-    <r><c>[w nosit]</c><c>to carry (habitually), transport</c><c><code>*nositi</code></c><c>i-class impf.; <em>multidirectional</em>; habitual or repeated carrying; unidirectional counterpart is [w nesat]</c></r>
+    <r><c>[w vydit]</c><c>to see</c><c>—</c><c>i-class impf.; n-part. [w vydit :i nm]/[w vydit :i nf]/[w vydit :i nn]/[w vydit :i np] ([st виденӑ :t vydenă]/[st видена :t vydena]/[st видено :t vydeno]/[st видені :t vydeni])</c></r>
+    <r><c>[w nosit]</c><c>to carry (habitually), transport</c><c><code>*nositi</code></c><c>i-class impf.; <em>multidirectional</em>; habitual or repeated carrying; unidirectional counterpart is [w nesat]; n-part. [w nosit :i nm]/[w nosit :i nf]/[w nosit :i nn]/[w nosit :i np] ([st ношенӑ :t nošenă]/[st ношена :t nošena]/[st ношено :t nošeno]/[st ношені :t nošeni]) — note š &lt; *s+j iotation</c></r>
     <r><c>[w nesat]</c><c>to carry (one trip, toward destination)</c><c><code>*nesti</code></c><c>a-class impf.; <em>unidirectional</em>; nasal-stem, regularized to a-class in Period III; multidirectional counterpart is [w nosit]; present: [w nesat :i 1s]/[w nesat :i 2s]/[w nesat :i 3s]/[w nesat :i 1p]/[w nesat :i 2p]/[w nesat :i 3p]; l-part. [w nesat :i lm]</c></r>
     <r><c>[w vlezit]</c><c>to enter</c><c>—</c><c>i-class pf.</c></r>
     <r><c>[w myit]</c><c>to wash</c><c>—</c><c>i-class impf.</c></r>
@@ -106,7 +106,10 @@
     <r><c>[w doit]</c><c>to come, arrive</c><c>—</c><c>i-class pf.; l-part. [w doit :i lm]</c></r>
     <r><c>[w bežat]</c><c>to run (unidirectional)</c><c><code>*běžati</code></c><c>a-class impf.; <em>unidirectional</em>; single directed run; multidirectional counterpart is [w behat]; present: [w bežat :i 1s]/[w bežat :i 2s]/[w bežat :i 3s]/[w bežat :i 1p]/[w bežat :i 2p]/[w bežat :i 3p]</c></r>
     <r><c>[w behat]</c><c>to run (habitually), be a runner</c><c><code>*běgati</code></c><c>a-class impf.; <em>multidirectional</em>; note г = /ɦ/ in romanization; present: [w behat :i 1s]/[w behat :i 2s]/[w behat :i 3s]/[w behat :i 1p]/[w behat :i 2p]/[w behat :i 3p]</c></r>
-    <r><c>[w dat]</c><c>to give</c><c>—</c><c>irregular</c></r>
+    <r><c>[w dat]</c><c>to give</c><c>—</c><c>irregular; n-part. uses short stem: [w dat :i nm]/[w dat :i nf]/[w dat :i nn]/[w dat :i np] ([st данӑ :t dană]/[st дана :t dana]/[st дано :t dano]/[st дані :t dani]) (from PSl. <code>*danъ</code>)</c></r>
+    <r><c>[w vzeti]</c><c>to take</c><c><code>*vьzęti</code></c><c>irregular pf.; t-class n-part.: [w vzeti :i nm]/[w vzeti :i nf]/[w vzeti :i nn]/[w vzeti :i np] ([st взетӑ :t vzetă]/[st взета :t vzeta]/[st взето :t vzeto]/[st взеті :t vzeti]); l-part. [w vzeti :i lp] etc.</c></r>
+    <r><c>[w tkat]</c><c>to weave</c><c><code>*tъkati</code></c><c>a-class impf.; short-root n-part.: [w tkat :i nm]/[w tkat :i nf]/[w tkat :i nn]/[w tkat :i np] ([st тканӑ :t tkană]/[st ткана :t tkana]/[st ткано :t tkano]/[st ткані :t tkani])</c></r>
+    <r><c>[w ukrstovat]</c><c>to crucify</c><c>—</c><c>a-class impf./pf.; n-part. [w ukrstovat :i nm]/[w ukrstovat :i nf]/[w ukrstovat :i nn]/[w ukrstovat :i np] ([st укрстованӑ :t ukrstovană]/[st укрстована :t ukrstovana]/[st укрстовано :t ukrstovano]/[st укрстовані :t ukrstovani])</c></r>
     <r><c>[w možit]</c><c>can, be able</c><c>—</c><c>i-class modal</c></r>
     <r><c>[w xotit]</c><c>want; intend</c><c><code>*xъtěti</code></c><c>i-class; semi-auxiliary; present хочем/хочеш/хоче</c></r>
     <r><c>[w stat]</c><c>to become, stand</c><c>—</c><c>a-class; often pf. in meaning</c></r>
