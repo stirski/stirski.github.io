@@ -90,7 +90,7 @@
   </sec>
 
   <sec t="Nominal Derivation">
-    <p>Although Styrian has lost much of the old inflectional machinery, it still preserves a productive derivational system for building nouns. The main nominalizing suffixes are agentive -[st арӑ :t ară], individualizing -[st ец :t ec], feminine -[st ица :t ica], abstract-collective -[st ӑстуо :t ăstuo], quality-abstract -[st остӑ :t ostă], associative -[st нікӑ :t nikă], action -[st ба :t ba], deverbal agent -[st телӑ :t telă], and active-doer -[st ач :t ač]. Once formed, derived nouns behave like ordinary nouns and take the regular plural.</p>
+    <p>Although Styrian has lost much of the old inflectional machinery, it still preserves a productive derivational system for building nouns. The main nominalizing suffixes are agentive -[st арӑ :t ară], individualizing -[st ец :t ec], feminine -[st ица :t ica], abstract-collective -[st ӑстуо :t ăstuo], quality-abstract -[st ост :t ost], associative -[st нікӑ :t nikă], action -[st ба :t ba], deverbal agent -[st телӑ :t telă], and active-doer -[st ач :t ač]. Once formed, derived nouns behave like ordinary nouns and take the regular plural.</p>
 
     <p>The suffix -[st арӑ :t ară] derives occupational, craft, and habitual-sphere nouns, naming a person by their recognized trade, skill, or characteristic domain. The base is frequently nominal — a concrete product, material, or sphere of activity — and even where the underlying base is verbal, the derived noun names a social or professional type rather than yielding a transparent compositional reading of 'one who performs this action.' The suffix does not directly nominalize a predicate; it assigns the person to a recognized category. In the prototypical case the base is purely nominal and no -[st телӑ :t telă] form is possible alongside it: there is no Styrian *<em>вина-тел</em> for 'vintner' and no *<em>риба-тел</em> for 'fisherman,' because a nominal base cannot serve as a verb stem for the deverbal suffix. With verbal bases in -[st ат :t at] or -[st іт :t it], the infinitival ending is removed before the suffix is added.</p>
     <tb>
@@ -133,13 +133,13 @@
     </tb>
     <p>With human-denoting bases, -[st ӑстуо :t ăstuo] usually refers to a profession, body, order, or social estate rather than to an individual person. In more abstract usage it can also denote an institutional sphere or collective practice.</p>
 
-    <p>The suffix -[st остӑ :t ostă] derives quality and state nouns from adjectival bases. It corresponds to -<em>ость</em> in Russian, -<em>ost</em> in Czech and Polish, and -<em>ост</em> in Bulgarian, and all continue Proto-Slavic *-<em>ostь</em>. In Styrian the final soft jer weakens to schwa in the regular fashion, giving -[st остӑ :t ostă]. The suffix attaches to the adjective stem after removal of the final schwa: [w dobrə] → stem <em>dobr-</em> → [st добростӑ :t dobrostă]. It is among the most productive derivational suffixes in the language; virtually any adjective stem can yield a quality noun with -[st остӑ :t ostă].</p>
+    <p>The suffix -[st ост :t ost] derives quality and state nouns from adjectival bases. It corresponds to -<em>ость</em> in Russian, -<em>ost</em> in Czech and Polish, and -<em>ост</em> in Bulgarian, and all continue Proto-Slavic *-<em>ostь</em>. In Styrian the final soft jer is lost in absolute final position, giving -[st ост :t ost]. The suffix attaches to the adjective stem after removal of the final schwa: [w dobrə] → stem <em>dobr-</em> → [st доброст :t dobrost]. It is among the most productive derivational suffixes in the language; virtually any adjective stem can yield a quality noun with -[st ост :t ost].</p>
     <tb>
       <r><c>Base</c><c>Derived noun</c><c>Meaning</c></r>
-      <r><c>[w dobrə]</c><c>[st добростӑ :t dobrostă]</c><c>goodness, virtue</c></r>
-      <r><c>[w novə]</c><c>[st новостӑ :t novostă]</c><c>novelty, news</c></r>
-      <r><c>[w starə]</c><c>[st старостӑ :t starostă]</c><c>old age, seniority</c></r>
-      <r><c>[w bohatə]</c><c>[st богатостӑ :t bohatostă]</c><c>wealth, prosperity</c></r>
+      <r><c>[w dobrə]</c><c>[st доброст :t dobrost]</c><c>goodness, virtue</c></r>
+      <r><c>[w novə]</c><c>[st новост :t novost]</c><c>novelty, news</c></r>
+      <r><c>[w starə]</c><c>[st старост :t starost]</c><c>old age, seniority</c></r>
+      <r><c>[w bohatə]</c><c>[st богатост :t bohatost]</c><c>wealth, prosperity</c></r>
     </tb>
 
     <p>The suffix -[st нікӑ :t nikă] forms agent and associative nouns, typically from nominal or adjectival bases. It corresponds to -<em>ник</em> in Russian, Bulgarian, and Serbian. The Proto-Slavic form is *-<em>ьникӑ</em>; the initial weak jer drops before the stressed syllable, and the suffix vowel, from original *<em>i</em>, is written [st і :t i] following Styrian's two-way high-vowel distinction. The suffix is productive for occupational roles, official positions, and persons defined by their association with a domain rather than by a specific action.</p>
