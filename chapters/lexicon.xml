@@ -429,6 +429,21 @@
     <form f="pl"     v="дӑні"/>
   </lex>
 
+  <!-- сӑнӑ — *sъnъ, strong ъ before sonorant → ӑ /ɐ/ -->
+  <lex id="san" pos="n" gen="m" decl="cons" template="cons" gloss="sleep, dream">
+    <stem name="main" v="сӑн"/>
+  </lex>
+
+  <!-- левӑ — *lьvъ, strong ь → е; final weak jer → ӑ -->
+  <lex id="lev" pos="n" gen="m" decl="cons" template="cons" gloss="lion">
+    <stem name="main" v="лев"/>
+  </lex>
+
+  <!-- песӑ — *pьsъ, strong ь → е; final weak jer → ӑ -->
+  <lex id="pes" pos="n" gen="m" decl="cons" template="cons" gloss="dog">
+    <stem name="main" v="пес"/>
+  </lex>
+
   <!-- дете — irreg. collective plural деста -->
   <lex id="dete" pos="n" gen="n" decl="irr" gloss="child">
     <form f="nom.sg" v="дете"/>
@@ -467,6 +482,11 @@
 
   <lex id="hora" pos="n" gen="f" decl="a" template="a" gloss="mountain">
     <stem name="main" v="гор"/>
+  </lex>
+
+  <!-- мӑгла — *mъgla, strong ъ before liquid → ӑ /ɐ/ -->
+  <lex id="măhla" pos="n" gen="f" decl="a" template="a" gloss="fog, mist">
+    <stem name="main" v="мӑгл"/>
   </lex>
 
   <!-- рука — fossilized front-vowel velar mutation in oblique/plural forms -->
@@ -1388,6 +1408,10 @@
 
   <lex id="vsjakə" pos="num" gloss="each">
     <form f="base" v="всякӑ"/>
+  </lex>
+
+  <lex id="sto" pos="num" gloss="hundred">
+    <form f="base" v="сто"/>
   </lex>
 
 </lexicon>
