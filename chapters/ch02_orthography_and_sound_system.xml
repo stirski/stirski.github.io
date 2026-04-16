@@ -31,6 +31,7 @@
       <r><c>[st З :t Z] [st з :t z]</c><c>/z/</c><c></c></r>
       <r><c>[st И :t Y] [st и :t y]</c><c>/ɪ ~ ɨ/</c><c>reflex of the older hard high vowel layer (old <i>y/</i>[st ӑ] in strong position)</c></r>
       <r><c>[st І :t I] [st і :t i]</c><c>/i/</c><c>reflex of the older front high vowel layer (old <i>i/</i>[st ь] in strong position)</c></r>
+      <r><c>[st Ї :t Ji] [st ї :t ji]</c><c>/ji/ after vowels</c><c>writes post-vocalic [st йі :t ji] as a single letter: [st тої :t toji], [st мої :t moji], [st сеї :t seji]; after consonants plain [st і :t i] is written instead</c></r>
       <r><c>[st Й :t J] [st й :t j]</c><c>/j/</c><c>consonantal glide; used in medial and final position; word-initially in <code>я</code> and <code>ю</code></c></r>
       <r><c>[st К :t K] [st к :t k]</c><c>/k/</c><c></c></r>
       <r><c>[st Л :t L] [st л :t l]</c><c>/l/</c><c>plain lateral; no productive palatal partner</c></r>
@@ -58,7 +59,7 @@
       <item>[st ь] is not used in native spelling; the soft jer has fully merged into [st ӑ :t ă]</item>
       <item>Inherited consonant + [st в :t v] + vowel clusters are normally repaired by vocalizing [st в :t v] to glide-like [st у :t u]: thus [st туой :t tuoj] /tvoj/, [st суой :t suoj] /svoj/, [st доуа :t doua] /dva/</item>
     </list>
-    <p>The consonantal glide /j/ is written [st й :t j] in medial and final position. Word-final [st и :t y] is always the vowel /ɪ~ɨ/ and is never consonantal in this orthography:</p>
+    <p>The consonantal glide /j/ is written [st й :t j] in medial and final position. When [st й :t j] is followed by [st і :t i] after another vowel, the standard orthography writes [st ї :t ji] instead of the digraph [st йі :t ji]: thus [st тої :t toji], [st мої :t moji], [st суої :t suoji]. After consonants there is no separate glide in this environment, so plain [st і :t i] is written. Outside this post-vocalic pattern, word-final [st и :t y] is always the vowel /ɪ~ɨ/ and is never consonantal in this orthography:</p>
     <list>
       <item>[st мой :t moj] = /moj/ "my"</item>
       <item>[st туой :t tuoj] = /tvoj/ "your"</item>

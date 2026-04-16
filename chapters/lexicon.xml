@@ -1062,22 +1062,22 @@
     <form f="m.sg"     v="сей"/>
     <form f="f.sg"     v="сея"/>
     <form f="n.sg"     v="сею"/>
-    <form f="pl"       v="сейи"/>
+    <form f="pl"       v="сеї"/>
     <form f="m.sg.obl" v="сею"/>
     <form f="f.sg.obl" v="сее"/>
     <form f="n.sg.obl" v="сею"/>
-    <form f="pl.obl"   v="сейи"/>
+    <form f="pl.obl"   v="сеї"/>
   </lex>
 
   <lex id="toj" pos="pron" gloss="that">
     <form f="m.sg"     v="той"/>
     <form f="f.sg"     v="тоя"/>
     <form f="n.sg"     v="тою"/>
-    <form f="pl"       v="тойи"/>
+    <form f="pl"       v="тої"/>
     <form f="m.sg.obl" v="тою"/>
     <form f="f.sg.obl" v="тое"/>
     <form f="n.sg.obl" v="тою"/>
-    <form f="pl.obl"   v="тойи"/>
+    <form f="pl.obl"   v="тої"/>
   </lex>
 
   <lex id="vsekoj" pos="pron" gloss="everyone">
@@ -1152,33 +1152,33 @@
     <form f="m.sg"     v="суой"/>
     <form f="f.sg"     v="суоя"/>
     <form f="n.sg"     v="суою"/>
-    <form f="pl"       v="суойи"/>
+    <form f="pl"       v="суої"/>
     <form f="m.sg.obl" v="суою"/>
     <form f="f.sg.obl" v="суое"/>
     <form f="n.sg.obl" v="суою"/>
-    <form f="pl.obl"   v="суойи"/>
+    <form f="pl.obl"   v="суої"/>
   </lex>
 
   <lex id="moj" pos="pron" gloss="my">
     <form f="m.sg"     v="мой"/>
     <form f="f.sg"     v="моя"/>
     <form f="n.sg"     v="мою"/>
-    <form f="pl"       v="мойи"/>
+    <form f="pl"       v="мої"/>
     <form f="m.sg.obl" v="мою"/>
     <form f="f.sg.obl" v="мое"/>
     <form f="n.sg.obl" v="мою"/>
-    <form f="pl.obl"   v="мойи"/>
+    <form f="pl.obl"   v="мої"/>
   </lex>
 
   <lex id="tuoj" pos="pron" gloss="your (sg.)">
     <form f="m.sg"     v="туой"/>
     <form f="f.sg"     v="туоя"/>
     <form f="n.sg"     v="туою"/>
-    <form f="pl"       v="туойи"/>
+    <form f="pl"       v="туої"/>
     <form f="m.sg.obl" v="туою"/>
     <form f="f.sg.obl" v="туое"/>
     <form f="n.sg.obl" v="туою"/>
-    <form f="pl.obl"   v="туойи"/>
+    <form f="pl.obl"   v="туої"/>
   </lex>
 
   <lex id="ni" pos="part" gloss="not">

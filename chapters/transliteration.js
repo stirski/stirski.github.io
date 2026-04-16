@@ -63,7 +63,7 @@
 
   function transliterateText(text, mappings) {
     if (!text) return '';
-    return String(text).replace(/[АБВГДЕЖЗИЙІКЛМНОПРСТУФХЦЧШӐЮЯабвгдежзийіклмнопрстуфхцчшӑюя]+/g, function (word) {
+    return String(text).replace(/[АБВГДЕЖЗИЙІЇКЛМНОПРСТУФХЦЧШӐЮЯабвгдежзийіїклмнопрстуфхцчшӑюя]+/g, function (word) {
       var direct = mappings.cyrToLatWords[word];
       if (typeof direct === 'string') return direct;
       return transliterateChars(word, mappings);
