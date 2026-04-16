@@ -42,30 +42,30 @@
       <style type="text/css"><![CDATA[
         :root {
           color-scheme: light;
-          --paper: #ffffff;
-          --paper-rgb: 255, 255, 255;
-          --ink: #111111;
-          --ink-rgb: 17, 17, 17;
-          --muted: #888888;
-          --rule: #e8e8e8;
+          --paper: #f5f7fa;
+          --paper-rgb: 245, 247, 250;
+          --ink: #16181d;
+          --ink-rgb: 22, 24, 29;
+          --muted: #6f7782;
+          --rule: #d9e0e8;
           --accent: #111111;
-          --accent-soft: #f4f4f4;
-          --code-bg: #ece7db;
-          --code-border: rgba(17, 17, 17, 0.1);
-          --code-ink: #171717;
-          --signal: #8f6f1f;
-          --signal-rgb: 143, 111, 31;
-          --mark-rgb: 235, 220, 148;
-          --page-grad-start: #ffffff;
-          --page-grad-mid: #fbfbfb;
-          --page-grad-end: #ffffff;
-          --surface-card: rgba(255, 255, 255, 0.86);
-          --surface-glass: rgba(255, 255, 255, 0.72);
-          --surface-menu: rgba(255, 255, 255, 0.74);
-          --surface-float: rgba(255, 255, 255, 0.78);
-          --surface-float-hover: rgba(255, 255, 255, 0.84);
-          --surface-overlay: rgba(255, 255, 255, 0.62);
-          --surface-overlay-strong: rgba(255, 255, 255, 0.72);
+          --accent-soft: #edf1f5;
+          --code-bg: #e9eef4;
+          --code-border: rgba(22, 24, 29, 0.08);
+          --code-ink: #1a1d23;
+          --signal: #2f6fd6;
+          --signal-rgb: 47, 111, 214;
+          --mark-rgb: 183, 206, 244;
+          --page-grad-start: #f9fbfd;
+          --page-grad-mid: #f2f5f9;
+          --page-grad-end: #f7f9fc;
+          --surface-card: rgba(255, 255, 255, 0.82);
+          --surface-glass: rgba(250, 252, 255, 0.7);
+          --surface-menu: rgba(248, 250, 253, 0.76);
+          --surface-float: rgba(251, 253, 255, 0.76);
+          --surface-float-hover: rgba(255, 255, 255, 0.82);
+          --surface-overlay: rgba(248, 250, 253, 0.66);
+          --surface-overlay-strong: rgba(248, 250, 253, 0.76);
           --surface-overlay-inverse: rgba(17, 17, 17, 0.66);
           --surface-overlay-inverse-hover: rgba(17, 17, 17, 0.74);
           --surface-tooltip: rgba(17, 17, 17, 0.9);
@@ -98,7 +98,7 @@
           --shadow-float-hover: 0 6px 20px rgba(0, 0, 0, 0.08);
           --shadow-side: -4px 0 24px rgba(0, 0, 0, 0.08);
           --shadow-popup: 0 4px 16px rgba(0, 0, 0, 0.18), 0 1px 3px rgba(0, 0, 0, 0.1);
-          --overlay: rgba(242, 245, 248, 0.18);
+          --overlay: rgba(232, 238, 245, 0.22);
           --inverse-surface: #111111;
           --inverse-surface-hover: #333333;
           --inverse-text: rgba(255, 255, 255, 0.88);
@@ -126,30 +126,30 @@
 
         html[data-theme='dark'] {
           color-scheme: dark;
-          --paper: #111417;
-          --paper-rgb: 17, 20, 23;
-          --ink: #e7edf5;
-          --ink-rgb: 231, 237, 245;
-          --muted: #94a0b4;
-          --rule: #2b3442;
+          --paper: #111317;
+          --paper-rgb: 17, 19, 23;
+          --ink: #e7edf4;
+          --ink-rgb: 231, 237, 244;
+          --muted: #98a4b6;
+          --rule: #2c3440;
           --accent: #f3f7fd;
-          --accent-soft: #1a2026;
-          --code-bg: #1f2934;
-          --code-border: rgba(122, 162, 255, 0.24);
+          --accent-soft: #1a1f26;
+          --code-bg: #1c232d;
+          --code-border: rgba(120, 151, 204, 0.2);
           --code-ink: #f3f7fd;
-          --signal: #7aa2ff;
-          --signal-rgb: 122, 162, 255;
-          --mark-rgb: 96, 140, 235;
-          --page-grad-start: #0d1014;
+          --signal: #7897cc;
+          --signal-rgb: 120, 151, 204;
+          --mark-rgb: 83, 112, 160;
+          --page-grad-start: #0e1116;
           --page-grad-mid: #141920;
-          --page-grad-end: #0d1014;
-          --surface-card: rgba(20, 24, 29, 0.86);
-          --surface-glass: rgba(18, 22, 27, 0.78);
-          --surface-menu: rgba(18, 22, 27, 0.82);
-          --surface-float: rgba(24, 29, 35, 0.74);
-          --surface-float-hover: rgba(29, 35, 42, 0.8);
-          --surface-overlay: rgba(18, 22, 27, 0.72);
-          --surface-overlay-strong: rgba(18, 22, 27, 0.8);
+          --page-grad-end: #10141a;
+          --surface-card: rgba(20, 24, 29, 0.84);
+          --surface-glass: rgba(18, 22, 27, 0.76);
+          --surface-menu: rgba(18, 22, 27, 0.8);
+          --surface-float: rgba(23, 28, 34, 0.72);
+          --surface-float-hover: rgba(28, 34, 41, 0.78);
+          --surface-overlay: rgba(18, 22, 27, 0.7);
+          --surface-overlay-strong: rgba(18, 22, 27, 0.78);
           --surface-overlay-inverse: rgba(237, 243, 251, 0.18);
           --surface-overlay-inverse-hover: rgba(255, 255, 255, 0.24);
           --surface-tooltip: rgba(15, 19, 24, 0.9);
@@ -173,7 +173,7 @@
           --hover-soft: rgba(140, 165, 205, 0.1);
           --hover-medium: rgba(140, 165, 205, 0.13);
           --hover-strong: rgba(140, 165, 205, 0.22);
-          --active-soft: rgba(122, 162, 255, 0.16);
+          --active-soft: rgba(120, 151, 204, 0.16);
           --scrollbar-thumb: rgba(140, 165, 205, 0.2);
           --scrollbar-thumb-strong: rgba(140, 165, 205, 0.26);
           --shadow-card: 0 18px 42px rgba(0, 0, 0, 0.32);
@@ -216,12 +216,12 @@
 
         a {
           color: inherit;
-          text-decoration-color: rgba(var(--signal-rgb), 0.28);
+          text-decoration-color: rgba(var(--signal-rgb), 0.2);
           text-underline-offset: 0.16em;
         }
 
         a:hover {
-          text-decoration-color: rgba(var(--signal-rgb), 0.7);
+          text-decoration-color: rgba(var(--signal-rgb), 0.46);
         }
 
         .page {
@@ -246,10 +246,9 @@
           margin: 0 0 0.45rem;
           color: var(--muted);
           font-family: var(--font-display);
-          font-size: 0.68rem;
+          font-size: 0.7rem;
           font-weight: 500;
-          letter-spacing: 0.1em;
-          text-transform: uppercase;
+          letter-spacing: 0.02em;
         }
 
         h1,
@@ -287,8 +286,7 @@
           font-family: var(--font-ui);
           font-size: 0.75rem;
           font-weight: 500;
-          letter-spacing: 0.04em;
-          text-transform: uppercase;
+          letter-spacing: 0.01em;
         }
 
 
@@ -348,15 +346,15 @@
         }
 
         .prose > section {
-          margin-top: var(--section-space);
+          margin-top: calc(var(--section-space) + 0.6rem);
         }
 
         .prose .subsection {
-          margin-top: var(--subsection-space);
+          margin-top: calc(var(--subsection-space) + 0.15rem);
         }
 
         .prose > section:first-of-type {
-          margin-top: clamp(2.3rem, 4vw, 3.1rem);
+          margin-top: clamp(2.7rem, 4.5vw, 3.5rem);
         }
 
         .prose > section > :last-child,
@@ -371,10 +369,10 @@
 
         .prose h2 {
           max-width: var(--measure);
-          margin: 0 0 1.15rem;
-          padding-top: var(--section-heading-gap);
-          border-top: 1px solid var(--rule);
+          margin: 0 0 1.35rem;
+          padding-top: 0;
           font-weight: 600;
+          font-size: clamp(1.42rem, 1.32rem + 0.28vw, 1.62rem);
           letter-spacing: -0.028em;
         }
 
@@ -580,9 +578,8 @@
           color: var(--icon-muted);
           font-family: var(--font-ui);
           font-size: 0.72rem;
-          font-weight: 600;
-          letter-spacing: 0.08em;
-          text-transform: uppercase;
+          font-weight: 500;
+          letter-spacing: 0.02em;
           white-space: nowrap;
         }
 
@@ -790,24 +787,25 @@
           display: inline-flex;
           align-items: center;
           justify-content: center;
-          gap: 0.45rem;
-          padding: 0.42rem 0.72rem;
-          border: 1px solid var(--rule);
+          gap: 0.5rem;
+          padding: 0.56rem 0.92rem;
+          border: 1px solid transparent;
           border-radius: 999px;
-          background: transparent;
-          color: var(--ink);
+          background: var(--surface-overlay);
+          box-shadow: inset 0 1px 0 var(--overlay-highlight-soft);
+          color: var(--icon-stronger);
           font-family: var(--font-ui);
-          font-size: 0.72rem;
-          font-weight: 600;
-          letter-spacing: 0.04em;
-          text-transform: uppercase;
+          font-size: 0.75rem;
+          font-weight: 500;
+          letter-spacing: 0.01em;
           cursor: pointer;
-          transition: border-color 120ms ease, background 120ms ease, color 120ms ease;
+          transition: background 120ms ease, color 120ms ease, box-shadow 120ms ease;
         }
 
         .theme-toggle:hover {
-          background: var(--accent-soft);
-          border-color: var(--icon-muted);
+          background: var(--surface-overlay-strong);
+          box-shadow: inset 0 1px 0 var(--overlay-highlight);
+          color: var(--accent);
         }
 
         .theme-toggle:focus-visible {
@@ -816,7 +814,7 @@
         }
 
         .theme-toggle .bi {
-          font-size: 0.92rem;
+          font-size: 0.95rem;
           line-height: 1;
         }
 
@@ -850,43 +848,54 @@
           list-style: none;
         }
 
+        .chapter-index li + li {
+          margin-top: 0.12rem;
+        }
+
         .chapter-index-link {
           display: flex;
           align-items: baseline;
-          gap: 1.25rem;
-          padding: 0.85rem 0;
-          border-bottom: 1px solid var(--rule);
+          gap: 1.1rem;
+          margin: 0 -0.65rem;
+          padding: 0.98rem 0.65rem 1.02rem;
+          border-radius: 1rem;
           text-decoration: none;
           color: inherit;
+          transition: background 140ms ease, color 120ms ease;
+        }
+
+        .chapter-index-link:hover,
+        .chapter-index-link:focus-visible {
+          background: var(--hover-faint);
+          outline: none;
+          box-shadow: 0 0 0 2px rgba(var(--signal-rgb), 0.14);
         }
 
         .chapter-index-no {
           flex: 0 0 4rem;
           color: var(--muted);
           font-size: 0.72rem;
-          font-weight: 600;
-          letter-spacing: 0.08em;
-          text-transform: uppercase;
+          font-weight: 500;
+          letter-spacing: 0.03em;
         }
 
         .chapter-index-title {
           color: var(--accent);
-          font-size: 1rem;
+          font-size: 1.04rem;
           font-weight: 500;
           letter-spacing: -0.01em;
-          text-decoration: underline;
-          text-decoration-color: transparent;
-          text-underline-offset: 0.16em;
-          transition: text-decoration-color 120ms ease;
+          text-decoration: none;
+          transition: color 120ms ease;
         }
 
         .chapter-index-link:hover .chapter-index-title,
         .chapter-index-link:focus-visible .chapter-index-title {
-          text-decoration-color: rgba(var(--signal-rgb), 0.55);
+          color: rgba(var(--signal-rgb), 0.88);
         }
 
         .index-download {
-          border-bottom: 1px solid var(--rule);
+          margin-top: 0.4rem;
+          padding-top: 0.2rem;
         }
 
         .table-wrap {
@@ -1127,7 +1136,7 @@
 
           .scroll-crumb-kicker {
             font-size: 0.68rem;
-            letter-spacing: 0.07em;
+            letter-spacing: 0.015em;
           }
 
           .scroll-crumb-current {
@@ -1157,15 +1166,25 @@
         .dl-btn {
           display: flex;
           align-items: baseline;
-          gap: 1.25rem;
+          gap: 1.1rem;
           width: 100%;
-          padding: 0.85rem 0;
+          margin: 0 -0.65rem;
+          padding: 0.98rem 0.65rem 1.02rem;
+          border-radius: 1rem;
           background: none;
           border: none;
           color: inherit;
           font-family: var(--font-ui);
           cursor: pointer;
           text-align: left;
+          transition: background 140ms ease;
+        }
+
+        .dl-btn:hover,
+        .dl-btn:focus-visible {
+          background: var(--hover-faint);
+          outline: none;
+          box-shadow: 0 0 0 2px rgba(var(--signal-rgb), 0.14);
         }
 
         .dl-btn::before {
@@ -1173,25 +1192,22 @@
           flex: 0 0 4rem;
           color: var(--muted);
           font-size: 0.72rem;
-          font-weight: 600;
-          letter-spacing: 0.08em;
-          text-transform: uppercase;
+          font-weight: 500;
+          letter-spacing: 0.03em;
         }
 
         .dl-btn-label {
           color: var(--accent);
-          font-size: 1rem;
+          font-size: 1.04rem;
           font-weight: 500;
           letter-spacing: -0.01em;
-          text-decoration: underline;
-          text-decoration-color: transparent;
-          text-underline-offset: 0.16em;
-          transition: text-decoration-color 120ms ease;
+          text-decoration: none;
+          transition: color 120ms ease;
         }
 
         .dl-btn:hover .dl-btn-label,
         .dl-btn:focus-visible .dl-btn-label {
-          text-decoration-color: rgba(var(--signal-rgb), 0.55);
+          color: rgba(var(--signal-rgb), 0.88);
         }
 
         .dl-btn:disabled {
@@ -1220,8 +1236,7 @@
           font-family: var(--font-ui);
           font-size: 0.68rem;
           font-weight: 500;
-          letter-spacing: 0.08em;
-          text-transform: uppercase;
+          letter-spacing: 0.02em;
           cursor: pointer;
           opacity: 0;
           visibility: hidden;
