@@ -14,7 +14,7 @@
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <meta name="color-scheme" content="light dark"/>
-      <title><xsl:value-of select="$title"/></title>
+      <title><xsl:value-of select="$title"/> &#x2014; A Grammar of Styrian</title>
       <script><![CDATA[
         (function () {
           var storageKey = 'styrian-theme';
@@ -118,10 +118,10 @@
           --measure: min(44rem, var(--content-max));
           --margin-col: 13.5rem;
           --layout-gap: 2rem;
-          --section-space: clamp(2.8rem, 5vw, 4rem);
-          --subsection-space: clamp(1.8rem, 3vw, 2.5rem);
-          --section-heading-gap: clamp(1.25rem, 2vw, 1.55rem);
-          --subsection-heading-gap: 0.9rem;
+          --section-space: clamp(3rem, 4.8vw, 4.1rem);
+          --subsection-space: clamp(1.9rem, 3vw, 2.4rem);
+          --section-heading-gap: clamp(1.05rem, 1.7vw, 1.28rem);
+          --subsection-heading-gap: 0.72rem;
         }
 
         html[data-theme='dark'] {
@@ -369,33 +369,38 @@
 
         .prose h2 {
           max-width: var(--measure);
-          margin: 0 0 1.35rem;
+          margin: 0 0 var(--section-heading-gap);
           padding-top: 0;
           font-weight: 600;
-          font-size: clamp(1.42rem, 1.32rem + 0.28vw, 1.62rem);
-          letter-spacing: -0.028em;
+          font-size: clamp(1.38rem, 1.3rem + 0.22vw, 1.54rem);
+          line-height: 1.1;
+          letter-spacing: -0.024em;
         }
 
         .prose h3 {
           max-width: var(--measure);
           margin: 0 0 var(--subsection-heading-gap);
           font-weight: 600;
-          font-size: clamp(1.18rem, 1.12rem + 0.14vw, 1.24rem);
-          letter-spacing: -0.02em;
+          font-size: clamp(1.1rem, 1.07rem + 0.1vw, 1.16rem);
+          line-height: 1.14;
+          letter-spacing: -0.016em;
           color: var(--muted);
         }
 
         .section-number {
           display: inline-block;
-          margin-right: 0.55rem;
-          color: var(--muted);
+          margin-right: 0.45rem;
+          color: rgba(var(--ink-rgb), 0.38);
           font-family: var(--font-display);
+          font-size: 0.88em;
           font-weight: 500;
-          letter-spacing: 0.06em;
+          line-height: 1;
+          letter-spacing: 0;
+          font-variant-numeric: tabular-nums;
         }
 
         h3 > .section-number {
-          color: var(--accent);
+          color: rgba(var(--ink-rgb), 0.34);
         }
 
         .contents {
@@ -1097,9 +1102,9 @@
           }
 
           :root {
-            --section-space: 2.45rem;
+            --section-space: 2.6rem;
             --subsection-space: 1.75rem;
-            --section-heading-gap: 1.5rem;
+            --section-heading-gap: 1rem;
           }
 
           .navline {
@@ -2115,6 +2120,10 @@
     <i><xsl:apply-templates/></i>
   </xsl:template>
 
+  <xsl:template match="br">
+    <br/>
+  </xsl:template>
+
   <!-- ═══════════════════════════════════════════════════════════
        Lexicon form resolver
        Prefers explicit <form> values, then falls back to a template
@@ -2126,13 +2135,18 @@
     <xsl:param name="entry"/>
     <xsl:param name="form-id"/>
     <xsl:param name="lexdoc" select="document($lexicon-uri)/lexicon"/>
+    <xsl:variable name="canonical-form-id">
+      <xsl:call-template name="canonical-infl">
+        <xsl:with-param name="infl" select="$form-id"/>
+      </xsl:call-template>
+    </xsl:variable>
 
     <xsl:choose>
-      <xsl:when test="$entry/form[@f = $form-id]">
-        <xsl:value-of select="$entry/form[@f = $form-id][1]/@v"/>
+      <xsl:when test="$entry/form[@f = $canonical-form-id]">
+        <xsl:value-of select="$entry/form[@f = $canonical-form-id][1]/@v"/>
       </xsl:when>
       <xsl:when test="string-length($entry/@template) &gt; 0">
-        <xsl:variable name="pattern" select="$lexdoc/templates/*[@id = $entry/@template]/form[@f = $form-id][1]"/>
+        <xsl:variable name="pattern" select="$lexdoc/templates/*[@id = $entry/@template]/form[@f = $canonical-form-id][1]"/>
         <xsl:if test="$pattern">
           <xsl:variable name="stem-name" select="string($pattern/@stem)"/>
           <xsl:variable name="stem-value">
@@ -2154,6 +2168,39 @@
     </xsl:choose>
   </xsl:template>
 
+  <xsl:template name="canonical-infl">
+    <xsl:param name="infl"/>
+
+    <xsl:choose>
+      <xsl:when test="$infl = '1s'">1sg</xsl:when>
+      <xsl:when test="$infl = '2s'">2sg</xsl:when>
+      <xsl:when test="$infl = '3s'">3sg</xsl:when>
+      <xsl:when test="$infl = '1p'">1pl</xsl:when>
+      <xsl:when test="$infl = '2p'">2pl</xsl:when>
+      <xsl:when test="$infl = '3p'">3pl</xsl:when>
+      <xsl:when test="$infl = 'pp'">ppl</xsl:when>
+      <xsl:when test="$infl = 'l.m'">lptc.m</xsl:when>
+      <xsl:when test="$infl = 'l.f'">lptc.f</xsl:when>
+      <xsl:when test="$infl = 'l.n'">lptc.n</xsl:when>
+      <xsl:when test="$infl = 'l.p'">lptc.pl</xsl:when>
+      <xsl:when test="$infl = 'imp.2s'">imp.2sg</xsl:when>
+      <xsl:when test="$infl = 'imp.2p'">imp.2pl</xsl:when>
+      <xsl:when test="$infl = 'nom.s'">nom.sg</xsl:when>
+      <xsl:when test="$infl = 'o.s'">obl.sg</xsl:when>
+      <xsl:when test="$infl = 'm.s'">m.sg</xsl:when>
+      <xsl:when test="$infl = 'f.s'">f.sg</xsl:when>
+      <xsl:when test="$infl = 'n.s'">n.sg</xsl:when>
+      <xsl:when test="$infl = 'm.o.s'">m.sg.obl</xsl:when>
+      <xsl:when test="$infl = 'f.o.s'">f.sg.obl</xsl:when>
+      <xsl:when test="$infl = 'o.f.s' or $infl = 'obl.f.sg'">f.sg.obl</xsl:when>
+      <xsl:when test="$infl = 'n.o.s'">n.sg.obl</xsl:when>
+      <xsl:when test="$infl = 'o.p' or $infl = 'o.pl'">pl.obl</xsl:when>
+      <xsl:when test="$infl = 'o'">obl</xsl:when>
+      <xsl:when test="$infl = 'b'">base</xsl:when>
+      <xsl:otherwise><xsl:value-of select="$infl"/></xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
   <!-- ═══════════════════════════════════════════════════════════
        <w ref="…" infl="…"/> — lexeme reference
        Looks up the entry in lexicon.xml and renders an <st>-equivalent
@@ -2166,6 +2213,11 @@
   <xsl:template match="w">
     <xsl:variable name="ref"   select="@ref"/>
     <xsl:variable name="infl"  select="@infl"/>
+    <xsl:variable name="infl-canon">
+      <xsl:call-template name="canonical-infl">
+        <xsl:with-param name="infl" select="$infl"/>
+      </xsl:call-template>
+    </xsl:variable>
     <xsl:variable name="lexdoc" select="document($lexicon-uri)/lexicon"/>
     <xsl:variable name="entry" select="$lexdoc/lex[@id = $ref]"/>
 
@@ -2193,8 +2245,8 @@
           <xsl:if test="string-length($pre-gloss) &gt; 0">
             <xsl:attribute name="data-gloss"><xsl:value-of select="$pre-gloss"/></xsl:attribute>
           </xsl:if>
-          <xsl:if test="string-length($infl) &gt; 0">
-            <xsl:attribute name="data-infl"><xsl:value-of select="$infl"/></xsl:attribute>
+          <xsl:if test="string-length($infl-canon) &gt; 0">
+            <xsl:attribute name="data-infl"><xsl:value-of select="$infl-canon"/></xsl:attribute>
           </xsl:if>
           <xsl:attribute name="data-ref"><xsl:value-of select="$ref"/></xsl:attribute>
           <span class="styr-form"><xsl:value-of select="$pre-fv"/></span>
@@ -2203,9 +2255,9 @@
             <xsl:if test="string-length($pre-gloss) &gt; 0">
               <span class="styr-gloss"><xsl:value-of select="$pre-gloss"/></span>
             </xsl:if>
-            <xsl:if test="string-length($infl) &gt; 0">
+            <xsl:if test="string-length($infl-canon) &gt; 0">
               <span class="styr-infl-tag">
-                <xsl:value-of select="$infl"/>
+                <xsl:value-of select="$infl-canon"/>
                 <xsl:if test="not($pre-fv = $pre-lemma)">
                   <xsl:text> · </xsl:text>
                   <xsl:value-of select="$pre-lemma"/>
@@ -2220,10 +2272,10 @@
       <xsl:when test="$entry">
 
         <xsl:variable name="requested-v">
-          <xsl:if test="string-length($infl) &gt; 0">
+          <xsl:if test="string-length($infl-canon) &gt; 0">
             <xsl:call-template name="resolve-lex-form">
               <xsl:with-param name="entry" select="$entry"/>
-              <xsl:with-param name="form-id" select="$infl"/>
+              <xsl:with-param name="form-id" select="$infl-canon"/>
               <xsl:with-param name="lexdoc" select="$lexdoc"/>
             </xsl:call-template>
           </xsl:if>
@@ -2310,8 +2362,8 @@
             <xsl:when test="@cap = '1'">
               <xsl:value-of select="concat(
                 translate(substring($fv, 1, 1),
-                  'абвгдежзийіклмнопрстуфхцчшӑюя',
-                  'АБВГДЕЖЗИЙІКЛМНОПРСТУФХЦЧШӐЮЯ'),
+                  'абвгдежзийіїклмнопрстуфхцчшӑюя',
+                  'АБВГДЕЖЗИЙІЇКЛМНОПРСТУФХЦЧШӐЮЯ'),
                 substring($fv, 2))"/>
             </xsl:when>
             <xsl:otherwise><xsl:value-of select="$fv"/></xsl:otherwise>
@@ -2324,8 +2376,8 @@
           <xsl:if test="string-length($gloss) &gt; 0">
             <xsl:attribute name="data-gloss"><xsl:value-of select="$gloss"/></xsl:attribute>
           </xsl:if>
-          <xsl:if test="string-length($infl) &gt; 0">
-            <xsl:attribute name="data-infl"><xsl:value-of select="$infl"/></xsl:attribute>
+          <xsl:if test="string-length($infl-canon) &gt; 0">
+            <xsl:attribute name="data-infl"><xsl:value-of select="$infl-canon"/></xsl:attribute>
           </xsl:if>
           <xsl:if test="$show-token-tr">
             <xsl:attribute name="data-ref"><xsl:value-of select="$ref"/></xsl:attribute>
@@ -2343,9 +2395,9 @@
                 </span>
               </xsl:if>
               <!-- Infl badge: only when an explicit @infl was requested -->
-              <xsl:if test="string-length($infl) &gt; 0">
+              <xsl:if test="string-length($infl-canon) &gt; 0">
                 <span class="styr-infl-tag">
-                  <xsl:value-of select="$infl"/>
+                  <xsl:value-of select="$infl-canon"/>
                   <!-- Append "· lemma" only when the inflected form ≠ lemma -->
                   <xsl:if test="not($fv = $lemma-v)">
                     <xsl:text> · </xsl:text>

@@ -10,8 +10,9 @@ COMPACT NOTATION
 
   <w ref="az"/>                          →  [w az]
   <w ref="vydit" infl="1sg"/>            →  [w vydit :i 1sg]
+  <w ref="dom" infl="o.s"/>              →  [w dom :i o.s]
   <w ref="ydat" cap="1"/>                →  [w ydat :c]
-  <w ref="sej" infl="m.sg" cap="1"/>     →  [w sej :i m.sg :c]
+  <w ref="sej" infl="m.s" cap="1"/>      →  [w sej :i m.s :c]
 
   <st v="ӑ" tr=""/>                      →  [st ӑ]
   <st v="Страски" tr="Strasky"/>         →  [st Страски :t Strasky]
@@ -199,8 +200,9 @@ if __name__ == '__main__':
         # (compact_form, xml_form)
         ('[w az]',                         '<w ref="az"/>'),
         ('[w vydit :i 1sg]',               '<w ref="vydit" infl="1sg"/>'),
+        ('[w dom :i o.s]',                 '<w ref="dom" infl="o.s"/>'),
         ('[w ydat :c]',                    '<w ref="ydat" cap="1"/>'),
-        ('[w sej :i m.sg :c]',             '<w ref="sej" infl="m.sg" cap="1"/>'),
+        ('[w sej :i m.s :c]',              '<w ref="sej" infl="m.s" cap="1"/>'),
         ('[w byt.neg :i 3sg]',             '<w ref="byt.neg" infl="3sg"/>'),
         ('[st ӑ]',                         '<st v="ӑ" tr=""/>'),
         ('[st Страски :t Strasky]',         '<st v="Страски" tr="Strasky"/>'),

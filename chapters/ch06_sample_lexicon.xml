@@ -92,7 +92,7 @@
     <r><c>[w kupit]</c><c>to buy, complete purchase</c><c>—</c><c>i-class pf.</c></r>
     <r><c>[w vydit]</c><c>to see</c><c>—</c><c>i-class impf.</c></r>
     <r><c>[w nosit]</c><c>to carry (habitually), transport</c><c><code>*nositi</code></c><c>i-class impf.; <em>multidirectional</em>; habitual or repeated carrying; unidirectional counterpart is [w nesat]</c></r>
-    <r><c>[w nesat]</c><c>to carry (one trip, toward destination)</c><c><code>*nesti</code></c><c>a-class impf.; <em>unidirectional</em>; nasal-stem, regularized to a-class in Period III; multidirectional counterpart is [w nosit]; present: [w nesat :i 1sg]/[w nesat :i 2sg]/[w nesat :i 3sg]/[w nesat :i 1pl]/[w nesat :i 2pl]/[w nesat :i 3pl]; l-part. [w nesat :i lptc.m]</c></r>
+    <r><c>[w nesat]</c><c>to carry (one trip, toward destination)</c><c><code>*nesti</code></c><c>a-class impf.; <em>unidirectional</em>; nasal-stem, regularized to a-class in Period III; multidirectional counterpart is [w nosit]; present: [w nesat :i 1s]/[w nesat :i 2s]/[w nesat :i 3s]/[w nesat :i 1p]/[w nesat :i 2p]/[w nesat :i 3p]; l-part. [w nesat :i l.m]</c></r>
     <r><c>[w vlezit]</c><c>to enter</c><c>—</c><c>i-class pf.</c></r>
     <r><c>[w myit]</c><c>to wash</c><c>—</c><c>i-class impf.</c></r>
     <r><c>[st смет :t smet] [w se]</c><c>to laugh</c><c>—</c><c>reflexive-only impf.</c></r>
@@ -101,20 +101,20 @@
     <r><c>[st надет :t nadet] [w se]</c><c>to hope</c><c>—</c><c>reflexive-only impf.</c></r>
     <r><c>[w byt]</c><c>to be</c><c>—</c><c>irregular copula</c></r>
     <r><c>[w ymat]</c><c>to have</c><c>—</c><c>a-class (mostly regular)</c></r>
-    <r><c>[w ydat]</c><c>to go (unidirectional)</c><c>—</c><c>irregular; <em>unidirectional</em>; single directed trip; l-part. [w ydat :i lptc.m]; multidirectional counterpart is [w xodit]</c></r>
-    <r><c>[w xodit]</c><c>to go (habitually), walk, frequent</c><c><code>*xoditi</code></c><c>i-class impf.; <em>multidirectional</em>; cf. Czech <em>chodit</em>, Sln. <em>hoditi</em>; present: [w xodit :i 1sg]/[w xodit :i 2sg]/[w xodit :i 3sg]/[w xodit :i 1pl]/[w xodit :i 2pl]/[w xodit :i 3pl]; l-part. [w xodit :i lptc.m]</c></r>
-    <r><c>[w doit]</c><c>to come, arrive</c><c>—</c><c>i-class pf.; l-part. [w doit :i lptc.m]</c></r>
-    <r><c>[w bežat]</c><c>to run (unidirectional)</c><c><code>*běžati</code></c><c>a-class impf.; <em>unidirectional</em>; single directed run; multidirectional counterpart is [w behat]; present: [w bežat :i 1sg]/[w bežat :i 2sg]/[w bežat :i 3sg]/[w bežat :i 1pl]/[w bežat :i 2pl]/[w bežat :i 3pl]</c></r>
-    <r><c>[w behat]</c><c>to run (habitually), be a runner</c><c><code>*běgati</code></c><c>a-class impf.; <em>multidirectional</em>; note г = /ɦ/ in romanization; present: [w behat :i 1sg]/[w behat :i 2sg]/[w behat :i 3sg]/[w behat :i 1pl]/[w behat :i 2pl]/[w behat :i 3pl]</c></r>
+    <r><c>[w ydat]</c><c>to go (unidirectional)</c><c>—</c><c>irregular; <em>unidirectional</em>; single directed trip; l-part. [w ydat :i l.m]; multidirectional counterpart is [w xodit]</c></r>
+    <r><c>[w xodit]</c><c>to go (habitually), walk, frequent</c><c><code>*xoditi</code></c><c>i-class impf.; <em>multidirectional</em>; cf. Czech <em>chodit</em>, Sln. <em>hoditi</em>; present: [w xodit :i 1s]/[w xodit :i 2s]/[w xodit :i 3s]/[w xodit :i 1p]/[w xodit :i 2p]/[w xodit :i 3p]; l-part. [w xodit :i l.m]</c></r>
+    <r><c>[w doit]</c><c>to come, arrive</c><c>—</c><c>i-class pf.; l-part. [w doit :i l.m]</c></r>
+    <r><c>[w bežat]</c><c>to run (unidirectional)</c><c><code>*běžati</code></c><c>a-class impf.; <em>unidirectional</em>; single directed run; multidirectional counterpart is [w behat]; present: [w bežat :i 1s]/[w bežat :i 2s]/[w bežat :i 3s]/[w bežat :i 1p]/[w bežat :i 2p]/[w bežat :i 3p]</c></r>
+    <r><c>[w behat]</c><c>to run (habitually), be a runner</c><c><code>*běgati</code></c><c>a-class impf.; <em>multidirectional</em>; note г = /ɦ/ in romanization; present: [w behat :i 1s]/[w behat :i 2s]/[w behat :i 3s]/[w behat :i 1p]/[w behat :i 2p]/[w behat :i 3p]</c></r>
     <r><c>[w dat]</c><c>to give</c><c>—</c><c>irregular</c></r>
     <r><c>[w možit]</c><c>can, be able</c><c>—</c><c>i-class modal</c></r>
     <r><c>[w xotit]</c><c>want; intend</c><c><code>*xъtěti</code></c><c>i-class; semi-auxiliary; present хочем/хочеш/хоче</c></r>
     <r><c>[w stat]</c><c>to become, stand</c><c>—</c><c>a-class; often pf. in meaning</c></r>
-    <r><c>[w vyxodit]</c><c>to go out, exit; to come out (in print, of results)</c><c>—</c><c>i-class impf.; ви- prefix (West Slavic stratum); present: [w vyxodit :i 1sg]/[w vyxodit :i 2sg]/[w vyxodit :i 3sg]/[w vyxodit :i 1pl]/[w vyxodit :i 2pl]/[w vyxodit :i 3pl]; cf. Czech <em>vycházet</em>; broader figurative range than directional [w yzxodit]</c></r>
-    <r><c>[w vybrat]</c><c>to choose, pick out, select</c><c><code>*vybьrati</code></c><c>pf.; ви- prefix; present stem [st вибир- :t vybyr-]: [w vybrat :i 1sg]/[w vybrat :i 2sg]/[w vybrat :i 3sg]; l-part. [w vybrat :i lptc.m]; impf. [w vybyrat]; cf. Czech <em>vybrat</em></c></r>
-    <r><c>[w vypysat]</c><c>to write out, copy out; to fill out (a form)</c><c>—</c><c>pf. a-class; ви- prefix; present: [w vypysat :i 1sg]/[w vypysat :i 2sg]/[w vypysat :i 3sg]; l-part. [w vypysat :i lptc.m]; cf. Czech <em>vypsat</em></c></r>
-    <r><c>[w vyučit]</c><c>to teach (sb.) thoroughly, train, instruct to completion</c><c>—</c><c>pf. i-class; ви- prefix; present: [w vyučit :i 1sg]/[w vyučit :i 2sg]/[w vyučit :i 3sg]; l-part. [w vyučit :i lptc.m]; cf. Czech <em>vyučit</em>; emphasizes completeness of teaching</c></r>
-    <r><c>[w vyhnat]</c><c>to drive out, expel, chase away</c><c><code>*vygъnati</code></c><c>pf.; ви- prefix; suppletive present from <code>*goniti</code>: [w vyhnat :i 1sg]/[w vyhnat :i 2sg]/[w vyhnat :i 3sg]; l-part. [w vyhnat :i lptc.m]; cf. Czech <em>vyhnat</em></c></r>
+    <r><c>[w vyxodit]</c><c>to go out, exit; to come out (in print, of results)</c><c>—</c><c>i-class impf.; ви- prefix (West Slavic stratum); present: [w vyxodit :i 1s]/[w vyxodit :i 2s]/[w vyxodit :i 3s]/[w vyxodit :i 1p]/[w vyxodit :i 2p]/[w vyxodit :i 3p]; cf. Czech <em>vycházet</em>; broader figurative range than directional [w yzxodit]</c></r>
+    <r><c>[w vybrat]</c><c>to choose, pick out, select</c><c><code>*vybьrati</code></c><c>pf.; ви- prefix; present stem [st вибир- :t vybyr-]: [w vybrat :i 1s]/[w vybrat :i 2s]/[w vybrat :i 3s]; l-part. [w vybrat :i l.m]; impf. [w vybyrat]; cf. Czech <em>vybrat</em></c></r>
+    <r><c>[w vypysat]</c><c>to write out, copy out; to fill out (a form)</c><c>—</c><c>pf. a-class; ви- prefix; present: [w vypysat :i 1s]/[w vypysat :i 2s]/[w vypysat :i 3s]; l-part. [w vypysat :i l.m]; cf. Czech <em>vypsat</em></c></r>
+    <r><c>[w vyučit]</c><c>to teach (sb.) thoroughly, train, instruct to completion</c><c>—</c><c>pf. i-class; ви- prefix; present: [w vyučit :i 1s]/[w vyučit :i 2s]/[w vyučit :i 3s]; l-part. [w vyučit :i l.m]; cf. Czech <em>vyučit</em>; emphasizes completeness of teaching</c></r>
+    <r><c>[w vyhnat]</c><c>to drive out, expel, chase away</c><c><code>*vygъnati</code></c><c>pf.; ви- prefix; suppletive present from <code>*goniti</code>: [w vyhnat :i 1s]/[w vyhnat :i 2s]/[w vyhnat :i 3s]; l-part. [w vyhnat :i l.m]; cf. Czech <em>vyhnat</em></c></r>
     <r><c>[w yzxodit]</c><c>to come out, emerge (from a space)</c><c>—</c><c>i-class impf.; из- prefix; directional (physical emergence); cf. [w vyxodit] which has broader figurative range</c></r>
     <r><c>[w lekar]</c><c>doctor</c><c>—</c><c>noun</c></r>
     <r><c>[st ритарӑ :t rytară]</c><c>knight, warrior</c><c>German</c><c>noun</c></r>

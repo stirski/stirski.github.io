@@ -6,23 +6,23 @@
       <p>Styrian nouns have only two productive numbers, singular and plural. The singular is the bare stem. The plural follows two patterns:</p>
       <list>
         <item>Consonant-final stems take -[st і :t i]: [w dom] &gt; [w dom :i pl] "houses", [w most] &gt; [w most :i pl] "bridges", [w les] &gt; [w les :i pl] "forests"</item>
-        <item>Regular stems ending in -[st а :t a] form the oblique singular in -[st е :t e] and the plural in -[st и :t y]: [w zema] &gt; [w zema :i obl.sg] "land" (obl.), [w zema] &gt; [w zema :i pl] "lands", [w knyha] &gt; [w knyha :i pl] "books"</item>
+        <item>Regular stems ending in -[st а :t a] form the oblique singular in -[st е :t e] and the plural in -[st и :t y]: [w zema] &gt; [w zema :i o.s] "land" (obl.), [w zema] &gt; [w zema :i pl] "lands", [w knyha] &gt; [w knyha :i pl] "books"</item>
       </list>
       <p>The consonant-final -[st і :t i] plural is the broad default, and the productive feminine -[st а :t a] class now uses plural -[st и :t y] while keeping oblique singular -[st е :t e]. A small inherited set of nouns additionally preserves fossilized velar mutation before front-vowel inflectional endings, but this is a lexically specified relic subclass rather than an automatic pattern for all velar-final stems; these nouns are treated in the next section.</p>
     </sub>
     <sub t="Fossilized Velar Mutation">
-      <p>A small inherited set of nouns preserves a fossilized morphophonological alternation before front-vowel inflection. In that closed subclass, stem-final velars mutate as <code>k &gt; c</code>, <code>x &gt; š</code>, and <code>g &gt; ž</code> before the inflectional exponents -[st е :t e] and -[st і :t i]. Synchronically this is no longer a productive sound change for new vocabulary, and speakers do not apply it automatically to every velar-final noun: compare mutating [w ruka] / [w ruka :i obl.sg] / [w ruka :i pl] with regular non-mutating [w knyha] / [w knyha :i obl.sg] / [w knyha :i pl]. The alternation therefore has to be specified lexically.</p>
+      <p>A small inherited set of nouns preserves a fossilized morphophonological alternation before front-vowel inflection. In that closed subclass, stem-final velars mutate as <code>k &gt; c</code>, <code>x &gt; š</code>, and <code>g &gt; ž</code> before the inflectional exponents -[st е :t e] and -[st і :t i]. Synchronically this is no longer a productive sound change for new vocabulary, and speakers do not apply it automatically to every velar-final noun: compare mutating [w ruka] / [w ruka :i o.s] / [w ruka :i pl] with regular non-mutating [w knyha] / [w knyha :i o.s] / [w knyha :i pl]. The alternation therefore has to be specified lexically.</p>
       <p>In consonant-final nouns the alternation normally appears only in the plural, because the oblique singular takes back-vowel -[st у :t u] and therefore does not trigger the mutation. In the feminine velar-mutation subclass, by contrast, the oblique singular has mutated -[st е :t e] and the plural has mutated -[st и :t y]; the stem mutation applies in both categories, but the suffixes now align with the wider feminine system.</p>
       <tb>
         <r><c>Class</c><c>Nominative sg</c><c>Oblique sg</c><c>Plural</c><c>Meaning</c></r>
-        <r><c>consonant-final</c><c>[w druh]</c><c>[w druh :i obl.sg]</c><c>[w druh :i pl]</c><c>other one</c></r>
-        <r><c>consonant-final</c><c>[w bog]</c><c>[w bog :i obl.sg]</c><c>[w bog :i pl]</c><c>God; god</c></r>
-        <r><c>consonant-final</c><c>[w sneh]</c><c>[w sneh :i obl.sg]</c><c>[w sneh :i pl]</c><c>snow</c></r>
-        <r><c>-[st а :t a] class</c><c>[w ruka]</c><c>[w ruka :i obl.sg]</c><c>[w ruka :i pl]</c><c>hand</c></r>
-        <r><c>-[st а :t a] class</c><c>[w noha]</c><c>[w noha :i obl.sg]</c><c>[w noha :i pl]</c><c>foot, leg</c></r>
-        <r><c>-[st а :t a] class</c><c>[w sluha]</c><c>[w sluha :i obl.sg]</c><c>[w sluha :i pl]</c><c>servant</c></r>
-        <r><c>-[st а :t a] class</c><c>[w muha]</c><c>[w muha :i obl.sg]</c><c>[w muha :i pl]</c><c>fly (insect)</c></r>
-        <r><c>-[st а :t a] class</c><c>[w doroha]</c><c>[w doroha :i obl.sg]</c><c>[w doroha :i pl]</c><c>road</c></r>
+        <r><c>consonant-final</c><c>[w druh]</c><c>[w druh :i o.s]</c><c>[w druh :i pl]</c><c>other one</c></r>
+        <r><c>consonant-final</c><c>[w bog]</c><c>[w bog :i o.s]</c><c>[w bog :i pl]</c><c>God; god</c></r>
+        <r><c>consonant-final</c><c>[w sneh]</c><c>[w sneh :i o.s]</c><c>[w sneh :i pl]</c><c>snow</c></r>
+        <r><c>-[st а :t a] class</c><c>[w ruka]</c><c>[w ruka :i o.s]</c><c>[w ruka :i pl]</c><c>hand</c></r>
+        <r><c>-[st а :t a] class</c><c>[w noha]</c><c>[w noha :i o.s]</c><c>[w noha :i pl]</c><c>foot, leg</c></r>
+        <r><c>-[st а :t a] class</c><c>[w sluha]</c><c>[w sluha :i o.s]</c><c>[w sluha :i pl]</c><c>servant</c></r>
+        <r><c>-[st а :t a] class</c><c>[w muha]</c><c>[w muha :i o.s]</c><c>[w muha :i pl]</c><c>fly (insect)</c></r>
+        <r><c>-[st а :t a] class</c><c>[w doroha]</c><c>[w doroha :i o.s]</c><c>[w doroha :i pl]</c><c>road</c></r>
       </tb>
       <p>New loans and coinages normally take the ordinary productive inflection — plural -[st и :t y] in the regular feminine class, -[st і :t i] in consonant-final nouns — without velar mutation.</p>
     </sub>
@@ -30,33 +30,33 @@
       <p>A separate small set of high-frequency nouns preserve inherited suppletive or genuinely irregular plurals. Their behavior is lexical rather than part of the fossilized velar-mutation pattern above; the oblique singular is formed regularly from the nominative stem unless otherwise noted.</p>
       <tb>
         <r><c>Nominative sg</c><c>Oblique sg</c><c>Plural</c><c>Meaning</c><c>Note</c></r>
-        <r><c>[w čelovek]</c><c>[w čelovek :i obl.sg]</c><c>[w čelovek :i pl]</c><c>person</c><c>suppletive plural from <code>*ljud[st ь]je</code></c></r>
-        <r><c>[w den]</c><c>[w den :i obl.sg]</c><c>[w den :i pl]</c><c>day</c><c>old consonant-stem reflex</c></r>
-        <r><c>[w oko]</c><c>[w oko :i obl.sg]</c><c>[w oko :i pl]</c><c>eye</c><c>old consonant-stem with inherited palatal plural</c></r>
-        <r><c>[w uho]</c><c>[w uho :i obl.sg]</c><c>[w uho :i pl]</c><c>ear</c><c>old consonant-stem with palatalization</c></r>
-        <r><c>[w dete]</c><c>[w dete :i obl.sg]</c><c>[w dete :i pl]</c><c>child, children</c><c>collective plural reanalyzed as pl.; old /ts/ &gt; [st ст :t st]</c></r>
+        <r><c>[w čelovek]</c><c>[w čelovek :i o.s]</c><c>[w čelovek :i pl]</c><c>person</c><c>suppletive plural from <code>*ljud[st ь]je</code></c></r>
+        <r><c>[w den]</c><c>[w den :i o.s]</c><c>[w den :i pl]</c><c>day</c><c>old consonant-stem reflex</c></r>
+        <r><c>[w oko]</c><c>[w oko :i o.s]</c><c>[w oko :i pl]</c><c>eye</c><c>old consonant-stem with inherited palatal plural</c></r>
+        <r><c>[w uho]</c><c>[w uho :i o.s]</c><c>[w uho :i pl]</c><c>ear</c><c>old consonant-stem with palatalization</c></r>
+        <r><c>[w dete]</c><c>[w dete :i o.s]</c><c>[w dete :i pl]</c><c>child, children</c><c>collective plural reanalyzed as pl.; old /ts/ &gt; [st ст :t st]</c></r>
       </tb>
     </sub>
     <sub t="Case: Nominative and Oblique">
       <p>Styrian singular nouns distinguish two cases: <em>nominative</em> and <em>oblique</em>. The nominative is the citation form and is used for subjects and predicate nominals. The oblique is the dependent form and is used for direct objects and as the complement of all prepositions. Plural nouns show complete case syncretism and have a single form regardless of syntactic function. Adjectives and other adnominals — including articles, demonstratives, and possessives — agree with the noun in gender, number, and case. In the plural the oblique form is identical to the nominative, so only the singular has a visible case distinction (see §Articles and §Adjectives). In ordinary prepositional phrases the article is usually omitted, but when retained it carries the oblique form.</p>
       <p><em>Nominative — subject and predicate nominal:</em></p>
       <list>
-        <item>[w ta] [w čelovek] [w vydit :i 3sg] [w ta :i m.sg.obl] [w dom :i obl.sg] — [w ta] [w čelovek] is subject (nominative)</item>
-        <item>[w ta] [w dom] [w byt :i 3sg] [w starə :i m.sg] — [w ta] [w dom] is subject (nominative)</item>
-        <item>[w on] [w byt :i 3sg] [w lekar] — [w lekar] is predicate nominal (nominative)</item>
+        <item>[w ta] [w čelovek] [w vydit :i 3s] [w ta :i m.o.s] [w dom :i o.s] — [w ta] [w čelovek] is subject (nominative)</item>
+        <item>[w ta] [w dom] [w byt :i 3s] [w starə :i m.s] — [w ta] [w dom] is subject (nominative)</item>
+        <item>[w on] [w byt :i 3s] [w lekar] — [w lekar] is predicate nominal (nominative)</item>
       </list>
       <p><em>Oblique — direct object:</em></p>
       <list>
-        <item>[w ta] [w čelovek] [w vydit :i 3sg] [w ta :i m.sg.obl] [w dom :i obl.sg] — [w ta :i m.sg.obl] [w dom :i obl.sg] is direct object (oblique article + oblique noun)</item>
-        <item>[w az] [w kupit :i lptc.m] [w knyha :i obl.sg] — [w knyha :i obl.sg] is direct object (bare oblique noun, no article)</item>
+        <item>[w ta] [w čelovek] [w vydit :i 3s] [w ta :i m.o.s] [w dom :i o.s] — [w ta :i m.o.s] [w dom :i o.s] is direct object (oblique article + oblique noun)</item>
+        <item>[w az] [w kupit :i l.m] [w knyha :i o.s] — [w knyha :i o.s] is direct object (bare oblique noun, no article)</item>
       </list>
       <p><em>Oblique — complement of preposition:</em></p>
       <list>
-        <item>[w ve] [w dom :i obl.sg] "in the house" — neutral prepositional phrase; article omitted, bare oblique noun</item>
-        <item>[w na] [w reka :i obl.sg] "on the river" — [w reka :i obl.sg] governed by [w na]</item>
+        <item>[w ve] [w dom :i o.s] "in the house" — neutral prepositional phrase; article omitted, bare oblique noun</item>
+        <item>[w na] [w reka :i o.s] "on the river" — [w reka :i o.s] governed by [w na]</item>
         <item>[w knyha] [w od] [st Марие :t Marye] "Maria's book" — [st Марие :t Marye] governed by [w od]</item>
-        <item>[w so] [w čelovek :i obl.sg] "with the person" — [w čelovek :i obl.sg] governed by [w so]</item>
-        <item>[w ve] [w ta :i m.sg.obl] [w hrad :i obl.sg] "in that particular town" — marked: oblique article retained for deixis or contrast</item>
+        <item>[w so] [w čelovek :i o.s] "with the person" — [w čelovek :i o.s] governed by [w so]</item>
+        <item>[w ve] [w ta :i m.o.s] [w hrad :i o.s] "in that particular town" — marked: oblique article retained for deixis or contrast</item>
       </list>
       <p>The only residual frozen forms are a small number of adverbs descended from older case endings: [st дома :t doma] "at home" (old locative of [w dom]), [st ноште :t nošte] "at night" (old locative of [st ноштӑ :t noštă] "night"), and similar.</p>
     </sub>
@@ -65,26 +65,26 @@
       <p>Styrian nouns fall into three productive declension classes defined by the nominative singular ending, plus a small inherited set of velar-final stems with fossilized front-vowel mutation and two residual sets with genuinely irregular plurals. The oblique singular is formed by a suffix added to the stem after dropping any final schwa; the plural follows the patterns given in §Number.</p>
       <tb>
         <r><c>Class</c><c>Nominative sg</c><c>Oblique sg</c><c>Plural</c><c>Examples</c></r>
-        <r><c>Common consonant-final</c><c>stem + [st ӑ :t ă]</c><c>stem + [st у :t u]</c><c>stem + [st і :t i]</c><c>[w dom] / [w dom :i obl.sg] / [w dom :i pl]</c></r>
-        <r><c>Inherited velar-mutation consonant-final</c><c>main stem + [st ӑ :t ă]</c><c>main stem + [st у :t u]</c><c>front stem + [st і :t i]</c><c>[w druh] / [w druh :i obl.sg] / [w druh :i pl]</c></r>
-        <r><c>Common -[st а :t a]</c><c>stem + [st а :t a]</c><c>stem + [st е :t e]</c><c>stem + [st и :t y]</c><c>[w reka] / [w reka :i obl.sg] / [w reka :i pl]</c></r>
-        <r><c>Inherited velar-mutation -[st а :t a]</c><c>main stem + [st а :t a]</c><c>front stem + [st е :t e]</c><c>front stem + [st и :t y]</c><c>[w ruka] / [w ruka :i obl.sg] / [w ruka :i pl]</c></r>
-        <r><c>Neuter -[st о :t o]/-[st е :t e]</c><c>stem + [st о :t o] or [st е :t e]</c><c>stem + [st у :t u]</c><c>stem + [st а :t a]</c><c>[w selo] / [w selo :i obl.sg] / [w selo :i pl]</c></r>
+        <r><c>Common consonant-final</c><c>stem + [st ӑ :t ă]</c><c>stem + [st у :t u]</c><c>stem + [st і :t i]</c><c>[w dom] / [w dom :i o.s] / [w dom :i pl]</c></r>
+        <r><c>Inherited velar-mutation consonant-final</c><c>main stem + [st ӑ :t ă]</c><c>main stem + [st у :t u]</c><c>front stem + [st і :t i]</c><c>[w druh] / [w druh :i o.s] / [w druh :i pl]</c></r>
+        <r><c>Common -[st а :t a]</c><c>stem + [st а :t a]</c><c>stem + [st е :t e]</c><c>stem + [st и :t y]</c><c>[w reka] / [w reka :i o.s] / [w reka :i pl]</c></r>
+        <r><c>Inherited velar-mutation -[st а :t a]</c><c>main stem + [st а :t a]</c><c>front stem + [st е :t e]</c><c>front stem + [st и :t y]</c><c>[w ruka] / [w ruka :i o.s] / [w ruka :i pl]</c></r>
+        <r><c>Neuter -[st о :t o]/-[st е :t e]</c><c>stem + [st о :t o] or [st е :t e]</c><c>stem + [st у :t u]</c><c>stem + [st а :t a]</c><c>[w selo] / [w selo :i o.s] / [w selo :i pl]</c></r>
       </tb>
       <p>Additional examples of each productive class:</p>
       <tb>
         <r><c>Nominative sg</c><c>Oblique sg</c><c>Plural</c><c>Meaning</c></r>
-        <r><c>[w most]</c><c>[w most :i obl.sg]</c><c>[w most :i pl]</c><c>bridge</c></r>
-        <r><c>[w hrad]</c><c>[w hrad :i obl.sg]</c><c>[w hrad :i pl]</c><c>town</c></r>
-        <r><c>[w čelovek]</c><c>[w čelovek :i obl.sg]</c><c>[w čelovek :i pl]</c><c>person (irregular pl.)</c></r>
-        <r><c>[w knyha]</c><c>[w knyha :i obl.sg]</c><c>[w knyha :i pl]</c><c>book</c></r>
-        <r><c>[w druh]</c><c>[w druh :i obl.sg]</c><c>[w druh :i pl]</c><c>other one (fossilized velar mutation)</c></r>
-        <r><c>[w ruka]</c><c>[w ruka :i obl.sg]</c><c>[w ruka :i pl]</c><c>hand (fossilized velar mutation)</c></r>
-        <r><c>[w žena]</c><c>[w žena :i obl.sg]</c><c>[w žena :i pl]</c><c>woman</c></r>
-        <r><c>[w slovo]</c><c>[w slovo :i obl.sg]</c><c>[w slovo :i pl]</c><c>word</c></r>
-        <r><c>[w more]</c><c>[w more :i obl.sg]</c><c>[w more :i pl]</c><c>sea</c></r>
+        <r><c>[w most]</c><c>[w most :i o.s]</c><c>[w most :i pl]</c><c>bridge</c></r>
+        <r><c>[w hrad]</c><c>[w hrad :i o.s]</c><c>[w hrad :i pl]</c><c>town</c></r>
+        <r><c>[w čelovek]</c><c>[w čelovek :i o.s]</c><c>[w čelovek :i pl]</c><c>person (irregular pl.)</c></r>
+        <r><c>[w knyha]</c><c>[w knyha :i o.s]</c><c>[w knyha :i pl]</c><c>book</c></r>
+        <r><c>[w druh]</c><c>[w druh :i o.s]</c><c>[w druh :i pl]</c><c>other one (fossilized velar mutation)</c></r>
+        <r><c>[w ruka]</c><c>[w ruka :i o.s]</c><c>[w ruka :i pl]</c><c>hand (fossilized velar mutation)</c></r>
+        <r><c>[w žena]</c><c>[w žena :i o.s]</c><c>[w žena :i pl]</c><c>woman</c></r>
+        <r><c>[w slovo]</c><c>[w slovo :i o.s]</c><c>[w slovo :i pl]</c><c>word</c></r>
+        <r><c>[w more]</c><c>[w more :i o.s]</c><c>[w more :i pl]</c><c>sea</c></r>
       </tb>
-      <p>In the productive feminine -[st а :t a] class, oblique singular and plural are now formally distinct ([w reka :i obl.sg] vs. [w reka :i pl], [w knyha :i obl.sg] vs. [w knyha :i pl]). The fossilized velar-mutation subclass is likewise distinct in suffix but still preserves the mutated stem in both categories ([w ruka :i obl.sg] vs. [w ruka :i pl]). Crucially, subclass membership is lexical: a velar-final noun such as [w knyha] remains regular unless it belongs to this inherited set. In consonant-final nouns, only the plural usually shows the mutation because the oblique singular ends in back-vowel -[st у :t u].</p>
+      <p>In the productive feminine -[st а :t a] class, oblique singular and plural are now formally distinct ([w reka :i o.s] vs. [w reka :i pl], [w knyha :i o.s] vs. [w knyha :i pl]). The fossilized velar-mutation subclass is likewise distinct in suffix but still preserves the mutated stem in both categories ([w ruka :i o.s] vs. [w ruka :i pl]). Crucially, subclass membership is lexical: a velar-final noun such as [w knyha] remains regular unless it belongs to this inherited set. In consonant-final nouns, only the plural usually shows the mutation because the oblique singular ends in back-vowel -[st у :t u].</p>
       <p>Recent loanwords and proper nouns that end in an unexpected consonant cluster or vowel may remain indeclinable in informal use, taking no oblique suffix. In the standard language, however, adaptable loans are assigned to the consonant-final class.</p>
     </sub>
   </sec>
@@ -188,35 +188,35 @@
     <tb>
       <r><c></c><c>Masc. sg</c><c>Fem. sg</c><c>Neut. sg</c><c>Plural</c></r>
       <r><c>Nominative</c><c>[w ta]</c><c>[w taf]</c><c>[w to]</c><c>[w ti]</c></r>
-      <r><c>Oblique</c><c>[w ta :i m.sg.obl]</c><c>[w taf :i f.sg.obl]</c><c>[w to :i n.sg.obl]</c><c>[w ti]</c></r>
+      <r><c>Oblique</c><c>[w ta :i m.o.s]</c><c>[w taf :i f.o.s]</c><c>[w to :i n.o.s]</c><c>[w ti]</c></r>
     </tb>
     <p>These articles are the unstressed clitic reflexes of the old distal demonstrative paradigm <code>*t[st ъ] / *ta / *to / *ti</code> (see §Diachronic Development, Period III). They are proclitics and precede the noun phrase. The nominative forms are used when the noun phrase functions as subject or predicate nominal; the oblique forms are used when the noun phrase functions as direct object or as the complement of a preposition.</p>
     <p>Examples — nominative (subject and predicate nominal):</p>
     <list>
-      <item>[w ta] [w dom] [w byt :i 3sg] [w holemə :i m.sg] "the house is big" — masculine sg nom</item>
-      <item>[w taf] [w knyha] [w byt :i 3sg] [w novə :i f.sg] "the book is new" — feminine sg nom</item>
-      <item>[w to] [w slovo] [w byt :i 3sg] [w dobrə :i n.sg] "the word is good" — neuter sg nom</item>
-      <item>[w ti] [w dom :i pl] [w byt :i 3pl] [w starə :i pl] "the houses are old" — plural nom</item>
+      <item>[w ta] [w dom] [w byt :i 3s] [w holemə :i m.s] "the house is big" — masculine sg nom</item>
+      <item>[w taf] [w knyha] [w byt :i 3s] [w novə :i f.s] "the book is new" — feminine sg nom</item>
+      <item>[w to] [w slovo] [w byt :i 3s] [w dobrə :i n.s] "the word is good" — neuter sg nom</item>
+      <item>[w ti] [w dom :i pl] [w byt :i 3p] [w starə :i pl] "the houses are old" — plural nom</item>
     </list>
     <p>Examples — oblique (direct object and complement of preposition):</p>
     <list>
-      <item>[w az] [w vydit :i 1sg] [w ta :i m.sg.obl] [w dom :i obl.sg] "I see the house" — masculine sg obl</item>
-      <item>[w az] [w kupit :i lptc.m] [w taf :i f.sg.obl] [w knyha :i obl.sg] "I bought the book" — feminine sg obl</item>
-      <item>[w on] [w ymat :i 3sg] [w to :i n.sg.obl] [w slovo :i obl.sg] "he has the word" — neuter sg obl</item>
-      <item>[w az] [w vydit :i 1sg] [w ti] [w dom :i pl] "I see the houses" — plural (obl = nom)</item>
+      <item>[w az] [w vydit :i 1s] [w ta :i m.o.s] [w dom :i o.s] "I see the house" — masculine sg obl</item>
+      <item>[w az] [w kupit :i l.m] [w taf :i f.o.s] [w knyha :i o.s] "I bought the book" — feminine sg obl</item>
+      <item>[w on] [w ymat :i 3s] [w to :i n.o.s] [w slovo :i o.s] "he has the word" — neuter sg obl</item>
+      <item>[w az] [w vydit :i 1s] [w ti] [w dom :i pl] "I see the houses" — plural (obl = nom)</item>
     </list>
     <p>Inside prepositional phrases, however, the article is normally <em>omitted</em>. A bare oblique or plural noun after the preposition is the neutral pattern even when the referent is definite or already identifiable from context:</p>
     <list>
-      <item>[w ve] [w hrad :i obl.sg] "in town / in the town"</item>
-      <item>[w ve] [w dom :i obl.sg] "in the house"</item>
-      <item>[w so] [w čelovek :i obl.sg] "with the person"</item>
+      <item>[w ve] [w hrad :i o.s] "in town / in the town"</item>
+      <item>[w ve] [w dom :i o.s] "in the house"</item>
+      <item>[w so] [w čelovek :i o.s] "with the person"</item>
     </list>
-    <p>Retaining the article after a preposition is therefore marked. When retained, the oblique article form is used: compare neutral [w ve] [w hrad :i obl.sg] with marked [w ve] [w ta :i m.sg.obl] [w hrad :i obl.sg] "in that particular town / in the town there". In strongly deictic contexts the full demonstratives [w sej :i m.sg] / [w toj :i m.sg] are often preferred, and these also take the oblique form when governed by a preposition.</p>
+    <p>Retaining the article after a preposition is therefore marked. When retained, the oblique article form is used: compare neutral [w ve] [w hrad :i o.s] with marked [w ve] [w ta :i m.o.s] [w hrad :i o.s] "in that particular town / in the town there". In strongly deictic contexts the full demonstratives [w sej :i m.s] / [w toj :i m.s] are often preferred, and these also take the oblique form when governed by a preposition.</p>
     <p>There is no indefinite article. In subject and direct-object position, bare nouns are typically indefinite or generic; in prepositional phrases the same bare form is also the normal definite pattern:</p>
     <list>
-      <item>[w dom] [w byt :i 3sg] [w holemə :i m.sg] "a house is large / houses are large" (generic)</item>
-      <item>[w on] [w kupit :i lptc.m] [w dom :i obl.sg] "he bought a house" (bare noun, indefinite reading)</item>
-      <item>[w my] [st билі :t byli] [w ve] [w hrad :i obl.sg] "we were in the town / in town" (prepositional phrase, article omitted by default)</item>
+      <item>[w dom] [w byt :i 3s] [w holemə :i m.s] "a house is large / houses are large" (generic)</item>
+      <item>[w on] [w kupit :i l.m] [w dom :i o.s] "he bought a house" (bare noun, indefinite reading)</item>
+      <item>[w my] [st билі :t byli] [w ve] [w hrad :i o.s] "we were in the town / in town" (prepositional phrase, article omitted by default)</item>
     </list>
     <p>The numeral [w edyn] "one" can mark an explicitly indefinite singular, especially for specific referents:</p>
     <list>
@@ -224,12 +224,12 @@
     </list>
     <p>With possessives, Styrian normally <em>keeps the article</em>, much as in Italian or Greek. The article agrees with the gender and case of the noun:</p>
     <list>
-      <item>[w taf] [w moj :i f.sg] [w knyha] "my book" (nom)</item>
-      <item>[w ta] [w tuoj :i m.sg] [w dom] "your house" (nom)</item>
-      <item>[w to] [w moj :i n.sg] [w vyno] "my wine" (nom)</item>
+      <item>[w taf] [w moj :i f.s] [w knyha] "my book" (nom)</item>
+      <item>[w ta] [w tuoj :i m.s] [w dom] "your house" (nom)</item>
+      <item>[w to] [w moj :i n.s] [w vyno] "my wine" (nom)</item>
       <item>[w ti] [w naš :i pl] [w dom :i pl] "our houses" (nom/obl pl)</item>
-      <item>[w ta :i m.sg.obl] [w moj :i m.sg.obl] [w dom :i obl.sg] "my house" (obl, e.g. as direct object)</item>
-      <item>[w taf :i f.sg.obl] [w tuoj :i f.sg.obl] [w knyha :i obl.sg] "your book" (obl)</item>
+      <item>[w ta :i m.o.s] [w moj :i m.o.s] [w dom :i o.s] "my house" (obl, e.g. as direct object)</item>
+      <item>[w taf :i f.o.s] [w tuoj :i f.o.s] [w knyha :i o.s] "your book" (obl)</item>
     </list>
     <p>This article + possessive pattern is the normal definite possessive construction. Both the article and the possessive carry the case ending that matches the noun's syntactic function.</p>
   </sec>
@@ -238,37 +238,37 @@
     <p>The demonstrative system is distinct from the article system, though historically related to it. Modern demonstratives are stressed and inflect for gender, number, and case, exactly paralleling the article paradigm.</p>
     <tb>
       <r><c></c><c></c><c>Masculine sg</c><c>Feminine sg</c><c>Neuter sg</c><c>Plural</c></r>
-      <r><c>Proximal</c><c>Nominative</c><c>[w sej :i m.sg]</c><c>[w sej :i f.sg]</c><c>[w sej :i n.sg]</c><c>[w sej :i pl]</c></r>
-      <r><c></c><c>Oblique</c><c>[w sej :i m.sg.obl]</c><c>[w sej :i f.sg.obl]</c><c>[w sej :i n.sg.obl]</c><c>[w sej :i pl]</c></r>
-      <r><c>Distal</c><c>Nominative</c><c>[w toj :i m.sg]</c><c>[w toj :i f.sg]</c><c>[w toj :i n.sg]</c><c>[w toj :i pl]</c></r>
-      <r><c></c><c>Oblique</c><c>[w toj :i m.sg.obl]</c><c>[w toj :i f.sg.obl]</c><c>[w toj :i n.sg.obl]</c><c>[w toj :i pl]</c></r>
+      <r><c>Proximal</c><c>Nominative</c><c>[w sej :i m.s]</c><c>[w sej :i f.s]</c><c>[w sej :i n.s]</c><c>[w sej :i pl]</c></r>
+      <r><c></c><c>Oblique</c><c>[w sej :i m.o.s]</c><c>[w sej :i f.o.s]</c><c>[w sej :i n.o.s]</c><c>[w sej :i pl]</c></r>
+      <r><c>Distal</c><c>Nominative</c><c>[w toj :i m.s]</c><c>[w toj :i f.s]</c><c>[w toj :i n.s]</c><c>[w toj :i pl]</c></r>
+      <r><c></c><c>Oblique</c><c>[w toj :i m.o.s]</c><c>[w toj :i f.o.s]</c><c>[w toj :i n.o.s]</c><c>[w toj :i pl]</c></r>
     </tb>
-    <p>[w sej :i m.sg :c] derives from the stressed form of the old proximal demonstrative, while [w toj :i m.sg :c] continues the old distal demonstrative with the reinforcing glide. The reduced articles descend from the same paradigm but now function as separate proclitics. Their plural spellings [st сеї :t seji] and [st тої :t toji] illustrate the general orthographic rule that post-vocalic [st йі :t ji] is written [st ї :t ji]. Demonstratives take the oblique form whenever the noun phrase they head functions as a direct object or the complement of a preposition.</p>
+    <p>[w sej :i m.s :c] derives from the stressed form of the old proximal demonstrative, while [w toj :i m.s :c] continues the old distal demonstrative with the reinforcing glide. The reduced articles descend from the same paradigm but now function as separate proclitics. Their plural spellings [st сеї :t seji] and [st тої :t toji] illustrate the general orthographic rule that post-vocalic [st йі :t ji] is written [st ї :t ji]. Demonstratives take the oblique form whenever the noun phrase they head functions as a direct object or the complement of a preposition.</p>
     <p>Demonstratives can function as:</p>
     <list type="ordered">
       <item><em>Determiners</em> (before a noun, in place of the article):</item>
     </list>
     <list>
-      <item>[w sej :i m.sg] [w dom] [w byt :i 3sg] [w starə :i m.sg] "this house is old" (nom)</item>
-      <item>[w toj :i pl] [w knyha :i pl] [w byt :i 3pl] [w dobrə :i pl] "those books are good" (pl nom)</item>
-      <item>[w az] [w vydit :i 1sg] [w sej :i m.sg.obl] [w dom :i obl.sg] "I see this house" (obl)</item>
-      <item>[w on] [w kupit :i lptc.m] [w toj :i f.sg.obl] [w knyha :i obl.sg] "he bought that book" (obl)</item>
+      <item>[w sej :i m.s] [w dom] [w byt :i 3s] [w starə :i m.s] "this house is old" (nom)</item>
+      <item>[w toj :i pl] [w knyha :i pl] [w byt :i 3p] [w dobrə :i pl] "those books are good" (pl nom)</item>
+      <item>[w az] [w vydit :i 1s] [w sej :i m.o.s] [w dom :i o.s] "I see this house" (obl)</item>
+      <item>[w on] [w kupit :i l.m] [w toj :i f.o.s] [w knyha :i o.s] "he bought that book" (obl)</item>
     </list>
     <list type="ordered">
       <item><em>Pronouns</em> (standing alone, with an understood noun):</item>
     </list>
     <list>
-      <item>[w sej :i m.sg] [w byt :i 3sg] [w moj :i m.sg] "this (one) is mine"</item>
-      <item>[w az] [w vydit :i 1sg] [w sej :i m.sg.obl] "I see this (one)" (m.sg obl)</item>
-      <item>[w az] [w vydit :i 1sg] [w toj :i f.sg.obl] "I see that (one)" (f.sg obl)</item>
-      <item>[w toj :i n.sg] [w ne] [st знам :t znam] "that I do not know"</item>
+      <item>[w sej :i m.s] [w byt :i 3s] [w moj :i m.s] "this (one) is mine"</item>
+      <item>[w az] [w vydit :i 1s] [w sej :i m.o.s] "I see this (one)" (m.sg obl)</item>
+      <item>[w az] [w vydit :i 1s] [w toj :i f.o.s] "I see that (one)" (f.sg obl)</item>
+      <item>[w toj :i n.s] [w ne] [st знам :t znam] "that I do not know"</item>
     </list>
     <p>In this pronominal use, the demonstrative itself heads the noun phrase and the noun is simply left unspoken because it is recoverable from context. Case works exactly as in determiner use: nominative for subjects and predicate nominals, oblique for direct objects and after prepositions.</p>
-    <p>When used as a determiner, the demonstrative replaces the article. You do not say *[w ta] [w sej :i m.sg] [w dom]; you say simply [w sej :i m.sg] [w dom].</p>
+    <p>When used as a determiner, the demonstrative replaces the article. You do not say *[w ta] [w sej :i m.s] [w dom]; you say simply [w sej :i m.s] [w dom].</p>
     <p>Demonstratives can be reinforced with the particle [st ту :t tu] "here" or [st там :t tam] "there":</p>
     <list>
-      <item>[w sej :i m.sg] [st ту :t tu] "this one right here"</item>
-      <item>[w toj :i m.sg] [st там :t tam] "that one over there"</item>
+      <item>[w sej :i m.s] [st ту :t tu] "this one right here"</item>
+      <item>[w toj :i m.s] [st там :t tam] "that one over there"</item>
     </list>
   </sec>
 
@@ -276,16 +276,16 @@
     <p>Pronouns mirror the nominative–oblique distinction found in nouns, but with suppletive and irregular stems inherited from an earlier fuller paradigm. Full pronouns have two forms: a <em>nominative</em> used as subject, and an <em>oblique</em> used as direct object, as the complement of prepositions, and in other dependent positions. Alongside the full forms, a separate series of reduced <em>dative clitics</em> expresses indirect-object (recipient and beneficiary) meaning; these are the only surviving clitics from the older paradigm.</p>
     <tb>
       <r><c>Person</c><c>Nominative</c><c>Oblique</c><c>Dative Clitic</c><c>Possessive</c></r>
-      <r><c>1sg</c><c>[w az]</c><c>[st мене :t mene]</c><c>[w my]</c><c>[w moj :i m.sg]</c></r>
-      <r><c>2sg</c><c>[w ty]</c><c>[w tebe]</c><c>[w ty]</c><c>[w tuoj :i m.sg]</c></r>
-      <r><c>3sg masc.</c><c>[w on]</c><c>[st него :t neho]</c><c>[w mu]</c><c>[w nehov :i m.sg]</c></r>
-      <r><c>3sg fem.</c><c>[w ona]</c><c>[st него :t neho]</c><c>[w mu]</c><c>[w nehov :i f.sg]</c></r>
-      <r><c>3sg neut.</c><c>[w ono]</c><c>[st него :t neho]</c><c>[w mu]</c><c>[w nehov :i n.sg]</c></r>
+      <r><c>1sg</c><c>[w az]</c><c>[st мене :t mene]</c><c>[w my]</c><c>[w moj :i m.s]</c></r>
+      <r><c>2sg</c><c>[w ty]</c><c>[w tebe]</c><c>[w ty]</c><c>[w tuoj :i m.s]</c></r>
+      <r><c>3sg masc.</c><c>[w on]</c><c>[st него :t neho]</c><c>[w mu]</c><c>[w nehov :i m.s]</c></r>
+      <r><c>3sg fem.</c><c>[w ona]</c><c>[st него :t neho]</c><c>[w mu]</c><c>[w nehov :i f.s]</c></r>
+      <r><c>3sg neut.</c><c>[w ono]</c><c>[st него :t neho]</c><c>[w mu]</c><c>[w nehov :i n.s]</c></r>
       <r><c>1pl</c><c>[w my]</c><c>[w nas]</c><c>[w nam]</c><c>[w naš :i pl]</c></r>
       <r><c>2pl</c><c>[w vy]</c><c>[w vas]</c><c>[w vam]</c><c>[w vaš :i pl]</c></r>
       <r><c>3pl</c><c>[w ony]</c><c>[st них :t nyħ]</c><c>[w ym]</c><c>[w nyhov :i pl]</c></r>
     </tb>
-    <p>The oblique is used for direct objects ([w az] [w vydit :i 1sg] [st него :t neho] "I see him"), for prepositional complements ([w do] [st мене :t mene] "to me", [w so] [st нас :t nas] "with us"), and in [w od]-possession phrases ([w knyha] [w od] [st мене :t mene] "my book").</p>
+    <p>The oblique is used for direct objects ([w az] [w vydit :i 1s] [st него :t neho] "I see him"), for prepositional complements ([w do] [st мене :t mene] "to me", [w so] [st нас :t nas] "with us"), and in [w od]-possession phrases ([w knyha] [w od] [st мене :t mene] "my book").</p>
     <p>In addition to the full oblique forms, reduced short accusative clitics survive for direct-object pronoun use: [w me] (1sg), [w te] (2sg), [w go] (3sg), [w ykh] (3pl). These are enclitic and occupy the same second-position clitic slot as the dative clitics: they follow the first stressed constituent of the clause, which in an unmarked declarative is usually the subject. The full oblique forms are preferred after prepositions and in focused or contrastive contexts.</p>
     <p>The modern standard restores a true three-way nominative contrast in the third singular: [w on] masculine, [w ona] feminine, and [w ono] neuter. Outside the nominative, the paradigm stays heavily leveled: the oblique and dative clitic remain shared across the three singular genders, while possessives carry the fuller agreement load inside the noun phrase.</p>
     <p>Note that the 1pl nominative [w my] is homophonous with the 1sg dative clitic [w my]. In practice these are disambiguated by clause structure: the nominative pronoun occupies the subject slot, while the dative clitic occupies the second-position clitic slot after XP₁, surfacing after the subject in neutral clauses but after a fronted constituent when one is present (see §Object Pronoun Placement).</p>
@@ -302,10 +302,10 @@
       <p>The inherited form [st всякӑ :t vsyakă] is retained chiefly as a prenominal determiner meaning "each, every," especially before singular count nouns: [st всякӑ :t vsyakă] [w den] "every day", [st всякӑ :t vsyakă] [w čelovek] "each person". For free-standing universal reference, however, the grammar recommends the transparent [st все :t vse]-series: [st всекой :t vsekoj] "everyone", [st всече :t vseče] "everything", [st всекӑде :t vsekăde] "everywhere".</p>
       <p>Reduced colloquial variants without initial [st в :t v] are also heard in speech, especially [st секога :t sekoha] beside [st всекога :t vsekoha]. The recommended written standard nevertheless keeps the transparent [st все :t vse]- forms, while reserving [st всякӑ :t vsyakă] for its inherited determiner use.</p>
       <list>
-        <item>[st всякӑ :t vsyakă] [w den] [w az] [w pysat :i 1sg] "I write every day"</item>
-        <item>[st всекой :t vsekoj] [w ymat :i 3sg] [st нече :t neče] "everyone has something"</item>
-        <item>[st никой :t nykoj] [w ne] [w vydit :i 3sg] [w niče] "nobody saw anything"</item>
-        <item>[w ony] [w byt :i 3pl] [st билі :t byli] [st всекӑде :t vsekăde] "they have been everywhere"</item>
+        <item>[st всякӑ :t vsyakă] [w den] [w az] [w pysat :i 1s] "I write every day"</item>
+        <item>[st всекой :t vsekoj] [w ymat :i 3s] [st нече :t neče] "everyone has something"</item>
+        <item>[st никой :t nykoj] [w ne] [w vydit :i 3s] [w niče] "nobody saw anything"</item>
+        <item>[w ony] [w byt :i 3p] [st билі :t byli] [st всекӑде :t vsekăde] "they have been everywhere"</item>
         <item>[w on] [st одговара :t odhovara] [st некако :t nekako] "he answers somehow"</item>
       </list>
     </sub>
@@ -316,20 +316,20 @@
         <r><c>[w se]</c><c>reflexive direct object (invariant)</c></r>
         <r><c>[st себе :t sebe]</c><c>full reflexive oblique (stressed)</c></r>
         <r><c>[st си :t sy]</c><c>reflexive indirect object (dative clitic)</c></r>
-        <r><c>[w suoj :i m.sg] / [w suoj :i f.sg] / [w suoj :i n.sg] / [w suoj :i pl]</c><c>reflexive possessive (one's own), agreeing with the possessed noun</c></r>
+        <r><c>[w suoj :i m.s] / [w suoj :i f.s] / [w suoj :i n.s] / [w suoj :i pl]</c><c>reflexive possessive (one's own), agreeing with the possessed noun</c></r>
       </tb>
       <p>Examples:</p>
       <list>
-        <item>[w on] [w se] [w myit :i 3sg] "he washes himself"</item>
-        <item>[w az] [w kupit :i lptc.m] [st себе :t sebe] [w knyha :i obl.sg] "I bought myself a book"</item>
-        <item>[w az] [w byt :i 1sg] [st си :t sy] [w kupit :i lptc.m] [w knyha :i obl.sg] "I bought myself a book" (clitic after auxiliary)</item>
-        <item>[w ta] [w suoj :i m.sg] [w dom] "one's own house" (reflexive possessive)</item>
+        <item>[w on] [w se] [w myit :i 3s] "he washes himself"</item>
+        <item>[w az] [w kupit :i l.m] [st себе :t sebe] [w knyha :i o.s] "I bought myself a book"</item>
+        <item>[w az] [w byt :i 1s] [st си :t sy] [w kupit :i l.m] [w knyha :i o.s] "I bought myself a book" (clitic after auxiliary)</item>
+        <item>[w ta] [w suoj :i m.s] [w dom] "one's own house" (reflexive possessive)</item>
       </list>
       <p>Possessive forms function as agreeing determiners. They follow the same agreement pattern as adjectives — masculine singular, feminine singular, neuter singular, and plural, each with nominative and oblique in the singular — and the article likewise agrees in case. In ordinary definite noun phrases they normally appear with the article:</p>
       <list>
-        <item>[w ta] [w moj :i m.sg] [w dom] "my house"</item>
-        <item>[w taf] [w tuoj :i f.sg] [w knyha] "your book"</item>
-        <item>[w to] [w nehov :i n.sg] [w slovo] "his word"</item>
+        <item>[w ta] [w moj :i m.s] [w dom] "my house"</item>
+        <item>[w taf] [w tuoj :i f.s] [w knyha] "your book"</item>
+        <item>[w to] [w nehov :i n.s] [w slovo] "his word"</item>
         <item>[w ti] [w nyhov :i pl] [w dom :i pl] "their houses"</item>
       </list>
       <p>An analytic possessive with [w od] is also available for emphasis, contrast, or use with fuller noun phrases. The pronoun following [w od] takes the oblique form:</p>
@@ -342,44 +342,44 @@
   </sec>
 
   <sec t="Adjectives">
-    <p>Modern Styrian adjectives agree with the noun in gender, number, and case. The paradigm has two rows — nominative and oblique — within each singular gender slot, while the plural has a single form for both cases. The productive hard-stem endings are shown below using [w dobrə :i m.sg] "good" and [w starə :i m.sg] "old" as models.</p>
+    <p>Modern Styrian adjectives agree with the noun in gender, number, and case. The paradigm has two rows — nominative and oblique — within each singular gender slot, while the plural has a single form for both cases. The productive hard-stem endings are shown below using [w dobrə :i m.s] "good" and [w starə :i m.s] "old" as models.</p>
     <tb>
       <r><c></c><c>Masc. sg</c><c>Fem. sg</c><c>Neut. sg</c><c>Plural</c></r>
-      <r><c>Nominative</c><c>[w dobrə :i m.sg]</c><c>[w dobrə :i f.sg]</c><c>[w dobrə :i n.sg]</c><c>[w dobrə :i pl]</c></r>
-      <r><c>Oblique</c><c>[w dobrə :i m.sg.obl]</c><c>[w dobrə :i f.sg.obl]</c><c>[w dobrə :i n.sg.obl]</c><c>[w dobrə :i pl]</c></r>
+      <r><c>Nominative</c><c>[w dobrə :i m.s]</c><c>[w dobrə :i f.s]</c><c>[w dobrə :i n.s]</c><c>[w dobrə :i pl]</c></r>
+      <r><c>Oblique</c><c>[w dobrə :i m.o.s]</c><c>[w dobrə :i f.o.s]</c><c>[w dobrə :i n.o.s]</c><c>[w dobrə :i pl]</c></r>
     </tb>
     <tb>
       <r><c></c><c>Masc. sg</c><c>Fem. sg</c><c>Neut. sg</c><c>Plural</c></r>
-      <r><c>Nominative</c><c>[w starə :i m.sg]</c><c>[w starə :i f.sg]</c><c>[w starə :i n.sg]</c><c>[w starə :i pl]</c></r>
-      <r><c>Oblique</c><c>[w starə :i m.sg.obl]</c><c>[w starə :i f.sg.obl]</c><c>[w starə :i n.sg.obl]</c><c>[w starə :i pl]</c></r>
+      <r><c>Nominative</c><c>[w starə :i m.s]</c><c>[w starə :i f.s]</c><c>[w starə :i n.s]</c><c>[w starə :i pl]</c></r>
+      <r><c>Oblique</c><c>[w starə :i m.o.s]</c><c>[w starə :i f.o.s]</c><c>[w starə :i n.o.s]</c><c>[w starə :i pl]</c></r>
     </tb>
     <p>The hard-stem nominative endings are -[st ӑ :t ă] (m.sg), -[st а :t a] (f.sg), -[st о :t o] (n.sg), -[st и :t i] (pl). The oblique endings are -[st ом :t om] (m.sg), -[st е :t e] (f.sg), -[st ом :t om] (n.sg); the plural form serves as both nominative and oblique. Because masculine and neuter share the same oblique ending -[st ом :t om], a post-nominal adjective modifying a neuter noun in oblique position looks identical to one modifying a masculine noun in the same position; gender is recoverable from the noun itself and from the article.</p>
     <p>Examples — nominative (subject, predicate nominal):</p>
     <list>
-      <item>[w ta] [w dom] [w dobrə :i m.sg] "the good house" (m.sg nom)</item>
-      <item>[w taf] [w reka] [w holemə :i f.sg] "the big river" (f.sg nom)</item>
-      <item>[w to] [w selo] [w malə :i n.sg] "the small village" (n.sg nom)</item>
+      <item>[w ta] [w dom] [w dobrə :i m.s] "the good house" (m.sg nom)</item>
+      <item>[w taf] [w reka] [w holemə :i f.s] "the big river" (f.sg nom)</item>
+      <item>[w to] [w selo] [w malə :i n.s] "the small village" (n.sg nom)</item>
       <item>[w ti] [w dom :i pl] [w dobrə :i pl] "the good houses" (pl nom)</item>
     </list>
     <p>Examples — oblique (direct object, complement of preposition):</p>
     <list>
-      <item>[w az] [w vydit :i 1sg] [w ta :i m.sg.obl] [w dom :i obl.sg] [w starə :i m.sg.obl] "I see the old house" (m.sg obl)</item>
-      <item>[w on] [w kupit :i lptc.m] [w taf :i f.sg.obl] [w knyha :i obl.sg] [w novə :i f.sg.obl] "he bought the new book" (f.sg obl)</item>
-      <item>[w az] [w vydit :i 1sg] [w to :i n.sg.obl] [w slovo :i obl.sg] [w dobrə :i n.sg.obl] "I see the good word" (n.sg obl)</item>
-      <item>[w az] [w vydit :i 1sg] [w ti] [w dom :i pl] [w starə :i pl] "I see the old houses" (pl, obl = nom)</item>
+      <item>[w az] [w vydit :i 1s] [w ta :i m.o.s] [w dom :i o.s] [w starə :i m.o.s] "I see the old house" (m.sg obl)</item>
+      <item>[w on] [w kupit :i l.m] [w taf :i f.o.s] [w knyha :i o.s] [w novə :i f.o.s] "he bought the new book" (f.sg obl)</item>
+      <item>[w az] [w vydit :i 1s] [w to :i n.o.s] [w slovo :i o.s] [w dobrə :i n.o.s] "I see the good word" (n.sg obl)</item>
+      <item>[w az] [w vydit :i 1s] [w ti] [w dom :i pl] [w starə :i pl] "I see the old houses" (pl, obl = nom)</item>
     </list>
     <p>The default position is <em>after the noun</em> for descriptive and classifying adjectives:</p>
     <list>
-      <item>[w ta] [w hovor] [w styrsky :i m.sg] "the Styrian speech"</item>
-      <item>[w ta] [w most] [w starə :i m.sg] "the old bridge"</item>
-      <item>[w taf] [w knyha] [w novə :i f.sg] "the new book"</item>
-      <item>[w to] [w slovo] [w novə :i n.sg] "the new word"</item>
+      <item>[w ta] [w hovor] [w styrsky :i m.s] "the Styrian speech"</item>
+      <item>[w ta] [w most] [w starə :i m.s] "the old bridge"</item>
+      <item>[w taf] [w knyha] [w novə :i f.s] "the new book"</item>
+      <item>[w to] [w slovo] [w novə :i n.s] "the new word"</item>
       <item>[w ti] [w čelovek :i pl] [w bohatə :i pl] "the rich people"</item>
     </list>
     <p>A smaller set of common evaluative adjectives can also appear <em>before the noun</em>, with a more subjective or familiar reading, much as in Spanish prenominal placement. In prenominal position the adjective still agrees in case:</p>
     <list>
-      <item>[w ta] [w dobrə :i m.sg] [w čelovek] "the good/kind person" (nom)</item>
-      <item>[w az] [w vydit :i 1sg] [w ta :i m.sg.obl] [w dobrə :i m.sg.obl] [w čelovek :i obl.sg] "I see the good/kind person" (obl)</item>
+      <item>[w ta] [w dobrə :i m.s] [w čelovek] "the good/kind person" (nom)</item>
+      <item>[w az] [w vydit :i 1s] [w ta :i m.o.s] [w dobrə :i m.o.s] [w čelovek :i o.s] "I see the good/kind person" (obl)</item>
       <item>[w ve] [w starə :i pl] [w hrad :i pl] "in the old towns" (pl oblique = nominative form)</item>
       <item>[w ve] [w malə :i pl] [w selo :i pl] "in the small villages" (pl)</item>
     </list>
@@ -388,12 +388,12 @@
       <p>As in the other Slavic languages, a Styrian adjective may be used <em>substantively</em>, that is, as the head of a noun phrase without an overt noun. This use is not a separate inflectional class and does not involve derivational nominalization. The adjective simply appears without the noun when the referent is recoverable from context or is understood as a familiar social, personal, or abstract type.</p>
       <p>In substantive use, the adjective keeps the full agreement paradigm — masculine singular, feminine singular, neuter singular, and plural, each with nominative and oblique in the singular. These forms signal the gender, number, and case of the understood referent exactly as they do in ordinary attributive use. The article or demonstrative, when present, agrees in the same way:</p>
       <list>
-        <item>[w ta] [w bohatə :i m.sg] "the rich man; the rich one" (nom)</item>
-        <item>[w taf] [w mladə :i f.sg] "the young woman; the young one" (nom)</item>
-        <item>[w to] [w malə :i n.sg] "the small one; the little thing" (nom)</item>
+        <item>[w ta] [w bohatə :i m.s] "the rich man; the rich one" (nom)</item>
+        <item>[w taf] [w mladə :i f.s] "the young woman; the young one" (nom)</item>
+        <item>[w to] [w malə :i n.s] "the small one; the little thing" (nom)</item>
         <item>[w ti] [w starə :i pl] "the old people; the elders" (nom/obl pl)</item>
-        <item>[w az] [w vydit :i 1sg] [w ta :i m.sg.obl] [w bohatə :i m.sg.obl] "I see the rich one" (m.sg obl)</item>
-        <item>[w az] [w vydit :i 1sg] [w taf :i f.sg.obl] [w mladə :i f.sg.obl] "I see the young one" (f.sg obl)</item>
+        <item>[w az] [w vydit :i 1s] [w ta :i m.o.s] [w bohatə :i m.o.s] "I see the rich one" (m.sg obl)</item>
+        <item>[w az] [w vydit :i 1s] [w taf :i f.o.s] [w mladə :i f.o.s] "I see the young one" (f.sg obl)</item>
       </list>
       <p>This construction is especially common with human reference, where the omitted noun is understood as something like [w čelovek], [w žena], or [w dete] according to context. In the plural it readily denotes whole classes of persons: [w ti] [w bohatə :i pl] "the rich", [w ti] [w mladə :i pl] "the young". The neuter singular is the most natural form for non-personal or abstract reference, yielding meanings such as "the good", "what is good", or "the small one".</p>
       <p>Syntactically, a substantive adjective behaves like an ordinary noun phrase. It may stand as subject, object, or complement, may be introduced by the article or a demonstrative, and may occur after prepositions. Case morphology on the adjective signals the syntactic function of the phrase in exactly the same way as in ordinary attributive use.</p>
@@ -402,17 +402,17 @@
     <sub t="Comparison">
       <p>Comparison is analytic:</p>
       <list>
-        <item>[w po] [w dobrə :i m.sg] "better, more good"</item>
-        <item>[st наи :t nai] [w dobrə :i m.sg] "best, the most good"</item>
-        <item>[w po] [w holemə :i m.sg] "bigger"</item>
-        <item>[st наи :t nai] [w holemə :i m.sg] "biggest"</item>
+        <item>[w po] [w dobrə :i m.s] "better, more good"</item>
+        <item>[st наи :t nai] [w dobrə :i m.s] "best, the most good"</item>
+        <item>[w po] [w holemə :i m.s] "bigger"</item>
+        <item>[st наи :t nai] [w holemə :i m.s] "biggest"</item>
       </list>
       <p>The particle [w od] introduces the second term of comparison:</p>
       <list>
-        <item>[w ta] [w dom] [w byt :i 3sg] [w po] [w holemə :i m.sg] [w od] [w hora :i obl.sg] "the house is bigger than the mountain" (contextually odd but grammatically well-formed)</item>
-        <item>[w ona] [w byt :i 3sg] [w po] [w starə :i f.sg] [w od] [w ty] "she is older than you"</item>
+        <item>[w ta] [w dom] [w byt :i 3s] [w po] [w holemə :i m.s] [w od] [w hora :i o.s] "the house is bigger than the mountain" (contextually odd but grammatically well-formed)</item>
+        <item>[w ona] [w byt :i 3s] [w po] [w starə :i f.s] [w od] [w ty] "she is older than you"</item>
       </list>
-      <p>A very small number of high-frequency adjectives retain suppletive comparatives: [st малӑ :t mală] "small" &gt; [st манш :t manš] "smaller" (from a German-influenced form), though the analytic [w po] [w malə :i m.sg] is equally acceptable.</p>
+      <p>A very small number of high-frequency adjectives retain suppletive comparatives: [st малӑ :t mală] "small" &gt; [st манш :t manš] "smaller" (from a German-influenced form), though the analytic [w po] [w malə :i m.s] is equally acceptable.</p>
     </sub>
   </sec>
 
@@ -441,14 +441,14 @@
       <p>Unlike numerals 3 and above, which are invariant, [w edyn] and [w doua] inflect for gender and case. [w edyn :c] declines like a hard-stem adjective with the oblique stem [st едн- :t edn-]; the plural [w edyn :i pl] carries the meaning "some, a few" rather than a literal count of one.</p>
       <tb>
         <r><c></c><c>Masc. sg</c><c>Fem. sg</c><c>Neut. sg</c><c>Plural</c></r>
-        <r><c>Nominative</c><c>[w edyn :i m.sg]</c><c>[w edyn :i f.sg]</c><c>[w edyn :i n.sg]</c><c>[w edyn :i pl]</c></r>
-        <r><c>Oblique</c><c>[w edyn :i m.sg.obl]</c><c>[w edyn :i f.sg.obl]</c><c>[w edyn :i n.sg.obl]</c><c>[w edyn :i pl.obl]</c></r>
+        <r><c>Nominative</c><c>[w edyn :i m.s]</c><c>[w edyn :i f.s]</c><c>[w edyn :i n.s]</c><c>[w edyn :i pl]</c></r>
+        <r><c>Oblique</c><c>[w edyn :i m.o.s]</c><c>[w edyn :i f.o.s]</c><c>[w edyn :i n.o.s]</c><c>[w edyn :i o.p]</c></r>
       </tb>
       <p>[w doua :c] agrees with the gender of the counted noun in the nominative; the oblique is the same for both genders.</p>
       <tb>
         <r><c></c><c>Masculine</c><c>Feminine</c></r>
         <r><c>Nominative</c><c>[w doua :i m]</c><c>[w doua :i f]</c></r>
-        <r><c>Oblique</c><c>[w doua :i obl]</c><c>[w doua :i obl]</c></r>
+        <r><c>Oblique</c><c>[w doua :i o]</c><c>[w doua :i o]</c></r>
       </tb>
       <p>For 11-19, the pattern is numeral + -[st адес :t ades] (reduced form of "and ten"):</p>
       <list>
@@ -520,7 +520,7 @@
         <item>[w tuka] "right here" (emphatic)</item>
         <item>[st назад :t nazad] "back, backward"</item>
         <item>[st напред :t napred] "forward, ahead"</item>
-        <item>[w hora :i obl.sg] "up, above"</item>
+        <item>[w hora :i o.s] "up, above"</item>
         <item>[st доле :t dole] "down, below"</item>
       </list>
     </sub>

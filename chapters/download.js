@@ -32,7 +32,26 @@
      entirely.
   ──────────────────────────────────────────────────────────────── */
 
+  function canonicalFormId(formId) {
+    return ({
+      '1s': '1sg', '2s': '2sg', '3s': '3sg',
+      '1p': '1pl', '2p': '2pl', '3p': '3pl',
+      'pp': 'ppl',
+      'l.m': 'lptc.m', 'l.f': 'lptc.f', 'l.n': 'lptc.n', 'l.p': 'lptc.pl',
+      'imp.2s': 'imp.2sg', 'imp.2p': 'imp.2pl',
+      'nom.s': 'nom.sg', 'o.s': 'obl.sg',
+      'm.s': 'm.sg', 'f.s': 'f.sg', 'n.s': 'n.sg',
+      'm.o.s': 'm.sg.obl', 'f.o.s': 'f.sg.obl', 'n.o.s': 'n.sg.obl',
+      'o.f.s': 'f.sg.obl', 'obl.f.sg': 'f.sg.obl',
+      'o.p': 'pl.obl', 'o.pl': 'pl.obl',
+      'o': 'obl',
+      'b': 'base'
+    })[formId] || formId;
+  }
+
   function resolveFormJS(entry, formId, lexdoc) {
+    formId = canonicalFormId(formId);
+
     var formEls = entry.querySelectorAll('form');
     for (var i = 0; i < formEls.length; i++) {
       if (formEls[i].getAttribute('f') === formId) return formEls[i].getAttribute('v');

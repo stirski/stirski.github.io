@@ -9,8 +9,9 @@
  *
  *   [w az]                  →  <w ref="az"/>
  *   [w vydit :i 1sg]        →  <w ref="vydit" infl="1sg"/>
+ *   [w dom :i o.s]          →  <w ref="dom" infl="o.s"/>
  *   [w ydat :c]             →  <w ref="ydat" cap="1"/>
- *   [w sej :i m.sg :c]      →  <w ref="sej" infl="m.sg" cap="1"/>
+ *   [w sej :i m.s :c]       →  <w ref="sej" infl="m.s" cap="1"/>
  *
  *   [st ӑ]                  →  <st v="ӑ" tr=""/>
  *   [st Страски :t Strasky] →  <st v="Страски" tr="Strasky"/>
@@ -61,8 +62,9 @@
     var cases = [
       ['[w az]',                    '<w ref="az"/>'],
       ['[w vydit :i 1sg]',          '<w ref="vydit" infl="1sg"/>'],
+      ['[w dom :i o.s]',            '<w ref="dom" infl="o.s"/>'],
       ['[w ydat :c]',               '<w ref="ydat" cap="1"/>'],
-      ['[w sej :i m.sg :c]',        '<w ref="sej" infl="m.sg" cap="1"/>'],
+      ['[w sej :i m.s :c]',         '<w ref="sej" infl="m.s" cap="1"/>'],
       ['[w byt.neg :i 3sg]',        '<w ref="byt.neg" infl="3sg"/>'],
       ['[st ӑ]',                    '<st v="ӑ" tr=""/>'],
       ['[st Страски :t Strasky]',   '<st v="Страски" tr="Strasky"/>'],

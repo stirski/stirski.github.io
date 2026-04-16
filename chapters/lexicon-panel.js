@@ -12,19 +12,24 @@
     art: 'article', prep: 'preposition', part: 'particle', num: 'numeral'
   };
 
-  var FORM_LABELS = {
-    'inf': 'infinitive', '1sg': '1st sg', '2sg': '2nd sg', '3sg': '3rd sg',
-    '1pl': '1st pl', '2pl': '2nd pl', '3pl': '3rd pl',
-    'ppl': 'participle (present)', 'lptc.m': 'l-ptc (masc.)',
-    'lptc.f': 'l-ptc (fem.)',
-    'lptc.n': 'l-ptc (neuter)', 'lptc.pl': 'l-ptc (plural)',
-    'imp.2sg': 'imperative 2sg', 'imp.2pl': 'imperative 2pl',
-    'nom.sg': 'nom. sg', 'obl.sg': 'obl. sg', 'pl': 'plural',
-    'm.sg': 'masc. sg nom.', 'f.sg': 'fem. sg nom.', 'n.sg': 'neut. sg nom.',
-    'm.sg.obl': 'masc. sg obl.', 'f.sg.obl': 'fem. sg obl.', 'n.sg.obl': 'neut. sg obl.',
-    'pl.obl': 'plural obl.',
-    'base': 'base form'
+  var FORM_ALIASES = {
+    '1s': '1sg', '2s': '2sg', '3s': '3sg',
+    '1p': '1pl', '2p': '2pl', '3p': '3pl',
+    'pp': 'ppl',
+    'l.m': 'lptc.m', 'l.f': 'lptc.f', 'l.n': 'lptc.n', 'l.p': 'lptc.pl',
+    'imp.2s': 'imp.2sg', 'imp.2p': 'imp.2pl',
+    'nom.s': 'nom.sg', 'o.s': 'obl.sg',
+    'm.s': 'm.sg', 'f.s': 'f.sg', 'n.s': 'n.sg',
+    'm.o.s': 'm.sg.obl', 'f.o.s': 'f.sg.obl', 'n.o.s': 'n.sg.obl',
+    'o.f.s': 'f.sg.obl', 'obl.f.sg': 'f.sg.obl',
+    'o.p': 'pl.obl', 'o.pl': 'pl.obl',
+    'o': 'obl',
+    'b': 'base'
   };
+
+  function canonicalFormId(formId) {
+    return FORM_ALIASES[formId] || formId;
+  }
 
   /* ── Fetch and parse lexicon.xml ────────────────────────────── */
 
@@ -68,6 +73,8 @@
   /* ── Resolve a form value from a lex entry ──────────────────── */
 
   function resolveForm(entry, formId, doc) {
+    formId = canonicalFormId(formId);
+
     // Check explicit <form>
     var forms = entry.querySelectorAll('form');
     for (var i = 0; i < forms.length; i++) {
@@ -131,10 +138,11 @@
     var i;
 
     function pushForm(key) {
-      var v = resolveForm(entry, key, doc);
-      if (v && !seen[key]) {
-        seen[key] = true;
-        results.push({ key: key, label: FORM_LABELS[key] || key, value: v });
+      var canonicalKey = canonicalFormId(key);
+      var v = resolveForm(entry, canonicalKey, doc);
+      if (v && !seen[canonicalKey]) {
+        seen[canonicalKey] = true;
+        results.push({ key: canonicalKey, label: canonicalKey, value: v });
       }
     }
 
