@@ -1070,6 +1070,109 @@
           line-height: 1.45;
         }
 
+        /* ── Chapter 7 parallel-text layout ─────────────────────────── */
+
+        .parallel-text {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .parallel-pair {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 0 2.2rem;
+          padding: 0.6rem 0;
+          align-items: baseline;
+        }
+
+        .parallel-styrian {
+          /* inherits prose weight */
+        }
+
+        .parallel-gloss {
+          color: var(--muted);
+          font-size: 0.94em;
+        }
+
+        .parallel-pair p {
+          margin: 0;
+        }
+
+        section.gloss-hidden .parallel-gloss {
+          display: none;
+        }
+
+        section.gloss-hidden .parallel-pair {
+          grid-template-columns: 1fr;
+        }
+
+        /* Heading row with flush-right button */
+        h2.parallel-h2 {
+          display: flex;
+          align-items: baseline;
+          justify-content: space-between;
+          max-width: 100%;
+          gap: 1rem;
+        }
+
+        .parallel-h2-left {
+          flex: 1 1 auto;
+          min-width: 0;
+        }
+
+        .hide-gloss-btn {
+          flex: 0 0 auto;
+          display: inline-flex;
+          align-items: center;
+          gap: 0.32rem;
+          padding: 0.18rem 0.58rem;
+          border: 1px solid var(--rule);
+          border-radius: 0.38rem;
+          background: transparent;
+          color: var(--muted);
+          font-family: var(--font-ui);
+          font-size: 0.68rem;
+          font-weight: 500;
+          letter-spacing: 0.04em;
+          text-transform: uppercase;
+          cursor: pointer;
+          line-height: 1.6;
+          transition: background 130ms ease, color 130ms ease, border-color 130ms ease;
+        }
+
+        .hide-gloss-btn:hover,
+        .hide-gloss-btn:focus-visible {
+          background: var(--hover-soft);
+          color: var(--ink);
+          border-color: var(--muted);
+          outline: none;
+        }
+
+        .hide-gloss-btn .btn-icon-show,
+        .hide-gloss-btn .btn-label-show { display: none; }
+
+        section.gloss-hidden .hide-gloss-btn .btn-icon-hide,
+        section.gloss-hidden .hide-gloss-btn .btn-label-hide { display: none; }
+
+        section.gloss-hidden .hide-gloss-btn .btn-icon-show,
+        section.gloss-hidden .hide-gloss-btn .btn-label-show { display: inline; }
+
+        @media (max-width: 640px) {
+          .parallel-pair {
+            grid-template-columns: 1fr;
+            gap: 0.3rem 0;
+          }
+
+          .parallel-gloss {
+            padding-left: 0.75rem;
+            border-left: 2px solid var(--rule);
+          }
+
+          section.gloss-hidden .parallel-gloss {
+            display: none;
+          }
+        }
+
         @media (max-width: 980px) {
           .aside {
             order: -1;
@@ -2032,6 +2135,41 @@
 
   <xsl:template match="item">
     <li><xsl:apply-templates/></li>
+  </xsl:template>
+
+  <!-- ── Chapter 7: parallel-text edition ──────────────────────────── -->
+  <xsl:template match="ch[@id='07']/sec">
+    <section id="sec-{count(preceding::sec) + 1}">
+      <xsl:attribute name="data-number"><xsl:number level="single" count="sec"/></xsl:attribute>
+      <xsl:attribute name="data-title"><xsl:value-of select="@t"/></xsl:attribute>
+      <h2 class="parallel-h2">
+        <span class="parallel-h2-left">
+          <span class="section-number"><xsl:number level="single" count="sec"/></span>
+          <xsl:value-of select="@t"/>
+        </span>
+        <button class="hide-gloss-btn" type="button">
+          <xsl:attribute name="onclick">this.closest('section').classList.toggle('gloss-hidden')</xsl:attribute>
+          <i class="bi bi-eye-slash btn-icon-hide" aria-hidden="true"></i>
+          <i class="bi bi-eye btn-icon-show" aria-hidden="true"></i>
+          <span class="btn-label-hide">Hide Gloss</span>
+          <span class="btn-label-show">Show Gloss</span>
+        </button>
+      </h2>
+      <div class="parallel-text">
+        <xsl:apply-templates select="p[ex]" mode="parallel-ch07"/>
+      </div>
+    </section>
+  </xsl:template>
+
+  <xsl:template match="p" mode="parallel-ch07">
+    <div class="parallel-pair">
+      <div class="parallel-styrian">
+        <xsl:apply-templates/>
+      </div>
+      <div class="parallel-gloss">
+        <xsl:value-of select="following-sibling::p[1]"/>
+      </div>
+    </div>
   </xsl:template>
 
   <xsl:template match="sec">

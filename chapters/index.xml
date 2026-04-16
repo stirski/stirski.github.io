@@ -7,5 +7,5 @@
   <ch id="04" t="Verbs" file="ch04_verbs.xml"/>
   <ch id="05" t="Syntax" file="ch05_syntax.xml"/>
   <ch id="06" t="Sample Lexicon" file="ch06_sample_lexicon.xml"/>
-  <ch id="07" t="Texts and Typological Summary" file="ch07_texts_and_typological_summary.xml"/>
+  <ch id="07" t="Sample Texts" file="ch07_texts_and_typological_summary.xml"/>
 </grammar>
