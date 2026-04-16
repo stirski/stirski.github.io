@@ -54,7 +54,7 @@
       <r><c>[w so]</c><c>with</c><c></c></r>
       <r><c>[st преко :t preko]</c><c>across, over; through</c><c></c></r>
     </tb>
-    <p>Old one-consonant prepositions take an epenthetic [st е :t e] before consonant-initial words. Thus [st в :t v] is normally realized and written as [w ve] before a consonant. All governed nouns appear in the oblique. In ordinary prepositional phrases the article is normally omitted; keeping it gives a marked, deictic, or contrastive reading:</p>
+    <p>Old one-consonant prepositions take an epenthetic [st е :t e] before consonant-initial words. Thus [st в :t v] is normally realized and written as [w ve] before a consonant. All governed nouns appear in the oblique. In ordinary prepositional phrases the article is normally omitted; this includes possessive noun phrases as well as bare nouns. Keeping the article gives a marked, deictic, or contrastive reading:</p>
     <list>
       <item><ex>[w ve] [w hrad :i o]</ex> "in the town" (obl of [w hrad])</item>
       <item><ex>[w ve] [w dom :i o]</ex> "in the house" (obl of [w dom])</item>
@@ -74,14 +74,16 @@
     <p>The oblique of the -[st шчіна :t ščina] noun follows the regular feminine -[st а :t a] oblique pattern (nominative -[st а :t a] → oblique -[st е :t e]): [st стиршчіна :t styrščina] → [st стиршчіне :t styrščine], [st словеншчіна :t slovenščina] → [st словеншчіне :t slovenščine], and so on. This construction is obligatory when speaking of language use; the bare adjective or a neuter adverbial form is not used in this function.</p>
   </sec>
   <sec t="Possession">
-    <p>Possession is shown either with a possessive determiner or analytically with [w od] followed by the oblique. The [w od]-construction also expresses source and origin. When a pronoun follows [w od], it takes its oblique form; when a full noun follows, it likewise takes the oblique. As elsewhere in prepositional phrases, the complement of [w od] is normally bare; an article here adds extra emphasis or points to a specially salient possessor.</p>
+    <p>Possession is shown either with a possessive determiner or analytically with [w od] followed by the oblique. The [w od]-construction also expresses source and origin. When a pronoun follows [w od], it takes its oblique form; when a full noun follows, it likewise takes the oblique. As elsewhere in prepositional phrases, the complement of [w od] is normally bare, and possessive noun phrases under prepositions likewise normally appear without an article. An article in either environment adds extra emphasis or points to a specially salient possessor.</p>
     <list>
       <item><ex>[w taf] [w moj :i fs] [w knyha]</ex> "my book" (possessive determiner, default)</item>
       <item><ex>[w taf] [w knyha] [w od] [w mene]</ex> "my book" (analytic, more emphatic or contrastive; [w mene] is oblique of [w az])</item>
       <item><ex>[w ta] [st негов :t nehov] [w dom]</ex> "his/her house"</item>
       <item><ex>[w ta] [w dom] [w od] [w žena :i o]</ex> "the woman's house" (analytic; [w žena :i o] is oblique of [w žena])</item>
       <item><ex>[w knyha] [w od] [st Марие :t Marye]</ex> "Maria's book" (proper noun in oblique)</item>
-      <item><ex>[st иеме :t yme] [w od] [w čelovek :i o]</ex> "the person's name" (oblique of [w čelovek])</item>
+      <item><ex>[w yme] [w od] [w čelovek :i o]</ex> "the person's name" (oblique of [w čelovek])</item>
+      <item><ex>[w ve] [w moj :i mo] [w dom :i o]</ex> "in my house" (prepositional possessive, neutral bare pattern)</item>
+      <item><ex>[w ve] [w ta :i mo] [w moj :i mo] [w dom :i o]</ex> "in that house of mine" (marked article retained under the preposition)</item>
     </list>
   </sec>
   <sec t="Clitic Pronouns: Inventory, Cluster, and Second-Position Rule">
@@ -402,7 +404,7 @@
       <item><ex>[w ta] [w dom] [w če] [w my] [w byt :i 1p] [w kupit :i lp]</ex> "the house that we bought" ([w dom] is the antecedent and subject of the matrix; it is the implicit object inside the relative — oblique in that function, but unmarked as the head noun)</item>
       <item><ex>[w ta] [w hrad] [w kəde] [w žyvat :i 3p] [st стирці :t styrci]</ex> "the town where the Styrians live"</item>
         <item><ex>[w ta] [w den] [w koga] [w on] [w byt :i 3s] [w doit :i lm]</ex> "the day when he came"</item>
-      <item><ex>[w ta] [w čelovek] [w od] [w ky] [st име :t yme] [w az] [w ne] [st знам :t znam]</ex> "the person whose name I do not know"</item>
+      <item><ex>[w ta] [w čelovek] [w od] [w ky] [w yme] [w az] [w ne] [st znam :t znam]</ex> "the person whose name I do not know"</item>
     </list>
     <p>In word order, a relative clause follows its head noun directly. The relativizer occupies the left edge of the clause and counts as XP₁; any clitic cluster follows it in second position. If an overt embedded subject is present, it follows the cluster. Subject relatives therefore look like <em>[head noun] + [w ky] + (cluster) + V + ...</em>, while non-subject relatives look like <em>[head noun] + [w če] + (cluster) + S + V + ...</em> with the relativized element left as a gap inside the clause.</p>
     <list>

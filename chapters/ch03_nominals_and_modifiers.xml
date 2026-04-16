@@ -38,7 +38,7 @@
       </tb>
     </sub>
     <sub t="Case: Nominative and Oblique">
-      <p>Styrian singular nouns distinguish two cases: <em>nominative</em> and <em>oblique</em>. The nominative is the citation form and is used for subjects and predicate nominals. The oblique is the dependent form and is used for direct objects and as the complement of all prepositions. Plural nouns show complete case syncretism and have a single form regardless of syntactic function. Adjectives and other adnominals — including articles, demonstratives, and possessives — agree with the noun in gender, number, and case. In the plural the oblique form is identical to the nominative, so only the singular has a visible case distinction (see §Articles and §Adjectives). In ordinary prepositional phrases the article is usually omitted, but when retained it carries the oblique form.</p>
+      <p>Styrian singular nouns distinguish two cases: <em>nominative</em> and <em>oblique</em>. The nominative is the citation form and is used for subjects and predicate nominals. The oblique is the dependent form and is used for direct objects and as the complement of all prepositions. Plural nouns show complete case syncretism and have a single form regardless of syntactic function. Adjectives and other adnominals — including articles, demonstratives, and possessives — agree with the noun in gender, number, and case. In the plural the oblique form is identical to the nominative, so only the singular has a visible case distinction (see §Articles and §Adjectives). In ordinary prepositional phrases the article is usually omitted, including before possessive noun phrases; when retained, it carries the oblique form.</p>
       <p><em>Nominative — subject and predicate nominal:</em></p>
       <list>
         <item>[w ta] [w čelovek] [w vydit :i 3s] [w ta :i mo] [w dom :i o] — [w ta] [w čelovek] is subject (nominative)</item>
@@ -224,13 +224,14 @@
       <item>[w on] [w ymat :i 3s] [w to :i no] [w slovo :i o] "he has the word" — neuter sg obl</item>
       <item>[w az] [w vydit :i 1s] [w ti] [w dom :i p] "I see the houses" — plural (obl = nom)</item>
     </list>
-    <p>Inside prepositional phrases, however, the article is normally <em>omitted</em>. A bare oblique or plural noun after the preposition is the neutral pattern even when the referent is definite or already identifiable from context:</p>
+    <p>Inside prepositional phrases, however, the article is normally <em>omitted</em>. A bare oblique or plural noun after the preposition is the neutral pattern even when the referent is definite or already identifiable from context, and the same default extends to possessive noun phrases:</p>
     <list>
       <item>[w ve] [w hrad :i o] "in town / in the town"</item>
       <item>[w ve] [w dom :i o] "in the house"</item>
       <item>[w so] [w čelovek :i o] "with the person"</item>
+      <item>[w ve] [w moj :i mo] [w dom :i o] "in my house"</item>
     </list>
-    <p>Retaining the article after a preposition is therefore marked. When retained, the oblique article form is used: compare neutral [w ve] [w hrad :i o] with marked [w ve] [w ta :i mo] [w hrad :i o] "in that particular town / in the town there". In strongly deictic contexts the full demonstratives [w sej :i ms] / [w toj :i ms] are often preferred, and these also take the oblique form when governed by a preposition.</p>
+    <p>Retaining the article after a preposition is therefore marked. When retained, the oblique article form is used: compare neutral [w ve] [w hrad :i o] with marked [w ve] [w ta :i mo] [w hrad :i o] "in that particular town / in the town there", or neutral [w ve] [w moj :i mo] [w dom :i o] with marked [w ve] [w ta :i mo] [w moj :i mo] [w dom :i o] "in my particular house / in that house of mine". In strongly deictic contexts the full demonstratives [w sej :i ms] / [w toj :i ms] are often preferred, and these also take the oblique form when governed by a preposition.</p>
     <p>There is no indefinite article. In subject and direct-object position, bare nouns are typically indefinite or generic; in prepositional phrases the same bare form is also the normal definite pattern:</p>
     <list>
       <item>[w dom] [w byt :i 3s] [w holemə :i ms] "a house is large / houses are large" (generic)</item>
@@ -241,7 +242,7 @@
     <list>
       <item>[w edyn] [w čelovek] [st доіл :t doil] [w dănes] "a (certain) person arrived today"</item>
     </list>
-    <p>With possessives, Styrian normally <em>keeps the article</em>, much as in Italian or Greek. The article agrees with the gender and case of the noun:</p>
+    <p>With possessives, Styrian normally <em>keeps the article</em> in ordinary definite noun phrases, much as in Italian or Greek. The article agrees with the gender and case of the noun:</p>
     <list>
       <item>[w taf] [w moj :i fs] [w knyha] "my book" (nom)</item>
       <item>[w ta] [w tuoj :i ms] [w dom] "your house" (nom)</item>
@@ -250,7 +251,7 @@
       <item>[w ta :i mo] [w moj :i mo] [w dom :i o] "my house" (obl, e.g. as direct object)</item>
       <item>[w taf :i fo] [w tuoj :i fo] [w knyha :i o] "your book" (obl)</item>
     </list>
-    <p>This article + possessive pattern is the normal definite possessive construction. Both the article and the possessive carry the case ending that matches the noun's syntactic function.</p>
+    <p>This article + possessive pattern is the normal definite possessive construction outside prepositional phrases. Both the article and the possessive carry the case ending that matches the noun's syntactic function.</p>
   </sec>
 
   <sec t="Demonstratives">
@@ -362,6 +363,12 @@
         <item>[w taf] [w tuoj :i fs] [w knyha] "your book"</item>
         <item>[w to] [w nehov :i ns] [w slovo] "his word"</item>
         <item>[w ti] [w nyhov :i p] [w dom :i p] "their houses"</item>
+      </list>
+      <p>Inside prepositional phrases, however, possessive noun phrases follow the same rule as other prepositional complements: the article is normally omitted, while the possessive still agrees and any retained article is marked:</p>
+      <list>
+        <item>[w ve] [w moj :i mo] [w dom :i o] "in my house" (neutral)</item>
+        <item>[w so] [w nyhov :i p] [w dom :i p] "with their houses" (neutral plural)</item>
+        <item>[w ve] [w ta :i mo] [w moj :i mo] [w dom :i o] "in that house of mine" (marked article retained)</item>
       </list>
       <p>An analytic possessive with [w od] is also available for emphasis, contrast, or use with fuller noun phrases. The pronoun following [w od] takes the oblique form:</p>
       <list>
