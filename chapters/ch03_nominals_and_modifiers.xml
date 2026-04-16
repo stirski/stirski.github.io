@@ -325,7 +325,19 @@
         <item>[w az] [w byt :i 1s] [st си :t sy] [w kupit :i lm] [w knyha :i o] "I bought myself a book" (clitic after auxiliary)</item>
         <item>[w ta] [w suoj :i ms] [w dom] "one's own house" (reflexive possessive)</item>
       </list>
-      <p>Possessive forms function as agreeing determiners. They follow the same agreement pattern as adjectives — masculine singular, feminine singular, neuter singular, and plural, each with nominative and oblique in the singular — and the article likewise agrees in case. In ordinary definite noun phrases they normally appear with the article:</p>
+      <p>Possessive forms function as agreeing determiners. They follow the same agreement pattern as adjectives — masculine singular, feminine singular, neuter singular, and plural, each with nominative and oblique in the singular — and the article likewise agrees in case. The representative paradigms below show the full agreement pattern for the two main possessive stem types:</p>
+      <tb>
+        <r><c></c><c>Masc. sg</c><c>Fem. sg</c><c>Neut. sg</c><c>Plural</c></r>
+        <r><c>Nominative</c><c>[w moj :i ms]</c><c>[w moj :i fs]</c><c>[w moj :i ns]</c><c>[w moj :i p]</c></r>
+        <r><c>Oblique</c><c>[w moj :i mo]</c><c>[w moj :i fo]</c><c>[w moj :i no]</c><c>[w moj :i p]</c></r>
+      </tb>
+      <tb>
+        <r><c></c><c>Masc. sg</c><c>Fem. sg</c><c>Neut. sg</c><c>Plural</c></r>
+        <r><c>Nominative</c><c>[w nehov :i ms]</c><c>[w nehov :i fs]</c><c>[w nehov :i ns]</c><c>[w nehov :i p]</c></r>
+        <r><c>Oblique</c><c>[w nehov :i mo]</c><c>[w nehov :i fo]</c><c>[w nehov :i no]</c><c>[w nehov :i p]</c></r>
+      </tb>
+      <p>The same slots are filled across the rest of the possessive series: [w tuoj :i ms] and reflexive [w suoj :i ms] inflect like [w moj :i ms], while [w naš :i ms], [w vaš :i ms], and [w nyhov :i ms] follow the same agreement grid as [w nehov :i ms]. As with adjectives, the plural has a single form for both nominative and oblique.</p>
+      <p>In ordinary definite noun phrases they normally appear with the article:</p>
       <list>
         <item>[w ta] [w moj :i ms] [w dom] "my house"</item>
         <item>[w taf] [w tuoj :i fs] [w knyha] "your book"</item>
