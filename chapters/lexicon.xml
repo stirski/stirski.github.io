@@ -39,6 +39,7 @@
 
   Form @f values:
     Verbs:  inf  1sg  2sg  3sg  1pl  2pl  3pl  ppl  lptc.m  lptc.f  lptc.n  lptc.pl
+            nptc.m  nptc.f  nptc.n  nptc.pl   (n-participle / passive participle)
     Nouns:  nom.sg  obl.sg  pl
     Others: m.sg  f.sg  n.sg  pl
 -->
@@ -64,6 +65,10 @@
       <form f="lptc.f"  stem="main" suffix="ала"/>
       <form f="lptc.n"  stem="main" suffix="ало"/>
       <form f="lptc.pl" stem="main" suffix="алі"/>
+      <form f="nptc.m"  stem="main" suffix="анӑ"/>
+      <form f="nptc.f"  stem="main" suffix="ана"/>
+      <form f="nptc.n"  stem="main" suffix="ано"/>
+      <form f="nptc.pl" stem="main" suffix="ані"/>
     </verb-template>
 
     <verb-template id="reg-i">
@@ -81,6 +86,10 @@
       <form f="lptc.f"  stem="main" suffix="іла"/>
       <form f="lptc.n"  stem="main" suffix="іло"/>
       <form f="lptc.pl" stem="main" suffix="ілі"/>
+      <form f="nptc.m"  stem="main" suffix="енӑ"/>
+      <form f="nptc.f"  stem="main" suffix="ена"/>
+      <form f="nptc.n"  stem="main" suffix="ено"/>
+      <form f="nptc.pl" stem="main" suffix="ені"/>
     </verb-template>
 
     <!-- Noun declension templates: consonant-final, -а class, neuter -о, neuter -е -->
@@ -192,6 +201,11 @@
   <!-- носіт — to carry (impf, i-class, multidirectional) -->
   <lex id="nosit" pos="v" asp="impf" vclass="i" template="reg-i" gloss="to carry (habitual)">
     <stem name="main" v="нос"/>
+    <!-- nptc uses iotated stem: нос → нош before -ен- -->
+    <form f="nptc.m"  v="ношенӑ"/>
+    <form f="nptc.f"  v="ношена"/>
+    <form f="nptc.n"  v="ношено"/>
+    <form f="nptc.pl" v="ношені"/>
   </lex>
 
   <!-- видіт — to see (impf, i-class) -->
@@ -353,9 +367,20 @@
     <form f="lptc.f"  v="дала"/>
     <form f="lptc.n"  v="дало"/>
     <form f="lptc.pl" v="далі"/>
+    <!-- nptc: short-stem n-class (PSl *danъ), not the regular -al- l-ptc stem -->
+    <form f="nptc.m"  v="данӑ"/>
+    <form f="nptc.f"  v="дана"/>
+    <form f="nptc.n"  v="дано"/>
+    <form f="nptc.pl" v="дані"/>
   </lex>
 
   <!-- бежат — to run / unidirectional (a-class) -->
+  <!-- ткат — to weave (impf, a-class; short root тк-; n-participle uses тк- + -ан-) -->
+  <lex id="tkat" pos="v" asp="impf" vclass="a" template="reg-a" gloss="to weave">
+    <stem name="main" v="тк"/>
+    <!-- template generates тканӑ/ткана/ткано/ткані correctly via main stem + -ан- -->
+  </lex>
+
   <lex id="bežat" pos="v" asp="impf" vclass="a" template="reg-a" gloss="to run (unidirectional)">
     <stem name="main" v="беж"/>
   </lex>
@@ -1249,6 +1274,11 @@
     <form f="lptc.f" v="взела"/>
     <form f="lptc.n" v="взело"/>
     <form f="lptc.pl" v="взелі"/>
+    <!-- nptc: t-class (PSl *vьzętъ) -->
+    <form f="nptc.m"  v="взетӑ"/>
+    <form f="nptc.f"  v="взета"/>
+    <form f="nptc.n"  v="взето"/>
+    <form f="nptc.pl" v="взеті"/>
   </lex>
 
   <lex id="vozložit" pos="v" asp="pf" vclass="i" template="reg-i" gloss="to place upon">

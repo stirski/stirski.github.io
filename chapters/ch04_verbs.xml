@@ -434,7 +434,7 @@
     <p>For personal passives and resultative states — where a specific event occurred, a resultant state holds, or an agent may be named — Styrian uses the <em>n-participle construction</em> described in the following section. The two passive types are not interchangeable: the se-passive expresses ongoing or generic processes; the n-participle passive expresses completed events and resultant states. See §N-Participle (Passive Participle).</p>
   </sec>
   <sec t="N-Participle (Passive Participle)">
-    <p>Styrian has a dedicated <em>n-participle</em> (passive participle), morphologically distinct from the l-participle, used to build personal passives and resultative predications. Like the l-participle, it agrees with the grammatical subject in gender (m./f./n.) and number; unlike the l-participle, it derives from the object argument of a transitive verb rather than from its subject. The four agreement slots are tagged <code>:i nm</code> (masculine sg.), <code>:i nf</code> (feminine sg.), <code>:i nn</code> (neuter sg.), <code>:i np</code> (plural), paralleling <code>:i lm/lf/ln/lp</code> for the l-participle.</p>
+    <p>Styrian has a dedicated <em>n-participle</em> (passive participle), morphologically distinct from the l-participle, used to build personal passives and resultative predications. Like the l-participle, it agrees with the grammatical subject in gender (m./f./n.) and number; unlike the l-participle, it derives from the object argument of a transitive verb rather than from its subject.</p>
     <sub t="Formation">
       <p><em>A-class</em> (infinitive -[st ат :t at]): the infinitive stem takes the suffix -[st анӑ :t ană] (m.sg.), -[st ана :t ana] (f.sg.), -[st ано :t ano] (n.sg.), -[stані :t ani] (pl.). The infinitive stem is used unchanged in most cases:</p>
       <tb>
@@ -459,28 +459,28 @@
     <sub t="Passive and Resultative Use">
       <p>The n-participle forms a passive predication with [w byt] as auxiliary. In the <em>present passive</em> (or resultant state), the present auxiliary [w byt :i 3s] combines with the n-participle agreeing with the subject; this construction expresses a state that currently holds as a result of a completed event:</p>
       <list>
-        <item><ex>[w to] [w pismo] [w byt :i 3s] [w pysat :i nn]</ex> "the letter is written" (resultant state now holding)</item>
+        <item><ex>[w to] [w vyno] [w byt :i 3s] [w kupit :i nn]</ex> "the wine is bought" (resultant state now holding)</item>
         <item><ex>[w ta] [w dom] [w byt :i 3s] [w sdelat :i nm]</ex> "the house is built"</item>
-        <item><ex>[w taf] [w riza] [w byt :i 3s] [w tkat :i nf]</ex> "the robe is woven"</item>
+        <item><ex>[w ta] [w knyha] [w byt :i 3s] [w napysat :i nf]</ex> "the book is written"</item>
       </list>
       <p>In the <em>past passive</em>, the structure is [w byt :i 3s] + l-participle of [w byt] + n-participle (parallel to the Slovenian pattern <em>je bila zgrajena</em>). Both participles agree with the subject in gender and number:</p>
       <list>
-        <item><ex>[w to] [w pismo] [w byt :i 3s] [w byt :i ln] [w pysat :i nn] [w od] [w pylat :i o]</ex> "the letter was written by Pilate"</item>
+        <item><ex>[w ta] [w knyha] [w byt :i 3s] [w byt :i lf] [w napysat :i nf] [w od] [w žena :i o]</ex> "the book was written by the woman"</item>
         <item><ex>[w ta] [w dom] [w byt :i 3s] [w byt :i lm] [w sdelat :i nm]</ex> "the house was built"</item>
-        <item><ex>[w taf] [w riza] [w byt :i 3s] [w byt :i lf] [w tkat :i nf] [w od] [w hore] [w do] [w dole]</ex> "the robe had been woven from top to bottom"</item>
+        <item><ex>[w ta] [w voda] [w byt :i 3s] [w byt :i lf] [w nesat :i nf] [w do] [w dom :i o]</ex> "the water was carried to the house"</item>
       </list>
       <p>The agent, when expressed, is introduced by [w od] + oblique, parallel to Slovenian <em>od</em> + genitive and BCS <em>od strane</em>:</p>
       <list>
-        <item><ex>[w to] [w slovo] [w byt :i 3s] [w pysat :i nn] [w od] [w pylat :i o]</ex> "the inscription was written by Pilate"</item>
-        <item><ex>[w ysus] [w byt :i 3s] [w byt :i lm] [w ukrstovat :i nm] [w od] [w rytar :i p]</ex> "Jesus was crucified by the soldiers"</item>
+        <item><ex>[w to] [w slovo] [w byt :i 3s] [w napysat :i nn] [w od] [w lekar :i o]</ex> "the message was written by the doctor"</item>
+        <item><ex>[w ta] [w xleb] [w byt :i 3s] [w byt :i lm] [w nesat :i nm] [w do] [w dom :i o] [w od] [w dete :i o]</ex> "the bread was carried to the house by the child"</item>
       </list>
     </sub>
     <sub t="Distribution: N-Participle versus Se-Passive">
       <p>The two passive constructions are not interchangeable. The se-passive (§Reflexive Verbs) expresses ongoing, generic, or habitual events with no agent in view; the n-participle construction expresses specific completed events or resultant states, and allows an explicit agent. The Slovenian parallel is exact:</p>
       <tb>
         <r><c>Construction</c><c>Type</c><c>Example</c><c>Gloss</c></r>
-        <r><c>[w se] + finite verb</c><c>impersonal, agentless, ongoing/generic</c><c><ex>[w knyha :i o] [w se] [st продайут :t prodajut] [w ve] [w kram :i o]</ex></c><c>"books are sold in the shop" (that's what happens there)</c></r>
-        <r><c>[w byt] + n-participle</c><c>personal, resultative; agent nameable</c><c><ex>[w ta] [w knyha] [w byt :i 3s] [w byt :i lf] [w prodajat :i nf] [w od] [w neho]</ex></c><c>"the book was sold by him" (specific event, identified agent)</c></r>
+        <r><c>[w se] + finite verb</c><c>impersonal, agentless, ongoing/generic</c><c><ex>[w knyha :i o] [w se] [w pysat :i 3s]</ex></c><c>"the book is being written" (process ongoing, no agent in view)</c></r>
+        <r><c>[w byt] + n-participle</c><c>personal, resultative; agent nameable</c><c><ex>[w ta] [w knyha] [w byt :i 3s] [w byt :i lf] [w napysat :i nf] [w od] [w neho]</ex></c><c>"the book was written by him" (specific completed event, identified agent)</c></r>
       </tb>
       <p>In cases of ambiguity, aspect provides additional differentiation: the se-passive pairs naturally with <em>imperfectives</em> (the process is ongoing or habitual), while the n-participle passive pairs most naturally with <em>perfectives</em> (the event is completed, the result holds). Imperfective n-participles are grammatical but imply an ongoing or repeated state rather than a single completed event:</p>
       <list>
