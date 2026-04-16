@@ -5,7 +5,7 @@
     <p>Styrian prefers <em>SVO</em> order. Although singular nouns carry a nominative–oblique distinction, the case contrast alone cannot reliably signal grammatical roles in all environments; word order therefore remains the primary organizing signal. Subjects appear in nominative form before the verb; direct objects appear in oblique form after the verb.</p>
     <list>
       <item><ex>[w az] [w vydit :i 1sg] [w ta :i m.sg.obl] [w dom :i obl.sg]</ex> "I see the house" (subject [w az] nom; object [w ta :i m.sg.obl] [w dom :i obl.sg] obl)</item>
-      <item><ex>[w taf] [w žena] [st вида :t vyda] [w ta :i m.sg.obl] [w čelovek :i obl.sg]</ex> "the woman sees the person" (subject nom; object obl)</item>
+      <item><ex>[w taf] [w žena] [w vydit :i 3sg][w ta :i m.sg.obl] [w čelovek :i obl.sg]</ex> "the woman sees the person" (subject nom; object obl)</item>
       <item><ex>[w ti] [st страски :t strasky] [w žyvat :i 3pl] [w ve] [w starə] [w hrad :i pl]</ex> "the Straski live in old towns" (plural nouns are case-syncretic)</item>
     </list>
     <p>Non-canonical orders occur with focused or topicalized constituents but require prosodic marking and are more restricted than in most Slavic languages.</p>
@@ -396,7 +396,7 @@
     </list>
     <p>In word order, a relative clause follows its head noun directly. The relativizer occupies the left edge of the clause and counts as XP₁; any clitic cluster follows it in second position. If an overt embedded subject is present, it follows the cluster. Subject relatives therefore look like <em>[head noun] + [w ky] + (cluster) + V + ...</em>, while non-subject relatives look like <em>[head noun] + [w če] + (cluster) + S + V + ...</em> with the relativized element left as a gap inside the clause.</p>
     <list>
-      <item><ex>[w taf] [w žena] [w ky] [st вида :t vyda] [w ta] [w dom]</ex> "the woman who sees the house"</item>
+      <item><ex>[w taf] [w žena] [w ky] [w vydit :i 3sg][w ta] [w dom]</ex> "the woman who sees the house"</item>
       <item><ex>[w taf] [w knyha] [w če] [w az] [w pysat :i 1sg]</ex> "the book that I am writing" (implied oblique object inside the relative)</item>
       <item><ex>[w ta] [w čelovek] [w do] [w ky] [w mu] [w az] [w dat :i 1sg] [w taf] [w knyha :i obl.sg]</ex> "the person to whom I give the book" — [w do] [w ky] as XP₁; cluster [[st му :t mu]]; required subject [w az] displaced after cluster</item>
     </list>
