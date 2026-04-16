@@ -836,8 +836,8 @@
     <form f="lptc.pl" v="вигналі"/>
   </lex>
 
-  <lex id="myt" pos="v" asp="impf" vclass="irr" gloss="to wash">
-    <form f="inf" v="мит"/>
+  <lex id="myit" pos="v" asp="impf" vclass="i" template="reg-i" gloss="to wash">
+    <stem name="main" v="ми"/>
   </lex>
 
   <lex id="stat" pos="v" asp="pf" vclass="irr" gloss="to become, stand">

@@ -403,7 +403,7 @@
   <sec t="Reflexive Verbs">
     <p>The reflexive marker [w se] is a clitic. In ordinary finite clauses it belongs to the same second-position cluster as the other pronominal clitics (see §Object Pronoun Placement in ch. 5): it follows the first stressed constituent of the clause, which in an unmarked declarative is usually the subject. In lexical citation, however, reflexive verbs are still conventionally listed as <em>V + [w se]</em>.</p>
     <list>
-      <item><ex>[w az] [w se] [st мием :t myem]</ex> "I wash myself"</item>
+      <item><ex>[w az] [w se] [w myit :i 1sg]</ex> "I wash myself"</item>
       <item><ex>[w on] [w byt :i 3sg] [w se] [st смел :t smel]</ex> "he laughed" (lit. "laughed himself" — [st смет :t smet] [w se] is reflexive-only)</item>
       <item><ex>[w my] [w byt :i 1pl] [w se] [st наделі :t nadeli]</ex> "we hoped" ([st надет :t nadet] [w se] "to hope")</item>
     </list>
@@ -432,7 +432,7 @@
     <p>The negated form [st нема :t nema] (&lt; [w ne] + [w ymat :i 3sg], contracted) expresses "there is no":</p>
     <list>
       <item><ex>[w nema :c] [w voda] [w ve] [w dom :i obl.sg]</ex> "There is no water in the house"</item>
-      <item><ex>[st Нема :t Nema] [st лиуді :t liudi] [st ту :t tu]</ex> "There are no people here"</item>
+      <item><ex>[w nema :c] [st лиуді :t liudi] [st ту :t tu]</ex> "There are no people here"</item>
     </list>
     <p>[w nema :c] is invariant and does not require an auxiliary. It is one of the most frequent negative words in the language.</p>
   </sec>

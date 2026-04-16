@@ -158,7 +158,7 @@
         <item><ex>[w ony] [w ym] [w prašat :i 3pl] [w to] [w slovo :i obl.sg].</ex> "they send them the message"</item>
         <item><ex>[w az] [w mu] [w go] [w dat :i 1sg].</ex> "I give it to him" — cluster [[st му го :t mu ho]]: DAT then ACC</item>
         <item><ex>[w taf] [w žena] [w te] [w vydit :i 3sg].</ex> "the woman sees you" — DP subject as XP₁; ACC clitic at 2P</item>
-        <item><ex>[w on] [w se] [st мие :t mye].</ex> "he washes himself" — reflexive ACC clitic (position 3) alone in cluster</item>
+        <item><ex>[w on] [w se] [w myit :i 3sg].</ex> "he washes himself" — reflexive ACC clitic (position 3) alone in cluster</item>
         <item><ex>[w on] [w sy] [w kupit :i 3sg] [w novə] [w rob :i pl].</ex> "he buys himself new clothes" — reflexive DAT [w sy] (position 3) in cluster; subject is 3sg not 2sg, so this [w sy] is reflexive DAT, not auxiliary</item>
       </list>
       <p><em>Tonic нас and вас with co-occurring DAT clitic.</em> When the 1pl or 2pl is the accusative object, the tonic oblique form is used and it remains outside the cluster, following the finite verb. If there is also a dative clitic, that clitic occupies 2P normally and the tonic ACC form follows the verb:</p>
@@ -209,7 +209,7 @@
       <list>
         <item><ex>[w az] [w mu] [w ne] [w dat :i 1sg] [w taf] [w knyha].</ex> "I don't give him the book" — cluster [[st му :t mu]] at 2P; tonic [st не дам :t ne dam] follows</item>
         <item><ex>[w ty] [w my] [w ne] [w dat :i 2sg] [w voda].</ex> "you don't give me water"</item>
-        <item><ex>[w az] [w se] [w ne] [st мием :t myem].</ex> "I don't wash myself" — reflexive ACC at 2P</item>
+        <item><ex>[w az] [w se] [w ne] [w myit :i 1sg].</ex> "I don't wash myself" — reflexive ACC at 2P</item>
         <item><ex>[w az] [w mu] [w go] [w ne] [w dat :i 1sg].</ex> "I don't give it to him" — cluster [[st му го :t mu ho]]: DAT then ACC at 2P; tonic [st не дам :t ne dam] follows</item>
         <item><ex>[w ony] [w ym] [w ne] [w prašat :i 3pl] [w vas].</ex> "they don't send you (pl.) to them" — cluster [[st им :t ym]]; tonic [st не прашут :t ne prašut]; tonic [w vas] post-verbal</item>
       </list>
