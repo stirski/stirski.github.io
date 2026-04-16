@@ -2340,6 +2340,7 @@
       <xsl:when test="$infl = 'lp'">lptc.pl</xsl:when>
       <xsl:when test="$infl = 'i2s'">imp.2sg</xsl:when>
       <xsl:when test="$infl = 'i2p'">imp.2pl</xsl:when>
+      <xsl:when test="$infl = 'i1p'">imp.1pl</xsl:when>
       <xsl:when test="$infl = 'nm'">nptc.m</xsl:when>
       <xsl:when test="$infl = 'nf'">nptc.f</xsl:when>
       <xsl:when test="$infl = 'nn'">nptc.n</xsl:when>

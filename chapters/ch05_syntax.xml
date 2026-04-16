@@ -6,7 +6,7 @@
     <list>
       <item><ex>[w az] [w vydit :i 1s] [w ta :i mo] [w dom :i o]</ex> "I see the house" (subject [w az] nom; object [w ta :i mo] [w dom :i o] obl)</item>
       <item><ex>[w taf] [w žena] [w vydit :i 3s] [w ta :i mo] [w čelovek :i o]</ex> "the woman sees the person" (subject nom; object obl)</item>
-      <item><ex>[w ti] [st страски :t strasky] [w žyvat :i 3p] [w ve] [w starə :i p] [w hrad :i p]</ex> "the Straski live in old towns" (plural nouns are case-syncretic)</item>
+      <item><ex>[w ti] [st стирці :t styrci] [w žyvat :i 3p] [w ve] [w starə :i p] [w hrad :i p]</ex> "the Styrians live in old towns" (plural nouns are case-syncretic)</item>
     </list>
     <p>Non-canonical orders occur with focused or topicalized constituents but require prosodic marking and are more restricted than in most Slavic languages.</p>
   </sec>
@@ -64,6 +64,14 @@
       <item><ex>[w so] [w čelovek :i o]</ex> "with the person" (obl of [w čelovek])</item>
       <item><ex>[w ve] [w ta :i mo] [w hrad :i o]</ex> "in that particular town" (marked: oblique article retained under a preposition)</item>
     </list>
+    <p>The particle [w po] has two distinct prepositional uses in Styrian. In the comparative construction it precedes an adjective (see §Comparison: [w po] [w dobrə :i ms] "better"). As a true preposition it governs the oblique and expresses manner, medium, or domain: [w po] [w forma :i o] "in form; by form", [w po] [w slovo :i o] "in vocabulary". Most importantly, [w po] + oblique of a language-name noun is the standard construction for expressing the language of communication after [w hovorit] and similar verbs. Where Slovenian uses a neuter adverbial adjective (e.g. <em>govorim slovensko</em>), Styrian uses [w po] + oblique of the -[st шчіна :t ščina] form:</p>
+    <list>
+      <item><ex>[w az] [w hovorit :i 1s] [w po] [st стиршчіне :t styrščine]</ex> "I speak Styrian" (lit. "in Styrian")</item>
+      <item><ex>[w ona] [w hovorit :i 3s] [w po] [st словеншчіне :t slovenščine]</ex> "she speaks Slovenian"</item>
+      <item><ex>[w ty] [w hovorit :i 2s] [w li] [w po] [st немшчіне :t nemščine]?</ex> "do you speak German?"</item>
+      <item><ex>[w az] [w ne] [w hovorit :i 1s] [w po] [st польшчіне :t polščine]</ex> "I don't speak Polish"</item>
+    </list>
+    <p>The oblique of the -[st шчіна :t ščina] noun follows the regular feminine -[st а :t a] oblique pattern (nominative -[st а :t a] → oblique -[st е :t e]): [st стиршчіна :t styrščina] → [st стиршчіне :t styrščine], [st словеншчіна :t slovenščina] → [st словеншчіне :t slovenščine], and so on. This construction is obligatory when speaking of language use; the bare adjective or a neuter adverbial form is not used in this function.</p>
   </sec>
   <sec t="Possession">
     <p>Possession is shown either with a possessive determiner or analytically with [w od] followed by the oblique. The [w od]-construction also expresses source and origin. When a pronoun follows [w od], it takes its oblique form; when a full noun follows, it likewise takes the oblique. As elsewhere in prepositional phrases, the complement of [w od] is normally bare; an article here adds extra emphasis or points to a specially salient possessor.</p>
@@ -359,7 +367,7 @@
     <p><em>Focus-fronting construction.</em> If a constituent is contrastively focused, it moves to clause-initial position and [w li] immediately follows that focused constituent rather than the verb. The rest of the clause keeps its ordinary sequence:</p>
     <list>
       <item><ex>[w on] [w li] [w byt :i 3s] [w tuka]?</ex> "Is it HE who is here?" (focused subject)</item>
-      <item><ex>[w tuka] [w li] [w žyvat :i 3p] [st страски :t strasky]?</ex> "Is it HERE that the Straski live?" (focused place)</item>
+      <item><ex>[w tuka] [w li] [w žyvat :i 3p] [st стирці :t styrci]?</ex> "Is it HERE that the Styrians live?" (focused place)</item>
       <item><ex>[w utre] [w li] [w ony] [w doit :i 3p]?</ex> "Is it TOMORROW that they are coming?" (focused time)</item>
     </list>
     <p>This focus-fronting construction differs from the neutral polar question only in the position of [w li] and implies a contrastive presupposition – the speaker assumes the proposition is true of some alternative and is asking whether the focused element, specifically, is the correct one.</p>
@@ -392,7 +400,7 @@
     <list>
       <item><ex>[w ta] [w čelovek] [w ky] [w pysat :i 3s] [w knyha :i o]</ex> "the person who is writing a book"</item>
       <item><ex>[w ta] [w dom] [w če] [w my] [w byt :i 1p] [w kupit :i lp]</ex> "the house that we bought" ([w dom] is the antecedent and subject of the matrix; it is the implicit object inside the relative — oblique in that function, but unmarked as the head noun)</item>
-      <item><ex>[w ta] [w hrad] [w kəde] [w žyvat :i 3p] [st страски :t strasky]</ex> "the town where the Straski live"</item>
+      <item><ex>[w ta] [w hrad] [w kəde] [w žyvat :i 3p] [st стирці :t styrci]</ex> "the town where the Styrians live"</item>
         <item><ex>[w ta] [w den] [w koga] [w on] [w byt :i 3s] [w doit :i lm]</ex> "the day when he came"</item>
       <item><ex>[w ta] [w čelovek] [w od] [w ky] [st име :t yme] [w az] [w ne] [st знам :t znam]</ex> "the person whose name I do not know"</item>
     </list>

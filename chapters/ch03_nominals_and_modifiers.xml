@@ -108,9 +108,9 @@
       <r><c>[w hrad]</c><c>[st градец :t hradec]</c><c>townsman, citizen</c></r>
       <r><c>[w selo]</c><c>[st селец :t selec]</c><c>villager</c></r>
       <r><c>[w zema]</c><c>[st земец :t zemec]</c><c>native, countryman</c></r>
-      <r><c>[st стир :t styr]</c><c>[st стирец :t styrec]</c><c>Styrian person</c></r>
+      <r><c>[st Стирія :t Styrija] (place/country)</c><c>[st стирец :t styrec]</c><c>Styrian person</c></r>
     </tb>
-    <p>Compared with -[st арӑ :t ară], this suffix feels slightly narrower and more lexical. It is most natural in demonyms, inhabitant terms, and established member nouns.</p>
+    <p>Compared with -[st арӑ :t ară], this suffix feels slightly narrower and more lexical. It is most natural in demonyms, inhabitant terms, and established member nouns. The Styrian inhabitant noun [st стирец :t styrec] is written with lower-case initial except sentence-initially; outside the nominative singular its stem is [st стирц- :t styrc-], as in plural [st стирці :t styrci].</p>
 
     <p>Modern Styrian has a <em>three-way grammatical gender</em> distinction in the singular: <em>masculine</em>, <em>feminine</em>, and <em>neuter</em>. Masculine includes the inherited consonant-final classes ([w dom], [w most], [w hrad], [w čelovek]), feminine includes the inherited -<em>a</em> classes and other historically feminine nouns ([w knyha], [w zema], [w reka], [w voda]), and neuter continues the old neuters in -<em>o</em>/<em>e</em> ([w selo], [w slovo], [w more], [w pole], [w vyno]). Plural remains gender-neutral. Gender is reflected in articles, adjectives, adnominal possessives and demonstratives, and in the singular l-participle.</p>
     <p>The derivational suffix -[st ица :t ica] continues Proto-Slavic *-<em>ица</em> (compare Bulgarian -<em>ица</em>, Serbian -<em>ица</em>) directly, retaining the affricate [st ц :t c]. It provides <em>lexical</em> marking of natural female reference and regularly yields feminine nouns, which then take the ordinary feminine article and agreement pattern.</p>
@@ -181,6 +181,26 @@
       <r><c>[st бегат :t begat]</c><c>[st бегач :t begač]</c><c>runner, messenger</c></r>
     </tb>
     <p>Many -[st ач :t ač] nouns have a slightly more energetic or colloquial feel than their -[st арӑ :t ară] equivalents and are particularly common in vernacular speech and folk vocabulary.</p>
+
+    <p>The suffix -[st шчіна :t ščina] derives feminine nouns naming languages from ethnolinguistic adjective stems. The formation parallels Slovenian -<em>ščina</em> and follows a single productive rule: remove the masculine adjective ending -[st ски :t sky] and append -[st шчіна :t ščina]. Note that the Styrian masculine adjective ending is -[st ски :t sky] (with Cyrillic [st и :t y], the back vowel), not -[st скі :t ski] (with front [st і :t i]); this is the regular Styrian masculine adjective shape and the source of the romanization <em>-sky</em> throughout. The resulting -[st шчіна :t ščina] noun belongs to the regular productive feminine -[st а :t a] class (oblique singular -[st е :t e], plural -[st и :t y]). It stands as the lexicalized counterpart to the analytic adjectival phrase, and after [w hovorit] and similar verbs the -[st шчіна :t ščina] form is preferred in a prepositional construction (see §Prepositions).</p>
+    <p>Synchronically these ethnolinguistic derivations are not restricted to sovereign countries alone. Any culturally salient and readily cognizable land, region, or place may yield a demonym and an ethnolinguistic adjective in the same way. The language noun in -[st шчіна :t ščina], however, is semantically narrower: it is used where there is an actual named language tradition. Broad geographical labels such as [st Европа :t Evropa] and [st Америка :t Amerika] can readily form demonyms and adjectives, but they do not normally yield their own substantive language nouns.</p>
+    <p>For Styrian the chain runs [st Стирія :t Styrija] (place/country) → [st стирец :t styrec] (demonym) → [st стирски :t styrsky] / [st стирянски :t styrjansky] (ethnolinguistic adjective) → [st стиршчіна :t styrščina] (language noun). Illustrative parallel sets are as follows:</p>
+    <tb>
+      <r><c>English</c><c>Place name</c><c>Demonym</c><c>Ethnolinguistic adjective</c><c>Language form</c><c>Note</c></r>
+      <r><c>Styrian</c><c>[st Стирія :t Styrija]</c><c>[st стирец :t styrec]</c><c>[st стирски :t styrsky]; [st стирянски :t styrjansky]</c><c>[st стиршчіна :t styrščina]</c><c>Ordinary short adjective [st стирски :t styrsky]; fuller formal variant [st стирянски :t styrjansky].</c></r>
+      <r><c>America</c><c>[st Америка :t Amerika]</c><c>[st американец :t amerikanec]</c><c>[st американски :t amerikansky]</c><c>—</c><c>Broad geographical/geopolitical label; no single substantive language noun.</c></r>
+      <r><c>Europe</c><c>[st Европа :t Evropa]</c><c>[st европец :t evropec]</c><c>[st европски :t evropsky]</c><c>—</c><c>Continental term; no single substantive language noun.</c></r>
+      <r><c>France</c><c>[st Франція :t Francija]</c><c>[st француз :t Francuz]</c><c>[st француски :t francouzsky]</c><c>[st францошчіна :t francoščina]</c><c>Standard modern set.</c></r>
+      <r><c>Germany</c><c>[st Немчія :t Nemčija]</c><c>[st немец :t Nemec]</c><c>[st немски :t nemsky]</c><c>[st немшчіна :t nemščina]</c><c>Standard modern set.</c></r>
+      <r><c>Croatia</c><c>[st Хӑрватска :t Hărvatska]</c><c>[st хӑрват :t hărvat]</c><c>[st хӑрватски :t hărvatsky]</c><c>[st хӑрватшчіна :t hărvatščina]</c><c>Also [st Хӑрватско :t Hărvatsko] as an alternate state-name form.</c></r>
+      <r><c>Czechia</c><c>[st Чешка :t Češka]</c><c>[st чех :t čeh]</c><c>[st чешки :t češky]</c><c>[st чешчіна :t češčina]</c><c>Also [st Чешко :t Češko] as an alternate state-name form.</c></r>
+      <r><c>Slovakia</c><c>[st Словакія :t Slovakija]</c><c>[st словак :t slovak]</c><c>[st словашки :t slovašky]</c><c>[st словашчіна :t slovaščina]</c><c>Standard modern set.</c></r>
+      <r><c>Slovenia</c><c>[st Словенія :t Slovenija]</c><c>[st словенец :t slovenec]</c><c>[st словенски :t slovensky]</c><c>[st словеншчіна :t slovenščina]</c><c>Also [st Словенско :t Slovensko] as an alternate state-name form.</c></r>
+      <r><c>Bosnia</c><c>[st Босна и Херцеговина :t Bosna i Hercegovina]; [st Босна :t Bosna]</c><c>[st босанец :t bosanec]</c><c>[st босански :t bosansky]</c><c>[st босаншчіна :t bosanščina]</c><c>[st Босна :t Bosna] can refer to Bosnia proper or the region.</c></r>
+      <r><c>Greece</c><c>[st Гӑрчія :t Gărčija]</c><c>[st гӑрк :t gărk]</c><c>[st гӑршки :t găršky]</c><c>[st гӑршчіна :t gărščina]</c><c>Standard modern set.</c></r>
+      <r><c>China</c><c>[st Китайска :t Kitajska]</c><c>[st китаец :t kitajec]</c><c>[st китайски :t kitajsky]</c><c>[st китайшчіна :t kitajščina]</c><c>Standard modern set.</c></r>
+    </tb>
+    <p>The adjective in the fourth column is the form used attributively with [w ezyk]: [st стирски :t styrsky] [w ezyk] "the Styrian language", [st словенски :t slovensky] [w ezyk] "the Slovenian language", and so on. Where the language-form column has a dash, only the analytic phrase with the adjective is available. All masculine adjective forms consistently end in -[st ски :t sky] (Cyrillic [st и :t y], back vowel).</p>
   </sec>
 
   <sec t="Articles">
@@ -382,7 +402,7 @@
     </list>
     <p>The default position is <em>after the noun</em> for descriptive and classifying adjectives:</p>
     <list>
-      <item>[w ta] [w hovor] [w styrsky :i ms] "the Styrian speech"</item>
+      <item>[w ta] [w ezyk] [w styrsky :i ms] "the Styrian language"</item>
       <item>[w ta] [w most] [w starə :i ms] "the old bridge"</item>
       <item>[w taf] [w knyha] [w novə :i fs] "the new book"</item>
       <item>[w to] [w slovo] [w novə :i ns] "the new word"</item>

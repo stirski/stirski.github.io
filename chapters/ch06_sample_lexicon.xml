@@ -38,7 +38,8 @@
     <r><c>[w dom]</c><c>house, home</c><c>—</c><c>noun</c></r>
     <r><c>[w čelovek]</c><c>person</c><c><code>*čьlovekъ</code></c><c>noun; irregular plural</c></r>
     <r><c>[w hrad]</c><c>town, city</c><c>—</c><c>noun</c></r>
-    <r><c>[w hovor]</c><c>speech, way of speaking</c><c>—</c><c>noun</c></r>
+    <r><c>[w hovor]</c><c>speech, discourse, manner of speaking</c><c>—</c><c>noun; cf. [w ezyk] for "language" as an abstract category</c></r>
+    <r><c>[w ezyk]</c><c>language, tongue</c><c><code>*językъ</code> (denasalized)</c><c>noun; canonical word for "language"; velar mutation in obl/pl: [w ezyk :i o], [w ezyk :i p]</c></r>
     <r><c>[w selo]</c><c>village</c><c>—</c><c>noun</c></r>
     <r><c>[w hora]</c><c>mountain; forest</c><c>—</c><c>noun; [st г :t h] pronounced /ɦ/</c></r>
     <r><c>[w reka]</c><c>river</c><c><code>*rěka</code></c><c>noun</c></r>
@@ -80,7 +81,10 @@
     <r><c>[st чернӑ :t černă]</c><c>black</c><c>PSl <code>*čьrnъ</code></c><c>adjective; strong ь → е; [st ч :t č] retained, [st е :t e] kept before liquid</c></r>
     <r><c>[st студенӑ :t studenă]</c><c>cold</c><c>—</c><c>adjective</c></r>
     <r><c>[w topalə]</c><c>warm</c><c>—</c><c>adjective</c></r>
-    <r><c>[w styrsky]</c><c>Styrian</c><c>—</c><c>adjective / language name modifier</c></r>
+    <r><c>[st Стирія :t Styrija]</c><c>Styria, the Styrian country/land</c><c>—</c><c>place name; regular capitalized name of the country/land</c></r>
+    <r><c>[st стирец :t styrec]</c><c>Styrian person</c><c>from [st Стирія :t Styrija]</c><c>masculine inhabitant noun; stem [st стирц- :t styrc-] in plural, oblique, and related forms; lower-case except sentence-initially</c></r>
+    <r><c>[w styrsky]</c><c>Styrian (adjective)</c><c>from place name [st Стирія :t Styrija]</c><c>ordinary ethnolinguistic adjective; masculine ends in -[st ски :t sky] (Cyrillic [st и :t y], back vowel); fuller formal variant [st стирянски :t styrjansky]; attributive: [w styrsky] [w ezyk] "the Styrian language"; lexicalized language noun: [st стиршчіна :t styrščina]</c></r>
+    <r><c>[st стиршчіна :t styrščina]</c><c>Styrian (language noun)</c><c>from [st стирски :t styrsky] + -[st шчіна :t ščina]</c><c>feminine noun; canonical lexicalized name of the Styrian language; oblique [st стиршчіне :t styrščine]; used in [w po] + obl. construction for "speak Styrian"</c></r>
     <r><c>[w pysat]</c><c>to write</c><c>—</c><c>a-class impf.; n-part. [w pysat :i nm]/[w pysat :i nf]/[w pysat :i nn]/[w pysat :i np] ([st писанӑ :t pysană]/[st писана :t pysana]/[st писано :t pysano]/[st писані :t pysani])</c></r>
     <r><c>[w napysat]</c><c>to write, finish writing</c><c>—</c><c>a-class pf.; n-part. [w napysat :i nm]/[w napysat :i nf]/[w napysat :i nn]/[w napysat :i np] ([st написанӑ :t napysană]/[st написана :t napysana]/[st написано :t napysano]/[st написані :t napysani])</c></r>
     <r><c>[w delat]</c><c>to do, make</c><c>—</c><c>a-class impf.; n-part. [w delat :i nm]/[w delat :i nf]/[w delat :i nn]/[w delat :i np] ([st деланӑ :t delană]/[st делана :t delana]/[st делано :t delano]/[st делані :t delani])</c></r>

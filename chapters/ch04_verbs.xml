@@ -125,7 +125,7 @@
       <list>
         <item><ex>[w on] [w byt :i 3s] [w lekar]</ex> "he is a doctor"</item>
         <item><ex>[w ta] [st град :t hrad] [w byt :i 3s] [w starə :i ms]</ex> "the town is old"</item>
-        <item><ex>[w az] [w byt :i 1s] [w strasky]</ex> "I am a Straski"</item>
+        <item><ex>[w az] [w byt :i 1s] [st стирец :t styrec]</ex> "I am a Styrian"</item>
       </list>
       <p>This holds equally for identificational, descriptive, and class-membership predicates: <ex>[w az] [w byt :i 1s] [st студент :t student]</ex> "I am a student."</p>
     </sub>

@@ -60,6 +60,7 @@
       <form f="3pl"     stem="pres" suffix="ут"/>
       <form f="imp.2sg" stem="pres" suffix="і"/>
       <form f="imp.2pl" stem="pres" suffix="іте"/>
+      <form f="imp.1pl" stem="pres" suffix="імо"/>
       <form f="ppl"     stem="main" suffix="ачӑ"/>
       <form f="lptc.m"  stem="main" suffix="алӑ"/>
       <form f="lptc.f"  stem="main" suffix="ала"/>
@@ -81,6 +82,7 @@
       <form f="3pl"     stem="pres" suffix="ут"/>
       <form f="imp.2sg" stem="pres" suffix="і"/>
       <form f="imp.2pl" stem="pres" suffix="іте"/>
+      <form f="imp.1pl" stem="pres" suffix="імо"/>
       <form f="ppl"     stem="pres" suffix="ечӑ"/>
       <form f="lptc.m"  stem="main" suffix="ілӑ"/>
       <form f="lptc.f"  stem="main" suffix="іла"/>
@@ -436,7 +438,8 @@
     <form f="pl" v="роби"/>
   </lex>
 
-  <lex id="hovor" pos="n" gen="m" decl="cons" template="cons" gloss="speech">
+  <!-- говор: speech, discourse, manner of speaking; cf. език for "language" as abstract category -->
+  <lex id="hovor" pos="n" gen="m" decl="cons" template="cons" gloss="speech, discourse">
     <stem name="main" v="говор"/>
   </lex>
 
@@ -653,8 +656,19 @@
     <stem name="main" v="топал"/>
   </lex>
 
-  <lex id="styrsky" pos="adj" template="adj-i" gloss="Styrian">
+  <!-- стирски: ordinary ethnolinguistic adjective "Styrian", derived from place name Стирія;
+       fuller formal variant: стирянски;
+       masculine ends in -ски (Cyrillic и = y-sound), romanized -sky;
+       analytic language phrase: стирски език;
+       lexicalized language noun: стиршчіна (fem. -а class) -->
+  <lex id="styrsky" pos="adj" template="adj-i" gloss="Styrian (adj)">
     <stem name="main" v="стирск"/>
+  </lex>
+
+  <!-- стиршчіна: lexicalized Styrian language noun, from стирски + -шчіна;
+       regular fem. -а class; obl.sg стиршчіне; used in по + obl. for "I speak Styrian" -->
+  <lex id="styrščina" pos="n" gen="f" decl="a" template="fem-a" gloss="Styrian (language noun)">
+    <stem name="main" v="стиршчін"/>
   </lex>
 
   <lex id="velik" pos="adj" template="adj-hard" gloss="great, big">
@@ -803,12 +817,16 @@
     <stem name="main" v="одговор"/>
   </lex>
 
-  <lex id="ezik" pos="n" gen="m" decl="cons" template="cons-velar-front" gloss="language">
+  <!-- език: canonical word for "language" as abstract category; *językъ with denasalization;
+       velar mutation: obl.sg. езику, pl. езиці (front stem езиц-) -->
+  <lex id="ezyk" pos="n" gen="m" decl="cons" template="cons-velar-front" gloss="language ">
     <stem name="main" v="език"/>
     <stem name="front" v="езиц"/>
   </lex>
 
-  <lex id="strasky" pos="adj" template="adj-i" gloss="Straski">
+  <!-- страски: external or literary ethnonym "Straski"; not the ordinary in-language demonym,
+       which is стирец; associated with Стирія -->
+  <lex id="strasky" pos="adj" template="adj-i" gloss="Straski (ethnonym)">
     <stem name="main" v="страск"/>
   </lex>
 
@@ -844,6 +862,7 @@
 
   <lex id="vybyrat" pos="v" asp="impf" vclass="a" template="reg-a" gloss="to choose habitually">
     <stem name="main" v="вибир"/>
+    <form f="imp.1pl" v="вибіраімо"/>
   </lex>
 
   <lex id="vyučit" pos="v" asp="pf" vclass="i" template="reg-i" gloss="to teach thoroughly">
@@ -1396,6 +1415,7 @@
   <lex id="derat" pos="v" asp="impf" vclass="irr" gloss="to tear">
     <form f="inf" v="дерат"/>
     <form f="1pl" v="дереме"/>
+    <form f="imp.1pl" v="дерімо"/>
   </lex>
 
   <lex id="protivit" pos="v" asp="impf" vclass="i" template="reg-i" gloss="to oppose">
