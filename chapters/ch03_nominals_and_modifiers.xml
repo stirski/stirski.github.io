@@ -215,7 +215,7 @@
     <p>There is no indefinite article. In subject and direct-object position, bare nouns are typically indefinite or generic; in prepositional phrases the same bare form is also the normal definite pattern:</p>
     <list>
       <item>[w dom] [w byt :i 3sg] [w holemə :i m.sg] "a house is large / houses are large" (generic)</item>
-      <item>[w on] [w kupit :i lptc.m] [w dom] "he bought a house" (bare noun, indefinite reading)</item>
+      <item>[w on] [w kupit :i lptc.m] [w dom :i obl.sg] "he bought a house" (bare noun, indefinite reading)</item>
       <item>[w my] [st билі :t byli] [w ve] [w hrad :i obl.sg] "we were in the town / in town" (prepositional phrase, article omitted by default)</item>
     </list>
     <p>The numeral [w edyn] "one" can mark an explicitly indefinite singular, especially for specific referents:</p>
@@ -321,8 +321,8 @@
       <p>Examples:</p>
       <list>
         <item>[w on] [w se] [w myit :i 3sg] "he washes himself"</item>
-        <item>[w az] [w kupit :i lptc.m] [st себе :t sebe] [w knyha] "I bought myself a book"</item>
-        <item>[w az] [w byt :i 1sg] [st си :t sy] [w kupit :i lptc.m] [w knyha] "I bought myself a book" (clitic after auxiliary)</item>
+        <item>[w az] [w kupit :i lptc.m] [st себе :t sebe] [w knyha :i obl.sg] "I bought myself a book"</item>
+        <item>[w az] [w byt :i 1sg] [st си :t sy] [w kupit :i lptc.m] [w knyha :i obl.sg] "I bought myself a book" (clitic after auxiliary)</item>
         <item>[w ta] [w suoj :i m.sg] [w dom] "one's own house" (reflexive possessive)</item>
       </list>
       <p>Possessive forms function as agreeing determiners. They follow the same agreement pattern as adjectives — masculine singular, feminine singular, neuter singular, and plural, each with nominative and oblique in the singular — and the article likewise agrees in case. In ordinary definite noun phrases they normally appear with the article:</p>

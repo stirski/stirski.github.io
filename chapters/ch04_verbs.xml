@@ -83,14 +83,14 @@
     <p>The default use is adjectival, usually after the noun like other descriptive modifiers:</p>
     <list>
       <item><ex>[w ta] [w čelovek] [w pysat :i ppl]</ex> "the person writing"</item>
-      <item><ex>[w taf] [w žena] [w nosit :i ppl] [w voda]</ex> "the woman carrying water"</item>
+      <item><ex>[w taf] [w žena] [w nosit :i ppl] [w voda :i obl.sg]</ex> "the woman carrying water"</item>
       <item><ex>[w ti] [w čelovek :i pl] [w delat :i ppl]</ex> "the people working"</item>
     </list>
     <p>It can also be used predicatively with [w byt] to form an optional periphrastic progressive. This construction is <em>marked</em> and emphasizes that an event is in progress at the reference time; the plain non-past still normally covers both habitual and ongoing meanings.</p>
     <list>
       <item><ex>[w az] [w byt :i 1sg] [w pysat :i ppl]</ex> "I am writing"</item>
       <item><ex>[w ony] [w byt :i 3pl] [w delat :i ppl]</ex> "they are working"</item>
-      <item><ex>[w ty] [w byt :i 2sg] [w nosit :i ppl] [w taf] [w knyha]</ex> "you are carrying the book"</item>
+      <item><ex>[w ty] [w byt :i 2sg] [w nosit :i ppl] [w taf :i f.sg.obl] [w knyha :i obl.sg]</ex> "you are carrying the book"</item>
     </list>
     <p>The progressive is most natural with imperfective verbs. With perfective verbs it is generally avoided or reinterpreted, since perfective events are not normally viewed internally as ongoing. The copula is retained in progressive clauses in all persons, including the 3sg, which keeps them distinct from a simple participial predicate.</p>
   </sec>
@@ -221,8 +221,8 @@
       <list>
         <item><ex>[w on] [w ydat :i 3sg] [w ve] [w hrad :i obl.sg]</ex> "he is going to town (now, one trip)" — unidirectional, single event in progress</item>
         <item><ex>[w on] [w xodit :i 3sg] [w ve] [w hrad :i obl.sg]</ex> "he goes to town (regularly)" — multidirectional, habitual pattern</item>
-        <item><ex>[w az] [w nesat :i 1sg] [w ta] [st воду :t vodu] [w do] [w dom]</ex> "I am carrying the water to the house (this trip)" — unidirectional, ongoing single event</item>
-        <item><ex>[w az] [w nosit :i 1sg] [w voda] [w so] [w reka :i obl.sg]</ex> "I carry water from the river (all the time)" — multidirectional, habitual</item>
+        <item><ex>[w az] [w nesat :i 1sg] [w taf :i f.sg.obl] [w voda :i obl.sg] [w do] [w dom :i obl.sg]</ex> "I am carrying the water to the house (this trip)" — unidirectional, ongoing single event</item>
+        <item><ex>[w az] [w nosit :i 1sg] [w voda :i obl.sg] [w so] [w reka :i obl.sg]</ex> "I carry water from the river (all the time)" — multidirectional, habitual</item>
         <item><ex>[w on] [w bežat :i 3sg] [w na] [w most :i obl.sg]</ex> "he is running toward the bridge" — unidirectional, directed</item>
         <item><ex>[w on] [w behat :i 3sg] [w ve] [w hora :i obl.sg]</ex> "he runs in the mountains (regularly, for sport)" — multidirectional</item>
       </list>
@@ -364,8 +364,8 @@
   <sec t="Pluperfect">
     <p>A pluperfect meaning ("had written, had already done X before Y") is expressed by a double-auxiliary construction: present [w byt] + l-participle of [w byt] + l-participle of the main verb. Both participles follow the subject's gender and number:</p>
     <list>
-      <item><ex>[w az] [w byt :i 1sg] [st билӑ :t bylă] [w pysat :i lptc.m] [w taf] [w knyha] [w koga] [w on] [w doit :i lptc.m]</ex> "I had (already) written the book when he arrived"</item>
-      <item><ex>[w ona] [w byt :i 3sg] [st била :t byla] [w pysat :i lptc.f] [w to] [w pismo] [w pred] [w nas]</ex> "she had written the letter before us"</item>
+      <item><ex>[w az] [w byt :i 1sg] [st билӑ :t bylă] [w pysat :i lptc.m] [w taf :i f.sg.obl] [w knyha :i obl.sg] [w koga] [w on] [w doit :i lptc.m]</ex> "I had (already) written the book when he arrived"</item>
+      <item><ex>[w ona] [w byt :i 3sg] [st била :t byla] [w pysat :i lptc.f] [w to :i n.sg.obl] [w pismo :i obl.sg] [w pred] [w nas]</ex> "she had written the letter before us"</item>
       <item><ex>[w ony] [w byt :i 3pl] [st билі :t byli] [w ydat :i lptc.pl] [st пре :t pre] [w my]</ex> "they had gone before us"</item>
     </list>
     <p>This construction is more common in written register and narrative; in everyday speech, context and adverbs like [w uže] "already" often do the work instead.</p>
@@ -390,7 +390,7 @@
     <list>
       <item><em>Hypothetical / irrealis</em>: <ex>[w az] [st би :t by] [w ydat :i lptc.m], [st ано :t ano] [w byt :i 1sg] [st болан :t bolan]</ex> "I would go, but I am sick"</item>
       <item><em>Hypothetical / irrealis</em>: <ex>[w ona] [st би :t by] [w ydat :i lptc.f], [st ано :t ano] [w byt.neg :i 3sg] [st готова :t hotova]</ex> "she would go, but she is not ready"</item>
-      <item><em>Polite request</em>: <ex>[w ty] [st би :t by] [st моглӑ :t mohlă] [w dat] [w my] [w voda]?</ex> "could you give me some water?"</item>
+      <item><em>Polite request</em>: <ex>[w ty] [st би :t by] [st моглӑ :t mohlă] [w dat] [w my] [w voda :i obl.sg]?</ex> "could you give me some water?"</item>
       <item><em>Counterfactual conditional</em> (with [st ако :t ako]): see §Conditional Sentences</item>
     </list>
     <p>A past counterfactual ("would have done") can be expressed with [st би :t by] + l-participle of [w byt] + l-participle of the main verb; both participles follow the subject's gender and number:</p>
@@ -450,7 +450,7 @@
     </list>
     <p><em>Perfective non-past with future reading</em>: a perfective verb in the present/non-past tense form naturally refers to future completion, since a perfective event cannot be ongoing:</p>
     <list>
-      <item><ex>[w az] [st написам :t napysam] [w taf] [w knyha] [st утре :t utre]</ex> "I will write (finish writing) the book tomorrow"</item>
+      <item><ex>[w az] [st написам :t napysam] [w taf :i f.sg.obl] [w knyha :i obl.sg] [st утре :t utre]</ex> "I will write (finish writing) the book tomorrow"</item>
       <item><ex>[w on] [w doit :i 3sg] [w koga] [w byt :i 3sg] [st готов :t hotov]</ex> "he will come when ready"</item>
     </list>
   </sec>

@@ -6,7 +6,7 @@
     <list>
       <item><ex>[w az] [w vydit :i 1sg] [w ta :i m.sg.obl] [w dom :i obl.sg]</ex> "I see the house" (subject [w az] nom; object [w ta :i m.sg.obl] [w dom :i obl.sg] obl)</item>
       <item><ex>[w taf] [w žena] [w vydit :i 3sg] [w ta :i m.sg.obl] [w čelovek :i obl.sg]</ex> "the woman sees the person" (subject nom; object obl)</item>
-      <item><ex>[w ti] [st страски :t strasky] [w žyvat :i 3pl] [w ve] [w starə] [w hrad :i pl]</ex> "the Straski live in old towns" (plural nouns are case-syncretic)</item>
+      <item><ex>[w ti] [st страски :t strasky] [w žyvat :i 3pl] [w ve] [w starə :i pl] [w hrad :i pl]</ex> "the Straski live in old towns" (plural nouns are case-syncretic)</item>
     </list>
     <p>Non-canonical orders occur with focused or topicalized constituents but require prosodic marking and are more restricted than in most Slavic languages.</p>
   </sec>
@@ -146,16 +146,16 @@
     <sub t="The Second-Position Rule">
       <p>The clitic cluster attaches immediately after the <em>first stressed constituent</em> (XP₁) of the clause. In the default declarative clause XP₁ is the subject and the cluster follows it — an order superficially identical to a post-subject rule. The 2P nature of the constraint becomes visible when a non-subject constituent is fronted: the cluster follows the fronted element and the required overt subject is displaced after the cluster.</p>
       <list>
-        <item><ex>[w az] [w mu] [w dat :i 1sg] [w taf] [w knyha].</ex> "I give him the book" — XP₁ = subject [w az]; cluster [[st му :t mu]] at 2P</item>
-        <item><ex>[w utre :c] [w mu] [w az] [w dat :i 1sg] [w taf] [w knyha].</ex> "Tomorrow I give him the book" — XP₁ = fronted [w utre]; cluster [[st му :t mu]] at 2P; required subject [w az] displaced after cluster</item>
+        <item><ex>[w az] [w mu] [w dat :i 1sg] [w taf :i f.sg.obl] [w knyha :i obl.sg].</ex> "I give him the book" — XP₁ = subject [w az]; cluster [[st му :t mu]] at 2P</item>
+        <item><ex>[w utre :c] [w mu] [w az] [w dat :i 1sg] [w taf :i f.sg.obl] [w knyha :i obl.sg].</ex> "Tomorrow I give him the book" — XP₁ = fronted [w utre]; cluster [[st му :t mu]] at 2P; required subject [w az] displaced after cluster</item>
       </list>
     </sub>
     <sub t="Simple Tenses">
       <p>In simple (non-compound) tenses the cluster contains elements from positions 3–5 only (reflexive, dative, accusative). The cluster follows XP₁; the finite verb and remaining predicate follow.</p>
       <list>
-        <item><ex>[w az] [w mu] [w dat :i 1sg] [w taf] [w knyha].</ex> "I give him the book"</item>
-        <item><ex>[w ty] [w my] [w dat :i 2sg] [w voda].</ex> "you give me water"</item>
-        <item><ex>[w ony] [w ym] [w prašat :i 3pl] [w to] [w slovo :i obl.sg].</ex> "they send them the message"</item>
+        <item><ex>[w az] [w mu] [w dat :i 1sg] [w taf :i f.sg.obl] [w knyha :i obl.sg].</ex> "I give him the book"</item>
+        <item><ex>[w ty] [w my] [w dat :i 2sg] [w voda :i obl.sg].</ex> "you give me water"</item>
+        <item><ex>[w ony] [w ym] [w prašat :i 3pl] [w to :i n.sg.obl] [w slovo :i obl.sg].</ex> "they send them the message"</item>
         <item><ex>[w az] [w mu] [w go] [w dat :i 1sg].</ex> "I give it to him" — cluster [[st му го :t mu ho]]: DAT then ACC</item>
         <item><ex>[w taf] [w žena] [w te] [w vydit :i 3sg].</ex> "the woman sees you" — DP subject as XP₁; ACC clitic at 2P</item>
         <item><ex>[w on] [w se] [w myit :i 3sg].</ex> "he washes himself" — reflexive ACC clitic (position 3) alone in cluster</item>
@@ -169,16 +169,16 @@
       </list>
       <p><em>Fronted non-subject constituent:</em></p>
       <list>
-        <item><ex>[w utre :c] [w mu] [w az] [w dat :i 1sg] [w taf] [w knyha].</ex> "Tomorrow I give him the book" — cluster after fronted adverb; subject displaced</item>
-        <item><ex>[w taf :c] [w knyha] [w mu] [w az] [w dat :i 1sg].</ex> "The book I give to him" — topicalized object as XP₁</item>
+        <item><ex>[w utre :c] [w mu] [w az] [w dat :i 1sg] [w taf :i f.sg.obl] [w knyha :i obl.sg].</ex> "Tomorrow I give him the book" — cluster after fronted adverb; subject displaced</item>
+        <item><ex>[w taf :i f.sg.obl :c] [w knyha :i obl.sg] [w mu] [w az] [w dat :i 1sg].</ex> "The book I give to him" — topicalized object as XP₁</item>
       </list>
-      <p>When the recipient is a full noun phrase rather than a pronoun, it is introduced by [w do] and no dative clitic appears: <ex>[w az] [w dat :i 1sg] [w taf] [w knyha :i obl.sg] [w do] [st Марие :t Marye]</ex> "I give the book to Maria."</p>
+      <p>When the recipient is a full noun phrase rather than a pronoun, it is introduced by [w do] and no dative clitic appears: <ex>[w az] [w dat :i 1sg] [w taf :i f.sg.obl] [w knyha :i obl.sg] [w do] [st Марие :t Marye]</ex> "I give the book to Maria."</p>
     </sub>
     <sub t="Compound Tenses">
       <p>In compound tenses the auxiliary form of [w byt] joins the cluster at position 2. The complete cluster follows XP₁; the l-participle stands at the end of the verb phrase.</p>
       <list>
-        <item><ex>[w az] [w byt :i 1sg] [w mu] [w dat :i lptc.m] [w taf] [w knyha].</ex> "I gave him the book" — cluster [[st сем му :t sem mu]]</item>
-        <item><ex>[w on] [w byt :i 3sg] [w ym] [w prašat :i lptc.m] [w to] [w slovo :i obl.sg].</ex> "he sent them the message" — cluster [[st е им :t e ym]]</item>
+        <item><ex>[w az] [w byt :i 1sg] [w mu] [w dat :i lptc.m] [w taf :i f.sg.obl] [w knyha :i obl.sg].</ex> "I gave him the book" — cluster [[st сем му :t sem mu]]</item>
+        <item><ex>[w on] [w byt :i 3sg] [w ym] [w prašat :i lptc.m] [w to :i n.sg.obl] [w slovo :i obl.sg].</ex> "he sent them the message" — cluster [[st е им :t e ym]]</item>
         <item><ex>[w az] [w byt :i 1sg] [w mu] [w go] [w dat :i lptc.m].</ex> "I gave it to him" — cluster [[st сем му го :t sem mu ho]]: AUX, then DAT, then ACC</item>
         <item><ex>[w on] [w byt :i 3sg] [w sy] [w kupit :i lptc.m] [w novə] [w rob :i pl].</ex> "he bought himself new clothes" — cluster [[st е си :t e sy]]; reflexive DAT at position 3</item>
         <item><ex>[w ty] [w byt :i 2sg] [w mu] [w go] [w dat :i lptc.m].</ex> "you gave it to him" — cluster [[st си му го :t si mu ho]]: AUX (2sg), then DAT, then ACC; the overt subject [w ty] identifies [w byt :i 2sg] as the auxiliary, not reflexive DAT</item>
@@ -186,19 +186,19 @@
       </list>
       <p><em>Fronted non-subject constituent:</em></p>
       <list>
-        <item><ex>[w večer :c] [w byt :i 3sg] [w mu] [w on] [w dat :i lptc.m] [w taf] [w knyha].</ex> "Yesterday he gave him the book" — cluster [[st е му :t e mu]] at 2P after adverb; subject [w on] displaced after cluster</item>
-        <item><ex>[w taf :c] [w knyha] [w byt :i 1sg] [w mu] [w az] [w dat :i lptc.m].</ex> "The book I had given to him" — topicalized object as XP₁; cluster [[st сем му :t sem mu]]; subject [w az] displaced</item>
+        <item><ex>[w večer :c] [w byt :i 3sg] [w mu] [w on] [w dat :i lptc.m] [w taf :i f.sg.obl] [w knyha :i obl.sg].</ex> "Yesterday he gave him the book" — cluster [[st е му :t e mu]] at 2P after adverb; subject [w on] displaced after cluster</item>
+        <item><ex>[w taf :i f.sg.obl :c] [w knyha :i obl.sg] [w byt :i 1sg] [w mu] [w az] [w dat :i lptc.m].</ex> "The book I had given to him" — topicalized object as XP₁; cluster [[st сем му :t sem mu]]; subject [w az] displaced</item>
       </list>
       <p>The conditional particle [w by] occupies position 1. In a plain conditional clause (no perfect auxiliary) the cluster is [[w by]] + any reflexive/DAT/ACC clitics:</p>
       <list>
-        <item><ex>[w az] [w by] [w mu] [w dat :i lptc.m] [w taf] [w knyha].</ex> "I would give him the book" — cluster [[st би му :t by mu]]</item>
+        <item><ex>[w az] [w by] [w mu] [w dat :i lptc.m] [w taf :i f.sg.obl] [w knyha :i obl.sg].</ex> "I would give him the book" — cluster [[st би му :t by mu]]</item>
         <item><ex>[w on] [w by] [w mu] [w go] [w dat :i lptc.m].</ex> "he would give it to him" — cluster [[st би му го :t by mu ho]]: conditional, DAT, ACC</item>
         <item><ex>[w ty] [w by] [w se] [st умілӑ :t umilă].</ex> "you would wash yourself" — cluster [[st би се :t by se]]: conditional, reflexive ACC</item>
       </list>
       <p><em>Pluperfect and clitics.</em> The pluperfect uses a double-auxiliary construction (present AUX + l-participle of [w byt] + main l-participle; see §Pluperfect). The clitic AUX from position 2 heads the cluster in the usual way; both participles follow outside the cluster:</p>
       <list>
-        <item><ex>[w az] [w byt :i 1sg] [w mu] [st билӑ :t bylă] [w dat :i lptc.m] [w taf] [w knyha].</ex> "I had given him the book" — cluster [[st сем му :t sem mu]]; then [st билӑ :t bylă] and main participle [w dat :i lptc.m]</item>
-        <item><ex>[w ony] [w byt :i 3pl] [w ym] [st билі :t byli] [w prašat :i lptc.pl] [w to] [w slovo :i obl.sg].</ex> "they had sent them the message" — cluster [[st су им :t su ym]]</item>
+        <item><ex>[w az] [w byt :i 1sg] [w mu] [st билӑ :t bylă] [w dat :i lptc.m] [w taf :i f.sg.obl] [w knyha :i obl.sg].</ex> "I had given him the book" — cluster [[st сем му :t sem mu]]; then [st билӑ :t bylă] and main participle [w dat :i lptc.m]</item>
+        <item><ex>[w ony] [w byt :i 3pl] [w ym] [st билі :t byli] [w prašat :i lptc.pl] [w to :i n.sg.obl] [w slovo :i obl.sg].</ex> "they had sent them the message" — cluster [[st су им :t su ym]]</item>
         <item><ex>[st Пре :t Pre] [w dat :i 3sg] [w doit :i 3sg] [w on], [w az] [w byt :i 1sg] [w mu] [w go] [st билӑ :t bylă] [w dat :i lptc.m].</ex> "Before he arrived, I had given it to him" — cluster [[st сем му го :t sem mu ho]]</item>
       </list>
     </sub>
@@ -207,8 +207,8 @@
       <p>The auxiliary [w byt] behaves consistently across positive and negative compound tenses: its forms always occupy position 2 in the cluster. In the negative, the fused forms [w byt.neg :i 1sg], [w byt.neg :i 2sg], [w byt.neg :i 3sg], [w byt.neg :i 1pl], [w byt.neg :i 2pl], [w byt.neg :i 3pl] — products of [w ne] + the clitic auxiliary — occupy that same position 2 slot, heading the cluster just as the positive forms do. Reflexive, dative, and accusative clitics follow at positions 3–5.</p>
       <p><em>Simple tense, negated — cluster [refl DAT ACC] before не-V:</em></p>
       <list>
-        <item><ex>[w az] [w mu] [w ne] [w dat :i 1sg] [w taf] [w knyha].</ex> "I don't give him the book" — cluster [[st му :t mu]] at 2P; tonic [st не дам :t ne dam] follows</item>
-        <item><ex>[w ty] [w my] [w ne] [w dat :i 2sg] [w voda].</ex> "you don't give me water"</item>
+        <item><ex>[w az] [w mu] [w ne] [w dat :i 1sg] [w taf :i f.sg.obl] [w knyha :i obl.sg].</ex> "I don't give him the book" — cluster [[st му :t mu]] at 2P; tonic [st не дам :t ne dam] follows</item>
+        <item><ex>[w ty] [w my] [w ne] [w dat :i 2sg] [w voda :i obl.sg].</ex> "you don't give me water"</item>
         <item><ex>[w az] [w se] [w ne] [w myit :i 1sg].</ex> "I don't wash myself" — reflexive ACC at 2P</item>
         <item><ex>[w az] [w mu] [w go] [w ne] [w dat :i 1sg].</ex> "I don't give it to him" — cluster [[st му го :t mu ho]]: DAT then ACC at 2P; tonic [st не дам :t ne dam] follows</item>
         <item><ex>[w ony] [w ym] [w ne] [w prašat :i 3pl] [w vas].</ex> "they don't send you (pl.) to them" — cluster [[st им :t ym]]; tonic [st не прашут :t ne prašut]; tonic [w vas] post-verbal</item>
@@ -216,8 +216,8 @@
       <p><em>Compound tense (perfect), negated — cluster [нісем/etc. DAT ACC]:</em></p>
       <p>The negative parallels the affirmative: in <ex>[w az] [w byt :i 1sg] [w mu] [w dat :i lptc.m]</ex> the cluster is [[st сем му :t sem mu]], with AUX at position 2. In the negative, the fused AUX heads the cluster in the same slot: <ex>[w az] [w byt.neg :i 1sg] [w mu] [w dat :i lptc.m]</ex>, cluster [[st нісем му :t nisem mu]]:</p>
       <list>
-        <item><ex>[w az] [w byt.neg :i 1sg] [w mu] [w dat :i lptc.m] [w taf] [w knyha].</ex> "I didn't give him the book" — cluster [[st нісем му :t nisem mu]]: neg-AUX at position 2, DAT at position 4</item>
-        <item><ex>[w on] [w byt.neg :i 3sg] [w ym] [w prašat :i lptc.m] [w to] [w slovo :i obl.sg].</ex> "he did not send them the message" — cluster [[st ні им :t ni ym]]: neg-AUX then DAT</item>
+        <item><ex>[w az] [w byt.neg :i 1sg] [w mu] [w dat :i lptc.m] [w taf :i f.sg.obl] [w knyha :i obl.sg].</ex> "I didn't give him the book" — cluster [[st нісем му :t nisem mu]]: neg-AUX at position 2, DAT at position 4</item>
+        <item><ex>[w on] [w byt.neg :i 3sg] [w ym] [w prašat :i lptc.m] [w to :i n.sg.obl] [w slovo :i obl.sg].</ex> "he did not send them the message" — cluster [[st ні им :t ni ym]]: neg-AUX then DAT</item>
         <item><ex>[w az] [w byt.neg :i 1sg] [w mu] [w go] [w dat :i lptc.m].</ex> "I didn't give it to him" — cluster [[st нісем му го :t nisem mu ho]]: neg-AUX at position 2, DAT at position 4, ACC at position 5</item>
         <item><ex>[w on] [w byt.neg :i 3sg] [w se] [st умілӑ :t umilă].</ex> "he didn't wash himself" — cluster [[st ні се :t ni se]]: neg-AUX then reflexive</item>
         <item><ex>[w ty] [w byt.neg :i 2sg] [w ydat :i lptc.m] [w tuka].</ex> "you didn't come here" — no object or reflexive clitics; cluster [[w byt.neg :i 2sg]] only</item>
@@ -225,22 +225,22 @@
       </list>
       <p><em>Pluperfect, negated — neg-AUX heads cluster, both participles follow:</em></p>
       <list>
-        <item><ex>[w az] [w byt.neg :i 1sg] [w mu] [st билӑ :t bylă] [w dat :i lptc.m] [w taf] [w knyha].</ex> "I hadn't given him the book" — cluster [[st нісем му :t nisem mu]]; [st билӑ :t bylă] and main participle [w dat :i lptc.m] follow outside the cluster</item>
-        <item><ex>[w ony] [w byt.neg :i 3pl] [w ym] [st билі :t byli] [w prašat :i lptc.pl] [w to] [w slovo :i obl.sg].</ex> "they hadn't sent them the message" — cluster [[st нісу им :t nisu ym]]</item>
+        <item><ex>[w az] [w byt.neg :i 1sg] [w mu] [st билӑ :t bylă] [w dat :i lptc.m] [w taf :i f.sg.obl] [w knyha :i obl.sg].</ex> "I hadn't given him the book" — cluster [[st нісем му :t nisem mu]]; [st билӑ :t bylă] and main participle [w dat :i lptc.m] follow outside the cluster</item>
+        <item><ex>[w ony] [w byt.neg :i 3pl] [w ym] [st билі :t byli] [w prašat :i lptc.pl] [w to :i n.sg.obl] [w slovo :i obl.sg].</ex> "they hadn't sent them the message" — cluster [[st нісу им :t nisu ym]]</item>
       </list>
       <p><em>Conditional, negated — не би is a tonic unit; clitics remain at 2P before it:</em></p>
       <p>In the affirmative conditional, [w by] is at cluster position 1. In the negative, [w ne] attaches to [w by] and the combined [st не би :t ne by] is tonic. [w by] therefore exits the cluster; only object and reflexive clitics (positions 3–5) remain at 2P:</p>
       <list>
-        <item><ex>[w az] [w mu] [w ne] [w by] [w dat :i lptc.m] [w taf] [w knyha].</ex> "I wouldn't give him the book" — cluster [[st му :t mu]]; tonic [st не би :t ne by] follows</item>
+        <item><ex>[w az] [w mu] [w ne] [w by] [w dat :i lptc.m] [w taf :i f.sg.obl] [w knyha :i obl.sg].</ex> "I wouldn't give him the book" — cluster [[st му :t mu]]; tonic [st не би :t ne by] follows</item>
         <item><ex>[w on] [w mu] [w go] [w ne] [w by] [w dat :i lptc.m].</ex> "he wouldn't give it to him" — cluster [[st му го :t mu ho]]; tonic [st не би :t ne by]</item>
         <item><ex>[w ty] [w se] [w ne] [w by] [st умілӑ :t umilă].</ex> "you wouldn't wash yourself" — cluster [[w se]]; tonic [st не би :t ne by]</item>
         <item><ex>[w on] [w ne] [w by] [w doit :i lptc.m] [w tuka].</ex> "he wouldn't come here" — no object clitics; cluster empty; [st не би :t ne by] immediately follows subject</item>
       </list>
       <p><em>Fronted non-subject, negated — neg-AUX heads cluster at 2P, then displaced overt subject:</em></p>
       <list>
-        <item><ex>[w večer :c] [w byt.neg :i 3sg] [w mu] [w on] [w dat :i lptc.m] [w taf] [w knyha].</ex> "Yesterday he didn't give him the book" — XP₁ = [w večer]; cluster [[st ні му :t ni mu]] at 2P; required subject [w on] displaced after cluster</item>
+        <item><ex>[w večer :c] [w byt.neg :i 3sg] [w mu] [w on] [w dat :i lptc.m] [w taf :i f.sg.obl] [w knyha :i obl.sg].</ex> "Yesterday he didn't give him the book" — XP₁ = [w večer]; cluster [[st ні му :t ni mu]] at 2P; required subject [w on] displaced after cluster</item>
         <item><ex>[w večer :c] [w byt.neg :i 3sg] [w mu] [w go] [w on] [w dat :i lptc.m].</ex> "Yesterday he didn't give it to him" — cluster [[st ні му го :t ni mu ho]] at 2P after fronted adverb; subject displaced</item>
-        <item><ex>[w taf :c] [w knyha] [w byt.neg :i 1sg] [w mu] [w az] [w dat :i lptc.m].</ex> "The book I didn't give him" — topicalized object as XP₁; cluster [[st нісем му :t nisem mu]]; required subject [w az] displaced after cluster</item>
+        <item><ex>[w taf :i f.sg.obl :c] [w knyha :i obl.sg] [w byt.neg :i 1sg] [w mu] [w az] [w dat :i lptc.m].</ex> "The book I didn't give him" — topicalized object as XP₁; cluster [[st нісем му :t nisem mu]]; required subject [w az] displaced after cluster</item>
       </list>
       <p>When no object or reflexive clitics are present, the cluster consists of the negative auxiliary alone. The subject follows the cluster:</p>
       <list>
@@ -254,37 +254,37 @@
       <p>The 2P rule applies within each clause independently. In subordinate clauses the complementizer or relativizer counts as XP₁ of that clause; the clitic cluster follows it. Because Styrian is non pro-drop, the required overt subject of the embedded clause is displaced after the cluster — a surface order with no parallel in pro-drop 2P languages.</p>
       <p><em>Declarative complements ([w dak]):</em></p>
       <list>
-        <item><ex>[w az :c] [st знам :t znam] [w dak] [w byt :i 3sg] [w ty] [w on] [w dat :i lptc.m] [w taf] [w knyha].</ex> "I know that he gave you the book" — embedded XP₁ = [w dak]; cluster [[st е ти :t e ty]]; required subject [w on] follows</item>
-        <item><ex>[w az :c] [st знам :t znam] [w dak] [w byt.neg :i 3sg] [w mu] [w on] [w dat :i lptc.m] [w taf] [w knyha].</ex> "I know that he didn't give him the book" — embedded XP₁ = [w dak]; cluster [[st ні му :t ni mu]] at 2P; required subject [w on] displaced after cluster</item>
+        <item><ex>[w az :c] [st знам :t znam] [w dak] [w byt :i 3sg] [w ty] [w on] [w dat :i lptc.m] [w taf :i f.sg.obl] [w knyha :i obl.sg].</ex> "I know that he gave you the book" — embedded XP₁ = [w dak]; cluster [[st е ти :t e ty]]; required subject [w on] follows</item>
+        <item><ex>[w az :c] [st знам :t znam] [w dak] [w byt.neg :i 3sg] [w mu] [w on] [w dat :i lptc.m] [w taf :i f.sg.obl] [w knyha :i obl.sg].</ex> "I know that he didn't give him the book" — embedded XP₁ = [w dak]; cluster [[st ні му :t ni mu]] at 2P; required subject [w on] displaced after cluster</item>
       </list>
       <p><em>Different-subject [w dat :i 3sg]-complements:</em></p>
       <list>
-        <item><ex>[w az :c] [w xotit :i 1sg] [w dat :i 3sg] [w byt :i 3sg] [w ty] [w on] [w dat :i lptc.m] [w taf] [w knyha].</ex> "I want him to give you the book" — embedded XP₁ = [w dat :i 3sg]; cluster [[st е ти :t e ty]]; subject [w on] follows</item>
+        <item><ex>[w az :c] [w xotit :i 1sg] [w dat :i 3sg] [w byt :i 3sg] [w ty] [w on] [w dat :i lptc.m] [w taf :i f.sg.obl] [w knyha :i obl.sg].</ex> "I want him to give you the book" — embedded XP₁ = [w dat :i 3sg]; cluster [[st е ти :t e ty]]; subject [w on] follows</item>
       </list>
       <p><em>Relative clauses:</em> The subject relativizer [w ky] and the non-subject relativizer [w če] are each XP₁ of their clause. With [w ky] the relativized element is the subject gap, so no second overt subject is displaced. With [w če] the embedded subject is required and follows the cluster — a minimal pair that is diagnostically clear in Styrian precisely because the subject cannot be dropped:</p>
       <list>
-        <item><ex>[w ta] [w čelovek] [w ky] [w byt :i 3sg] [w ty] [w dat :i lptc.m] [w taf] [w knyha]</ex> "the person who gave you the book" — [w ky] as XP₁; cluster [[st е ти :t e ty]]; subject gap</item>
+        <item><ex>[w ta] [w čelovek] [w ky] [w byt :i 3sg] [w ty] [w dat :i lptc.m] [w taf :i f.sg.obl] [w knyha :i obl.sg]</ex> "the person who gave you the book" — [w ky] as XP₁; cluster [[st е ти :t e ty]]; subject gap</item>
         <item><ex>[w taf] [w knyha] [w če] [w byt :i 1sg] [w ty] [w az] [w dat :i lptc.m]</ex> "the book that I gave you" — [w če] as XP₁; cluster [[st сем ти :t sem ty]]; required overt subject [w az] displaced after cluster</item>
       </list>
       <p>Conditional and temporal embedded clauses follow the same principle:</p>
       <list>
-        <item><ex>[w ako :c] [w byt :i 3sg] [w ty] [w on] [w dat :i lptc.m] [w taf] [w knyha], ...</ex> "If he gave you the book, ..." — [w ako] as XP₁; cluster [[st е ти :t e ty]]; subject [w on] follows</item>
+        <item><ex>[w ako :c] [w byt :i 3sg] [w ty] [w on] [w dat :i lptc.m] [w taf :i f.sg.obl] [w knyha :i obl.sg], ...</ex> "If he gave you the book, ..." — [w ako] as XP₁; cluster [[st е ти :t e ty]]; subject [w on] follows</item>
       </list>
     </sub>
     <sub t="Clitic Climbing with Modal and Volitional Verbs">
       <p>When [w možit] or [w xotit] takes an infinitive complement (see §Modal and Volitional Verbs), object and reflexive clitics belonging semantically to the infinitival complement climb obligatorily to the 2P position of the matrix clause. The infinitive itself does not host clitics.</p>
       <list>
         <item><ex>[w az :c] [w te] [w xotit :i 1sg] [w vydit].</ex> "I want to see you." — ACC clitic [w te] climbed to matrix 2P</item>
-        <item><ex>[w az :c] [w mu] [w možit :i 1sg] [w dat] [w taf] [w knyha].</ex> "I can give him the book."</item>
+        <item><ex>[w az :c] [w mu] [w možit :i 1sg] [w dat] [w taf :i f.sg.obl] [w knyha :i obl.sg].</ex> "I can give him the book."</item>
         <item><ex>[w az :c] [w te] [w ne] [w xotit :i 1sg] [w vydit].</ex> "I don't want to see you." — ACC clitic at 2P; [st не хочем :t ne xočem] tonic</item>
       </list>
-      <p>Clitic climbing applies only to pronominal clitics. Full NP objects remain with the infinitive: <ex>[w az] [w xotit :i 1sg] [w vydit] [w ta] [st краль :t kral]</ex> "I want to see the king."</p>
+      <p>Clitic climbing applies only to pronominal clitics. Full NP objects remain with the infinitive: <ex>[w az] [w xotit :i 1sg] [w vydit] [w ta :i m.sg.obl] [w kral :i obl.sg]</ex> "I want to see the king."</p>
     </sub>
     <sub t="Imperatives and Clitics">
       <p>In imperative clauses a special condition applies. The 2sg and 2pl imperatives have no overt subject: Styrian's non pro-drop requirement holds in declarative and indicative clauses because finite verb agreement alone cannot identify the referent in Styrian's reduced paradigm, but imperatives address an understood second-person participant and the language follows the widespread cross-linguistic pattern of allowing subject omission in the imperative even when it is otherwise prohibited. The imperative verb form itself therefore occupies the initial position of the clause and constitutes XP₁. Clitics follow it post-verbally, consistent with the 2P rule: the imperative is the first constituent, and the cluster immediately follows it.</p>
       <p><em>2sg imperative with clitics:</em></p>
       <list>
-        <item><ex>[st Даі :t dai] [w mu] [w taf] [w knyha]!</ex> "Give him the book!" — cluster [[st му :t mu]] post-verbal, after imperative</item>
+        <item><ex>[st Даі :t dai] [w mu] [w taf :i f.sg.obl] [w knyha :i obl.sg]!</ex> "Give him the book!" — cluster [[st му :t mu]] post-verbal, after imperative</item>
         <item><ex>[st Даі :t dai] [w mu] [w go]!</ex> "Give it to him!" — cluster [[st му го :t mu ho]]: DAT then ACC post-verbal</item>
         <item><ex>[st Покажи :t pokaži] [w my] [w go]!</ex> "Show it to me!" — cluster [[st ми го :t my ho]]</item>
         <item><ex>[st Умі :t umi] [w se]!</ex> "Wash yourself!" — reflexive ACC [w se] post-verbal</item>
@@ -292,20 +292,20 @@
       </list>
       <p><em>2pl imperative with clitics:</em></p>
       <list>
-        <item><ex>[st Даіте :t dayte] [w ym] [w taf] [w knyha]!</ex> "Give them the book!" — cluster [[st им :t ym]] post-verbal</item>
+        <item><ex>[st Даіте :t dayte] [w ym] [w taf :i f.sg.obl] [w knyha :i obl.sg]!</ex> "Give them the book!" — cluster [[st им :t ym]] post-verbal</item>
         <item><ex>[st Покажіте :t pokažite] [w my] [w go]!</ex> "Show it to me!" — cluster [[st ми го :t my ho]]</item>
       </list>
       <p><em>Negative imperative.</em> The negative imperative uses [w ne] before the imperative form. Since [w ne] + the imperative form together constitute XP₁ (the only verbal constituent), clitics follow this tonic unit post-verbally:</p>
       <list>
         <item><ex>[w ne :c] [st даі :t dai] [w mu] [w go]!</ex> "Don't give it to him!" — [st не даі :t ne dai] tonic; cluster [[st му го :t mu ho]] follows</item>
         <item><ex>[w ne :c] [st умі :t umi] [w se]!</ex> "Don't wash yourself!" — [st не умі :t ne umi] tonic; [w se] follows</item>
-        <item><ex>[w ne :c] [st пішіте :t pišite] [w my] [w to]!</ex> "Don't write that to me!" — cluster [[w my]] after [st не пішіте :t ne pišite]</item>
+        <item><ex>[w ne :c] [st пішіте :t pišite] [w my] [w to :i n.sg.obl]!</ex> "Don't write that to me!" — cluster [[w my]] after [st не пішіте :t ne pišite]</item>
       </list>
       <p><em>1pl cohortative and 3rd-person нека constructions.</em> The 1pl cohortative ([w dat :i 3sg] + 1pl present) and the 3rd-person directive ([w neka] + 3sg/3pl present) are full finite clauses. The particle ([w dat :i 3sg] or [w neka]) counts as XP₁; the clitic cluster follows it at 2P; the required overt subject follows the cluster in the normal displaced-subject position:</p>
       <list>
-        <item><ex>[w dat :i 3sg :c] [w byt :i 3sg] [w mu] [w on] [w dat :i lptc.m] [w taf] [w knyha]!</ex> "Let him give him the book!" — [w dat :i 3sg] as XP₁; cluster [[st е му :t e mu]] at 2P; subject [w on] displaced</item>
-        <item><ex>[w neka :c] [w byt :i 3sg] [w ym] [w on] [w prašat :i lptc.m] [w to] [w slovo :i obl.sg].</ex> "Let him send them the message." — [w neka] as XP₁; cluster [[st е им :t e ym]]; subject [w on] displaced</item>
-        <item><ex>[w dat :i 3sg :c] [w mu] [w my] [st дамe :t dame] [w taf] [w knyha]!</ex> "Let's give him the book!" — [w dat :i 3sg] as XP₁; cluster [[st му :t mu]] at 2P; subject [w my] displaced after cluster</item>
+        <item><ex>[w dat :i 3sg :c] [w byt :i 3sg] [w mu] [w on] [w dat :i lptc.m] [w taf :i f.sg.obl] [w knyha :i obl.sg]!</ex> "Let him give him the book!" — [w dat :i 3sg] as XP₁; cluster [[st е му :t e mu]] at 2P; subject [w on] displaced</item>
+        <item><ex>[w neka :c] [w byt :i 3sg] [w ym] [w on] [w prašat :i lptc.m] [w to :i n.sg.obl] [w slovo :i obl.sg].</ex> "Let him send them the message." — [w neka] as XP₁; cluster [[st е им :t e ym]]; subject [w on] displaced</item>
+        <item><ex>[w dat :i 3sg :c] [w mu] [w my] [st дамe :t dame] [w taf :i f.sg.obl] [w knyha :i obl.sg]!</ex> "Let's give him the book!" — [w dat :i 3sg] as XP₁; cluster [[st му :t mu]] at 2P; subject [w my] displaced after cluster</item>
       </list>
     </sub>
   </sec>
@@ -322,7 +322,7 @@
     </tb>
     <p>The basic contrast is between subject questions, where the interrogative itself fills the subject slot, and non-subject questions, where any clitic cluster immediately follows the interrogative in second position and the overt subject follows the cluster.</p>
     <list>
-      <item><ex>[w koj] [w pysat :i 3sg] [w taf] [w knyha]?</ex> "who is writing the book?" (subject question)</item>
+      <item><ex>[w koj] [w pysat :i 3sg] [w taf :i f.sg.obl] [w knyha :i obl.sg]?</ex> "who is writing the book?" (subject question)</item>
       <item><ex>[w če] [w ty] [w pysat :i 2sg]?</ex> "what are you writing?" (object question)</item>
       <item><ex>[w kəde] [w ony] [w žyvat :i 3pl]?</ex> "where do they live?" (locative adjunct)</item>
       <item><ex>[w koga] [w on] [w doit :i 3sg]?</ex> "when will he come?" (temporal adjunct)</item>
@@ -337,7 +337,7 @@
     </list>
     <p>Styrian interrogatives do not themselves inflect for case. Prepositional complements are built analytically with prepositions fronted together with the interrogative; the preposition governs the oblique and stays with the interrogative rather than being stranded:</p>
     <list>
-      <item><ex>[w do] [w koj] [w ty] [w dat :i 2sg] [w taf] [w knyha]?</ex> "to whom are you giving the book?"</item>
+      <item><ex>[w do] [w koj] [w ty] [w dat :i 2sg] [w taf :i f.sg.obl] [w knyha :i obl.sg]?</ex> "to whom are you giving the book?"</item>
       <item><ex>[w so] [w če] [w ony] [w pysat :i 3pl]?</ex> "with what are they writing?"</item>
       <item><ex>[w od] [w koj] [w byt :i 3sg] [w taf] [w knyha]?</ex> "whose book is it?" (lit. "of whom is the book?")</item>
     </list>
@@ -350,9 +350,9 @@
     <p><em>Neutral position.</em> In an unmarked polar question [w li] attaches immediately after the finite verb:</p>
     <list>
       <item><ex>[w on] [w byt :i 3sg] [w li] [w tuka]?</ex> "Is he here?"</item>
-      <item><ex>[w ty] [w ymat :i 2sg] [w li] [w voda]?</ex> "Do you have water?"</item>
+      <item><ex>[w ty] [w ymat :i 2sg] [w li] [w voda :i obl.sg]?</ex> "Do you have water?"</item>
       <item><ex>[w ony] [w doit :i 3pl] [w li] [w utre]?</ex> "Are they coming tomorrow?"</item>
-      <item><ex>[w on] [w byt :i 3sg] [st ли :t ly] [st виделӑ :t vydelă] [w taf] [w knyha]?</ex> "Has he seen the book?"</item>
+      <item><ex>[w on] [w byt :i 3sg] [st ли :t ly] [st виделӑ :t vydelă] [w taf :i f.sg.obl] [w knyha :i obl.sg]?</ex> "Has he seen the book?"</item>
     </list>
     <p><em>Focus-fronting construction.</em> If a constituent is contrastively focused, it moves to clause-initial position and [w li] immediately follows that focused constituent rather than the verb. The rest of the clause keeps its ordinary sequence:</p>
     <list>
@@ -364,14 +364,14 @@
     <p><em>Negative polar questions.</em> Negation is expressed by [w ne] immediately before the verb, as in declarative clauses. With [w byt], the fused negative forms are used instead; [w li] then follows the verb or verb complex:</p>
     <list>
       <item><ex>[w on] [w byt.neg :i 3sg] [w li] [w tuka]?</ex> "Isn't he here?"</item>
-      <item><ex>[w ty] [w ne] [w ymat :i 2sg] [w li] [w voda]?</ex> "Don't you have water?"</item>
+      <item><ex>[w ty] [w ne] [w ymat :i 2sg] [w li] [w voda :i obl.sg]?</ex> "Don't you have water?"</item>
       <item><ex>[w ony] [w ne] [w doit :i 3pl] [w li] [w utre]?</ex> "Aren't they coming tomorrow?"</item>
     </list>
     <p><em>Formal variant [w daly].</em> In more formal or literary registers, the compound form [w daly] – a fusion of [w dat :i 3sg] and [w li] – may appear as a clause-initial question particle. The remaining word order is fully declarative and no further occurrence of [w li] is required:</p>
     <list>
       <item><ex>[w daly :c] [w on] [w byt :i 3sg] [w tuka]?</ex> "Is he here?"</item>
       <item><ex>[w daly :c] [w ony] [w doit :i 3pl] [w utre]?</ex> "Are they coming tomorrow?"</item>
-      <item><ex>[st Дали :t Daly] [w ty] [w ymat :i 2sg] [st повештӑ :t povaštă] [w voda]?</ex> "Do you have more water?"</item>
+      <item><ex>[st Дали :t Daly] [w ty] [w ymat :i 2sg] [st повештӑ :t povaštă] [w voda :i obl.sg]?</ex> "Do you have more water?"</item>
     </list>
     <p>The [w daly] variant is preferred in indirect yes/no questions embedded under verbs of asking and wondering (see §Subordinating Conjunctions for the corresponding declarative complement patterns): <ex>[w az] [w ne] [st знам :t znam] [w daly] [w ony] [w doit :i 3pl] [w utre].</ex> "I don't know whether they are coming tomorrow."</p>
     <p>Positive answers to polar questions are expressed with [w dat :i 3sg] "yes" and negative answers with [w ne] "no". Either can be reinforced by echoing the relevant verb form: [w dat :i 3sg], [w byt :i 3sg] "yes, (he is)" or [w ne], [w byt.neg :i 3sg] "no, (he isn't)".</p>
@@ -388,7 +388,7 @@
     </tb>
     <p>The distinction is easiest to see in minimal contrasts:</p>
     <list>
-      <item><ex>[w ta] [w čelovek] [w ky] [w pysat :i 3sg] [w knyha]</ex> "the person who is writing a book"</item>
+      <item><ex>[w ta] [w čelovek] [w ky] [w pysat :i 3sg] [w knyha :i obl.sg]</ex> "the person who is writing a book"</item>
       <item><ex>[w ta] [w dom] [w če] [w my] [w byt :i 1pl] [w kupit :i lptc.pl]</ex> "the house that we bought" ([w dom] is the antecedent and subject of the matrix; it is the implicit object inside the relative — oblique in that function, but unmarked as the head noun)</item>
       <item><ex>[w ta] [w hrad] [w kəde] [w žyvat :i 3pl] [st страски :t strasky]</ex> "the town where the Straski live"</item>
         <item><ex>[w ta] [w den] [w koga] [w on] [w byt :i 3sg] [w doit :i lptc.m]</ex> "the day when he came"</item>
@@ -396,9 +396,9 @@
     </list>
     <p>In word order, a relative clause follows its head noun directly. The relativizer occupies the left edge of the clause and counts as XP₁; any clitic cluster follows it in second position. If an overt embedded subject is present, it follows the cluster. Subject relatives therefore look like <em>[head noun] + [w ky] + (cluster) + V + ...</em>, while non-subject relatives look like <em>[head noun] + [w če] + (cluster) + S + V + ...</em> with the relativized element left as a gap inside the clause.</p>
     <list>
-      <item><ex>[w taf] [w žena] [w ky] [w vydit :i 3sg] [w ta] [w dom]</ex> "the woman who sees the house"</item>
+      <item><ex>[w taf] [w žena] [w ky] [w vydit :i 3sg] [w ta :i m.sg.obl] [w dom :i obl.sg]</ex> "the woman who sees the house"</item>
       <item><ex>[w taf] [w knyha] [w če] [w az] [w pysat :i 1sg]</ex> "the book that I am writing" (implied oblique object inside the relative)</item>
-      <item><ex>[w ta] [w čelovek] [w do] [w ky] [w mu] [w az] [w dat :i 1sg] [w taf] [w knyha :i obl.sg]</ex> "the person to whom I give the book" — [w do] [w ky] as XP₁; cluster [[st му :t mu]]; required subject [w az] displaced after cluster</item>
+      <item><ex>[w ta] [w čelovek] [w do] [w ky] [w mu] [w az] [w dat :i 1sg] [w taf :i f.sg.obl] [w knyha :i obl.sg]</ex> "the person to whom I give the book" — [w do] [w ky] as XP₁; cluster [[st му :t mu]]; required subject [w az] displaced after cluster</item>
     </list>
     <p>Styrian does not normally strand prepositions in relative clauses. If the relativized element is governed by a preposition, the preposition stays in front of the relativizer and governs its oblique: [w do] [w ky] "to whom", [w so] [w če] "with which", [w od] [w ky] "whose / of whom". Resumptive pronouns are likewise unnecessary in the standard language except insofar as ordinary dative clitics may still appear when demanded by the verb.</p>
     <p>In careful speech, [w ky] is preferred whenever the relativized element is the subject of the clause, while [w če] is preferred for direct objects and as a fallback non-subject linker.</p>
@@ -421,8 +421,8 @@
     <sub t="Singular Personal Free Relatives">
       <p>[w ta :c] [w ky] and [w taf] [w ky] introduce free relatives in which the missing element is the <em>subject</em> of the embedded clause. The masculine and feminine articles now make the referent's grammatical gender overt. Because [w ky] is itself the subject gap, no second subject appears inside the relative clause:</p>
       <list>
-        <item><ex>[w ta] [w ky] [w pysat :i 3sg] [w taf] [w knyha] [w byt :i 3sg] [w moj :i m.sg] [w pryyatel]</ex> "the man who is writing the book is my friend"</item>
-        <item><ex>[w taf] [w ky] [w pysat :i 3sg] [w taf] [w knyha] [w byt :i 3sg] [w moj :i f.sg] [st приятелица :t pryyatelica]</ex> "the woman who is writing the book is my female friend"</item>
+        <item><ex>[w ta] [w ky] [w pysat :i 3sg] [w taf :i f.sg.obl] [w knyha :i obl.sg] [w byt :i 3sg] [w moj :i m.sg] [w pryyatel]</ex> "the man who is writing the book is my friend"</item>
+        <item><ex>[w taf] [w ky] [w pysat :i 3sg] [w taf :i f.sg.obl] [w knyha :i obl.sg] [w byt :i 3sg] [w moj :i f.sg] [st приятелица :t pryyatelica]</ex> "the woman who is writing the book is my female friend"</item>
         <item><ex>[w ta] [w ky] [w byt :i 3sg] [st рано :t rano] [w doit :i lptc.m] [st ке :t ke] [w doit] [st пре :t pre]</ex> "the one who arrived early will come first"</item>
         <item><ex>[w az] [w vydit :i 1sg] [w ta] [w ky] [w te] [st шта :t šta]</ex> "I see the one who is looking for you"</item>
       </list>
@@ -526,7 +526,7 @@
       <list>
         <item><ex>[w az] [w xotit :i 1sg] [w pysat]</ex> "I want to write" ([w xotit] + infinitive)</item>
         <item><ex>[w my] [w možit :i 1pl] [w doit]</ex> "we can come" ([w možit] + infinitive)</item>
-        <item><ex>[w on] [w xotit :i 3sg] [w vydit] [w ta] [st краль :t kral]</ex> "he wants to see the king"</item>
+        <item><ex>[w on] [w xotit :i 3sg] [w vydit] [w ta :i m.sg.obl] [w kral :i obl.sg]</ex> "he wants to see the king"</item>
       </list>
       <p>The infinitive is the default complement pattern and is the expected form after all modal and volitional verbs when subject and embedded predicate share the same subject.</p>
     </sub>
@@ -534,14 +534,14 @@
       <p>The conjunction [w dat :i 3sg] is restricted to two environments: (1) <em>purpose clauses</em> (final clauses expressing the goal of an action), where it is equivalent to Czech/Slovenian <em>aby/da</em>; and (2) <em>different-subject complements</em> of volitional verbs, where the embedded subject is distinct from the matrix subject. In both cases, [w dat :i 3sg] is followed by a finite present-tense verb:</p>
       <tb>
         <r><c>Environment</c><c>Form</c><c>Example</c></r>
-        <r><c>purpose (any subject)</c><c>[w dat :i 3sg] + present</c><c><ex>[w on] [w ydat :i 3sg] [w dat :i 3sg] [w kupit :i 3sg] [w vyno]</ex> "he goes to buy wine"</c></r>
+        <r><c>purpose (any subject)</c><c>[w dat :i 3sg] + present</c><c><ex>[w on] [w ydat :i 3sg] [w dat :i 3sg] [w kupit :i 3sg] [w vyno :i obl.sg]</ex> "he goes to buy wine"</c></r>
         <r><c>different-subject complement</c><c>[w dat :i 3sg] + present</c><c><ex>[w az] [w xotit :i 1sg] [w dat :i 3sg] [w ydat :i 3sg]</ex> "I want him/her to go"</c></r>
       </tb>
       <p>Crucially, [w dat :i 3sg] is <em>not</em> used when the matrix and embedded subjects are the same — the infinitive is used instead. This parallels the function of Czech <em>aby</em> and Slovenian <em>da</em>, which similarly appear in purpose clauses and different-subject complements rather than as general complementizers:</p>
       <list>
         <item><ex>[w az] [w xotit :i 1sg] [w ydat]</ex> "I want to go" (same subject → infinitive, no [w dat :i 3sg])</item>
         <item><ex>[w az] [w xotit :i 1sg] [w dat :i 3sg] [w ydat :i 3sg]</ex> "I want him/her to go" (different subject → [w dat :i 3sg] + present)</item>
-        <item><ex>[w on] [st доіл :t doil] [w dat :i 3sg] [w vydit :i 3sg] [w ta] [st краль :t kral]</ex> "he came in order to see the king" (purpose clause)</item>
+        <item><ex>[w on] [st доіл :t doil] [w dat :i 3sg] [w vydit :i 3sg] [w ta :i m.sg.obl] [w kral :i obl.sg]</ex> "he came in order to see the king" (purpose clause)</item>
         <item><ex>[w my] [w možit :i 1pl] [w doit]</ex> "we can come" (same subject → infinitive after modal)</item>
         <item><ex>[w my] [w xotit :i 1pl] [w dat :i 3sg] [w doit :i 3pl] [w ony]</ex> "we want them to come" (different subject → [w dat :i 3sg])</item>
       </list>
@@ -553,8 +553,8 @@
       </list>
       <p><em>Embedded subject and the clitic cluster.</em> In a [w dat :i 3sg]-clause, [w dat :i 3sg] counts as XP₁ of the embedded clause. The clitic cluster follows it at 2P; the required overt subject of the embedded clause follows the cluster in the standard displaced-subject position. This is the pattern already illustrated under §Embedded Clauses:</p>
       <list>
-        <item><ex>[w az] [w xotit :i 1sg] [w dat :i 3sg] [w byt :i 3sg] [w ty] [w on] [w dat :i lptc.m] [w taf] [w knyha]</ex> "I want him to give you the book" — [w dat :i 3sg] as XP₁; cluster [[st е ти :t e ty]]; required subject [w on] displaced after cluster</item>
-        <item><ex>[w ony] [w doit :i 3pl] [w dat :i 3sg] [w mu] [w on] [w pokazat :i 3sg] [w ta] [w hrad]</ex> "they are coming so that he can show them the town" — purpose; cluster [[st му :t mu]]; subject [w on] displaced</item>
+        <item><ex>[w az] [w xotit :i 1sg] [w dat :i 3sg] [w byt :i 3sg] [w ty] [w on] [w dat :i lptc.m] [w taf :i f.sg.obl] [w knyha :i obl.sg]</ex> "I want him to give you the book" — [w dat :i 3sg] as XP₁; cluster [[st е ти :t e ty]]; required subject [w on] displaced after cluster</item>
+        <item><ex>[w ony] [w doit :i 3pl] [w dat :i 3sg] [w mu] [w on] [w pokazat :i 3sg] [w ta :i m.sg.obl] [w hrad :i obl.sg]</ex> "they are coming so that he can show them the town" — purpose; cluster [[st му :t mu]]; subject [w on] displaced</item>
       </list>
       <p><em>Historical note.</em> The restriction of [w dat :i 3sg] to purpose and different-subject complements reflects a diachronic narrowing. In earlier Styrian, contact with German — which has no <em>da</em>-construction at all — did not directly reshape the distribution of [w dat :i 3sg], but may have reinforced the infinitive in same-subject contexts by providing a structural model (German <em>um zu</em> + infinitive, see §За + Infinitive: Purpose Construction). More decisively, sustained literary and prestige contact with Czech, which uses <em>aby</em> specifically for purpose and different-subject complements, stabilized the same functional distribution in Styrian. The modern pattern therefore represents a convergence point between Czech/Slovenian functional grammar and indigenous Styrian development. The cohortative idiom [w dat :i 3sg] + 1pl present ([w dat :i 3sg] [w pysat :i 1pl]! "let's write!") is a lexicalized relic of an earlier, slightly broader [w dat :i 3sg] and should be treated as fixed rather than as evidence for productive extension of [w dat :i 3sg] into same-subject territory.</p>
       <p>The 1pl cohortative retains [w dat :i 3sg] + 1pl present as a fixed idiom: <ex>[w dat :i 3sg] [w pysat :i 1pl]!</ex> "let's write!" This is lexicalized and does not constitute a productive use of [w dat :i 3sg] with a same-subject complement.</p>
@@ -582,13 +582,13 @@
   <sec t="Conditional Sentences">
     <p>Ordinary real or open conditionals use [w ako] + present/non-past:</p>
     <list>
-      <item><ex>[w ako :c] [w ty] [w ymat :i 2sg] [w voda], [w dat] [w my].</ex> "If you have water, give me some."</item>
+      <item><ex>[w ako :c] [w ty] [w ymat :i 2sg] [w voda :i obl.sg], [w dat] [w my].</ex> "If you have water, give me some."</item>
       <item><ex>[w ako :c] [w ony] [w doit :i 3pl] [w utre], [w my] [w xotit :i 1pl] [w vydit] [w ykh].</ex> "If they come tomorrow, we'd like to see them."</item>
     </list>
     <p>Hypothetical or counterfactual conditionals use [w ako] + past tense in the condition clause and [w by] + the appropriate singular or plural l-participle in the consequence clause:</p>
     <list>
-      <item><ex>[w ako :c] [w ty] [w byt :i 2sg] [w doit :i lptc.m] [st пред :t pred], [w az] [w by] [st моглӑ :t mohlă] [w dat] [w ty] [w taf] [w knyha].</ex> "If you had come earlier, I could have given you the book."</item>
-      <item><ex>[w ako :c] [w my] [w ymat :i lptc.pl] [st повештӑ :t povaštă] [w voda], [w my] [w by] [st осталі :t ostali] [w ve] [w hora].</ex> "If we had more water, we would have stayed in the mountains."</item>
+      <item><ex>[w ako :c] [w ty] [w byt :i 2sg] [w doit :i lptc.m] [st пред :t pred], [w az] [w by] [st моглӑ :t mohlă] [w dat] [w ty] [w taf :i f.sg.obl] [w knyha :i obl.sg].</ex> "If you had come earlier, I could have given you the book."</item>
+      <item><ex>[w ako :c] [w my] [w ymat :i lptc.pl] [st повештӑ :t povaštă] [w voda :i obl.sg], [w my] [w by] [st осталі :t ostali] [w ve] [w hora].</ex> "If we had more water, we would have stayed in the mountains."</item>
     </list>
   </sec>
   <sec t="Topic–Comment Structure">
