@@ -402,17 +402,17 @@
     <sub t="Comparison">
       <p>Comparison is analytic:</p>
       <list>
-        <item>[st по :t po] [w dobrə :i m.sg] "better, more good"</item>
+        <item>[w po] [w dobrə :i m.sg] "better, more good"</item>
         <item>[st наи :t nai] [w dobrə :i m.sg] "best, the most good"</item>
-        <item>[st по :t po] [w holemə :i m.sg] "bigger"</item>
+        <item>[w po] [w holemə :i m.sg] "bigger"</item>
         <item>[st наи :t nai] [w holemə :i m.sg] "biggest"</item>
       </list>
       <p>The particle [w od] introduces the second term of comparison:</p>
       <list>
-        <item>[w ta] [w dom] [w byt :i 3sg] [st по :t po] [w holemə :i m.sg] [w od] [w hora :i obl.sg] "the house is bigger than the mountain" (contextually odd but grammatically well-formed)</item>
-        <item>[w ona] [w byt :i 3sg] [st по :t po] [w starə :i f.sg] [w od] [w ty] "she is older than you"</item>
+        <item>[w ta] [w dom] [w byt :i 3sg] [w po] [w holemə :i m.sg] [w od] [w hora :i obl.sg] "the house is bigger than the mountain" (contextually odd but grammatically well-formed)</item>
+        <item>[w ona] [w byt :i 3sg] [w po] [w starə :i f.sg] [w od] [w ty] "she is older than you"</item>
       </list>
-      <p>A very small number of high-frequency adjectives retain suppletive comparatives: [st малӑ :t mală] "small" &gt; [st манш :t manš] "smaller" (from a German-influenced form), though the analytic [st по :t po] [w malə :i m.sg] is equally acceptable.</p>
+      <p>A very small number of high-frequency adjectives retain suppletive comparatives: [st малӑ :t mală] "small" &gt; [st манш :t manš] "smaller" (from a German-influenced form), though the analytic [w po] [w malə :i m.sg] is equally acceptable.</p>
     </sub>
   </sec>
 
@@ -425,7 +425,7 @@
         <r><c>3</c><c>[st три :t try]</c><c></c></r>
         <r><c>4</c><c>[st четирӑ :t četyră]</c><c>from <code>*četyre</code>; initial [st ч :t č] retained; unstressed final -е drops, word-final ӑ added</c></r>
         <r><c>5</c><c>[st пет :t pet]</c><c>from <code>*pęt[st ь]</code></c></r>
-        <r><c>6</c><c>[st шест :t šest]</c><c></c></r>
+        <r><c>6</c><c>[w šest]</c><c></c></r>
         <r><c>7</c><c>[st седмӑ :t sedmă]</c><c>from <code>*sedm[st ь]</code> with epenthesis</c></r>
         <r><c>8</c><c>[st осмӑ :t osmă]</c><c>from <code>*osm[st ь]</code> with epenthesis</c></r>
         <r><c>9</c><c>[st девет :t devet]</c><c></c></r>
@@ -528,7 +528,7 @@
       <list>
         <item>[st много :t mnoho] / [st моге :t mohe] "very, much"</item>
         <item>[st прелошо :t prelošo] "too bad, extremely bad" (intensified prefix [st пре :t pre]-)</item>
-        <item>[st по :t po] (comparative particle, see §Comparison)</item>
+        <item>[w po] (comparative particle, see §Comparison)</item>
         <item>[st наи :t nai] (superlative particle)</item>
         <item>[w samo] "just, only"</item>
         <item>[st вед :t ved] "barely, just"</item>
