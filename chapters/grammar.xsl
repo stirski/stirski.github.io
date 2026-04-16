@@ -1104,6 +1104,10 @@
         }
 
         @media (max-width: 640px) {
+          html {
+            font-size: 16px;
+          }
+
           .page {
             width: min(calc(100vw - 1.4rem), var(--page-max));
             padding-top: 1.3rem;
