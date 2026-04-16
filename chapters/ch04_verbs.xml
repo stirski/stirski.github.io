@@ -401,13 +401,13 @@
     <p>In practice, plain [st би :t by] + l-participle often covers both present and past counterfactuals, with context supplying the temporal reading.</p>
   </sec>
   <sec t="Reflexive Verbs">
-    <p>The reflexive clitic [st се :t se] attaches loosely to the predicate but is <em>postverbal</em> in the standard language: it follows the finite verb in simple tenses and follows the auxiliary in compound tenses.</p>
+    <p>The reflexive marker [st се :t se] is a clitic. In ordinary finite clauses it belongs to the same second-position cluster as the other pronominal clitics (see §Object Pronoun Placement in ch. 5): it follows the first stressed constituent of the clause, which in an unmarked declarative is usually the subject. In lexical citation, however, reflexive verbs are still conventionally listed as <em>V + [st се :t se]</em>.</p>
     <list>
-      <item><ex>[w az] [st мием :t myem] [st се :t se]</ex> "I wash myself"</item>
+      <item><ex>[w az] [w se] [st мием :t myem]</ex> "I wash myself"</item>
       <item><ex>[w on] [w byt :i 3sg] [st се :t se] [st смел :t smel]</ex> "he laughed" (lit. "laughed himself" — [st смет :t smet] [st се :t se] is reflexive-only)</item>
       <item><ex>[w my] [w byt :i 1pl] [st се :t se] [st наделі :t nadeli]</ex> "we hoped" ([st надет :t nadet] [st се :t se] "to hope")</item>
     </list>
-    <p>This postverbal placement also applies when [st се :t se] forms a passive or middle-like construction. In compound tenses [st се :t se] follows the auxiliary, just as other object clitics do (see §Object Pronoun Placement).</p>
+    <p>The same second-position placement applies when [st се :t se] forms a passive or middle-like construction. In unmarked declaratives it follows the subject; in compound tenses it follows the auxiliary within the clitic cluster, just as other object clitics do. If another constituent is fronted, [st се :t se] follows that constituent instead (see §Object Pronoun Placement).</p>
     <p>Some verbs are inherently reflexive (reflexive-only) and take [st се :t se] as an obligatory lexical element:</p>
     <list>
       <item>[st смет :t smet] [st се :t se] "to laugh"</item>
@@ -418,8 +418,8 @@
     </list>
     <p>The reflexive construction also forms impersonal passives:</p>
     <list>
-      <item><ex>[st стирски :t styrsky] [st говоре :t hovore] [st се :t se] [w ve] [st та :t ta] [w zema :i obl.sg]</ex> "Styrian is spoken in this land"</item>
-      <item><ex>[w knyha :i obl.sg] [st продайут :t prodajut] [st се :t se] [w ve] [w kram :i obl.sg]</ex> "books are sold in the shop"</item>
+      <item><ex>[st стирски :t styrsky] [st се :t se] [st говоре :t hovore] [w ve] [st ta :t ta] [w zema :i obl.sg]</ex> "Styrian is spoken in this land"</item>
+      <item><ex>[w knyha :i obl.sg] [st се :t se] [st продайут :t prodajut] [w ve] [w kram :i obl.sg]</ex> "books are sold in the shop"</item>
     </list>
   </sec>
   <sec t="Existential Constructions">
