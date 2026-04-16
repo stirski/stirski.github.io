@@ -150,6 +150,12 @@
       <form f="pl"     stem="main" suffix="і"/>
     </noun-template>
 
+    <noun-template id="ec-front">
+      <form f="nom.sg" stem="main" suffix="ец"/>
+      <form f="obl.sg" stem="front" suffix="у"/>
+      <form f="pl"     stem="front" suffix="і"/>
+    </noun-template>
+
     <adjective-template id="adj-hard">
       <form f="m.sg"     stem="main" suffix="ӑ"/>
       <form f="f.sg"     stem="main" suffix="а"/>
@@ -163,6 +169,17 @@
 
     <adjective-template id="adj-i">
       <form f="m.sg"     stem="main" suffix="і"/>
+      <form f="f.sg"     stem="main" suffix="а"/>
+      <form f="n.sg"     stem="main" suffix="о"/>
+      <form f="pl"       stem="main" suffix="і"/>
+      <form f="m.sg.obl" stem="main" suffix="ом"/>
+      <form f="f.sg.obl" stem="main" suffix="е"/>
+      <form f="n.sg.obl" stem="main" suffix="ом"/>
+      <form f="pl.obl"   stem="main" suffix="і"/>
+    </adjective-template>
+
+    <adjective-template id="adj-sky">
+      <form f="m.sg"     stem="main" suffix="и"/>
       <form f="f.sg"     stem="main" suffix="а"/>
       <form f="n.sg"     stem="main" suffix="о"/>
       <form f="pl"       stem="main" suffix="і"/>
@@ -661,14 +678,220 @@
        masculine ends in -ски (Cyrillic и = y-sound), romanized -sky;
        analytic language phrase: стирски език;
        lexicalized language noun: стиршчіна (fem. -а class) -->
-  <lex id="styrsky" pos="adj" template="adj-i" gloss="Styrian (adj)">
+  <lex id="styrsky" pos="adj" template="adj-sky" gloss="Styrian (adj)">
     <stem name="main" v="стирск"/>
   </lex>
 
   <!-- стиршчіна: lexicalized Styrian language noun, from стирски + -шчіна;
        regular fem. -а class; obl.sg стиршчіне; used in по + obl. for "I speak Styrian" -->
-  <lex id="styrščina" pos="n" gen="f" decl="a" template="fem-a" gloss="Styrian (language noun)">
+  <lex id="styrščina" pos="n" gen="f" decl="a" template="a" gloss="Styrian (language noun)">
     <stem name="main" v="стиршчін"/>
+  </lex>
+
+  <!-- Ethnolinguistic place names, demonyms, adjectives, and language nouns -->
+  <lex id="styrija" pos="n" gen="f" decl="a" template="ja" gloss="Styria">
+    <stem name="main" v="Стирі"/>
+  </lex>
+
+  <lex id="styrec" pos="n" gen="m" decl="irr" template="ec-front" gloss="Styrian person">
+    <stem name="main" v="стир"/>
+    <stem name="front" v="стирц"/>
+  </lex>
+
+  <lex id="styrjansky" pos="adj" template="adj-sky" gloss="Styrian (formal adjective)">
+    <stem name="main" v="стирянск"/>
+  </lex>
+
+  <lex id="amerika" pos="n" gen="f" decl="a" template="a" gloss="America">
+    <stem name="main" v="Америк"/>
+  </lex>
+
+  <lex id="amerikanec" pos="n" gen="m" decl="irr" template="ec-front" gloss="American">
+    <stem name="main" v="американ"/>
+    <stem name="front" v="американц"/>
+  </lex>
+
+  <lex id="amerikansky" pos="adj" template="adj-sky" gloss="American">
+    <stem name="main" v="американск"/>
+  </lex>
+
+  <lex id="evropa" pos="n" gen="f" decl="a" template="a" gloss="Europe">
+    <stem name="main" v="Европ"/>
+  </lex>
+
+  <lex id="evropec" pos="n" gen="m" decl="irr" template="ec-front" gloss="European">
+    <stem name="main" v="европ"/>
+    <stem name="front" v="европц"/>
+  </lex>
+
+  <lex id="evropsky" pos="adj" template="adj-sky" gloss="European">
+    <stem name="main" v="европск"/>
+  </lex>
+
+  <lex id="francija" pos="n" gen="f" decl="a" template="ja" gloss="France">
+    <stem name="main" v="Франці"/>
+  </lex>
+
+  <lex id="francuz" pos="n" gen="m" decl="irr" gloss="French person">
+    <form f="nom.sg" v="француз"/>
+    <form f="obl.sg" v="французу"/>
+    <form f="pl"     v="французи"/>
+  </lex>
+
+  <lex id="francouzsky" pos="adj" template="adj-sky" gloss="French">
+    <stem name="main" v="француск"/>
+  </lex>
+
+  <lex id="francoscina" pos="n" gen="f" decl="a" template="a" gloss="French language">
+    <stem name="main" v="францошчін"/>
+  </lex>
+
+  <lex id="nemčija" pos="n" gen="f" decl="a" template="ja" gloss="Germany">
+    <stem name="main" v="Немчі"/>
+  </lex>
+
+  <lex id="nemec" pos="n" gen="m" decl="irr" template="ec-front" gloss="German person">
+    <stem name="main" v="нем"/>
+    <stem name="front" v="немц"/>
+  </lex>
+
+  <lex id="nemsky" pos="adj" template="adj-sky" gloss="German">
+    <stem name="main" v="немск"/>
+  </lex>
+
+  <lex id="nemscina" pos="n" gen="f" decl="a" template="a" gloss="German language">
+    <stem name="main" v="немшчін"/>
+  </lex>
+
+  <lex id="harvatska" pos="n" gen="f" decl="a" template="a" gloss="Croatia">
+    <stem name="main" v="Хӑрватск"/>
+  </lex>
+
+  <lex id="harvat" pos="n" gen="m" decl="irr" gloss="Croat">
+    <form f="nom.sg" v="хӑрват"/>
+    <form f="obl.sg" v="хӑрвату"/>
+    <form f="pl"     v="хӑрвати"/>
+  </lex>
+
+  <lex id="harvatsky" pos="adj" template="adj-sky" gloss="Croatian">
+    <stem name="main" v="хӑрватск"/>
+  </lex>
+
+  <lex id="harvatscina" pos="n" gen="f" decl="a" template="a" gloss="Croatian language">
+    <stem name="main" v="хӑрватшчін"/>
+  </lex>
+
+  <lex id="ceška" pos="n" gen="f" decl="a" template="a" gloss="Czechia">
+    <stem name="main" v="Чешк"/>
+  </lex>
+
+  <lex id="čeh" pos="n" gen="m" decl="irr" gloss="Czech person">
+    <form f="nom.sg" v="чех"/>
+    <form f="obl.sg" v="чеху"/>
+    <form f="pl"     v="чехи"/>
+  </lex>
+
+  <lex id="češky" pos="adj" template="adj-sky" gloss="Czech">
+    <stem name="main" v="чешк"/>
+  </lex>
+
+  <lex id="cescina" pos="n" gen="f" decl="a" template="a" gloss="Czech language">
+    <stem name="main" v="чешчін"/>
+  </lex>
+
+  <lex id="slovakija" pos="n" gen="f" decl="a" template="ja" gloss="Slovakia">
+    <stem name="main" v="Словакі"/>
+  </lex>
+
+  <lex id="slovak" pos="n" gen="m" decl="irr" gloss="Slovak person">
+    <form f="nom.sg" v="словак"/>
+    <form f="obl.sg" v="словаку"/>
+    <form f="pl"     v="словаки"/>
+  </lex>
+
+  <lex id="slovašky" pos="adj" template="adj-sky" gloss="Slovak">
+    <stem name="main" v="словашк"/>
+  </lex>
+
+  <lex id="slovascina" pos="n" gen="f" decl="a" template="a" gloss="Slovak language">
+    <stem name="main" v="словашчін"/>
+  </lex>
+
+  <lex id="slovenija" pos="n" gen="f" decl="a" template="ja" gloss="Slovenia">
+    <stem name="main" v="Словені"/>
+  </lex>
+
+  <lex id="slovensko" pos="n" gen="n" decl="neut" template="neut-o" gloss="Slovensko (alternate state-name form of Slovenia)">
+    <stem name="main" v="Словенск"/>
+  </lex>
+
+  <lex id="slovenec" pos="n" gen="m" decl="irr" template="ec-front" gloss="Slovene person">
+    <stem name="main" v="словен"/>
+    <stem name="front" v="словенц"/>
+  </lex>
+
+  <lex id="slovensky" pos="adj" template="adj-sky" gloss="Slovene">
+    <stem name="main" v="словенск"/>
+  </lex>
+
+  <lex id="slovenscina" pos="n" gen="f" decl="a" template="a" gloss="Slovene language">
+    <stem name="main" v="словеншчін"/>
+  </lex>
+
+  <lex id="bosna" pos="n" gen="f" decl="a" template="a" gloss="Bosnia">
+    <stem name="main" v="Босн"/>
+  </lex>
+
+  <lex id="bosna_i_hercegovina" pos="n" gen="f" decl="irr" gloss="Bosnia and Herzegovina">
+    <form f="nom.sg" v="Босна и Херцеговина"/>
+  </lex>
+
+  <lex id="bosanec" pos="n" gen="m" decl="irr" template="ec-front" gloss="Bosnian person">
+    <stem name="main" v="босан"/>
+    <stem name="front" v="босанц"/>
+  </lex>
+
+  <lex id="bosansky" pos="adj" template="adj-sky" gloss="Bosnian">
+    <stem name="main" v="босанск"/>
+  </lex>
+
+  <lex id="bosanscina" pos="n" gen="f" decl="a" template="a" gloss="Bosnian language">
+    <stem name="main" v="босаншчін"/>
+  </lex>
+
+  <lex id="garčija" pos="n" gen="f" decl="a" template="ja" gloss="Greece">
+    <stem name="main" v="Гӑрчі"/>
+  </lex>
+
+  <lex id="gark" pos="n" gen="m" decl="irr" gloss="Greek person">
+    <form f="nom.sg" v="гӑрк"/>
+    <form f="obl.sg" v="гӑрку"/>
+    <form f="pl"     v="гӑрки"/>
+  </lex>
+
+  <lex id="garsky" pos="adj" template="adj-sky" gloss="Greek">
+    <stem name="main" v="гӑршк"/>
+  </lex>
+
+  <lex id="garscina" pos="n" gen="f" decl="a" template="a" gloss="Greek language">
+    <stem name="main" v="гӑршчін"/>
+  </lex>
+
+  <lex id="kitajska" pos="n" gen="f" decl="a" template="a" gloss="China">
+    <stem name="main" v="Китайск"/>
+  </lex>
+
+  <lex id="kitajec" pos="n" gen="m" decl="irr" template="ec-front" gloss="Chinese person">
+    <stem name="main" v="кита"/>
+    <stem name="front" v="китайц"/>
+  </lex>
+
+  <lex id="kitajsky" pos="adj" template="adj-sky" gloss="Chinese">
+    <stem name="main" v="китайск"/>
+  </lex>
+
+  <lex id="kitajscina" pos="n" gen="f" decl="a" template="a" gloss="Chinese language">
+    <stem name="main" v="китайшчін"/>
   </lex>
 
   <lex id="velik" pos="adj" template="adj-hard" gloss="great, big">
@@ -826,7 +1049,7 @@
 
   <!-- страски: external or literary ethnonym "Straski"; not the ordinary in-language demonym,
        which is стирец; associated with Стирія -->
-  <lex id="strasky" pos="adj" template="adj-i" gloss="Straski (ethnonym)">
+  <lex id="strasky" pos="adj" template="adj-sky" gloss="Straski (ethnonym)">
     <stem name="main" v="страск"/>
   </lex>
 
@@ -834,7 +1057,7 @@
     <stem name="main" v="аналитик"/>
   </lex>
 
-  <lex id="slavsky" pos="adj" template="adj-i" gloss="Slavic">
+  <lex id="slavsky" pos="adj" template="adj-sky" gloss="Slavic">
     <stem name="main" v="славск"/>
   </lex>
 
@@ -930,9 +1153,9 @@
     <stem name="main" v="Ідов"/>
   </lex>
 
-  <lex id="sveštenik" pos="n" gen="m" decl="cons" template="cons-velar-front" gloss="priest">
-    <stem name="main" v="свештеник"/>
-    <stem name="front" v="свештениц"/>
+  <lex id="svečenik" pos="n" gen="m" decl="cons" template="cons-velar-front" gloss="priest">
+    <stem name="main" v="свеченік"/>
+    <stem name="front" v="свеченіц"/>
   </lex>
 
   <lex id="zakon" pos="n" gen="m" decl="cons" template="cons" gloss="law">
@@ -1070,8 +1293,12 @@
     <stem name="main" v="пурпур"/>
   </lex>
 
-  <lex id="idovsky" pos="adj" template="adj-i" gloss="Jewish">
+  <lex id="idovsky" pos="adj" template="adj-sky" gloss="Jewish">
     <stem name="main" v="ідовск"/>
+  </lex>
+
+  <lex id="idovscina" pos="n" gen="f" decl="a" template="a" gloss="Jewish language">
+    <stem name="main" v="ідовшчін"/>
   </lex>
 
   <lex id="lobno" pos="adj" template="adj-hard" gloss="skull">
@@ -1094,11 +1321,15 @@
     <stem name="main" v="друг"/>
   </lex>
 
-  <lex id="latynsky" pos="adj" template="adj-i" gloss="Latin">
+  <lex id="latynsky" pos="adj" template="adj-sky" gloss="Latin">
     <stem name="main" v="латинск"/>
   </lex>
 
-  <lex id="hrecky" pos="adj" template="adj-i" gloss="Greek">
+  <lex id="latynscina" pos="n" gen="f" decl="a" template="a" gloss="Latin language">
+    <stem name="main" v="латиншчін"/>
+  </lex>
+
+  <lex id="hrecky" pos="adj" template="adj-sky" gloss="Greek (older learned variant)">
     <stem name="main" v="грецк"/>
   </lex>
 
