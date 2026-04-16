@@ -422,11 +422,11 @@
     <form f="pl"     v="лиуді"/>
   </lex>
 
-  <!-- ден — irreg. cons-stem reflex -->
+  <!-- дӑнӑ — *dъnь, strong ъ before sonorant → ӑ /ɐ/ -->
   <lex id="den" pos="n" gen="m" decl="irr" gloss="day">
-    <form f="nom.sg" v="ден"/>
-    <form f="obl.sg" v="дену"/>
-    <form f="pl"     v="дні"/>
+    <form f="nom.sg" v="дӑнӑ"/>
+    <form f="obl.sg" v="дӑну"/>
+    <form f="pl"     v="дӑні"/>
   </lex>
 
   <!-- дете — irreg. collective plural деста -->
@@ -731,9 +731,9 @@
     <stem name="main" v="муж"/>
   </lex>
 
+  <!-- пӑтӑ — *pъtь, strong ъ before heavy cluster → ӑ /ɐ/ -->
   <lex id="pat" pos="n" gen="m" decl="cons" template="cons" gloss="road, path">
-    <stem name="main" v="пат"/>
-    <form f="nom.sg" v="пат"/>
+    <stem name="main" v="пӑт"/>
   </lex>
 
   <lex id="yme" pos="n" gen="n" decl="irr" gloss="name">

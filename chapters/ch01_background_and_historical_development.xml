@@ -39,18 +39,18 @@
       <p>The critical structural changes of this period follow almost mechanically from the fixed initial stress of Period I.</p>
       <p><em>Jer merger to schwa.</em> The Proto-Slavic reduced vowels <code>*[st ъ]</code> (back jer) and <code>*[st ь]</code> (front jer) had already been weakening across Slavic. In Styrian, with stress firmly initial, the jers follow a split path depending on syllable position:</p>
       <list>
-        <item><em>Strong jers</em> (in the first syllable, bearing initial stress, or immediately preceding a weak jer) vocalize: <code>*[st ъ] &gt; [st а :t a]</code>, <code>*[st ь] &gt; [st е :t e]</code>.</item>
+        <item><em>Strong jers</em> (in the first syllable, bearing initial stress, or immediately preceding a weak jer) vocalize: <code>*[st ь] &gt; [st е :t e]</code>; <code>*[st ъ] &gt; [st а :t a]</code> in most positions, but <code>*[st ъ] &gt; [st ӑ :t ă]</code> /ɐ/ (stressed) when the strong jer stands before a sonorant, liquid, or heavy consonant cluster. The letter [st ӑ :t ă] thus covers two phonetically distinct values: /ɐ/ under stress (from strong <code>*[st ъ]</code> in the stated environments) and /ə/ in unstressed position (from weak jers).</item>
         <item><em>Weak jers</em> (in all other positions) do not delete. Instead, the back jer [st ӑ] and the front jer [st ь] merge into a single undifferentiated schwa, written [st ӑ :t ă] /ə/ in the standard orthography. Both jers collapse to this one reduced vowel.</item>
       </list>
       <p>This is the key innovation that sets Styrian apart from other Slavic branches. Where Russian, Serbian, and Polish delete weak jers entirely, and where Bulgarian and Old Church Slavonic vocalize them to full vowels in certain environments, Styrian simply preserves them as a single weak schwa. The result is that all words that originally had a final jer retain a word-final [st ӑ :t ă] /ə/. During Period III this pattern extends by analogy to all consonant-final words (see below).</p>
       <p>Examples:</p>
       <tb>
         <r><c>Proto-Slavic</c><c>Styrian</c><c>Meaning</c></r>
-        <r><c><code>*s[st ъ]n[st ъ]</code></c><c>[st санӑ :t sană]</c><c>sleep, dream (first ӑ strong → а; final ӑ weak → ӑ)</c></r>
-        <r><c><code>*d[st ь]n[st ь]</code></c><c>[st денӑ :t denă]</c><c>day (first ь strong → е; final ь weak → ӑ)</c></r>
+        <r><c><code>*s[st ъ]n[st ъ]</code></c><c>[st сӑнӑ :t sănă]</c><c>sleep, dream (first ъ strong before sonorant → ӑ /ɐ/; final ъ weak → ӑ /ə/)</c></r>
+        <r><c><code>*d[st ъ]n[st ь]</code></c><c>[st дӑнӑ :t dănă]</c><c>day (first ъ strong before sonorant → ӑ /ɐ/; final ь weak → ӑ /ə/)</c></r>
         <r><c><code>*l[st ь]v[st ъ]</code></c><c>[st левӑ :t levă]</c><c>lion (ь strong → е; final ӑ weak → ӑ)</c></r>
         <r><c><code>*p[st ь]s[st ъ]</code></c><c>[st песӑ :t pesă]</c><c>dog (ь strong → е; final ӑ weak → ӑ)</c></r>
-        <r><c><code>*m[st ъ]gl[st а :t a]</code></c><c>[st мала :t mala]</c><c>fog, mist (ӑ strong → а; final -а is original, not jer)</c></r>
+        <r><c><code>*m[st ъ]gl[st а :t a]</code></c><c>[st мӑгла :t măhla]</c><c>fog, mist (ъ strong before liquid → ӑ /ɐ/; final -а is original, not jer)</c></r>
         <r><c><code>*s[st ъ]to</code></c><c>[st сто :t sto]</c><c>hundred (ӑ treated as enclitic, drops; no final jer)</c></r>
       </tb>
       <p><em>Loss of the dual.</em> The inherited dual number is lost, and its forms are absorbed into the plural, as in most Slavic branches.</p>
@@ -66,7 +66,7 @@
         <item><code>[st і :t i], [st и :t y] &gt; ɪ &gt; Ø</code> in weak positions</item>
         <item><code>[st у :t u] &gt; ʊ &gt; Ø</code></item>
       </list>
-      <p><em>No syllabic liquids.</em> Styrian does <em>not</em> develop syllabic <code>r</code> or <code>l</code>. When vowel reduction would strand a liquid between consonants, a reduced front vowel is retained or restored, usually written [st е :t e]. Thus <code>*čьrnъ &gt; *černъ &gt; [st чернӑ :t černă]</code> "black" rather than **<code>чрнъ</code>, and inherited forms such as <code>*krьstъ &gt; [st крестӑ :t krestă]</code> and <code>*vьlkъ &gt; [st велкӑ :t velkă]</code> likewise keep a vowel before the liquid.</p>
+      <p><em>No syllabic liquids.</em> Styrian does <em>not</em> develop syllabic <code>r</code> or <code>l</code>. When vowel reduction would otherwise strand a liquid or sonorant between consonants, a vowel is preserved in that position. Where the relevant syllable descended from a strong <code>*ъ</code> before a liquid or heavy cluster, the Period II back-jer rule already supplies a stressed ӑ: <code>*vъlkъ &gt; [st вӑлкӑ :t vălkă]</code> "wolf", <code>*krъstъ &gt; [st крӑстӑ :t krăstă]</code> "cross." Where the preserved vowel descends instead from a strong <code>*ь</code>, it surfaces as [st е :t e]: <code>*čьrnъ &gt; *černъ &gt; [st чернӑ :t černă]</code> "black" rather than **<code>чрнъ</code>.</p>
       <p>Because weak jers survive as [st ӑ :t ă] /ə/ rather than deleting, Styrian does not need to insert epenthetic а or е within consonant clusters the way Serbian, Czech, and Polish do. The surviving jer itself provides the syllabic nucleus at the word boundary. Consonant clusters that would have been illegal word-finally are resolved by syllabifying the schwa as the nucleus of the final syllable:</p>
       <list>
         <item><code>*dobr[st ъ]</code> → [w dobrə] (the weak final ӑ survives as schwa; /do.brə/; compare Serbian <em>dobar</em> with inserted -a-)</item>
@@ -117,9 +117,9 @@
         <r><c><code>*pętь</code></c><c>[st пет :t pet]</c><c>five</c></r>
         <r><c><code>*ovьca</code></c><c>[st оуца :t ouca]</c><c>sheep</c></r>
         <r><c><code>*ovьsъ</code></c><c>[st оусӑ :t ousă]</c><c>oats</c></r>
-        <r><c><code>*krьstъ</code></c><c>[st крестӑ :t krestă]</c><c>cross</c></r>
-        <r><c><code>*krьstiti</code></c><c>[st крестіт :t krestit]</c><c>to baptize</c></r>
-        <r><c><code>*vьlkъ</code></c><c>[st велкӑ :t velkă]</c><c>wolf</c></r>
+        <r><c><code>*krъstъ</code></c><c>[st крӑстӑ :t krăstă]</c><c>cross</c></r>
+        <r><c><code>*krъstiti</code></c><c>[st крӑстіт :t krăstit]</c><c>to baptize</c></r>
+        <r><c><code>*vъlkъ</code></c><c>[st вӑлкӑ :t vălkă]</c><c>wolf</c></r>
       </tb>
     </sub>
   </sec>

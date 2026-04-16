@@ -391,7 +391,7 @@
       <item><ex>[w ta] [w čelovek] [w ky] [w pysat :i 3sg] [w knyha]</ex> "the person who is writing a book"</item>
       <item><ex>[w ta] [w dom] [w če] [w my] [w byt :i 1pl] [w kupit :i lptc.pl]</ex> "the house that we bought" ([w dom] is the antecedent and subject of the matrix; it is the implicit object inside the relative — oblique in that function, but unmarked as the head noun)</item>
       <item><ex>[w ta] [w hrad] [w kəde] [w žyvat :i 3pl] [st страски :t strasky]</ex> "the town where the Straski live"</item>
-        <item><ex>[w ta] [st денӑ :t denă] [w koga] [w on] [w byt :i 3sg] [w doit :i lptc.m]</ex> "the day when he came"</item>
+        <item><ex>[w ta] [st дӑнӑ :t dănă] [w koga] [w on] [w byt :i 3sg] [w doit :i lptc.m]</ex> "the day when he came"</item>
       <item><ex>[w ta] [w čelovek] [w od] [w ky] [st име :t yme] [w az] [w ne] [st знам :t znam]</ex> "the person whose name I do not know"</item>
     </list>
     <p>In word order, a relative clause follows its head noun directly. The relativizer occupies the left edge of the clause and counts as XP₁; any clitic cluster follows it in second position. If an overt embedded subject is present, it follows the cluster. Subject relatives therefore look like <em>[head noun] + [w ky] + (cluster) + V + ...</em>, while non-subject relatives look like <em>[head noun] + [w če] + (cluster) + S + V + ...</em> with the relativized element left as a gap inside the clause.</p>

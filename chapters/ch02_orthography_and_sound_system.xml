@@ -47,7 +47,7 @@
       <r><c>[st Ц :t C] [st ц :t c]</c><c>/ts/</c><c>dental affricate; retained from Proto-Slavic; used in native words, loans, and proper names</c></r>
       <r><c>[st Ч :t Č] [st ч :t č]</c><c>/tʃ/</c><c>postalveolar affricate; retained from Proto-Slavic; distinct from the [st шт :t št] cluster that derives from <code>*kt</code></c></r>
       <r><c>[st Ш :t Š] [st ш :t š]</c><c>/ʃ/</c><c></c></r>
-      <r><c>[st Ӑ :t Ă] [st ӑ :t ă]</c><c>/ə/</c><c>the unified schwa; reflex of all weak jers; word-final prop vowel; always unstressed</c></r>
+      <r><c>[st Ӑ :t Ă] [st ӑ :t ă]</c><c>/ɐ/</c><c>reflex of all weak jers; word-final support vowel; [ɐ] stressed, [ə] unstressed, [ɤ̞] in careful or eastern speech</c></r>
       <r><c>[st Ю :t Yu] [st ю :t yu]</c><c>/ju/</c><c>iotated /u/; represents initial <code>/j/</code> + <code>/u/</code>; retained from native <code>*ju-</code> vocabulary</c></r>
       <r><c>[st Я :t Ya] [st я :t ya]</c><c>/ja/</c><c>iotated /a/; represents initial <code>/j/</code> + <code>/a/</code>; retained from native <code>*ja-</code> vocabulary</c></r>
     </tb>
@@ -70,16 +70,14 @@
   <sec t="Vowel System">
     <p>The modern stressed vowel inventory is:</p>
     <tb>
-      <r><c>Letter</c><c>IPA</c><c>Origin</c></r>
-      <r><c>[st а :t a]</c><c>/a/</c><c><code>*a</code>, <code>*[st ъ]</code> (strong), epenthetic</c></r>
-      <r><c>[st е :t e]</c><c>/e/</c><c><code>*e</code>, <code>*[st ь]</code> (strong), <code>*ě</code> (yat, fully merged)</c></r>
-      <r><c>[st о :t o]</c><c>/o/</c><c><code>*o</code></c></r>
-      <r><c>[st у :t u]</c><c>/u/</c><c><code>*u</code>, <code>*ǫ</code></c></r>
-      <r><c>[st и :t y]</c><c>/ɪ ~ ɨ/</c><c><code>*y</code>, <code>*[st ъ]</code> in certain environments</c></r>
-      <r><c>[st і :t i]</c><c>/i/</c><c><code>*i</code>, <code>*[st ь]</code> in certain environments</c></r>
-      <r><c>[st ӑ :t ă]</c><c>/ə/</c><c>weak jer (both <code>*ъ</code> and <code>*ь</code>), always unstressed; word-final schwa</c></r>
+      <r><c></c><c>Front</c><c>Central</c><c>Back</c></r>
+      <r><c>Close</c><c>[st і :t i] /i/</c><c></c><c>[st у :t u] /u/</c></r>
+      <r><c>Near-close</c><c>[st и :t y] /ɪ ~ ɨ/</c><c></c><c></c></r>
+      <r><c>Close-mid</c><c>[st е :t e] /e/</c><c></c><c>[st о :t o] /o/</c></r>
+      <r><c>Near-open</c><c></c><c>[st ӑ :t ă] /ɐ/</c><c></c></r>
+      <r><c>Open</c><c></c><c>[st а :t a] /a/</c><c></c></r>
     </tb>
-    <p>Unstressed vowels are centralized or shortened, and many have been lost entirely after the initial syllable. The schwa [st ӑ :t ă] /ə/ is a special case: it is the only unstressed vowel that is <em>consistently retained</em> word-finally, functioning as a weak boundary marker on all consonant-final words.</p>
+    <p>Unstressed vowels are centralized or shortened, and many have been lost entirely after the initial syllable. [st ӑ :t ă] occurs in both stressed and unstressed syllables: unstressed [ə] is common in inherited weak-jer positions and final support vowels, while stressed [ɐ] appears in a limited inherited and analogically extended lexical stratum. Its underlying value is best given as /ɐ/, with a broader phonetic range [ɐ ~ ə ~ ɤ̞] depending on stress and speech style. In the standard language, stressed [st ӑ :t ă] is normally [ɐ]; unstressed [st ӑ :t ă] is normally [ə]; a somewhat backer realization [ɤ̞] may occur in careful speech or some eastern varieties, but this is not the core standard value.</p>
   </sec>
   <sec t="Stress">
     <p>Stress normally falls on the <em>first syllable of the lexical word</em>. Aspectual verbal prefixes do not carry stress, so the stress remains on the first syllable of the verbal base: [st пісат :t pisat] písat, but [st напісат :t napisat] napísat, not *[st написат :t napisat] nápisat.</p>

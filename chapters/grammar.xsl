@@ -108,9 +108,9 @@
           --tooltip-muted: rgba(255, 255, 255, 0.68);
           --danger-surface: #6f2418;
           --danger-text: rgba(255, 234, 230, 0.95);
-          --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-          --font-display: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-          --font-ui: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+          --font-body: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", Inter, "Segoe UI", sans-serif;
+          --font-display: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", Inter, "Segoe UI", sans-serif;
+          --font-ui: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", Inter, "Segoe UI", sans-serif;
           --font-mono: "SFMono-Regular", "Cascadia Mono", Consolas, monospace;
           --page-max: 64rem;
           --crumb-max: 54rem;
