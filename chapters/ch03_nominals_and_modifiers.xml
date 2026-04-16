@@ -255,12 +255,15 @@
       <item>[w on] [w kupit :i lptc.m] [w toj :i f.sg.obl] [w knyha :i obl.sg] "he bought that book" (obl)</item>
     </list>
     <list type="ordered">
-      <item><em>Pronouns</em> (standing alone):</item>
+      <item><em>Pronouns</em> (standing alone, with an understood noun):</item>
     </list>
     <list>
       <item>[w sej :i m.sg] [w byt :i 3sg] [w moj :i m.sg] "this (one) is mine"</item>
+      <item>[w az] [w vydit :i 1sg] [w sej :i m.sg.obl] "I see this (one)" (m.sg obl)</item>
+      <item>[w az] [w vydit :i 1sg] [w toj :i f.sg.obl] "I see that (one)" (f.sg obl)</item>
       <item>[w toj :i n.sg] [w ne] [st знам :t znam] "that I do not know"</item>
     </list>
+    <p>In this pronominal use, the demonstrative itself heads the noun phrase and the noun is simply left unspoken because it is recoverable from context. Case works exactly as in determiner use: nominative for subjects and predicate nominals, oblique for direct objects and after prepositions.</p>
     <p>When used as a determiner, the demonstrative replaces the article. You do not say *[w ta] [w sej :i m.sg] [w dom]; you say simply [w sej :i m.sg] [w dom].</p>
     <p>Demonstratives can be reinforced with the particle [st ту :t tu] "here" or [st там :t tam] "there":</p>
     <list>
