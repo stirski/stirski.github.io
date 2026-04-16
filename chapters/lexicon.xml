@@ -728,7 +728,7 @@
   <lex id="stoha" pos="part" gloss="thus, therefore"><form f="base" v="стога"/></lex>
   <lex id="utre" pos="part" gloss="tomorrow"><form f="base" v="утре"/></lex>
   <lex id="večer" pos="part" gloss="yesterday"><form f="base" v="вечер"/></lex>
-  <lex id="dnes" pos="part" gloss="today"><form f="base" v="днес"/></lex>
+  <lex id="dănes" pos="part" gloss="today"><form f="base" v="дӑнес"/></lex>
   <lex id="seha" pos="part" gloss="now"><form f="base" v="сега"/></lex>
   <lex id="uže" pos="part" gloss="already"><form f="base" v="уже"/></lex>
   <lex id="uše" pos="part" gloss="still, yet, more"><form f="base" v="уше"/></lex>
