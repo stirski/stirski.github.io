@@ -1425,7 +1425,7 @@
   <lex id="doua" pos="num" gloss="two">
     <form f="m"   v="доуа"/>
     <form f="f"   v="доуе"/>
-    <form f="obl" v="доуом"/>
+    <form f="obl.sg" v="доуом"/>
   </lex>
 
   <lex id="četyri" pos="num" gloss="four">
