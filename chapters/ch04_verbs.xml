@@ -401,25 +401,25 @@
     <p>In practice, plain [st би :t by] + l-participle often covers both present and past counterfactuals, with context supplying the temporal reading.</p>
   </sec>
   <sec t="Reflexive Verbs">
-    <p>The reflexive marker [st се :t se] is a clitic. In ordinary finite clauses it belongs to the same second-position cluster as the other pronominal clitics (see §Object Pronoun Placement in ch. 5): it follows the first stressed constituent of the clause, which in an unmarked declarative is usually the subject. In lexical citation, however, reflexive verbs are still conventionally listed as <em>V + [st се :t se]</em>.</p>
+    <p>The reflexive marker [w se] is a clitic. In ordinary finite clauses it belongs to the same second-position cluster as the other pronominal clitics (see §Object Pronoun Placement in ch. 5): it follows the first stressed constituent of the clause, which in an unmarked declarative is usually the subject. In lexical citation, however, reflexive verbs are still conventionally listed as <em>V + [w se]</em>.</p>
     <list>
       <item><ex>[w az] [w se] [st мием :t myem]</ex> "I wash myself"</item>
-      <item><ex>[w on] [w byt :i 3sg] [st се :t se] [st смел :t smel]</ex> "he laughed" (lit. "laughed himself" — [st смет :t smet] [st се :t se] is reflexive-only)</item>
-      <item><ex>[w my] [w byt :i 1pl] [st се :t se] [st наделі :t nadeli]</ex> "we hoped" ([st надет :t nadet] [st се :t se] "to hope")</item>
+      <item><ex>[w on] [w byt :i 3sg] [w se] [st смел :t smel]</ex> "he laughed" (lit. "laughed himself" — [st смет :t smet] [w se] is reflexive-only)</item>
+      <item><ex>[w my] [w byt :i 1pl] [w se] [st наделі :t nadeli]</ex> "we hoped" ([st надет :t nadet] [w se] "to hope")</item>
     </list>
-    <p>The same second-position placement applies when [st се :t se] forms a passive or middle-like construction. In unmarked declaratives it follows the subject; in compound tenses it follows the auxiliary within the clitic cluster, just as other object clitics do. If another constituent is fronted, [st се :t se] follows that constituent instead (see §Object Pronoun Placement).</p>
-    <p>Some verbs are inherently reflexive (reflexive-only) and take [st се :t se] as an obligatory lexical element:</p>
+    <p>The same second-position placement applies when [w se] forms a passive or middle-like construction. In unmarked declaratives it follows the subject; in compound tenses it follows the auxiliary within the clitic cluster, just as other object clitics do. If another constituent is fronted, [w se] follows that constituent instead (see §Object Pronoun Placement).</p>
+    <p>Some verbs are inherently reflexive (reflexive-only) and take [w se] as an obligatory lexical element:</p>
     <list>
-      <item>[st смет :t smet] [st се :t se] "to laugh"</item>
-      <item>[st боат :t boat] [st се :t se] "to be afraid"</item>
-      <item>[st надет :t nadet] [st се :t se] "to hope"</item>
-      <item>[st штудіт :t študit] [st се :t se] "to be amazed, wonder"</item>
-      <item>[st сеат :t seat] [st се :t se] "to sit down" (perfective)</item>
+      <item>[st смет :t smet] [w se] "to laugh"</item>
+      <item>[st боат :t boat] [w se] "to be afraid"</item>
+      <item>[st надет :t nadet] [w se] "to hope"</item>
+      <item>[st штудіт :t študit] [w se] "to be amazed, wonder"</item>
+      <item>[st сеат :t seat] [w se] "to sit down" (perfective)</item>
     </list>
     <p>The reflexive construction also forms impersonal passives:</p>
     <list>
-      <item><ex>[st стирски :t styrsky] [st се :t se] [st говоре :t hovore] [w ve] [st ta :t ta] [w zema :i obl.sg]</ex> "Styrian is spoken in this land"</item>
-      <item><ex>[w knyha :i obl.sg] [st се :t se] [st продайут :t prodajut] [w ve] [w kram :i obl.sg]</ex> "books are sold in the shop"</item>
+      <item><ex>[st стирски :t styrsky] [w se] [st говоре :t hovore] [w ve] [st ta :t ta] [w zema :i obl.sg]</ex> "Styrian is spoken in this land"</item>
+      <item><ex>[w knyha :i obl.sg] [w se] [st продайут :t prodajut] [w ve] [w kram :i obl.sg]</ex> "books are sold in the shop"</item>
     </list>
   </sec>
   <sec t="Existential Constructions">
