@@ -184,7 +184,9 @@
     var formKeys;
     if (pos === 'v') {
       formKeys = ['inf', '1sg', '2sg', '3sg', '1pl', '2pl', '3pl', 'ppl',
-                  'lptc.m', 'lptc.f', 'lptc.n', 'lptc.pl', 'imp.2sg', 'imp.2pl'];
+                  'lptc.m', 'lptc.f', 'lptc.n', 'lptc.pl',
+                  'nptc.m', 'nptc.f', 'nptc.n', 'nptc.pl',
+                  'imp.2sg', 'imp.2pl', 'imp.1pl'];
     } else if (pos === 'n') {
       formKeys = ['nom.sg', 'obl.sg', 'pl'];
     } else if (pos === 'adj' || pos === 'art' || pos === 'pron') {
@@ -668,15 +670,78 @@
 
     var body = panel.querySelector('.lex-panel-body');
 
-    // Build form rows
-    var formRowsHtml = '';
-    for (var f = 0; f < forms.length; f++) {
-      formRowsHtml +=
-        '<tr>' +
-          '<td class="lex-form-label">' + escHtml(forms[f].label) + '</td>' +
-          '<td class="lex-form-cyr">' + escHtml(forms[f].value) + '</td>' +
-          '<td class="lex-form-tr" data-cyr-src="' + escAttr(forms[f].value) + '"></td>' +
-        '</tr>';
+    // Build a form table from a list of form objects
+    function buildFormTable(formList) {
+      var html = '';
+      for (var ft = 0; ft < formList.length; ft++) {
+        html +=
+          '<tr>' +
+            '<td class="lex-form-label">' + escHtml(formList[ft].label) + '</td>' +
+            '<td class="lex-form-cyr">' + escHtml(formList[ft].value) + '</td>' +
+            '<td class="lex-form-tr" data-cyr-src="' + escAttr(formList[ft].value) + '"></td>' +
+          '</tr>';
+      }
+      return '<table class="lex-forms"><tbody>' + html + '</tbody></table>';
+    }
+
+    // Build forms section with sub-groups for verbs
+    var formsSectionHtml = '';
+    if (forms.length > 0) {
+      var sectionLabel = pos === 'v' ? 'Conjugation' :
+        (pos === 'n' || pos === 'adj' || pos === 'pron' || pos === 'art' || pos === 'num') ? 'Declension' :
+        'Forms';
+
+      if (pos === 'v') {
+        var VERB_GROUPS = [
+          { label: 'Present', keys: ['inf', '1sg', '2sg', '3sg', '1pl', '2pl', '3pl', 'ppl', 'imp.2sg', 'imp.2pl', 'imp.1pl'] },
+          { label: 'L-participle', keys: ['lptc.m', 'lptc.f', 'lptc.n', 'lptc.pl'] },
+          { label: 'N-participle', keys: ['nptc.m', 'nptc.f', 'nptc.n', 'nptc.pl'] }
+        ];
+        var groupedKeySet = {};
+        var g, gi;
+        for (g = 0; g < VERB_GROUPS.length; g++) {
+          for (gi = 0; gi < VERB_GROUPS[g].keys.length; gi++) {
+            groupedKeySet[VERB_GROUPS[g].keys[gi]] = true;
+          }
+        }
+
+        var groupsHtml = '';
+        for (g = 0; g < VERB_GROUPS.length; g++) {
+          var groupForms = [];
+          for (var gf = 0; gf < forms.length; gf++) {
+            if (VERB_GROUPS[g].keys.indexOf(forms[gf].key) !== -1) {
+              groupForms.push(forms[gf]);
+            }
+          }
+          if (groupForms.length === 0) continue;
+          groupsHtml +=
+            '<details class="lex-forms-group">' +
+              '<summary>' + escHtml(VERB_GROUPS[g].label) + '</summary>' +
+              buildFormTable(groupForms) +
+            '</details>';
+        }
+
+        // Any remaining forms not in a defined group
+        var ungrouped = [];
+        for (var uf = 0; uf < forms.length; uf++) {
+          if (!groupedKeySet[forms[uf].key]) ungrouped.push(forms[uf]);
+        }
+        if (ungrouped.length > 0) {
+          groupsHtml += buildFormTable(ungrouped);
+        }
+
+        formsSectionHtml =
+          '<details class="lex-forms-section" open>' +
+            '<summary>' + sectionLabel + '</summary>' +
+            groupsHtml +
+          '</details>';
+      } else {
+        formsSectionHtml =
+          '<details class="lex-forms-section" open>' +
+            '<summary>' + sectionLabel + '</summary>' +
+            buildFormTable(forms) +
+          '</details>';
+      }
     }
 
     // Build loci list (local)
@@ -693,17 +758,7 @@
       '</div>' +
       '<div class="lex-tags">' + escHtml(tags.join(' \u00b7 ')) + '</div>' +
       '<div class="lex-gloss">' + escHtml(gloss) + '</div>' +
-      (forms.length > 0 ?
-        '<details class="lex-forms-section" open>' +
-          '<summary>' +
-            (pos === 'v' ? 'Conjugation' :
-             (pos === 'n' || pos === 'adj' || pos === 'pron' || pos === 'art' || pos === 'num') ? 'Declension' :
-             'Forms') +
-          '</summary>' +
-          '<table class="lex-forms">' +
-            '<tbody>' + formRowsHtml + '</tbody>' +
-          '</table>' +
-        '</details>' : '') +
+      formsSectionHtml +
       lociHtml +
       crossPlaceholder;
 

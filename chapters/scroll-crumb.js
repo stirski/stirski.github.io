@@ -182,6 +182,16 @@
     setExpanded(expandedPanel === 'sections' ? null : 'sections');
   });
 
+  sectionToggle.addEventListener('mouseenter', function () {
+    if (!supportsHoverOpen()) return;
+    setExpanded('sections');
+  });
+
+  sectionMenu.addEventListener('mouseenter', function () {
+    if (!supportsHoverOpen()) return;
+    setExpanded('sections');
+  });
+
   chapterMenu.addEventListener('click', function (event) {
     var link = event.target.closest('a[href]');
     if (!link) return;
@@ -202,7 +212,7 @@
 
   crumb.addEventListener('mouseleave', function (event) {
     if (!supportsHoverOpen()) return;
-    if (expandedPanel !== 'chapters') return;
+    if (!expandedPanel) return;
     if (event.relatedTarget && crumb.contains(event.relatedTarget)) return;
     setExpanded(null);
   });

@@ -1628,6 +1628,43 @@
           transform: rotate(90deg);
         }
 
+        /* ── Collapsible verb form sub-groups ──────────────────── */
+
+        .lex-forms-group {
+          margin-top: 0.4rem;
+        }
+
+        .lex-forms-group summary {
+          display: flex;
+          align-items: center;
+          gap: 0.3rem;
+          cursor: pointer;
+          font-family: var(--font-ui);
+          font-size: 0.62rem;
+          font-weight: 500;
+          text-transform: uppercase;
+          letter-spacing: 0.05em;
+          color: var(--muted);
+          list-style: none;
+          user-select: none;
+          margin-bottom: 0.25rem;
+        }
+
+        .lex-forms-group summary::-webkit-details-marker {
+          display: none;
+        }
+
+        .lex-forms-group summary::before {
+          content: '\25b8';
+          display: inline-block;
+          font-size: 0.58rem;
+          transition: transform 150ms ease;
+        }
+
+        .lex-forms-group[open] summary::before {
+          transform: rotate(90deg);
+        }
+
         /* ── Loci list in panel ─────────────────────────────────── */
 
         .lex-loci-section {
