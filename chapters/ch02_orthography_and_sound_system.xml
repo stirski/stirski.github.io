@@ -29,7 +29,7 @@
       <r><c>[st Е :t E] [st е :t e]</c><c>/e/</c><c>also covers former *ě (yat), now fully merged</c></r>
       <r><c>[st Ж :t Ž] [st ж :t ž]</c><c>/ʒ/</c><c></c></r>
       <r><c>[st З :t Z] [st з :t z]</c><c>/z/</c><c></c></r>
-      <r><c>[st И :t Y] [st и :t y]</c><c>/ɪ ~ ɨ/</c><c>reflex of the older hard high vowel layer (old <i>y/</i>[st ӑ] in strong position)</c></r>
+      <r><c>[st И :t Y] [st и :t y]</c><c>/ɪ ~ ɨ/</c><c>reflex of the older hard high vowel layer (old *y)</c></r>
       <r><c>[st І :t I] [st і :t i]</c><c>/i/</c><c>reflex of the older front high vowel layer (old <i>i/</i>[st ь] in strong position)</c></r>
       <r><c>[st Ї :t Ji] [st ї :t ji]</c><c>/ji/ after vowels</c><c>writes post-vocalic [st йі :t ji] as a single letter: [st тої :t toji], [st мої :t moji], [st сеї :t seji]; after consonants plain [st і :t i] is written instead</c></r>
       <r><c>[st Й :t J] [st й :t j]</c><c>/j/</c><c>consonantal glide; used in medial and final position; word-initially in <code>я</code> and <code>ю</code></c></r>
@@ -48,7 +48,6 @@
       <r><c>[st Ц :t C] [st ц :t c]</c><c>/ts/</c><c>dental affricate; retained from Proto-Slavic; used in native words, loans, and proper names</c></r>
       <r><c>[st Ч :t Č] [st ч :t č]</c><c>/tʃ/</c><c>postalveolar affricate; retained from Proto-Slavic; distinct from the [st шт :t št] cluster that derives from <code>*kt</code></c></r>
       <r><c>[st Ш :t Š] [st ш :t š]</c><c>/ʃ/</c><c></c></r>
-      <r><c>[st Ӑ :t Ă] [st ӑ :t ă]</c><c>/ɐ/</c><c>reflex of all weak jers; word-final support vowel; [ɐ] stressed, [ə] unstressed, [ɤ̞] in careful or eastern speech</c></r>
       <r><c>[st Ю :t Yu] [st ю :t yu]</c><c>/ju/</c><c>iotated /u/; represents initial <code>/j/</code> + <code>/u/</code>; retained from native <code>*ju-</code> vocabulary</c></r>
       <r><c>[st Я :t Ya] [st я :t ya]</c><c>/ja/</c><c>iotated /a/; represents initial <code>/j/</code> + <code>/a/</code>; retained from native <code>*ja-</code> vocabulary</c></r>
     </tb>
@@ -56,7 +55,7 @@
   <sec t="Excluded Letters">
     <list>
       <item>[st ё :t io] is not part of standard Styrian orthography; the /jo/ sequence, found only in loanwords, is written [st йо :t jo]</item>
-      <item>[st ь] is not used in native spelling; the soft jer has fully merged into [st ӑ :t ă]</item>
+      <item>[st ь] is not used in native spelling; the soft jer vocalizes to [st е :t e] in strong positions and is deleted in weak positions</item>
       <item>Inherited consonant + [st в :t v] + vowel clusters are normally repaired by vocalizing [st в :t v] to glide-like [st у :t u]: thus [st туой :t tuoj] /tvoj/, [st суой :t suoj] /svoj/, [st доуа :t doua] /dva/</item>
     </list>
     <p>The consonantal glide /j/ is written [st й :t j] in medial and final position. When [st й :t j] is followed by [st і :t i] after another vowel, the standard orthography writes [st ї :t ji] instead of the digraph [st йі :t ji]: thus [st тої :t toji], [st мої :t moji], [st суої :t suoji]. After consonants there is no separate glide in this environment, so plain [st і :t i] is written. Outside this post-vocalic pattern, word-final [st и :t y] is always the vowel /ɪ~ɨ/ and is never consonantal in this orthography:</p>
@@ -75,19 +74,18 @@
       <r><c>Close</c><c>[st і :t i] /i/</c><c></c><c>[st у :t u] /u/</c></r>
       <r><c>Near-close</c><c>[st и :t y] /ɪ ~ ɨ/</c><c></c><c></c></r>
       <r><c>Close-mid</c><c>[st е :t e] /e/</c><c></c><c>[st о :t o] /o/</c></r>
-      <r><c>Near-open</c><c></c><c>[st ӑ :t ă] /ɐ/</c><c></c></r>
       <r><c>Open</c><c></c><c>[st а :t a] /a/</c><c></c></r>
     </tb>
-    <p>Unstressed vowels are centralized or shortened, and many have been lost entirely after the initial syllable. [st ӑ :t ă] occurs in both stressed and unstressed syllables: unstressed [ə] is common in inherited weak-jer positions and final support vowels, while stressed [ɐ] appears in a limited inherited and analogically extended lexical stratum. Its underlying value is best given as /ɐ/, with a broader phonetic range [ɐ ~ ə ~ ɤ̞] depending on stress and speech style. In the standard language, stressed [st ӑ :t ă] is normally [ɐ]; unstressed [st ӑ :t ă] is normally [ə]; a somewhat backer realization [ɤ̞] may occur in careful speech or some eastern varieties, but this is not the core standard value.</p>
+    <p>Unstressed vowels are centralized or shortened, and many have been lost entirely after the initial syllable. The [st а :t a] phoneme covers both stressed /a/ and the epenthetic vowel inserted by the a-repair rule (see §Phonotactics).</p>
   </sec>
   <sec t="Stress">
     <p>Stress normally falls on the <em>first syllable of the lexical word</em>. Aspectual verbal prefixes do not carry stress, so the stress remains on the first syllable of the verbal base: [st пісат :t pisat] písat, but [st напісат :t napisat] napísat, not *[st написат :t napisat] nápisat.</p>
     <list>
       <item>[st пи :t py]-[st сам :t sam] "I write"</item>
-      <item>[w do]-[st брӑ :t bră] "good"</item>
+      <item>[st до :t do]-[st бар :t bar] "good"</item>
       <item>[st зе :t ze]-[st ма :t ma] "land"</item>
       <item>[st ре :t re]-[st ка :t ka] "river"</item>
-      <item>[st му :t mu]-[st жӑ :t žă] "man"</item>
+      <item>[st ле :t le]-[st кар :t kar] "doctor"</item>
     </list>
     <p>Clitics and other unstressed function words (articles, conjunctions, object clitics) do not carry stress of their own and lean phonologically on the following or preceding lexical word.</p>
   </sec>
@@ -95,7 +93,7 @@
     <p>The preferred syllable shapes are CV, CVC, CCV, and CCVC. Native words avoid three-consonant onsets, long final clusters, and inherited sequences like <code>-[st мл :t ml]j-</code>, <code>-[st рдл :t rdl]-</code>, <code>-[st вск :t vsk]-</code>. The language is far more "Romance-like" in its surface shape than most Slavic languages.</p>
     <p>Repairs used when clusters arise:</p>
     <list>
-      <item><em>Final schwa</em>: the surviving weak jer [st ӑ :t ă] /ə/ provides a syllabic nucleus after a word-final consonant cluster: <code>*dobrъ</code> > [w dobar], <code>*moglъ</code> > [st могал :t mohal]. This replaces the epenthetic а/е repair found in other Slavic branches.</item>
+      <item><em>а-repair</em>: when deletion of a final weak jer would create a word-final obstruent+sonorant cluster, [st а :t a] is inserted before the sonorant: <code>*dobrъ</code> > [w dobar] (<code>-br</code> repaired), <code>*moglъ</code> > [st могал :t mohal] (<code>-gl</code> repaired). All other word-final clusters (sonorant+obstruent, obstruent+obstruent) are permitted without repair: <code>*vъlkъ</code> > [st валк :t valk] (<code>-lk</code> legal), <code>*noktь</code> > [st ношт :t nošt] (<code>-št</code> legal).</item>
       <item><em>Simplification</em>: one or more consonants are deleted: <code>*zemlja</code> > [w zema] (the <code>lj</code> cluster simplifies; final -а is original)</item>
       <item><em>Metathesis</em>: a consonant shifts position (e.g. liquid metathesis in <code>*korlь &gt; [st крал :t kral]</code>)</item>
       <item><em>Affricate–liquid epenthesis</em>: the onset clusters [st цл :t cl] /tsl/, [st цр :t cr] /tsr/, [st чл :t čl] /tʃl/, and [st чр :t čr] /tʃr/ are prohibited. Affricates ([st ц :t c] /ts/ and [st ч :t č] /tʃ/) each contain an internal stop-plus-fricative sequence; a directly following liquid constitutes a third onset element, violating the ban on three-consonant onsets. The repair is insertion or retention of /e/ between the affricate and the liquid — the same quality as the general liquid-support vowel. A historically weak jer before the liquid in such a cluster is treated as phonotactically strong and vocalizes to [st е :t e] rather than deleting: <code>*čьlovekъ</code> > [st человек :t čelovek] "person" (contrast West Slavic <em>člověk</em>, where the initial jer deletes). For loanwords without a historical jer, synchronic [st е :t e] is inserted by epenthesis.</item>
