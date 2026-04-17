@@ -80,10 +80,10 @@
       <form f="1pl"     stem="pres" suffix="еме"/>
       <form f="2pl"     stem="pres" suffix="ете"/>
       <form f="3pl"     stem="pres" suffix="ут"/>
-      <form f="imp.2sg" stem="pres" suffix="і"/>
-      <form f="imp.2pl" stem="pres" suffix="іте"/>
-      <form f="imp.1pl" stem="pres" suffix="імо"/>
-      <form f="ppl"     stem="pres" suffix="ечӑ"/>
+      <form f="imp.2sg" stem="front" suffix="і"/>
+      <form f="imp.2pl" stem="front" suffix="іте"/>
+      <form f="imp.1pl" stem="front" suffix="імо"/>
+      <form f="ppl"     stem="front" suffix="ечӑ"/>
       <form f="lptc.m"  stem="main" suffix="ілӑ"/>
       <form f="lptc.f"  stem="main" suffix="іла"/>
       <form f="lptc.n"  stem="main" suffix="іло"/>
@@ -188,6 +188,17 @@
       <form f="n.sg.obl" stem="main" suffix="ом"/>
       <form f="pl.obl"   stem="main" suffix="і"/>
     </adjective-template>
+
+    <adjective-template id="adj-ordinal">
+      <form f="m.sg"   stem="main" suffix="и"/>
+      <form f="f.sg"   stem="main" suffix="ая"/>
+      <form f="n.sg"   stem="main" suffix="о"/>
+      <form f="pl"     stem="main" suffix="ії"/>
+      <form f="m.sg.obl" stem="main" suffix="ом"/>
+      <form f="f.sg.obl" stem="main" suffix="ей"/>
+      <form f="n.sg.obl" stem="main" suffix="ом"/>
+      <form f="pl.obl" stem="main" suffix="ії"/>
+    </adjective-template>
   </templates>
 
   <!-- ═══════════════════════════════════════════════════════════
@@ -197,14 +208,21 @@
   <!-- писат — to write (impf, a-class) -->
   <lex id="pysat" pos="v" asp="impf" vclass="a" template="reg-a" gloss="to write">
     <stem name="main" v="пис"/>
-    <form f="imp.2sg" v="піші"/>
-    <form f="imp.2pl" v="пішіте"/>
+    <stem name="pres" v="пиш"/>
+    <stem name="front" v="пиш"/>
+    <form f="imp.2sg" v="пиші"/>
+    <form f="imp.2pl" v="пишіте"/>
+    <form f="imp.1pl" v="пишімо"/>
   </lex>
 
   <!-- написат — to write / finish writing (pf, a-class) -->
   <lex id="napysat" pos="v" asp="pf" vclass="a" template="reg-a" gloss="to write (complete)">
     <stem name="main" v="напис"/>
     <stem name="pres" v="напиш"/>
+    <stem name="front" v="напиш"/>
+    <form f="imp.2sg" v="напиші"/>
+    <form f="imp.2pl" v="напишіте"/>
+    <form f="imp.1pl" v="напишімо"/>
   </lex>
 
   <!-- делат — to do, make (impf, a-class) -->
@@ -438,6 +456,10 @@
     <stem name="main" v="пут"/>
   </lex>
 
+  <lex id="napis" pos="n" gen="m" decl="cons" template="cons" gloss="inscription">
+    <stem name="main" v="напис"/>
+  </lex>
+
   <lex id="brat" pos="n" gen="m" decl="cons" template="cons" gloss="brother">
     <stem name="main" v="брат"/>
   </lex>
@@ -584,6 +606,10 @@
 
   <lex id="vyno" pos="n" gen="n" decl="neut" template="neut-o" gloss="wine">
     <stem name="main" v="вин"/>
+  </lex>
+
+  <lex id="mnoho.n" pos="n" gen="n" decl="neut" template="neut-o" gloss="much; many things (substantive)">
+    <stem name="main" v="мног"/>
   </lex>
 
   <lex id="oko" pos="n" gen="n" decl="irr" gloss="eye (irr. pl. очі)">
@@ -979,6 +1005,7 @@
   <lex id="koga" pos="part" gloss="when"><form f="base" v="кога"/></lex>
   <lex id="kol" pos="part" gloss="how much, how many; how"><form f="base" v="кол"/></lex>
   <lex id="ako" pos="part" gloss="if"><form f="base" v="ако"/></lex>
+  <lex id="da"  pos="part" gloss="that, so that, in order to"><form f="base" v="да"/></lex>
   <lex id="dak" pos="part" gloss="that"><form f="base" v="дакӑ"/></lex>
   <lex id="daly" pos="part" gloss="whether"><form f="base" v="дали"/></lex>
   <lex id="zače" pos="part" gloss="why, because"><form f="base" v="заче"/></lex>
@@ -1076,6 +1103,10 @@
 
   <lex id="vypysat" pos="v" asp="pf" vclass="a" template="reg-a" gloss="to write out, copy out">
     <stem name="main" v="випис"/>
+    <stem name="pres" v="випиш"/>
+    <form f="imp.2sg" v="випиші"/>
+    <form f="imp.2pl" v="випишіте"/>
+    <form f="imp.1pl" v="випишімо"/>
   </lex>
 
   <lex id="vybrat" pos="v" asp="pf" vclass="a" template="reg-a" gloss="to choose, pick out">
@@ -1685,6 +1716,46 @@
 
   <lex id="šest" pos="num" gloss="six">
     <form f="base" v="шест"/>
+  </lex>
+
+  <lex id="pervi" pos="adj" template="adj-ordinal" gloss="first">
+    <stem name="main" v="перв"/>
+  </lex>
+
+  <lex id="drugi" pos="adj" template="adj-ordinal" gloss="second">
+    <stem name="main" v="друг"/>
+  </lex>
+
+  <lex id="treti" pos="adj" template="adj-ordinal" gloss="third">
+    <stem name="main" v="трет"/>
+  </lex>
+
+  <lex id="četverti" pos="adj" template="adj-ordinal" gloss="fourth">
+    <stem name="main" v="четверт"/>
+  </lex>
+
+  <lex id="peti" pos="adj" template="adj-ordinal" gloss="fifth">
+    <stem name="main" v="пет"/>
+  </lex>
+
+  <lex id="šesti" pos="adj" template="adj-ordinal" gloss="sixth">
+    <stem name="main" v="шест"/>
+  </lex>
+
+  <lex id="sedmi" pos="adj" template="adj-ordinal" gloss="seventh">
+    <stem name="main" v="седм"/>
+  </lex>
+
+  <lex id="osmi" pos="adj" template="adj-ordinal" gloss="eighth">
+    <stem name="main" v="осм"/>
+  </lex>
+
+  <lex id="deveti" pos="adj" template="adj-ordinal" gloss="ninth">
+    <stem name="main" v="девет"/>
+  </lex>
+
+  <lex id="deseti" pos="adj" template="adj-ordinal" gloss="tenth">
+    <stem name="main" v="десет"/>
   </lex>
 
   <lex id="vsjakə" pos="num" gloss="each">

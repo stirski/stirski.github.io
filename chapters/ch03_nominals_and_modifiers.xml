@@ -506,6 +506,32 @@
       </list>
       <p>For numerals 2-4, the noun may optionally remain singular by analogy with older usage, especially in fixed phrases: [w doua :i m] [w dom] "two houses" (vs. [w doua :i m] [w dom :i p] with plural marking). Both are acceptable. The feminine form of [w doua] is used with feminine nouns: [w doua :i f] [w knyha] "two books".</p>
     </sub>
+    <sub t="Ordinal Numbers">
+      <p>Ordinal numerals follow a distinct ordinal inflection rather than the ordinary hard-stem adjective paradigm. The dedicated endings are nominative masculine -[st и :t i], feminine -[st ая :t aja], neuter -[st о :t o], plural -[st ії :t iji], with oblique masculine -[st ом :t om], feminine -[st ей :t ej], neuter -[st ом :t om], and plural again -[st ії :t iji]. The forms below illustrate the full nominative-oblique pattern for the basic ordinals.</p>
+      <tb>
+        <r><c>Number</c><c>Case</c><c>Base</c><c>Masculine</c><c>Feminine</c><c>Neuter</c><c>Plural</c></r>
+        <r><c>1st</c><c>Nominative</c><c>[st перв- :t perv-]</c><c>[w pervi :i ms]</c><c>[w pervi :i fs]</c><c>[w pervi :i ns]</c><c>[w pervi :i p]</c></r>
+        <r><c></c><c>Oblique</c><c></c><c>[w pervi :i mo]</c><c>[w pervi :i fo]</c><c>[w pervi :i no]</c><c>[w pervi :i po]</c></r>
+        <r><c>2nd</c><c>Nominative</c><c>[st друг- :t drug-]</c><c>[w drugi :i ms]</c><c>[w drugi :i fs]</c><c>[w drugi :i ns]</c><c>[w drugi :i p]</c></r>
+        <r><c></c><c>Oblique</c><c></c><c>[w drugi :i mo]</c><c>[w drugi :i fo]</c><c>[w drugi :i no]</c><c>[w drugi :i po]</c></r>
+        <r><c>3rd</c><c>Nominative</c><c>[st трет- :t tret-]</c><c>[w treti :i ms]</c><c>[w treti :i fs]</c><c>[w treti :i ns]</c><c>[w treti :i p]</c></r>
+        <r><c></c><c>Oblique</c><c></c><c>[w treti :i mo]</c><c>[w treti :i fo]</c><c>[w treti :i no]</c><c>[w treti :i po]</c></r>
+        <r><c>4th</c><c>Nominative</c><c>[st четверт- :t četvert-]</c><c>[w četverti :i ms]</c><c>[w četverti :i fs]</c><c>[w četverti :i ns]</c><c>[w četverti :i p]</c></r>
+        <r><c></c><c>Oblique</c><c></c><c>[w četverti :i mo]</c><c>[w četverti :i fo]</c><c>[w četverti :i no]</c><c>[w četverti :i po]</c></r>
+        <r><c>5th</c><c>Nominative</c><c>[st пет- :t pet-]</c><c>[w peti :i ms]</c><c>[w peti :i fs]</c><c>[w peti :i ns]</c><c>[w peti :i p]</c></r>
+        <r><c></c><c>Oblique</c><c></c><c>[w peti :i mo]</c><c>[w peti :i fo]</c><c>[w peti :i no]</c><c>[w peti :i po]</c></r>
+        <r><c>6th</c><c>Nominative</c><c>[st шест- :t šest-]</c><c>[w šesti :i ms]</c><c>[w šesti :i fs]</c><c>[w šesti :i ns]</c><c>[w šesti :i p]</c></r>
+        <r><c></c><c>Oblique</c><c></c><c>[w šesti :i mo]</c><c>[w šesti :i fo]</c><c>[w šesti :i no]</c><c>[w šesti :i po]</c></r>
+        <r><c>7th</c><c>Nominative</c><c>[st седм- :t sedm-]</c><c>[w sedmi :i ms]</c><c>[w sedmi :i fs]</c><c>[w sedmi :i ns]</c><c>[w sedmi :i p]</c></r>
+        <r><c></c><c>Oblique</c><c></c><c>[w sedmi :i mo]</c><c>[w sedmi :i fo]</c><c>[w sedmi :i no]</c><c>[w sedmi :i po]</c></r>
+        <r><c>8th</c><c>Nominative</c><c>[st осм- :t osm-]</c><c>[w osmi :i ms]</c><c>[w osmi :i fs]</c><c>[w osmi :i ns]</c><c>[w osmi :i p]</c></r>
+        <r><c></c><c>Oblique</c><c></c><c>[w osmi :i mo]</c><c>[w osmi :i fo]</c><c>[w osmi :i no]</c><c>[w osmi :i po]</c></r>
+        <r><c>9th</c><c>Nominative</c><c>[st девет- :t devet-]</c><c>[w deveti :i ms]</c><c>[w deveti :i fs]</c><c>[w deveti :i ns]</c><c>[w deveti :i p]</c></r>
+        <r><c></c><c>Oblique</c><c></c><c>[w deveti :i mo]</c><c>[w deveti :i fo]</c><c>[w deveti :i no]</c><c>[w deveti :i po]</c></r>
+        <r><c>10th</c><c>Nominative</c><c>[st десет- :t deset-]</c><c>[w deseti :i ms]</c><c>[w deseti :i fs]</c><c>[w deseti :i ns]</c><c>[w deseti :i p]</c></r>
+        <r><c></c><c>Oblique</c><c></c><c>[w deseti :i mo]</c><c>[w deseti :i fo]</c><c>[w deseti :i no]</c><c>[w deseti :i po]</c></r>
+      </tb>
+    </sub>
   </sec>
 
   <sec t="Adverbs">
@@ -572,6 +598,7 @@
         <item>[st вед :t ved] "barely, just"</item>
         <item>[st дест :t dest] "quite, rather"</item>
       </list>
+      <p>The form [w mnoho] is also used substantively as a neuter noun meaning "much; many things". In that use it follows the regular neuter -[st о :t o] declension: [w mnoho.n] nom.sg, [w mnoho.n :i o] obl.sg, [w mnoho.n :i p] pl.</p>
     </sub>
   </sec>
 </ch>
