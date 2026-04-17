@@ -1632,6 +1632,7 @@
 
         .lex-forms-group {
           margin-top: 0.4rem;
+          margin-left: 0.75rem;
         }
 
         .lex-forms-group summary {

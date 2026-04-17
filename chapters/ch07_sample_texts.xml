@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="grammar.xsl"?>
 <ch id="07" t="Sample Texts">
-  <sec t="Пилатӑ и Голгота">
+  <sec t="Пилат и Голгота">
       <p><ex>[w toha :c] [w byt :i 3s] [w pylat] [w vzeti :i lm] [w ysus :i o] [w i] [w byt :i 3s] [w go] [w bičevat :i lm].</ex></p>
       <p>Then Pilate took Jesus and scourged him.</p>
-      <p><ex>[w ti :c] [w rytar :i p] [w byt :i 3p] [w sdelat :i lp] [w venetsa :i o] [w od] [w tern :i p], [w i] [w byt :i 3p] [w go] [w vozložit :i lp] [w na] [w nehov :i fo] [w hlava :i o], [w i] [w byt :i 3p] [w go] [w oblekat :i lp] [w ve] [w riza :i o] [w purpurə :i fo], [w i] [w byt :i 3p] [w hovorit :i lp]: «[w radovat :i i2s] [w se], [w kral] [w idovsky :i ms]!»</ex></p>
+      <p><ex>[w ti :c] [w rytar :i p] [w byt :i 3p] [w sdelat :i lp] [w venetsa :i o] [w od] [w tern :i p], [w i] [w byt :i 3p] [w go] [w vozložit :i lp] [w na] [w nehov :i fo] [w hlava :i o], [w i] [w byt :i 3p] [w go] [w oblekat :i lp] [w ve] [w riza :i o] [w purpur :i fo], [w i] [w byt :i 3p] [w hovorit :i lp]: «[w radovat :i i2s] [w se], [w kral] [w idovsky :i ms]!»</ex></p>
       <p>The soldiers made a crown of thorns, placed it on his head, clothed him in a purple robe, and said, 'Rejoice, king of the Jews!'</p>
       <p><ex>[w i :c] [w byt :i 3p] [w go] [w bičevat :i lp] [w po] [w lanita :i o].</ex></p>
       <p>And they struck him on the cheeks.</p>
       <p><ex>[w toha :c] [w byt :i 3s] [w pylat] [w pak] [w vyžat :i lm] [w i] [w byt :i 3s] [w rekat :i lm] [w do] [w nykh]: «[w hledat :i i2s], [w az] [w go] [w pokazat :i 1s] [w do] [w vas], [w dat :i 3s] [w znat :i 2p] [w dak] [w az] [w ne] [w vydit :i 1s] [w vina :i o] [w ve] [w neho].»</ex></p>
       <p>Then Pilate came out again and said to them: 'Look, I show him to you so that you may know that I find no guilt in him.'</p>
-      <p><ex>[w toha :c] [w byt :i 3s] [w ysus] [w vyžat :i lm], [w nosit :i pp] [w so] [w venetsa :i o] [w od] [w tern :i p] [w i] [w so] [w riza :i o] [w purpurə :i fo].</ex></p>
+      <p><ex>[w toha :c] [w byt :i 3s] [w ysus] [w vyžat :i lm], [w nosit :i pp] [w so] [w venetsa :i o] [w od] [w tern :i p] [w i] [w so] [w riza :i o] [w purpur :i fo].</ex></p>
       <p>Then Jesus came out, wearing the crown of thorns and the purple robe.</p>
       <p><ex>[w i :c] [w pylat] [w byt :i 3s] [w rekat :i lm] [w do] [w nykh]: «[w hledat :i i2s], [w sej :i mo] [w čelovek :i o]!»</ex></p>
       <p>And Pilate said to them: 'Behold the man!'</p>
@@ -22,19 +22,19 @@
       <p>The Jews answered him: 'We have a law, and according to our law he must die, because he made himself the Son of God.'</p>
       <p><ex>[w koga :c] [w byt :i 3s] [w pylat] [w slišat :i lm] [w to] [w slovo :i o], [w on] [w byt :i 3s] [w se] [w bojat :i lm] [w uše] [w bole] [w od] [w pred].</ex></p>
       <p>When Pilate heard that saying, he became even more afraid than before.</p>
-      <p><ex>[w on :c] [w byt :i 3s] [w pak] [w vlezit :i lm] [w ve] [w dvor :i o] [w i] [w byt :i 3s] [w prašat :i lm] [w ysus :i o]: «[w od] [w kəde] [w byt :i 2s] [w ty]?»</ex></p>
+      <p><ex>[w on :c] [w byt :i 3s] [w pak] [w vlezit :i lm] [w ve] [w dvor :i o] [w i] [w byt :i 3s] [w prašat :i lm] [w ysus :i o]: «[w od] [w kade] [w byt :i 2s] [w ty]?»</ex></p>
       <p>He entered the court again and asked Jesus: 'Where are you from?'</p>
       <p><ex>[w ale :c] [w ysus] [w ni] [w mu] [w dat :i lm] [w otvet :i o].</ex></p>
       <p>But Jesus gave him no answer.</p>
       <p><ex>[w toha :c] [w byt :i 3s] [w pylat] [w rekat :i lm] [w do] [w neho]: «[w ty] [w ne] [w xotit :i 2s] [w li] [w hovorit] [w do] [w mene]? [w ty] [w ne] [w znat :i 2s] [w li] [w dak] [w az] [w ymat :i 1s] [w vlast :i o] [w pustit] [w tebe], [w i] [w ymat :i 1s] [w vlast :i o] [w ukrstovat] [w tebe]?»</ex></p>
       <p>Then Pilate said to him: 'Will you not speak to me? Do you not know that I have authority to release you, and authority to crucify you?'</p>
-      <p><ex>[w ysus] [w byt :i 3s] [w mu] [w rekat :i lm]: «[w ty] [w ne] [w by] [w ymat :i lm] [w vlast :i o] [w nad] [w mene], [w ako] [w se] [w ne] [w by] [w dat :i ln] [w do] [w tebe] [w od] [w hore]; [w stoha] [w ta] [w ky] [w byt :i 3s] [w me] [w predat :i lm] [w do] [w tebe] [w ymat :i 3s] [w po] [w holemə] [w grex :i o].»</ex></p>
+      <p><ex>[w ysus] [w byt :i 3s] [w mu] [w rekat :i lm]: «[w ty] [w ne] [w by] [w ymat :i lm] [w vlast :i o] [w nad] [w mene], [w ako] [w se] [w ne] [w by] [w dat :i ln] [w do] [w tebe] [w od] [w hore]; [w stoha] [w ta] [w ky] [w byt :i 3s] [w me] [w predat :i lm] [w do] [w tebe] [w ymat :i 3s] [w po] [w holem] [w grex :i o].»</ex></p>
       <p>Jesus answered him: 'You would have no authority over me unless it had been given to you from above; therefore the one who handed me over to you has the greater sin.'</p>
       <p><ex>[w toha :c] [w byt :i 3s] [w go] [w pylat] [w iskat :i lm] [w pustit], [w ale] [w idov :i p] [w byt :i 3p] [w vopijat :i lp] [w i] [w byt :i 3p] [w hovorit :i lp]: «[w ako] [w ty] [w pustit :i 2s] [w sej :i mo] [w čelovek :i o], [w ty] [w byt.neg :i 2s] [w pryyatel] [w od] [w tsar :i o :c]. [w vsekoj :c], [w ky] [w se] [w glagolat :i 3s] [w kral], [w se] [w protivit :i 3s] [w tsar :i o :c].»</ex></p>
       <p>Then Pilate wanted to release him, but the Jews cried out and said: 'If you release this man, you are no friend of Caesar. Everyone who calls himself king opposes Caesar.'</p>
       <p><ex>[w koga :c] [w byt :i 3s] [w pylat] [w slišat :i lm] [w to] [w slovo :i o], [w on] [w byt :i 3s] [w vydit :i lm] [w ysus :i o] [w nadvorə] [w i] [w byt :i 3s] [w sedat :i lm] [w na] [w sudište :i o], [w na] [w mesto :i o], [w ky] [w se] [w glagolat :i 3s] [w kameno] [w postlanie], [w a] [w po] [w idovscina :i o] [w gavvata].</ex></p>
       <p>When Pilate heard that saying, he brought Jesus out and sat down on the judgment seat, at the place called the Stone Pavement, and in Jewish speech Gabbatha.</p>
-      <p><ex>[w i :c] [w byt :i lm] [w den] [w od] [w priprava :i o] [w za] [w pasxa :i o], [w okolo] [w šest] [w ura :i o].</ex></p>
+      <p><ex>[w i :c] [w byt :i lm] [w dan] [w od] [w priprava :i o] [w za] [w pasxa :i o], [w okolo] [w šest] [w ura :i o].</ex></p>
       <p>And it was the day of preparation for Passover, about the sixth hour.</p>
       <p><ex>[w i :c] [w on] [w byt :i 3s] [w rekat :i lm] [w do] [w idov :i p]: «[w hledat :i i2s], [w vaš :i mo] [w kral :i o]!»</ex></p>
       <p>And he said to the Jews: 'Behold your king!'</p>
@@ -56,7 +56,7 @@
       <p>Pilate also wrote an inscription and placed it on the cross.</p>
       <p><ex>[w i :c] [w ta] [w napis] [w byt :i lm]: «[w ysus] [w nazarjanin], [w kral] [w idovsky].»</ex></p>
       <p>And the inscription was: 'Jesus of Nazareth, king of the Jews.'</p>
-      <p><ex>[w mnoho.n :c] [w od] [w idov :i p] [w byt :i 3p] [w čitat :i lp] [w ta :i mo] [w napis :i o], [w zače] [w to] [w mesto] [w kəde] [w ysus] [w byt :i 3s] [w byt :i lm] [w ukrstovat :i nm] [w byt :i ln] [w pri] [w hrad :i o], [w i] [w ta] [w napis] [w byt :i 3s] [w byt :i lm] [w pysat :i nm] [w po] [w idovscina :i o], [w po] [w latynscina :i o], [w i] [w po] [w garscina :i o].</ex></p>
+      <p><ex>[w mnoho.n :c] [w od] [w idov :i p] [w byt :i 3p] [w čitat :i lp] [w ta :i mo] [w napis :i o], [w zače] [w to] [w mesto] [w kade] [w ysus] [w byt :i 3s] [w byt :i lm] [w ukrstovat :i nm] [w byt :i ln] [w pri] [w hrad :i o], [w i] [w ta] [w napis] [w byt :i 3s] [w byt :i lm] [w pysat :i nm] [w po] [w idovscina :i o], [w po] [w latynscina :i o], [w i] [w po] [w garscina :i o].</ex></p>
       <p>Many of the Jews read that inscription, because the place where Jesus had been crucified was near the city, and the inscription was written in Jewish, Latin, and Greek.</p>
       <p><ex>[w toha :c] [w byt :i 3p] [w ti] [w svečenik :i p] [w hlavni] [w od] [w idov :i p] [w rekat :i lp] [w do] [w pylat :i o]: «[w ne] [w pysat :i i2s]: “[w kral] [w idovsky],” [w ale]: “[w sej] [w čelovek] [w byt :i 3s] [w rekat :i lm]: ‘[w az] [w byt :i 1s] [w kral] [w idovsky].’”»</ex></p>
       <p>Then the chief priests of the Jews said to Pilate: 'Do not write, “King of the Jews,” but rather: “This man said, ‘I am king of the Jews.’”'</p>
@@ -74,13 +74,13 @@
       <p>So the soldiers did this.</p>
       <p><ex>[w ale :c] [w pri] [w krst :i o] [w od] [w ysus :i o] [w byt :i 3p] [w stat :i lp] [w taf] [w nehov :i fs] [w majka] [w i] [w taf] [w sestra] [w od] [w nehov :i fo] [w majka :i o], [w marija] [w žena] [w od] [w klopas :i o], [w i] [w marija] [w mahdalena].</ex></p>
       <p>But by the cross of Jesus stood his mother, his mother's sister, Mary the wife of Clopas, and Mary Magdalene.</p>
-      <p><ex>[w koga :c] [w byt :i 3s] [w ysus] [st виделӑ :t vydelă] [w taf :i fo] [w nehov :i fo] [w majka :i o] [w i] [w ta :i mo] [w nehov :i mo] [w lubenə :i mo] [w učenik :i o], [w ky] [w byt :i 3s] [w stat :i lm] [w pri] [w krst :i o], [w byt :i 3s] [w rekat :i lm] [w do] [w nehov :i fo] [w majka :i o]: «[w žena], [w hledat :i i2s], [w ta :i mo] [w tuoj :i mo] [w syn :i o]!»</ex></p>
+      <p><ex>[w koga :c] [w byt :i 3s] [w ysus] [st видел :t vydel] [w taf :i fo] [w nehov :i fo] [w majka :i o] [w i] [w ta :i mo] [w nehov :i mo] [w luben :i mo] [w učenik :i o], [w ky] [w byt :i 3s] [w stat :i lm] [w pri] [w krst :i o], [w byt :i 3s] [w rekat :i lm] [w do] [w nehov :i fo] [w majka :i o]: «[w žena], [w hledat :i i2s], [w ta :i mo] [w tuoj :i mo] [w syn :i o]!»</ex></p>
       <p>When Jesus saw his mother and the disciple whom he loved standing by the cross, he said to his mother: 'Woman, behold your son!'</p>
       <p><ex>[w toha :c] [w byt :i 3s] [w rekat :i lm] [w do] [w nehov :i mo] [w učenik :i o]: «[w hledat :i i2s], [w taf :i fo] [w tuoj :i fo] [w majka :i o]!» [w i] [w od] [w toj :i fo] [w ura :i o] [w toj :i ms] [w učenik] [w byt :i 3s] [w vzeti :i lm] [w taf :i fo] [w majka :i o] [w na] [w suoj :i mo] [w dom :i o].</ex></p>
       <p>Then he said to the disciple: 'Behold your mother!' And from that hour the disciple took the mother into his home.</p>
-      <p><ex>[w pos] [w sej :i no], [w ysus], [w koga] [w byt :i 3s] [st зналӑ :t znală] [w dak] [w vseče] [w byt :i 3s] [w uže] [w sdelat :i nn], [w dat :i 3s] [w se] [st исполні :t ispolni] [w to] [w pismo], [w byt :i 3s] [w rekat :i lm]: «[w az] [w byt :i 1s] [w žedanə :i ms].»</ex></p>
+      <p><ex>[w pos] [w sej :i no], [w ysus], [w koga] [w byt :i 3s] [st знал :t znal] [w dak] [w vseče] [w byt :i 3s] [w uže] [w sdelat :i nn], [w dat :i 3s] [w se] [st исполні :t ispolni] [w to] [w pismo], [w byt :i 3s] [w rekat :i lm]: «[w az] [w byt :i 1s] [w žedan :i ms].»</ex></p>
       <p>After this, Jesus, knowing that everything had already been accomplished, so that the scripture might be fulfilled, said: 'I am thirsty.'</p>
-      <p><ex>[w i :c] [w tam] [w byt :i 3s] [w ymat :i ln] [w edyn] [w sosud] [w pəlnə :i ms] [w so] [w ocet :i o]; [w i] [w ony] [w byt :i 3p] [w napolnit :i lp] [w taf :i fo] [w guba :i o] [w so] [w ocet :i o], [w i] [w byt :i 3p] [w položit :i lp] [w taf :i fo] [w guba :i o] [w na] [w isop :i o], [w i] [w byt :i 3p] [w mu] [w dat :i lp] [w taf :i fo] [w guba :i o].</ex></p>
+      <p><ex>[w i :c] [w tam] [w byt :i 3s] [w ymat :i ln] [w edyn] [w sosud] [w paln :i ms] [w so] [w ocet :i o]; [w i] [w ony] [w byt :i 3p] [w napolnit :i lp] [w taf :i fo] [w guba :i o] [w so] [w ocet :i o], [w i] [w byt :i 3p] [w položit :i lp] [w taf :i fo] [w guba :i o] [w na] [w isop :i o], [w i] [w byt :i 3p] [w mu] [w dat :i lp] [w taf :i fo] [w guba :i o].</ex></p>
       <p>And there was a vessel full of vinegar there; and they filled the sponge with vinegar, and placed the sponge on hyssop, and gave him the sponge.</p>
       <p><ex>[w koga :c] [w byt :i 3s] [w ysus] [w vzeti :i lm] [w ocet :i o], [w byt :i 3s] [w rekat :i lm]: «[w to] [w byt :i 3s] [w sveršit :i nn].» [w i] [w ysus] [w byt :i 3s] [w sklonit :i lm] [w hlava :i o], [w i] [w byt :i 3s] [w dat :i lm] [w ta :i mo] [w nehov :i mo] [w duh :i o].</ex></p>
       <p>When Jesus had taken the vinegar, he said: 'It is finished.' And Jesus bowed his head and gave up his spirit.</p>
