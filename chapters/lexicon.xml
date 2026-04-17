@@ -1300,6 +1300,11 @@
     <stem name="main" v="майк"/>
   </lex>
 
+  <lex id="učenik" pos="n" gen="m" decl="cons" template="cons-velar-front" gloss="disciple">
+    <stem name="main" v="ученік"/>
+    <stem name="front" v="ученіц"/>
+  </lex>
+
   <lex id="sestra" pos="n" gen="f" decl="a" template="a" gloss="sister">
     <stem name="main" v="сестр"/>
   </lex>
@@ -1316,8 +1321,41 @@
     <stem name="main" v="Магдален"/>
   </lex>
 
+  <lex id="sosud" pos="n" gen="m" decl="cons" template="cons" gloss="vessel">
+    <stem name="main" v="сосуд"/>
+  </lex>
+
+  <lex id="ocet" pos="n" gen="m" decl="cons" template="cons" gloss="vinegar">
+    <stem name="main" v="оцет"/>
+  </lex>
+
+  <lex id="guba" pos="n" gen="f" decl="a" template="a" gloss="sponge">
+    <stem name="main" v="губ"/>
+  </lex>
+
+  <lex id="isop" pos="n" gen="m" decl="cons" template="cons" gloss="hyssop">
+    <stem name="main" v="исоп"/>
+  </lex>
+
+  <lex id="duh" pos="n" gen="m" decl="cons" template="cons-velar-front" gloss="spirit">
+    <stem name="main" v="дух"/>
+    <stem name="front" v="душ"/>
+  </lex>
+
   <lex id="hlavni" pos="adj" template="adj-i" gloss="chief">
     <stem name="main" v="главн"/>
+  </lex>
+
+  <lex id="lubenə" pos="adj" template="adj-hard" gloss="beloved">
+    <stem name="main" v="лубен"/>
+  </lex>
+
+  <lex id="žedanə" pos="adj" template="adj-hard" gloss="thirsty">
+    <stem name="main" v="жедан"/>
+  </lex>
+
+  <lex id="pəlnə" pos="adj" template="adj-hard" gloss="full">
+    <stem name="main" v="пӑлн"/>
   </lex>
 
   <lex id="purpurə" pos="adj" template="adj-hard" gloss="purple">
@@ -1388,6 +1426,10 @@
 
   <lex id="vsekoj" pos="pron" gloss="everyone">
     <form f="base" v="всекой"/>
+  </lex>
+
+  <lex id="vseče" pos="pron" gloss="everything">
+    <form f="base" v="всече"/>
   </lex>
 
   <lex id="koho" pos="pron" gloss="whom; whose">
@@ -1525,6 +1567,10 @@
 
   <lex id="posredi" pos="part" gloss="in the middle">
     <form f="base" v="посреди"/>
+  </lex>
+
+  <lex id="pos" pos="prep" gloss="after, behind">
+    <form f="base" v="пос"/>
   </lex>
 
   <lex id="po" pos="prep" gloss="in; according to; along">
@@ -1690,6 +1736,18 @@
 
   <lex id="razdelit" pos="v" asp="pf" vclass="i" template="reg-i" gloss="to divide">
     <stem name="main" v="раздел"/>
+  </lex>
+
+  <lex id="napolnit" pos="v" asp="pf" vclass="i" template="reg-i" gloss="to fill">
+    <stem name="main" v="наполн"/>
+  </lex>
+
+  <lex id="sklonit" pos="v" asp="pf" vclass="i" template="reg-i" gloss="to bow, incline">
+    <stem name="main" v="склон"/>
+  </lex>
+
+  <lex id="sveršit" pos="v" asp="pf" vclass="i" template="reg-i" gloss="to finish, complete">
+    <stem name="main" v="сверш"/>
   </lex>
 
   <!-- numerals -->
