@@ -21,7 +21,7 @@
   <sec t="Core Alphabet">
     <tb>
       <r><c>Letter</c><c>Value</c><c>Notes</c></r>
-      <r><c>[st А :t A] [st а :t a]</c><c>/a/</c><c>also the common epenthetic vowel</c></r>
+      <r><c>[st А :t A] [st а :t a]</c><c>/a/</c><c>also the phonotactic repair vowel (surfaces via the а-repair rule after weak-jer loss)</c></r>
       <r><c>[st Б :t B] [st б :t b]</c><c>/b/</c><c></c></r>
       <r><c>[st В :t V] [st в :t v]</c><c>/v/</c><c></c></r>
       <r><c>[st Г :t H] [st г :t h]</c><c>/ɦ ~ h/</c><c>written [st г :t h], pronounced as glottal fricative; distinct from [st х :t ħ]</c></r>
@@ -76,7 +76,7 @@
       <r><c>Close-mid</c><c>[st е :t e] /e/</c><c></c><c>[st о :t o] /o/</c></r>
       <r><c>Open</c><c></c><c>[st а :t a] /a/</c><c></c></r>
     </tb>
-    <p>Unstressed vowels are centralized or shortened, and many have been lost entirely after the initial syllable. The [st а :t a] phoneme covers both stressed /a/ and the epenthetic vowel inserted by the a-repair rule (see §Phonotactics).</p>
+    <p>Unstressed vowels are centralized or shortened, and many have been lost entirely after the initial syllable. The [st а :t a] phoneme covers both ordinary stressed /a/ and the phonotactic repair vowel that surfaces via the а-repair rule (see §Phonotactics). The repair vowel is distinct from the lexical [st а :t a] of stable strong-jer reflexes such as [w dan] "day" (*<code>dъnь</code>): in repair contexts (e.g. [w dobar] from *<code>dobrъ</code>) the [st а :t a] is absent outside the citation environment, whereas in strong-jer stems it remains constant across all forms.</p>
   </sec>
   <sec t="Stress">
     <p>Stress normally falls on the <em>first syllable of the lexical word</em>. Aspectual verbal prefixes do not carry stress, so the stress remains on the first syllable of the verbal base: [st пісат :t pisat] písat, but [st напісат :t napisat] napísat, not *[st написат :t napisat] nápisat.</p>
