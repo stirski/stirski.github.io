@@ -6,7 +6,7 @@
     <list>
       <item><ex>[w az] [w vydit :i 1s] [w ta :i mo] [w dom :i o]</ex> "I see the house" (subject [w az] nom; object [w ta :i mo] [w dom :i o] obl)</item>
       <item><ex>[w taf] [w žena] [w vydit :i 3s] [w ta :i mo] [w čelovek :i o]</ex> "the woman sees the person" (subject nom; object obl)</item>
-      <item><ex>[w ti] [st стирці :t styrci] [w žyvat :i 3p] [w ve] [w star :i p] [w hrad :i p]</ex> "the Styrians live in old towns" (plural nouns are case-syncretic)</item>
+      <item><ex>[w ti] [w styrec :i p] [w žyvat :i 3p] [w ve] [w star :i p] [w hrad :i p]</ex> "the Styrians live in old towns" (plural nouns are case-syncretic)</item>
     </list>
     <p>Non-canonical orders occur with focused or topicalized constituents but require prosodic marking and are more restricted than in most Slavic languages.</p>
   </sec>
@@ -90,8 +90,8 @@
     <p>Styrian has a set of short (clitic) pronoun forms covering accusative objects, dative objects, the reflexive, and the auxiliary forms of [w byt]. These elements cannot stand alone as full phonological words; they must attach to a host constituent. Their placement follows a <em>second-position (2P) rule</em>, shared with Slovenian and BCS and contrasting with the verb-adjacent preverbal clustering found in Bulgarian and Macedonian.</p>
     <sub t="Cross-Linguistic Background">
       <p>Styrian's clitic system belongs to the South Slavic 2P (second-position) type, shared with Slovenian and BCS, and stands in typological contrast to the preverbal clustering of Bulgarian and Macedonian. The cross-linguistic comparison is developed below because it motivates each structural choice in the Styrian canonical account.</p>
-      <p><em>Slovenian.</em> The Slovenian clitic cluster occupies 2P — immediately after the first stressed constituent (XP₁) of the clause, whether subject, fronted adverb, wh-word, or complementizer. The internal hierarchy of the cluster is: <em>bi</em> (conditional) → AUX (<em>sem/si/je/smo/ste/so</em>) → refl (<em>se/si</em>) → DAT → ACC. In a positive compound tense the AUX is in the cluster: <em>Jaz sem mu dal knjigo</em> "I gave him the book" with cluster [<em>sem mu</em>]. The negative auxiliary forms <em>nisem/nisi/ni/nismo/niste/niso</em> occupy the same AUX slot (position 2) in the cluster, heading it in negative compound tenses: <em>Jaz nisem mu dal</em>, cluster [<em>nisem mu</em>]. The particle <em>ne</em> in simple-tense negation is proclitic to the finite verb and together with it forms a tonic unit [<em>ne</em> + V] that sits outside 2P; object clitics precede this unit.</p>
-      <p><em>BCS.</em> The BCS cluster likewise follows the 2P rule with a six-position internal order: <em>li</em> (polar question particle) → <em>bi</em> (conditional) → AUX (<em>sam/si/je/smo/ste/su</em>) → refl (<em>se/si</em>) → DAT → ACC. The inclusion of <em>li</em> at position 1 is the chief structural difference from Slovenian. The negative auxiliary forms (<em>nisam/nisi/nije/nismo/niste/nisu</em>) likewise occupy position 2 in the cluster, heading it in negative compound tenses: <em>Ja nisam mu ga dao</em>, cluster [<em>nisam mu ga</em>]. Styrian shares the BCS pattern for all positions except position 1: Styrian [w li] is a post-verbal particle, not a clitic in the cluster, so the highest Styrian cluster position is [w by] (position 1 of the Styrian hierarchy), parallel to BCS position 2.</p>
+      <p><em>Slovenian.</em> The Slovenian clitic cluster occupies 2P — immediately after the first stressed constituent (XP₁) of the clause, whether subject, fronted adverb, wh-word, or complementizer. The internal hierarchy of the cluster is: <em>bi</em> (conditional) → AUX (<em>sem/si/je/smo/ste/so</em>) → refl (<em>se/si</em>) → DAT → ACC. In a positive compound tense the AUX is in the cluster: <em>Jaz sem mu dal knjigo</em> "I gave him the book" with cluster [<em>sem mu</em>]. The negative auxiliary forms <em>nisem/nisi/ni/nismo/niste/niso</em> occupy the same AUX slot (position 2) in the cluster, heading it in negative compound tenses: <em>Jaz nisem mu dal</em>, cluster [<em>nisem mu</em>]. The particle <em>ne</em> in simple-tense negation is proclitic to the finite verb and together with it forms a tonic unit [<em>ne</em> + V] that sits outside 2P; object clitics precede this unit. In ordinary coordination, however, a bare coordinator such as <em>in</em> or <em>ampak</em> does not itself serve as the 2P host: the clitic cluster follows the first constituent of the coordinated clause (<em>In jaz sem mu dal</em>), not the conjunction alone.</p>
+      <p><em>BCS.</em> The BCS cluster likewise follows the 2P rule with a six-position internal order: <em>li</em> (polar question particle) → <em>bi</em> (conditional) → AUX (<em>sam/si/je/smo/ste/su</em>) → refl (<em>se/si</em>) → DAT → ACC. The inclusion of <em>li</em> at position 1 is the chief structural difference from Slovenian. The negative auxiliary forms (<em>nisam/nisi/nije/nismo/niste/nisu</em>) likewise occupy position 2 in the cluster, heading it in negative compound tenses: <em>Ja nisam mu ga dao</em>, cluster [<em>nisam mu ga</em>]. Traditional BCS descriptions also make clear that coordinating conjunctions such as <em>i</em> and <em>a</em> do not count as the host for 2P placement: one says <em>I ona je student</em>, not *<em>I je ona student</em>. Styrian shares the BCS pattern for all positions except position 1: Styrian [w li] is a post-verbal particle, not a clitic in the cluster, so the highest Styrian cluster position is [w by] (position 1 of the Styrian hierarchy), parallel to BCS position 2.</p>
       <p><em>Bulgarian and Macedonian.</em> These languages lack the 2P constraint entirely. Clitics cluster immediately before the finite verb, anchored to it rather than to the first constituent of the clause. In Bulgarian the preverbal cluster order is: <em>не</em> → AUX → <em>се</em> → DAT → ACC → V, so that <em>не</em> enters the cluster as its first member rather than standing outside it. In Macedonian the pattern is the same: <em>не му го давам</em> "I don't give it to him", <em>не му го давала</em> "she hadn't given it to him". This verb-adjacent preverbal system is characteristic of Balkan Slavic and is entirely absent from Styrian.</p>
       <p><em>Styrian.</em> Styrian aligns unambiguously with the Slovenian/BCS 2P model, consistent with its Carinthian areal affiliation. From Slovenian it inherits: 2P placement, the cluster-internal position of the negative auxiliary forms at position 2, and the non-membership of [w li] in the cluster. From neither BCS nor Slovenian does Styrian inherit the pro-drop parameter: Styrian requires an overt subject in all finite clauses. The consequence is that the subject's post-cluster displacement — invisible in pro-drop Slovenian or BCS because the subject can be null — is phonologically present in Styrian and constitutes one of the most characteristic surface patterns of the language. Wherever a 2P language would have a null subject after the cluster, Styrian has a pronounced overt pronoun.</p>
     </sub>
@@ -155,9 +155,13 @@
     </sub>
     <sub t="The Second-Position Rule">
       <p>The clitic cluster attaches immediately after the <em>first stressed constituent</em> (XP₁) of the clause. In the default declarative clause XP₁ is the subject and the cluster follows it — an order superficially identical to a post-subject rule. The 2P nature of the constraint becomes visible when a non-subject constituent is fronted: the cluster follows the fronted element and the required overt subject is displaced after the cluster.</p>
+      <p><em>Coordinating conjunctions do not count as XP₁.</em> Clause-linking coordinators such as [w i] "and", [w a] "and/but", and [st але :t ale] "but" stand outside the clause-internal 2P domain. After a coordinator, the cluster therefore follows the first constituent of the coordinated clause itself, not the conjunction. This sharply contrasts with subordinators and relativizers such as [w dak], [w dat :i 3s], [w ako], [w ky], and [w če], which do count as XP₁ inside their own clause.</p>
       <list>
         <item><ex>[w az] [w mu] [w dat :i 1s] [w taf :i fo] [w knyha :i o].</ex> "I give him the book" — XP₁ = subject [w az]; cluster [[st му :t mu]] at 2P</item>
         <item><ex>[w utre :c] [w mu] [w az] [w dat :i 1s] [w taf :i fo] [w knyha :i o].</ex> "Tomorrow I give him the book" — XP₁ = fronted [w utre]; cluster [[st му :t mu]] at 2P; required subject [w az] displaced after cluster</item>
+        <item><ex>[w az] [w byt :i 3s] [w ty] [st писал :t pysal].</ex> "I wrote to you" — XP₁ = subject [w az]; cluster [[st е ти :t e ty]]</item>
+        <item><ex>[w i] [w az] [w byt :i 3s] [w ty] [st писал :t pysal].</ex> "And I wrote to you" — [w i] does not count as XP₁; XP₁ of the coordinated clause is [w az], so the cluster follows [w az], not the conjunction</item>
+        <item><ex>[st але :t ale] [w az] [w byt :i 3s] [w ty] [st писал :t pysal].</ex> "But I wrote to you" — same pattern: coordinator outside the 2P domain, subject [w az] = XP₁</item>
       </list>
     </sub>
     <sub t="Simple Tenses">
@@ -261,7 +265,7 @@
       <p>This last example — fronted XP₁, cluster [[w byt.neg :i 3s]], overt subject, participle — confirms that the subject is in its regular displaced post-cluster position. When the cluster holds only a single element (the neg-AUX) and no object clitics, the surface order XP₁ → neg-AUX → S is the expected output of 2P placement.</p>
     </sub>
     <sub t="Embedded Clauses">
-      <p>The 2P rule applies within each clause independently. In subordinate clauses the complementizer or relativizer counts as XP₁ of that clause; the clitic cluster follows it. Because Styrian is non pro-drop, the required overt subject of the embedded clause is displaced after the cluster — a surface order with no parallel in pro-drop 2P languages.</p>
+      <p>The 2P rule applies within each clause independently. In subordinate clauses the complementizer or relativizer counts as XP₁ of that clause; the clitic cluster follows it. Because Styrian is non pro-drop, the required overt subject of the embedded clause is displaced after the cluster — a surface order with no parallel in pro-drop 2P languages. This clause-internal treatment is specific to subordinators and relativizers; unlike them, simple coordinating conjunctions such as [w i], [w a], and [st але :t ale] do <em>not</em> count as XP₁.</p>
       <p><em>Declarative complements ([w dak]):</em></p>
       <list>
         <item><ex>[w az :c] [st знам :t znam] [w dak] [w byt :i 3s] [w ty] [w on] [w dat :i lm] [w taf :i fo] [w knyha :i o].</ex> "I know that he gave you the book" — embedded XP₁ = [w dak]; cluster [[st е ти :t e ty]]; required subject [w on] follows</item>
@@ -369,7 +373,7 @@
     <p><em>Focus-fronting construction.</em> If a constituent is contrastively focused, it moves to clause-initial position and [w li] immediately follows that focused constituent rather than the verb. The rest of the clause keeps its ordinary sequence:</p>
     <list>
       <item><ex>[w on] [w li] [w byt :i 3s] [w tuka]?</ex> "Is it HE who is here?" (focused subject)</item>
-      <item><ex>[w tuka] [w li] [w žyvat :i 3p] [st стирці :t styrci]?</ex> "Is it HERE that the Styrians live?" (focused place)</item>
+      <item><ex>[w tuka] [w li] [w žyvat :i 3p] [w styrec :i p]?</ex> "Is it HERE that the Styrians live?" (focused place)</item>
       <item><ex>[w utre] [w li] [w ony] [w doit :i 3p]?</ex> "Is it TOMORROW that they are coming?" (focused time)</item>
     </list>
     <p>This focus-fronting construction differs from the neutral polar question only in the position of [w li] and implies a contrastive presupposition – the speaker assumes the proposition is true of some alternative and is asking whether the focused element, specifically, is the correct one.</p>
@@ -402,7 +406,7 @@
     <list>
       <item><ex>[w ta] [w čelovek] [w ky] [w pysat :i 3s] [w knyha :i o]</ex> "the person who is writing a book"</item>
       <item><ex>[w ta] [w dom] [w če] [w my] [w byt :i 1p] [w kupit :i lp]</ex> "the house that we bought" ([w dom] is the antecedent and subject of the matrix; it is the implicit object inside the relative — oblique in that function, but unmarked as the head noun)</item>
-      <item><ex>[w ta] [w hrad] [w kade] [w žyvat :i 3p] [st стирці :t styrci]</ex> "the town where the Styrians live"</item>
+      <item><ex>[w ta] [w hrad] [w kade] [w žyvat :i 3p] [w styrec :i p]</ex> "the town where the Styrians live"</item>
         <item><ex>[w ta] [w dan] [w koga] [w on] [w byt :i 3s] [w doit :i lm]</ex> "the day when he came"</item>
       <item><ex>[w ta] [w čelovek] [w od] [w ky] [w yme] [w az] [w ne] [st znam :t znam]</ex> "the person whose name I do not know"</item>
     </list>
@@ -601,7 +605,7 @@
     </list>
     <p>Hypothetical or counterfactual conditionals use [w ako] + past tense in the condition clause and [w by] + the appropriate singular or plural l-participle in the consequence clause:</p>
     <list>
-      <item><ex>[w ako :c] [w ty] [w byt :i 2s] [w doit :i lm] [st пред :t pred], [w az] [w by] [st могал :t mohal] [w dat] [w ty] [w taf :i fo] [w knyha :i o].</ex> "If you had come earlier, I could have given you the book."</item>
+      <item><ex>[w ako :c] [w ty] [w byt :i 2s] [w doit :i lm] [st пред :t pred], [w az] [w by] [w možit :i lm] [w dat] [w ty] [w taf :i fo] [w knyha :i o].</ex> "If you had come earlier, I could have given you the book."</item>
       <item><ex>[w ako :c] [w my] [w ymat :i lp] [st повешт :t povašt] [w voda :i o], [w my] [w by] [st осталі :t ostali] [w ve] [w hora].</ex> "If we had more water, we would have stayed in the mountains."</item>
     </list>
   </sec>
