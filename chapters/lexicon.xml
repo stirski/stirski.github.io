@@ -150,10 +150,17 @@
       <form f="pl"     stem="main" suffix="і"/>
     </noun-template>
 
-    <noun-template id="ec-front">
+    <!-- ec-zero: yer-zero demonym pattern.
+         nom.sg carries the citation-form suffix -ец (from PS *-ьць, weak jer lost);
+         obl.sg and pl use the zero-grade stem (the vowel of -ец is absent outside nom.sg).
+         This is a yer-loss alternation, NOT a velar/front-vowel mutation.
+         Entries supply <stem name="main"/> (citation base, e.g. стир-) and
+         <stem name="zero"/> (inflected base, e.g. стирц-).
+         Compare cons-velar-front (язик ~ язиц-), which is a distinct mutation pattern. -->
+    <noun-template id="ec-zero">
       <form f="nom.sg" stem="main" suffix="ец"/>
-      <form f="obl.sg" stem="front" suffix="у"/>
-      <form f="pl"     stem="front" suffix="і"/>
+      <form f="obl.sg" stem="zero" suffix="у"/>
+      <form f="pl"     stem="zero" suffix="і"/>
     </noun-template>
 
     <adjective-template id="adj-hard">
@@ -365,7 +372,12 @@
     <stem name="main" v="направ"/>
   </lex>
 
-  <!-- можіт — can, be able (semi-irr, i-class; 3pl могут) -->
+  <!-- можіт — can, be able (semi-irr, i-class; present uses мог- stem in 3pl могут)
+       l-participle: stem мог- + л → word-final obstruent+sonorant cluster -гл, so а-repair
+       applies before л → могал (m.sg). Fem/neut/pl add a vowel-initial suffix that hosts л
+       directly, so no repair: могла (f), могло (n), моглі (pl).
+       могал is therefore a REPAIR-ONLY citation form parallel to добар: the underlying stem
+       is мог-, and the а appears only where the cluster -гл would otherwise be word-final. -->
   <lex id="možit" pos="v" asp="impf" vclass="i" gloss="can, be able">
     <form f="inf"     v="можіт"/>
     <form f="1sg"     v="можем"/>
@@ -374,6 +386,10 @@
     <form f="1pl"     v="можеме"/>
     <form f="2pl"     v="можете"/>
     <form f="3pl"     v="могут"/>
+    <form f="lptc.m"  v="могал"/>
+    <form f="lptc.f"  v="могла"/>
+    <form f="lptc.n"  v="могло"/>
+    <form f="lptc.pl" v="моглі"/>
   </lex>
 
   <!-- хотіт — to want (irr i-class; present stem хоч-) -->
@@ -501,12 +517,14 @@
     <stem name="main" v="сан"/>
   </lex>
 
-  <!-- лев — *lьvъ, strong ь → е; final weak jer → deleted -->
+  <!-- лев — *lьvъ; strong ь → е (stable strong-jer reflex: е is part of the lexical stem,
+       not a repair vowel; лев does not alternate — obl.sg леву, pl. леві) -->
   <lex id="lev" pos="n" gen="m" decl="cons" template="cons" gloss="lion">
     <stem name="main" v="лев"/>
   </lex>
 
-  <!-- пес — *pьsъ, strong ь → е; final weak jer → deleted -->
+  <!-- пес — *pьsъ; strong ь → е (stable strong-jer reflex: е is part of the lexical stem,
+       not a repair vowel; пес does not alternate — obl.sg песу, pl. песі) -->
   <lex id="pes" pos="n" gen="m" decl="cons" template="cons" gloss="dog">
     <stem name="main" v="пес"/>
   </lex>
@@ -643,6 +661,12 @@
     <stem name="main" v="стар"/>
   </lex>
 
+  <!-- добар — *dobrъ; weak jer deleted, leaving stem добр-; word-final obstruent+sonorant
+       cluster -бр is prohibited, so а is inserted before р as phonotactic surface repair.
+       This is a REPAIR-ONLY citation form: the lexical stem is добр- (zero-grade).
+       добар appears only in m.sg (bare citation); all other forms use stem добр- directly:
+       f.sg добра, n.sg добро, pl. добри, obl forms добром/добре etc.
+       Compare: лев/пес (stable strong-jer stems, no alternation) vs. стирец (yer-zero suffix). -->
   <lex id="dobar" pos="adj" template="adj-hard" gloss="good">
     <stem name="main" v="добр"/>
     <form f="m.sg" v="добар"/>
@@ -692,6 +716,8 @@
     <stem name="main" v="болан"/>
   </lex>
 
+  <!-- черн — *čьrnъ; strong ь → е (stable strong-jer reflex), liquid support prevents deletion;
+       е is a lexical vowel, not a repair vowel; stem черн- does not alternate -->
   <lex id="čern" pos="adj" template="adj-hard" gloss="black">
     <stem name="main" v="черн"/>
   </lex>
@@ -720,9 +746,10 @@
     <stem name="main" v="Стирі"/>
   </lex>
 
-  <lex id="styrec" pos="n" gen="m" decl="irr" template="ec-front" gloss="Styrian person">
+  <!-- стирец: yer-zero demonym; citation form стирец, zero-grade stem стирц- (outside nom.sg) -->
+  <lex id="styrec" pos="n" gen="m" decl="irr" template="ec-zero" gloss="Styrian person">
     <stem name="main" v="стир"/>
-    <stem name="front" v="стирц"/>
+    <stem name="zero" v="стирц"/>
   </lex>
 
   <lex id="styrjansky" pos="adj" template="adj-sky" gloss="Styrian (formal adjective)">
@@ -733,9 +760,10 @@
     <stem name="main" v="Америк"/>
   </lex>
 
-  <lex id="amerikanec" pos="n" gen="m" decl="irr" template="ec-front" gloss="American">
+  <!-- американец: yer-zero demonym; citation form американец, zero-grade stem американц- -->
+  <lex id="amerikanec" pos="n" gen="m" decl="irr" template="ec-zero" gloss="American">
     <stem name="main" v="американ"/>
-    <stem name="front" v="американц"/>
+    <stem name="zero" v="американц"/>
   </lex>
 
   <lex id="amerikansky" pos="adj" template="adj-sky" gloss="American">
@@ -746,9 +774,10 @@
     <stem name="main" v="Европ"/>
   </lex>
 
-  <lex id="evropec" pos="n" gen="m" decl="irr" template="ec-front" gloss="European">
+  <!-- европец: yer-zero demonym; citation form европец, zero-grade stem европц- -->
+  <lex id="evropec" pos="n" gen="m" decl="irr" template="ec-zero" gloss="European">
     <stem name="main" v="европ"/>
-    <stem name="front" v="европц"/>
+    <stem name="zero" v="европц"/>
   </lex>
 
   <lex id="evropsky" pos="adj" template="adj-sky" gloss="European">
@@ -777,9 +806,10 @@
     <stem name="main" v="Немчі"/>
   </lex>
 
-  <lex id="nemec" pos="n" gen="m" decl="irr" template="ec-front" gloss="German person">
+  <!-- немец: yer-zero demonym; citation form немец, zero-grade stem немц- -->
+  <lex id="nemec" pos="n" gen="m" decl="irr" template="ec-zero" gloss="German person">
     <stem name="main" v="нем"/>
-    <stem name="front" v="немц"/>
+    <stem name="zero" v="немц"/>
   </lex>
 
   <lex id="nemsky" pos="adj" template="adj-sky" gloss="German">
@@ -852,9 +882,10 @@
     <stem name="main" v="Словенск"/>
   </lex>
 
-  <lex id="slovenec" pos="n" gen="m" decl="irr" template="ec-front" gloss="Slovene person">
+  <!-- словенец: yer-zero demonym; citation form словенец, zero-grade stem словенц- -->
+  <lex id="slovenec" pos="n" gen="m" decl="irr" template="ec-zero" gloss="Slovene person">
     <stem name="main" v="словен"/>
-    <stem name="front" v="словенц"/>
+    <stem name="zero" v="словенц"/>
   </lex>
 
   <lex id="slovensky" pos="adj" template="adj-sky" gloss="Slovene">
@@ -873,9 +904,10 @@
     <form f="nom.sg" v="Босна и Херцеговина"/>
   </lex>
 
-  <lex id="bosanec" pos="n" gen="m" decl="irr" template="ec-front" gloss="Bosnian person">
+  <!-- босанец: yer-zero demonym; citation form босанец, zero-grade stem босанц- -->
+  <lex id="bosanec" pos="n" gen="m" decl="irr" template="ec-zero" gloss="Bosnian person">
     <stem name="main" v="босан"/>
-    <stem name="front" v="босанц"/>
+    <stem name="zero" v="босанц"/>
   </lex>
 
   <lex id="bosansky" pos="adj" template="adj-sky" gloss="Bosnian">
@@ -908,9 +940,10 @@
     <stem name="main" v="Китайск"/>
   </lex>
 
-  <lex id="kitajec" pos="n" gen="m" decl="irr" template="ec-front" gloss="Chinese person">
+  <!-- китаєц: yer-zero demonym; citation form китаєц, zero-grade stem китайц- -->
+  <lex id="kitajec" pos="n" gen="m" decl="irr" template="ec-zero" gloss="Chinese person">
     <stem name="main" v="кита"/>
-    <stem name="front" v="китайц"/>
+    <stem name="zero" v="китайц"/>
   </lex>
 
   <lex id="kitajsky" pos="adj" template="adj-sky" gloss="Chinese">
@@ -958,7 +991,7 @@
        ═══════════════════════════════════════════════════════════ -->
 
   <lex id="ta"  pos="art" gloss="the (masculine sg)">
-    <form f="m.sg"     v="т"/>
+    <form f="m.sg"     v="та"/>
     <form f="m.sg.obl" v="том"/>
   </lex>
   <lex id="taf" pos="art" gloss="the (feminine sg)">
