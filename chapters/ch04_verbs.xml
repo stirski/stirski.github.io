@@ -330,7 +330,7 @@
     <list>
       <item>[w ydat] &gt; [w ydat :i lm] / [w ydat :i lf] / [w ydat :i ln] / [w ydat :i lp] (suppletive from <code>*š[st ь]l[st ъ]</code>)</item>
       <item>[w doit] &gt; [w doit :i lm] / [w doit :i lf] / [w doit :i ln] / [w doit :i lp] (prefixed suppletive)</item>
-      <item>[w možit] &gt; [st могал :t mohal] / [st могла :t mohla] / [st могло :t mohlo] / [st моглі :t mohli] (from <code>*mogl[st ъ]</code>)</item>
+      <item>[w možit] &gt; [w možit :i lm] / [w možit :i lf] / [w možit :i ln] / [w možit :i lp] (from <code>*mogl[st ъ]</code>; m.sg carries а-repair before word-final -гл)</item>
       <item>[w byt] &gt; [st бил :t byl] / [st била :t byla] / [st било :t bylo] / [st билі :t byli]</item>
       <item>[w dat] &gt; [w dat :i lm] / [w dat :i lf] / [w dat :i ln] / [w dat :i lp]</item>
     </list>
@@ -400,7 +400,7 @@
     <list>
       <item><em>Hypothetical / irrealis</em>: <ex>[w az] [st би :t by] [w ydat :i lm], [st ано :t ano] [w byt :i 1s] [st болан :t bolan]</ex> "I would go, but I am sick"</item>
       <item><em>Hypothetical / irrealis</em>: <ex>[w ona] [st би :t by] [w ydat :i lf], [st ано :t ano] [w byt.neg :i 3s] [st готова :t hotova]</ex> "she would go, but she is not ready"</item>
-      <item><em>Polite request</em>: <ex>[w ty] [st би :t by] [st могал :t mohal] [w dat] [w my] [w voda :i o]?</ex> "could you give me some water?"</item>
+      <item><em>Polite request</em>: <ex>[w ty] [st би :t by] [w možit :i lm] [w dat] [w my] [w voda :i o]?</ex> "could you give me some water?"</item>
       <item><em>Counterfactual conditional</em> (with [st ако :t ako]): see §Conditional Sentences</item>
     </list>
     <p>A past counterfactual ("would have done") can be expressed with [st би :t by] + l-participle of [w byt] + l-participle of the main verb; both participles follow the subject's gender and number:</p>
